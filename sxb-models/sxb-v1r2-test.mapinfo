@@ -1,0 +1,18 @@
+title SXB: world 1-1
+description Super Xonotic Brotherz: A new school take on an old school classic, first in a series
+author Tyler "-z-" Mulligan
+cdtrack sxb-1-1-js.ogg
+has weapons
+type rc 20 20 15
+//type cts 5 20 15
+clientsettemp_for_type all cl_hidewaypoints 1
+settemp_for_type all g_start_weapon_laser 1
+settemp_for_type all g_start_weapon_shotgun 0
+settemp_for_type all g_pickup_healthsmall_max 999
+settemp_for_type all g_pickup_healthmedium_max 999
+settemp_for_type all g_pickup_healthlarge_max 999
+settemp_for_type all g_pickup_healthmega_max 999
+settemp_for_type all g_pickup_armorsmall_max 999
+settemp_for_type all g_pickup_armormedium_max 999
+settemp_for_type all g_pickup_armorlarge_max 999
+settemp_for_type all g_pickup_armormega_max 999

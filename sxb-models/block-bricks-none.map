@@ -1,0 +1,38 @@
+
+// entity 0
+{
+"classname" "worldspawn"
+"message" "Super Xonotic Brothers by -z-"
+"author" "-z-"
+}
+// entity 1
+{
+"classname" "func_door"
+"speed" "200"
+"angle" "-1"
+"targetname" "func_door75"
+"wait" "0.2"
+// brush 0
+{
+( 960 448 256 ) ( 960 320 256 ) ( 896 448 256 ) sxb_v1_bricks/standard_bricks 0 0 0 0.25 0.25 0 0 0
+( 960 -1088 192 ) ( 960 -1088 128 ) ( 960 -1216 192 ) sxb_v1_bricks/standard_bricks 0 0 0 0.25 0.25 0 0 0
+( 896 320 192 ) ( 960 320 192 ) ( 896 448 192 ) sxb_v1_bricks/standard_bricks 0 0 0 0.25 0.25 0 0 0
+( 896 -1344 192 ) ( 896 -1216 192 ) ( 896 -1344 256 ) sxb_v1_bricks/standard_bricks 0 0 0 0.25 0.25 0 0 0
+( 192 -960 192 ) ( 192 -960 256 ) ( 320 -960 192 ) sxb_v1_bricks/standard_bricks 0 0 0 0.25 0.25 0 0 0
+( 320 -896 640 ) ( 192 -896 704 ) ( 192 -896 640 ) sxb_v1_bricks/standard_bricks 0 0 0 0.25 0.25 0 0 0
+}
+}
+// entity 2
+{
+"classname" "trigger_multiple"
+"target" "func_door75"
+// brush 0
+{
+( 960 -896 192 ) ( 960 -960 192 ) ( 896 -896 192 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( 960 -896 192 ) ( 896 -896 192 ) ( 960 -896 128 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( 960 -896 192 ) ( 960 -896 128 ) ( 960 -960 192 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( 896 -960 160 ) ( 960 -960 160 ) ( 896 -896 160 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( 896 -960 128 ) ( 896 -960 192 ) ( 960 -960 128 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( 896 -960 128 ) ( 896 -896 128 ) ( 896 -960 192 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+}
+}
