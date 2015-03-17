@@ -1,0 +1,18 @@
+
+// entity 0
+{
+"classname" "worldspawn"
+"message" "Super Xonotic Brothers by -z-"
+"author" "-z-"
+}
+// entity 1
+{
+"classname" "item_health_mega"
+"origin" "992.000000 -928.000000 192.000000"
+"spawnflags" "1"
+"angle" "-90.000000"
+"respawntime" "5"
+"model" "models/sxb-models/mushroom.md3"
+"item_pickupsound" "sound/sxb/mushroom.wav"
+"modelscale" "0.5"
+}

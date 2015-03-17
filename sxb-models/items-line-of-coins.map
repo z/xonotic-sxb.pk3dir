@@ -1,0 +1,61 @@
+
+// entity 0
+{
+"classname" "worldspawn"
+"message" "Super Xonotic Brothers by -z-"
+"author" "-z-"
+}
+// entity 1
+{
+"classname" "item_health_medium"
+"origin" "3552.000000 -928.000000 -1120.000000"
+"spawnflags" "1"
+"model" "models/sxb-models/coin.md3"
+"item_pickupsound" "sound/sxb/coin.wav"
+"modelscale" "2"
+}
+// entity 2
+{
+"classname" "item_health_medium"
+"origin" "3840.000000 -928.000000 -1120.000000"
+"spawnflags" "1"
+"model" "models/sxb-models/coin.md3"
+"item_pickupsound" "sound/sxb/coin.wav"
+"modelscale" "2"
+}
+// entity 3
+{
+"classname" "item_health_medium"
+"origin" "3360.000000 -928.000000 -1120.000000"
+"spawnflags" "1"
+"model" "models/sxb-models/coin.md3"
+"item_pickupsound" "sound/sxb/coin.wav"
+"modelscale" "2"
+}
+// entity 4
+{
+"classname" "item_health_medium"
+"origin" "3456.000000 -928.000000 -1120.000000"
+"spawnflags" "1"
+"model" "models/sxb-models/coin.md3"
+"item_pickupsound" "sound/sxb/coin.wav"
+"modelscale" "2"
+}
+// entity 5
+{
+"classname" "item_health_medium"
+"origin" "3648.000000 -928.000000 -1120.000000"
+"spawnflags" "1"
+"model" "models/sxb-models/coin.md3"
+"item_pickupsound" "sound/sxb/coin.wav"
+"modelscale" "2"
+}
+// entity 6
+{
+"classname" "item_health_medium"
+"origin" "3744.000000 -928.000000 -1120.000000"
+"spawnflags" "1"
+"model" "models/sxb-models/coin.md3"
+"item_pickupsound" "sound/sxb/coin.wav"
+"modelscale" "2"
+}
