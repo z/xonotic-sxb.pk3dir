@@ -1,0 +1,13 @@
+title Super Xonotic Bros
+description World 1, level 4 (Castle)
+author -z-, Mario
+// not setting cdtrack here, as we do it via entities
+cdtrack map_sxb/music_castle
+has weapons
+gametype dm
+hidden // singleplayer
+
+settemp_for_type all sv_player_mins "-15 -15 -24"
+settemp_for_type all sv_player_maxs "15 15 31"
+settemp_for_type all sv_player_crouch_mins "-15 -15 -24"
+settemp_for_type all sv_player_crouch_maxs "15 15 6"
