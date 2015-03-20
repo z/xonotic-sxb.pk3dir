@@ -1279,8 +1279,8 @@ brushDef
 // entity 1
 {
 "classname" "info_player_deathmatch"
-"origin" "3088.000000 3872.000000 128.000000"
-"angles" "-0.000019 -89.999985 179.999985"
+"origin" "3056.000000 3888.000000 128.000000"
+"angles" "-0.000017 -90.000000 179.999985"
 }
 // entity 2
 {
@@ -1310,7 +1310,7 @@ brushDef
 // entity 4
 {
 "classname" "target_viewlocation_end"
-"origin" "2824.000000 -2088.000000 256.000000"
+"origin" "2824.000000 -3080.000000 256.000000"
 "angle" "0.000003"
 "targetname" "overworld_2"
 }
