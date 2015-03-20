@@ -1,2 +1,5 @@
 *.bak
 *.autosave.map
+*.prt
+*.srf
+*.bsp
