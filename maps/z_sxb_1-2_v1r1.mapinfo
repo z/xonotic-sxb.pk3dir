@@ -1,0 +1,7 @@
+title Super Xonotic Bros
+description World 1, level 1
+author -z-, Mario
+// not setting cdtrack here, as we do it via entities
+has weapons
+gametype dm
+hidden // singleplayer
