@@ -1663,7 +1663,7 @@ brushDef
 // entity 1
 {
 "classname" "info_player_deathmatch"
-"origin" "2864.000000 3392.000000 64.000000"
+"origin" "2864.000000 3312.000000 64.000000"
 "angle" "-90.000000"
 }
 // entity 2
@@ -1687,14 +1687,14 @@ brushDef
 // entity 3
 {
 "classname" "target_viewlocation_start"
-"origin" "2488.000000 3064.000000 160.000000"
+"origin" "2632.000000 3096.000000 160.000000"
 "angle" "0.000003"
 "targetname" "overworld_1"
 }
 // entity 4
 {
 "classname" "target_viewlocation_end"
-"origin" "2488.000000 -2792.000000 256.000000"
+"origin" "2632.000000 -2792.000000 256.000000"
 "angle" "0.000003"
 "targetname" "overworld_2"
 }
