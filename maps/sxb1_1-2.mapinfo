@@ -1,8 +1,8 @@
 title Super Xonotic Bros
-description World 1, level 1
+description World 1, level 2
 author -z-, Mario
 // not setting cdtrack here, as we do it via entities
-cdtrack map_sxb/music_overworld
+cdtrack map_sxb/music_underground
 has weapons
 gametype dm
 hidden // singleplayer
