@@ -1,8 +1,8 @@
 title Super Xonotic Bros
-description World 7, level 1
+description World 7, level 4 (Castle)
 author -z-, Mario
 // not setting cdtrack here, as we do it via entities
-cdtrack map_sxb/music_overworld
+cdtrack map_sxb/music_castle
 has weapons
 gametype dm
 hidden // singleplayer
