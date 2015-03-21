@@ -1,5 +1,9 @@
+*.swp
 *.bak
 *.autosave.map
 *.prt
 *.srf
 *.bsp
+*.lin
+*.autosave.lin
+build-maps.conf
