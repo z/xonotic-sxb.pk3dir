@@ -955,7 +955,7 @@ brushDef
 // entity 3
 {
 "classname" "target_viewlocation_start"
-"origin" "2568.000000 3544.000000 256.000000"
+"origin" "2568.000000 3544.000000 192.000000"
 "angle" "0.000003"
 "targetname" "overworld_1"
 }
