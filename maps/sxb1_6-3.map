@@ -1435,8 +1435,8 @@ brushDef
 // entity 1
 {
 "classname" "info_player_deathmatch"
-"origin" "2416.000000 3232.000000 96.000000"
-"angles" "0.000010 -89.999992 0.000000"
+"origin" "2384.000000 3184.000000 96.000000"
+"angles" "0.000010 -90.000000 0.000000"
 }
 // entity 2
 {
