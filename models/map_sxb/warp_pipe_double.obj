@@ -257,7 +257,7 @@ vt 0.740794 0.498993
 vt 0.740794 0.000000
 vt 1.000000 0.998993
 vt 1.000000 0.500000
-usemtl models/map_sxb/warp_pipe_segment
+usemtl models/map_sxb/warp_pipe
 s 1
 f 1/1 2/2 4/3 3/4
 f 3/4 4/3 6/5 5/6
