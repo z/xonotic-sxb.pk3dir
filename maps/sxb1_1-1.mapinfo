@@ -12,5 +12,10 @@ settemp_for_type all sv_player_maxs "15 15 31"
 settemp_for_type all sv_player_crouch_mins "-15 -15 -24"
 settemp_for_type all sv_player_crouch_maxs "15 15 6"
 
+clientsettemp_for_type all sv_player_mins "-15 -15 -24"
+clientsettemp_for_type all sv_player_maxs "15 15 31"
+clientsettemp_for_type all sv_player_crouch_mins "-15 -15 -24"
+clientsettemp_for_type all sv_player_crouch_maxs "15 15 6"
+
 settemp_for_type all g_respawn_delay_min 5
 settemp_for_type all g_respawn_delay_max 5
