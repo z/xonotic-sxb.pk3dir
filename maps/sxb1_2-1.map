@@ -1589,7 +1589,7 @@ brushDef
 "classname" "misc_teleporter_dest"
 "origin" "2640.000000 32.000000 96.000000"
 "angle" "-90.000000"
-"targetname" "warp_1"
+"targetname" "warp_2"
 "target" "pipe_3"
 "speed" "-1"
 }
