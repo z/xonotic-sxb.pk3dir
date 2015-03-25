@@ -17,5 +17,43 @@ clientsettemp_for_type all sv_player_maxs "15 15 31"
 clientsettemp_for_type all sv_player_crouch_mins "-15 -15 -24"
 clientsettemp_for_type all sv_player_crouch_maxs "15 15 6"
 
+clientsettemp_for_type all cl_movement_track_canjump 1
+settemp_for_type all g_physics_clientselect 0
+
+settemp_for_type all g_mod_physics Q
+settemp_for_type all sv_gravity 800
+settemp_for_type all sv_maxspeed 320
+settemp_for_type all sv_maxairspeed 70
+settemp_for_type all sv_stopspeed 100
+settemp_for_type all sv_accelerate 5
+settemp_for_type all sv_airaccelerate 106.66666666666666666666
+settemp_for_type all sv_friction 4
+settemp_for_type all edgefriction 1
+settemp_for_type all sv_stepheight 1
+settemp_for_type all sv_jumpvelocity 460
+settemp_for_type all sv_wateraccelerate -1
+settemp_for_type all sv_waterfriction -1
+settemp_for_type all sv_airaccel_sideways_friction 0
+settemp_for_type all sv_airaccel_qw 1
+settemp_for_type all sv_airaccel_qw_stretchfactor 0
+settemp_for_type all sv_airstopaccelerate 0
+settemp_for_type all sv_airstrafeaccelerate 0
+settemp_for_type all sv_maxairstrafespeed 0
+settemp_for_type all sv_airstrafeaccel_qw 0
+settemp_for_type all sv_aircontrol 0
+settemp_for_type all sv_aircontrol_penalty 0
+settemp_for_type all sv_aircontrol_power 2
+settemp_for_type all sv_airspeedlimit_nonqw 0
+settemp_for_type all sv_warsowbunny_turnaccel 0
+settemp_for_type all sv_warsowbunny_accel 0.1593
+settemp_for_type all sv_warsowbunny_topspeed 925
+settemp_for_type all sv_warsowbunny_backtosideratio 0.8
+settemp_for_type all sv_friction_on_land 0
+settemp_for_type all sv_doublejump 0
+settemp_for_type all sv_jumpspeedcap_min ""
+settemp_for_type all sv_jumpspeedcap_max ""
+settemp_for_type all sv_jumpspeedcap_max_disable_on_ramps 0
+settemp_for_type all g_teleport_maxspeed 0
+
 settemp_for_type all g_respawn_delay_min 5
 settemp_for_type all g_respawn_delay_max 5
