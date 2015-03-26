@@ -30,6 +30,18 @@ textures/sxb_v1_skies/underground
 	}
 }
 
+// items
+models/sxb-models/coin
+{
+	{
+		map models/sxb-models/coin
+		tcgen environment
+	}
+	{
+		map $lightmap
+	}
+}
+
 // background objects
 textures/sxb_v1_earth/hill_1
 {
