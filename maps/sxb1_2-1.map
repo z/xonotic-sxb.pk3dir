@@ -1469,14 +1469,14 @@ brushDef
 "classname" "target_viewlocation_end"
 "origin" "904.000000 3384.000000 -2432.000000"
 "angle" "0.000003"
-"targetname" "overworld_4"
+"targetname" "overworld_10"
 }
 // entity 28
 {
 "classname" "target_viewlocation_start"
 "origin" "904.000000 3608.000000 -2464.000000"
 "angle" "0.000003"
-"targetname" "overworld_3"
+"targetname" "overworld_9"
 }
 // entity 29
 {
