@@ -1,8 +1,8 @@
 title Super Xonotic Bros
-description Negative World 1
+description Negative World 3
 author -z-, Mario
 // not setting cdtrack here, as we do it via entities
-//cdtrack map_sxb/music_underwater
+cdtrack map_sxb/music_overworld
 has weapons
 gametype dm
 hidden // singleplayer
