@@ -237,3 +237,28 @@ textures/sxb_v1_earth/mushroom_tower_top_middle
 		blendfunc filter
 	}
 }
+
+textures/sxb_v1_platforms/castle_bridge
+{
+	qer_editorimage textures/sxb_v1_platforms/castle_bridge
+	surfaceparm metalsteps
+	surfaceparm trans
+	surfaceparm solid
+	surfaceparm alphashadow
+	q3map_bouncescale 1.75
+	cull none
+	nopicmip
+	nomipmaps
+
+	{
+		map textures/sxb_v1_platforms/castle_bridge
+		blendfunc blend
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
