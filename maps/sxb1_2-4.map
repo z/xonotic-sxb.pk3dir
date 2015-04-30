@@ -2033,6 +2033,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "2"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -2078,6 +2079,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "2"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -2123,6 +2125,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "2"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -2168,6 +2171,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "2"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -2213,6 +2217,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "2"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -2258,6 +2263,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "2"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef

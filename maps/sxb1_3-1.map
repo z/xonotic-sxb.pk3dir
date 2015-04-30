@@ -1729,7 +1729,7 @@ brushDef
 // entity 4
 {
 "classname" "target_viewlocation_end"
-"origin" "2824.000000 -2152.000000 256.000000"
+"origin" "2824.000000 -2344.000000 256.000000"
 "angle" "0.000003"
 "targetname" "overworld_2"
 }

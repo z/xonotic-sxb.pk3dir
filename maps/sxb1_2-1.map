@@ -186,12 +186,12 @@ brushDef
 {
 brushDef
 {
-( 2656 1056 640 ) ( 2624 1056 640 ) ( 2656 1088 640 ) ( ( 0 0.015625 215.5 ) ( -0.015625 0 50.5 ) ) common/caulk 0 0 0
-( 2644 1060 352 ) ( 2644 1092 352 ) ( 2644 1060 320 ) ( ( 0.015625 0 205.4375 ) ( 0 0.015625 0 ) ) common/caulk 0 0 0
-( 2652 1068 608 ) ( 2652 1068 576 ) ( 2620 1068 608 ) ( ( 0.015625 0 215.5625 ) ( 0 0.015625 4 ) ) common/caulk 0 0 0
-( 2624 1088 320 ) ( 2624 1056 320 ) ( 2656 1088 320 ) ( ( 0 -0.015625 215.5 ) ( 0.015625 0 205.5 ) ) common/caulk 0 0 0
-( 2636 1084 320 ) ( 2636 1084 352 ) ( 2636 1052 320 ) ( ( 0.015625 0 50.4375 ) ( 0 0.015625 0 ) ) common/caulk 0 0 0
-( 2628 1076 320 ) ( 2660 1076 320 ) ( 2628 1076 352 ) ( ( 0.015625 0 40.5625 ) ( 0 0.015625 0 ) ) common/caulk 0 0 0
+( 2676 1056 640 ) ( 2644 1056 640 ) ( 2676 1088 640 ) ( ( 0 0.015625 215.1875 ) ( -0.015625 0 50.5 ) ) sxb_v1_earth/land_tower_top 0 0 0
+( 2664 1060 352 ) ( 2664 1092 352 ) ( 2664 1060 320 ) ( ( 0.015625 0 205.4375 ) ( 0 0.015625 0 ) ) sxb_v1_earth/land_tower_top 0 0 0
+( 2672 1068 608 ) ( 2672 1068 576 ) ( 2640 1068 608 ) ( ( 0.015625 0 215.25 ) ( 0 0.015625 4 ) ) sxb_v1_earth/land_tower_top 0 0 0
+( 2644 1088 320 ) ( 2644 1056 320 ) ( 2676 1088 320 ) ( ( 0 -0.015625 215.1875 ) ( 0.015625 0 205.5 ) ) sxb_v1_earth/land_tower_top 0 0 0
+( 2656 1084 320 ) ( 2656 1084 352 ) ( 2656 1052 320 ) ( ( 0.015625 0 50.4375 ) ( 0 0.015625 0 ) ) sxb_v1_earth/land_tower_top 0 0 0
+( 2648 1076 320 ) ( 2680 1076 320 ) ( 2648 1076 352 ) ( ( 0.015625 0 40.875 ) ( 0 0.015625 0 ) ) sxb_v1_earth/land_tower_top 0 0 0
 }
 }
 // brush 16
@@ -866,6 +866,18 @@ brushDef
 ( 2592 -2700 416 ) ( 2592 -2668 416 ) ( 2592 -2700 608 ) ( ( 0.015625 0 18.8125 ) ( 0 0.015625 41.5 ) ) common/clip 0 0 0
 }
 }
+// brush 72
+{
+brushDef
+{
+( 4692 2048 -2432 ) ( 4660 2048 -2432 ) ( 4692 2080 -2432 ) ( ( 0 0.015625 183.6875 ) ( -0.015625 0 66 ) ) sxb_v1_earth/land_tower_top 0 0 0
+( 4680 2052 -2656 ) ( 4680 2084 -2656 ) ( 4680 2052 -2688 ) ( ( 0.015625 0 189.9375 ) ( 0 0.015625 209 ) ) sxb_v1_earth/land_tower_top 0 0 0
+( 4688 2060 -2400 ) ( 4688 2060 -2432 ) ( 4656 2060 -2400 ) ( ( 0.015625 0 183.75 ) ( 0 0.015625 213 ) ) sxb_v1_earth/land_tower_top 0 0 0
+( 4660 2080 -2688 ) ( 4660 2048 -2688 ) ( 4692 2080 -2688 ) ( ( 0 -0.015625 183.6875 ) ( 0.015625 0 190 ) ) sxb_v1_earth/land_tower_top 0 0 0
+( 4672 2076 -2656 ) ( 4672 2076 -2624 ) ( 4672 2044 -2656 ) ( ( 0.015625 0 65.9375 ) ( 0 0.015625 209.5 ) ) sxb_v1_earth/land_tower_top 0 0 0
+( 4664 2068 -2688 ) ( 4696 2068 -2688 ) ( 4664 2068 -2656 ) ( ( 0.015625 0 72.375 ) ( 0 0.015625 209 ) ) sxb_v1_earth/land_tower_top 0 0 0
+}
+}
 }
 // entity 1
 {
@@ -1323,7 +1335,7 @@ brushDef
 // entity 43
 {
 "classname" "misc_teleporter_dest"
-"origin" "4656.000000 2032.000000 -2464.000000"
+"origin" "4656.000000 2000.000000 -2464.000000"
 "angle" "-90.000000"
 "targetname" "clouds"
 "speed" "-1"
@@ -1530,6 +1542,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -1613,6 +1626,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -1657,6 +1671,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -2442,6 +2457,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -2486,6 +2502,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -2530,6 +2547,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -2574,6 +2592,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -2618,6 +2637,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -2662,6 +2682,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -2706,6 +2727,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -2750,6 +2772,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -2794,6 +2817,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -2838,6 +2862,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -2882,6 +2907,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -2926,6 +2952,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -2970,6 +2997,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -3014,6 +3042,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -3058,6 +3087,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -3102,6 +3132,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -3146,6 +3177,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -3190,6 +3222,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -3234,6 +3267,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -3278,6 +3312,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -3322,6 +3357,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -3366,6 +3402,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -3410,6 +3447,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -3454,6 +3492,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -3498,6 +3537,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -3542,6 +3582,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -3586,6 +3627,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -3630,6 +3672,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -3674,6 +3717,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -3718,6 +3762,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -3763,6 +3808,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "1"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -3808,6 +3854,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "1"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -3853,6 +3900,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "1"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -3898,6 +3946,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "1"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -3943,6 +3992,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "1"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -3988,6 +4038,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "1"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -4033,6 +4084,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "1"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -4078,6 +4130,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "1"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -4123,6 +4176,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "1"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -4168,6 +4222,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "1"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -4213,6 +4268,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "1"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -4258,6 +4314,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "1"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -4303,6 +4360,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "1"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -4348,6 +4406,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "1"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -4393,6 +4452,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "1"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -4438,6 +4498,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "1"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -4483,6 +4544,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "1"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -4528,6 +4590,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "1"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -4573,6 +4636,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "1"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -4618,6 +4682,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "1"
+"noise" "map_sxb/brick"
 // brush 0
 {
 brushDef
@@ -4774,6 +4839,38 @@ brushDef
 ( 2641 -2667 400 ) ( 2641 -2667 368 ) ( 2640 -2667 400 ) ( ( 0.0625 0 93.6875 ) ( 0 0.0625 1.375 ) ) sxb_v1_flags/castle_small_1 0 0 0
 ( 2640 -2631 368 ) ( 2640 -2631 400 ) ( 2640 -2658 368 ) ( ( 0.03125 0 99.65625 ) ( 0 0.03125 0.6875 ) ) sxb_v1_flags/castle_small_1 0 0 0
 ( 2657 -2667 368 ) ( 2657 -2631 400 ) ( 2529 -2667 368 ) ( ( 0.0625 0 34.3125 ) ( 0 0.0625 21.8815231323 ) ) sxb_v1_flags/castle_small_1 0 0 0
+}
+}
+}
+// entity 207
+{
+"classname" "func_ladder"
+// brush 0
+{
+brushDef
+{
+( 2656 1088 576 ) ( 2656 1056 576 ) ( 2624 1088 576 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/trigger 0 0 0
+( 2656 1088 576 ) ( 2624 1088 576 ) ( 2656 1088 448 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/trigger 0 0 0
+( 2656 1088 576 ) ( 2656 1088 448 ) ( 2656 1056 576 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/trigger 0 0 0
+( 2624 1056 320 ) ( 2656 1056 320 ) ( 2624 1088 320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 2624 1056 448 ) ( 2624 1056 576 ) ( 2656 1056 448 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/trigger 0 0 0
+( 2624 1056 448 ) ( 2624 1088 448 ) ( 2624 1056 576 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/trigger 0 0 0
+}
+}
+}
+// entity 208
+{
+"classname" "func_ladder"
+// brush 0
+{
+brushDef
+{
+( 4672 2080 -2432 ) ( 4672 2048 -2432 ) ( 4640 2080 -2432 ) ( ( 0.015625 0 240.5 ) ( 0 0.015625 224.5 ) ) common/trigger 0 0 0
+( 4672 2080 -2432 ) ( 4640 2080 -2432 ) ( 4672 2080 -2560 ) ( ( 0.015625 0 31.5 ) ( 0 0.015625 209 ) ) common/trigger 0 0 0
+( 4672 2080 -2400 ) ( 4672 2080 -2528 ) ( 4672 2048 -2400 ) ( ( 0.015625 0 240.5 ) ( 0 0.015625 209.5 ) ) common/trigger 0 0 0
+( 4640 2048 -2688 ) ( 4672 2048 -2688 ) ( 4640 2080 -2688 ) ( ( 0.015625 0 240.5 ) ( 0 0.015625 31.5 ) ) common/trigger 0 0 0
+( 4640 2048 -2560 ) ( 4640 2048 -2432 ) ( 4672 2048 -2560 ) ( ( 0.015625 0 224.5 ) ( 0 0.015625 209 ) ) common/trigger 0 0 0
+( 4640 2048 -2560 ) ( 4640 2080 -2560 ) ( 4640 2048 -2432 ) ( ( 0.015625 0 15.5 ) ( 0 0.015625 209 ) ) common/trigger 0 0 0
 }
 }
 }
