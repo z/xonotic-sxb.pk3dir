@@ -162,7 +162,7 @@ brushDef
 {
 brushDef
 {
-( 3104 1728 64 ) ( 3072 1728 64 ) ( 3104 1856 64 ) ( ( 0 0.015625 208.5 ) ( -0.015625 0 56 ) ) common/caulk 0 0 0
+( 3104 1728 64 ) ( 3072 1728 64 ) ( 3104 1856 64 ) ( ( 0.03125 0 97 ) ( 0 0.03125 3 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 3136 1728 64 ) ( 3136 1856 64 ) ( 3136 1728 0 ) ( ( 0.03125 0 97 ) ( 0 0.03125 3 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 3104 1728 64 ) ( 3104 1728 0 ) ( 3072 1728 64 ) ( ( 0.03125 0 97 ) ( 0 0.03125 3 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 3072 1856 -512 ) ( 3072 1728 -512 ) ( 3104 1856 -512 ) ( ( 0.03125 0 97 ) ( 0 0.03125 3 ) ) sxb_v1_floors/brick_ground 0 0 0
@@ -306,10 +306,10 @@ brushDef
 {
 brushDef
 {
-( 3136 32 64 ) ( 3040 32 64 ) ( 3136 96 64 ) ( ( 0 0.015625 208.5 ) ( -0.015625 0 56.5 ) ) common/caulk 0 0 0
+( 3136 32 64 ) ( 3040 32 64 ) ( 3136 96 64 ) ( ( 0.03125 0 97 ) ( 0 0.03125 3 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 3136 32 64 ) ( 3136 96 64 ) ( 3136 32 0 ) ( ( 0.03125 0 97 ) ( 0 0.03125 3 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 3136 32 64 ) ( 3136 32 0 ) ( 3040 32 64 ) ( ( 0.03125 0 97 ) ( 0 0.03125 3 ) ) sxb_v1_floors/brick_ground 0 0 0
-( 3040 96 0 ) ( 3040 32 0 ) ( 3136 96 0 ) ( ( 0.03125 0 97 ) ( 0 0.03125 3 ) ) sxb_v1_floors/brick_ground 0 0 0
+( 3040 128 -512 ) ( 3040 64 -512 ) ( 3136 128 -512 ) ( ( 0.03125 0 96 ) ( 0 0.03125 3 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 3040 96 0 ) ( 3040 96 64 ) ( 3040 32 0 ) ( ( 0.03125 0 97 ) ( 0 0.03125 3 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 3040 96 0 ) ( 3136 96 0 ) ( 3040 96 64 ) ( ( 0.03125 0 97 ) ( 0 0.03125 3 ) ) sxb_v1_floors/brick_ground 0 0 0
 }
@@ -2834,7 +2834,7 @@ brushDef
 // entity 8
 {
 "classname" "misc_model"
-"origin" "3088.000000 608.000000 128.000000"
+"origin" "3088.000000 2400.000000 128.000000"
 "model" "models/map_sxb/warp_pipe.obj"
 "angles" "-0.000000 0.000000 90.000000"
 "modelscale" "16.100000"
@@ -2843,7 +2843,7 @@ brushDef
 // entity 9
 {
 "classname" "misc_model"
-"origin" "3088.000000 608.000000 64.000000"
+"origin" "3088.000000 2400.000000 64.000000"
 "model" "models/map_sxb/warp_pipe_double.obj"
 "angles" "-0.000000 0.000000 90.000000"
 "modelscale" "16.100000"
@@ -2852,7 +2852,7 @@ brushDef
 // entity 10
 {
 "classname" "misc_model"
-"origin" "3088.000000 2400.000000 128.000000"
+"origin" "3088.000000 -1280.000000 96.000000"
 "model" "models/map_sxb/warp_pipe.obj"
 "angles" "-0.000000 0.000000 90.000000"
 "modelscale" "16.100000"
@@ -2861,31 +2861,13 @@ brushDef
 // entity 11
 {
 "classname" "misc_model"
-"origin" "3088.000000 2400.000000 64.000000"
-"model" "models/map_sxb/warp_pipe_double.obj"
-"angles" "-0.000000 0.000000 90.000000"
-"modelscale" "16.100000"
-"spawnflags" "32"
-}
-// entity 12
-{
-"classname" "misc_model"
-"origin" "3088.000000 -1280.000000 96.000000"
-"model" "models/map_sxb/warp_pipe.obj"
-"angles" "-0.000000 0.000000 90.000000"
-"modelscale" "16.100000"
-"spawnflags" "32"
-}
-// entity 13
-{
-"classname" "misc_model"
 "origin" "3088.000000 -1280.000000 64.000000"
 "model" "models/map_sxb/warp_pipe_single.obj"
 "angles" "-0.000000 0.000000 90.000000"
 "modelscale" "16.100000"
 "spawnflags" "32"
 }
-// entity 14
+// entity 12
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -2975,7 +2957,7 @@ brushDef
 }
 }
 }
-// entity 15
+// entity 13
 {
 "classname" "trigger_impulse"
 "strength" "0.03"
@@ -2992,7 +2974,7 @@ brushDef
 }
 }
 }
-// entity 16
+// entity 14
 {
 "classname" "trigger_multiple"
 "target" "flag0"
@@ -3009,7 +2991,7 @@ brushDef
 }
 }
 }
-// entity 17
+// entity 15
 {
 "classname" "func_door"
 "spawnflags" "1028"
