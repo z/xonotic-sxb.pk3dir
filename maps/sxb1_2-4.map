@@ -2033,7 +2033,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "2"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -2079,7 +2079,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "2"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -2125,7 +2125,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "2"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -2171,7 +2171,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "2"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -2217,7 +2217,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "2"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -2263,7 +2263,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "2"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -2485,6 +2485,34 @@ brushDef
 ( 1784 -1584 272 ) ( 1784 -1584 304 ) ( 1784 -1680 272 ) ( ( 0.03125 0 0.1666870117 ) ( 0 0.0625 44 ) ) sxb_v1_platforms/orange_platform 0 0 0
 ( 1768 -1600 272 ) ( 1864 -1600 272 ) ( 1768 -1600 304 ) ( ( 0.03125 0 228.9166717529 ) ( 0 0.0625 44 ) ) sxb_v1_platforms/orange_platform 0 0 0
 ( 1864 -1584 274 ) ( 1768 -1680 274 ) ( 1768 -1584 274 ) ( ( 0.010416667 0 17.5000209808 ) ( 0 0.010416667 237.5833587646 ) ) sxb_v1_platforms/orange_platform_bottom 0 0 0
+}
+}
+}
+// entity 46
+{
+"classname" "misc_gamemodel"
+"origin" "1824.000000 -2032.000000 88.000000"
+"model" "models/player/ignishalfmasked.iqm"
+"colormap" "1092"
+"angle" "-179.999985"
+"frame" "6"
+"solid" "0"
+}
+// entity 47
+{
+"classname" "trigger_multiple"
+"noise" "map_sxb/yousuck.ogg"
+"wait" "6"
+// brush 0
+{
+brushDef
+{
+( 1824 -1888 128 ) ( 1824 -2016 128 ) ( 1792 -1888 128 ) ( ( 0.015625 0 254.5 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 1824 -2016 192 ) ( 1792 -2016 192 ) ( 1824 -2016 64 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 1856 -1888 192 ) ( 1856 -1888 64 ) ( 1856 -2016 192 ) ( ( 0.015625 0 254.5 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 1792 -2016 64 ) ( 1824 -2016 64 ) ( 1792 -1888 64 ) ( ( 0.015625 0 254.5 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 1792 -2048 64 ) ( 1792 -2048 192 ) ( 1824 -2048 64 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 1760 -2016 64 ) ( 1760 -1888 64 ) ( 1760 -2016 192 ) ( ( 0.015625 0 1.5 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
 }
 }
 }
