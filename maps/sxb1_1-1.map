@@ -2145,7 +2145,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -2190,7 +2190,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -2235,7 +2235,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -2280,7 +2280,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -2325,7 +2325,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -2370,7 +2370,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -2415,7 +2415,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -2460,7 +2460,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -2505,7 +2505,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -2550,7 +2550,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -2595,7 +2595,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -2640,7 +2640,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -2685,7 +2685,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -2730,7 +2730,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -2775,7 +2775,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -2820,7 +2820,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -2865,7 +2865,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -2910,7 +2910,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -2955,7 +2955,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -3000,7 +3000,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -3045,7 +3045,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -3090,7 +3090,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -3135,7 +3135,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -3180,7 +3180,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -3225,7 +3225,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -3270,7 +3270,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -3315,7 +3315,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -3360,7 +3360,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -3405,7 +3405,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -3450,7 +3450,7 @@ brushDef
 "debristime" "0.2"
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -3496,7 +3496,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "1"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -3542,7 +3542,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "1"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -3588,7 +3588,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "1"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -3634,7 +3634,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "1"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -3680,7 +3680,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "1"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -3726,7 +3726,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "1"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
@@ -3772,7 +3772,7 @@ brushDef
 "debristimejitter" "0.2"
 "debrisfadetime" "0.3"
 "debrisskin" "1"
-"noise" "map_sxb/brick"
+"noise" "map_sxb/brick.ogg"
 // brush 0
 {
 brushDef
