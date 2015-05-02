@@ -150,18 +150,6 @@ brushDef
 {
 brushDef
 {
-( 1856 -1504 384 ) ( 1760 -1504 384 ) ( 1856 -1312 384 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
-( 1824 -1504 320 ) ( 1824 -1312 320 ) ( 1824 -1504 288 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
-( 1856 -1504 320 ) ( 1856 -1504 288 ) ( 1760 -1504 320 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
-( 1760 -1440 288 ) ( 1760 -1632 288 ) ( 1856 -1440 288 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
-( 1792 -1312 288 ) ( 1792 -1312 320 ) ( 1792 -1504 288 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
-( 1760 -1440 288 ) ( 1856 -1440 288 ) ( 1760 -1440 320 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
-}
-}
-// brush 13
-{
-brushDef
-{
 ( 1824 -1608 320 ) ( 1792 -1608 320 ) ( 1824 -1544 320 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) common/caulk 134217728 0 0
 ( 1856 -1608 320 ) ( 1856 -1544 320 ) ( 1856 -1608 288 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) common/caulk 134217728 0 0
 ( 1824 -1632 320 ) ( 1824 -1632 288 ) ( 1792 -1632 320 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) common/caulk 134217728 0 0
@@ -170,7 +158,7 @@ brushDef
 ( 1792 -1568 288 ) ( 1824 -1568 288 ) ( 1792 -1568 320 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 14
+// brush 13
 {
 brushDef
 {
@@ -182,7 +170,7 @@ brushDef
 ( 1856 2272 32 ) ( 1856 2272 0 ) ( 1824 2272 32 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
 }
 }
-// brush 15
+// brush 14
 {
 brushDef
 {
@@ -194,7 +182,7 @@ brushDef
 ( 1856 2112 32 ) ( 1856 2112 0 ) ( 1824 2112 32 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
 }
 }
-// brush 16
+// brush 15
 {
 brushDef
 {
@@ -206,7 +194,7 @@ brushDef
 ( 1856 1952 32 ) ( 1856 1952 0 ) ( 1824 1952 32 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
 }
 }
-// brush 17
+// brush 16
 {
 brushDef
 {
@@ -218,7 +206,7 @@ brushDef
 ( 1856 1792 32 ) ( 1856 1792 0 ) ( 1824 1792 32 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
 }
 }
-// brush 18
+// brush 17
 {
 brushDef
 {
@@ -230,7 +218,7 @@ brushDef
 ( 1760 1664 0 ) ( 1856 1664 0 ) ( 1760 1664 32 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
 }
 }
-// brush 19
+// brush 18
 {
 brushDef
 {
@@ -242,7 +230,7 @@ brushDef
 ( 1760 2272 384 ) ( 1856 2272 384 ) ( 1760 2272 416 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
 }
 }
-// brush 20
+// brush 19
 {
 brushDef
 {
@@ -254,7 +242,7 @@ brushDef
 ( 1760 1472 320 ) ( 1856 1472 320 ) ( 1760 1472 384 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
 }
 }
-// brush 21
+// brush 20
 {
 brushDef
 {
@@ -266,43 +254,7 @@ brushDef
 ( 1760 1600 320 ) ( 1856 1600 320 ) ( 1760 1600 384 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
 }
 }
-// brush 22
-{
-brushDef
-{
-( 1824 1376 224 ) ( 1792 1376 224 ) ( 1824 1408 224 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
-( 1824 1376 224 ) ( 1824 1408 224 ) ( 1824 1376 192 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_blocks/question_mark 134217728 0 0
-( 1824 1376 224 ) ( 1824 1376 192 ) ( 1792 1376 224 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_blocks/question_mark 134217728 0 0
-( 1792 1408 192 ) ( 1792 1376 192 ) ( 1824 1408 192 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
-( 1792 1408 192 ) ( 1792 1408 224 ) ( 1792 1376 192 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_blocks/question_mark 134217728 0 0
-( 1792 1408 192 ) ( 1824 1408 192 ) ( 1792 1408 224 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_blocks/question_mark 134217728 0 0
-}
-}
-// brush 23
-{
-brushDef
-{
-( 1856 1344 224 ) ( 1760 1344 224 ) ( 1856 1440 224 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
-( 1824 1344 224 ) ( 1824 1440 224 ) ( 1824 1344 192 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_blocks/question_mark 134217728 0 0
-( 1856 1344 224 ) ( 1856 1344 192 ) ( 1760 1344 224 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_blocks/question_mark 134217728 0 0
-( 1760 1440 192 ) ( 1760 1344 192 ) ( 1856 1440 192 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
-( 1792 1440 192 ) ( 1792 1440 224 ) ( 1792 1344 192 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_blocks/question_mark 134217728 0 0
-( 1792 1376 224 ) ( 1824 1376 192 ) ( 1824 1376 224 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_blocks/question_mark 134217728 0 0
-}
-}
-// brush 24
-{
-brushDef
-{
-( 1856 1344 224 ) ( 1760 1344 224 ) ( 1856 1440 224 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
-( 1824 1344 224 ) ( 1824 1440 224 ) ( 1824 1344 192 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_blocks/question_mark 134217728 0 0
-( 1760 1440 192 ) ( 1760 1344 192 ) ( 1856 1440 192 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
-( 1792 1440 192 ) ( 1792 1440 224 ) ( 1792 1344 192 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_blocks/question_mark 134217728 0 0
-( 1760 1440 192 ) ( 1856 1440 192 ) ( 1760 1440 224 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_blocks/question_mark 134217728 0 0
-( 1792 1408 224 ) ( 1824 1408 192 ) ( 1792 1408 192 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_blocks/question_mark 134217728 0 0
-}
-}
-// brush 25
+// brush 21
 {
 brushDef
 {
@@ -314,7 +266,7 @@ brushDef
 ( 1760 1248 0 ) ( 1856 1248 0 ) ( 1760 1248 64 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
 }
 }
-// brush 26
+// brush 22
 {
 brushDef
 {
@@ -326,7 +278,7 @@ brushDef
 ( 1760 256 352 ) ( 1856 256 384 ) ( 1760 256 384 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
 }
 }
-// brush 27
+// brush 23
 {
 brushDef
 {
@@ -338,7 +290,7 @@ brushDef
 ( 1760 224 288 ) ( 1856 224 320 ) ( 1760 224 320 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_blocks/empty_block 134217728 0 0
 }
 }
-// brush 28
+// brush 24
 {
 brushDef
 {
@@ -350,7 +302,7 @@ brushDef
 ( 1760 1088 320 ) ( 1856 1088 352 ) ( 1760 1088 352 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
 }
 }
-// brush 29
+// brush 25
 {
 brushDef
 {
@@ -362,7 +314,7 @@ brushDef
 ( 1760 1056 288 ) ( 1856 1056 320 ) ( 1760 1056 320 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_blocks/empty_block 134217728 0 0
 }
 }
-// brush 30
+// brush 26
 {
 brushDef
 {
@@ -374,7 +326,7 @@ brushDef
 ( 1760 1056 96 ) ( 1856 1056 96 ) ( 1760 1056 128 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_blocks/empty_block 134217728 0 0
 }
 }
-// brush 31
+// brush 27
 {
 brushDef
 {
@@ -386,7 +338,7 @@ brushDef
 ( 1760 256 64 ) ( 1856 256 64 ) ( 1760 256 96 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
 }
 }
-// brush 32
+// brush 28
 {
 brushDef
 {
@@ -398,7 +350,7 @@ brushDef
 ( 1760 224 96 ) ( 1856 224 96 ) ( 1760 224 128 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_blocks/empty_block 134217728 0 0
 }
 }
-// brush 33
+// brush 29
 {
 brushDef
 {
@@ -410,7 +362,7 @@ brushDef
 ( 1760 1088 64 ) ( 1856 1088 64 ) ( 1760 1088 96 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
 }
 }
-// brush 34
+// brush 30
 {
 brushDef
 {
@@ -422,7 +374,7 @@ brushDef
 ( 1760 768 64 ) ( 1856 768 64 ) ( 1760 768 96 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
 }
 }
-// brush 35
+// brush 31
 {
 brushDef
 {
@@ -434,7 +386,7 @@ brushDef
 ( 1760 736 96 ) ( 1856 736 96 ) ( 1760 736 128 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_blocks/empty_block 134217728 0 0
 }
 }
-// brush 36
+// brush 32
 {
 brushDef
 {
@@ -446,7 +398,7 @@ brushDef
 ( 1760 768 352 ) ( 1856 768 384 ) ( 1760 768 384 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
 }
 }
-// brush 37
+// brush 33
 {
 brushDef
 {
@@ -458,7 +410,7 @@ brushDef
 ( 1760 736 288 ) ( 1856 736 320 ) ( 1760 736 320 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_blocks/empty_block 134217728 0 0
 }
 }
-// brush 38
+// brush 34
 {
 brushDef
 {
@@ -470,7 +422,7 @@ brushDef
 ( 1760 -96 224 ) ( 1856 -96 224 ) ( 1760 -96 384 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
 }
 }
-// brush 39
+// brush 35
 {
 brushDef
 {
@@ -482,7 +434,7 @@ brushDef
 ( 1760 -96 0 ) ( 1856 -96 0 ) ( 1760 -96 160 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
 }
 }
-// brush 40
+// brush 36
 {
 brushDef
 {
@@ -494,7 +446,7 @@ brushDef
 ( 1760 -576 0 ) ( 1856 -576 0 ) ( 1760 -576 160 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
 }
 }
-// brush 41
+// brush 37
 {
 brushDef
 {
@@ -506,7 +458,7 @@ brushDef
 ( 1760 -384 0 ) ( 1856 -384 0 ) ( 1760 -384 160 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
 }
 }
-// brush 42
+// brush 38
 {
 brushDef
 {
@@ -518,7 +470,7 @@ brushDef
 ( 1760 -768 0 ) ( 1856 -768 0 ) ( 1760 -768 160 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
 }
 }
-// brush 43
+// brush 39
 {
 brushDef
 {
@@ -530,7 +482,7 @@ brushDef
 ( 1760 -768 32 ) ( 1856 -768 32 ) ( 1760 -768 96 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
 }
 }
-// brush 44
+// brush 40
 {
 brushDef
 {
@@ -542,7 +494,7 @@ brushDef
 ( 2272 2784 512 ) ( 1248 2048 512 ) ( 2272 2048 512 ) ( ( 0 -0.015625 228.5 ) ( 0.015625 0 220.5 ) ) sxb_v1_skies/underground 0 0 0
 }
 }
-// brush 45
+// brush 41
 {
 brushDef
 {
@@ -554,7 +506,7 @@ brushDef
 ( 2392 3712 320 ) ( 2392 4448 384 ) ( 2392 3712 384 ) ( ( 0.015625 0 61.5 ) ( 0 0.015625 0 ) ) sxb_v1_skies/underground 0 0 0
 }
 }
-// brush 46
+// brush 42
 {
 brushDef
 {
@@ -566,7 +518,7 @@ brushDef
 ( 1312 -2336 384 ) ( 2336 -2336 320 ) ( 2336 -2336 384 ) ( ( 0.015625 0 26.5 ) ( 0 0.015625 0 ) ) sxb_v1_skies/underground 0 0 0
 }
 }
-// brush 47
+// brush 43
 {
 brushDef
 {
@@ -578,7 +530,7 @@ brushDef
 ( 2272 2720 -504 ) ( 1248 1984 -504 ) ( 1248 2720 -504 ) ( ( 0 0.015625 228.5 ) ( -0.015625 0 36.5 ) ) sxb_v1_skies/underground 0 0 0
 }
 }
-// brush 48
+// brush 44
 {
 brushDef
 {
@@ -590,7 +542,7 @@ brushDef
 ( 1256 3712 320 ) ( 1256 4448 384 ) ( 1256 4448 320 ) ( ( 0.015625 0 194.5 ) ( 0 0.015625 0 ) ) sxb_v1_skies/underground 0 0 0
 }
 }
-// brush 49
+// brush 45
 {
 brushDef
 {
@@ -602,7 +554,7 @@ brushDef
 ( 1248 2784 384 ) ( 2272 2784 320 ) ( 1248 2784 320 ) ( ( 0.015625 0 228.5 ) ( 0 0.015625 0 ) ) sxb_v1_skies/underground 0 0 0
 }
 }
-// brush 50
+// brush 46
 {
 brushDef
 {
@@ -614,7 +566,7 @@ brushDef
 ( 1824 4336 512 ) ( 1824 4448 520 ) ( 1824 4336 520 ) ( ( 0.015625 0 61.5 ) ( 0 0.015625 0 ) ) common/clip 0 0 0
 }
 }
-// brush 51
+// brush 47
 {
 brushDef
 {
@@ -654,7 +606,7 @@ brushDef
 // entity 3
 {
 "classname" "target_viewlocation_start"
-"origin" "1576.000000 2424.000000 160.000000"
+"origin" "1576.000000 2520.000000 160.000000"
 "angle" "0.000003"
 "targetname" "overworld_1"
 }
@@ -863,6 +815,399 @@ brushDef
 ( 1792 -1984 64 ) ( 1824 -1984 64 ) ( 1792 -1856 64 ) ( ( 0.015625 0 254 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
 ( 1792 -2016 64 ) ( 1792 -2016 192 ) ( 1824 -2016 64 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
 ( 1760 -1984 64 ) ( 1760 -1856 64 ) ( 1760 -1984 192 ) ( ( 0.015625 0 2 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+}
+}
+}
+// entity 13
+{
+"classname" "trigger_multiple"
+"target" "brick_2"
+"delay" "0.2"
+// brush 0
+{
+brushDef
+{
+( 1824 -1664 288 ) ( 1792 -1664 288 ) ( 1824 -1472 288 ) ( ( 0 0.03125 200 ) ( -0.03125 0 210 ) ) common/trigger 134217728 0 0
+( 1820 -1664 312 ) ( 1820 -1472 312 ) ( 1820 -1664 280 ) ( ( 0.03125 0 47 ) ( 0 0.03125 9.75 ) ) common/trigger 134217728 0 0
+( 1824 -1500 312 ) ( 1824 -1500 280 ) ( 1792 -1500 312 ) ( ( 0.03125 0 200 ) ( 0 0.03125 9.75 ) ) common/trigger 134217728 0 0
+( 1792 -1472 287 ) ( 1792 -1664 287 ) ( 1824 -1472 287 ) ( ( 0 -0.03125 200 ) ( 0.03125 0 47 ) ) common/trigger 134217728 0 0
+( 1796 -1472 280 ) ( 1796 -1472 312 ) ( 1796 -1664 280 ) ( ( 0.03125 0 210 ) ( 0 0.03125 9.75 ) ) common/trigger 134217728 0 0
+( 1792 -1476 280 ) ( 1824 -1476 280 ) ( 1792 -1476 312 ) ( ( 0.03125 0 57 ) ( 0 0.03125 9.75 ) ) common/trigger 134217728 0 0
+}
+}
+}
+// entity 14
+{
+"classname" "func_breakable"
+"targetname" "brick_2"
+"spawnflags" "4"
+"debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
+"debrismovetype" "6"
+"debrissolid" "0"
+"debrisvelocity" "0 50 100"
+"debrisvelocityjitter" "0 10 40"
+"debristime" "0.2"
+"debristimejitter" "0.2"
+"debrisfadetime" "0.3"
+"noise" "map_sxb/brick.ogg"
+"debrisskin" "2"
+// brush 0
+{
+brushDef
+{
+( 1824 -1664 320 ) ( 1792 -1664 320 ) ( 1824 -1472 320 ) ( ( 0 0.03125 200 ) ( -0.03125 0 210 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+( 1824 -1664 320 ) ( 1824 -1472 320 ) ( 1824 -1664 288 ) ( ( 0.03125 0 47 ) ( 0 0.03125 10 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+( 1824 -1504 320 ) ( 1824 -1504 288 ) ( 1792 -1504 320 ) ( ( 0.03125 0 200 ) ( 0 0.03125 10 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+( 1792 -1472 288 ) ( 1792 -1664 288 ) ( 1824 -1472 288 ) ( ( 0 -0.03125 200 ) ( 0.03125 0 47 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+( 1792 -1472 288 ) ( 1792 -1472 320 ) ( 1792 -1664 288 ) ( ( 0.03125 0 210 ) ( 0 0.03125 10 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+( 1792 -1472 288 ) ( 1824 -1472 288 ) ( 1792 -1472 320 ) ( ( 0.03125 0 57 ) ( 0 0.03125 10 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+}
+}
+}
+// entity 15
+{
+"classname" "trigger_multiple"
+"target" "brick_1"
+"delay" "0.2"
+// brush 0
+{
+brushDef
+{
+( 1824 -1632 288 ) ( 1792 -1632 288 ) ( 1824 -1440 288 ) ( ( 0 0.03125 200 ) ( -0.03125 0 211 ) ) common/trigger 134217728 0 0
+( 1820 -1632 312 ) ( 1820 -1440 312 ) ( 1820 -1632 280 ) ( ( 0.03125 0 46 ) ( 0 0.03125 9.75 ) ) common/trigger 134217728 0 0
+( 1824 -1468 312 ) ( 1824 -1468 280 ) ( 1792 -1468 312 ) ( ( 0.03125 0 200 ) ( 0 0.03125 9.75 ) ) common/trigger 134217728 0 0
+( 1792 -1440 287 ) ( 1792 -1632 287 ) ( 1824 -1440 287 ) ( ( 0 -0.03125 200 ) ( 0.03125 0 46 ) ) common/trigger 134217728 0 0
+( 1796 -1440 280 ) ( 1796 -1440 312 ) ( 1796 -1632 280 ) ( ( 0.03125 0 211 ) ( 0 0.03125 9.75 ) ) common/trigger 134217728 0 0
+( 1792 -1444 280 ) ( 1824 -1444 280 ) ( 1792 -1444 312 ) ( ( 0.03125 0 57 ) ( 0 0.03125 9.75 ) ) common/trigger 134217728 0 0
+}
+}
+}
+// entity 16
+{
+"classname" "func_breakable"
+"targetname" "brick_1"
+"spawnflags" "4"
+"debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
+"debrismovetype" "6"
+"debrissolid" "0"
+"debrisvelocity" "0 50 100"
+"debrisvelocityjitter" "0 10 40"
+"debristime" "0.2"
+"debristimejitter" "0.2"
+"debrisfadetime" "0.3"
+"noise" "map_sxb/brick.ogg"
+"debrisskin" "2"
+// brush 0
+{
+brushDef
+{
+( 1824 -1632 320 ) ( 1792 -1632 320 ) ( 1824 -1440 320 ) ( ( 0 0.03125 200 ) ( -0.03125 0 211 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+( 1824 -1632 320 ) ( 1824 -1440 320 ) ( 1824 -1632 288 ) ( ( 0.03125 0 46 ) ( 0 0.03125 10 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+( 1824 -1472 320 ) ( 1824 -1472 288 ) ( 1792 -1472 320 ) ( ( 0.03125 0 200 ) ( 0 0.03125 10 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+( 1792 -1440 288 ) ( 1792 -1632 288 ) ( 1824 -1440 288 ) ( ( 0 -0.03125 200 ) ( 0.03125 0 46 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+( 1792 -1440 288 ) ( 1792 -1440 320 ) ( 1792 -1632 288 ) ( ( 0.03125 0 211 ) ( 0 0.03125 10 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+( 1792 -1440 288 ) ( 1824 -1440 288 ) ( 1792 -1440 320 ) ( ( 0.03125 0 57 ) ( 0 0.03125 10 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+}
+}
+}
+// entity 17
+{
+"classname" "trigger_multiple"
+"target" "brick_3"
+"delay" "0.2"
+// brush 0
+{
+brushDef
+{
+( 1824 -1632 320 ) ( 1792 -1632 320 ) ( 1824 -1440 320 ) ( ( 0 0.03125 200 ) ( -0.03125 0 211 ) ) common/trigger 134217728 0 0
+( 1820 -1632 344 ) ( 1820 -1440 344 ) ( 1820 -1632 312 ) ( ( 0.03125 0 46 ) ( 0 0.03125 10.75 ) ) common/trigger 134217728 0 0
+( 1824 -1468 344 ) ( 1824 -1468 312 ) ( 1792 -1468 344 ) ( ( 0.03125 0 200 ) ( 0 0.03125 10.75 ) ) common/trigger 134217728 0 0
+( 1792 -1440 319 ) ( 1792 -1632 319 ) ( 1824 -1440 319 ) ( ( 0 -0.03125 200 ) ( 0.03125 0 46 ) ) common/trigger 134217728 0 0
+( 1796 -1440 312 ) ( 1796 -1440 344 ) ( 1796 -1632 312 ) ( ( 0.03125 0 211 ) ( 0 0.03125 10.75 ) ) common/trigger 134217728 0 0
+( 1792 -1444 312 ) ( 1824 -1444 312 ) ( 1792 -1444 344 ) ( ( 0.03125 0 57 ) ( 0 0.03125 10.75 ) ) common/trigger 134217728 0 0
+}
+}
+}
+// entity 18
+{
+"classname" "func_breakable"
+"targetname" "brick_3"
+"spawnflags" "4"
+"debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
+"debrismovetype" "6"
+"debrissolid" "0"
+"debrisvelocity" "0 50 100"
+"debrisvelocityjitter" "0 10 40"
+"debristime" "0.2"
+"debristimejitter" "0.2"
+"debrisfadetime" "0.3"
+"noise" "map_sxb/brick.ogg"
+"debrisskin" "2"
+// brush 0
+{
+brushDef
+{
+( 1824 -1632 352 ) ( 1792 -1632 352 ) ( 1824 -1440 352 ) ( ( 0 0.03125 200 ) ( -0.03125 0 211 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+( 1824 -1632 352 ) ( 1824 -1440 352 ) ( 1824 -1632 320 ) ( ( 0.03125 0 46 ) ( 0 0.03125 11 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+( 1824 -1472 352 ) ( 1824 -1472 320 ) ( 1792 -1472 352 ) ( ( 0.03125 0 200 ) ( 0 0.03125 11 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+( 1792 -1440 320 ) ( 1792 -1632 320 ) ( 1824 -1440 320 ) ( ( 0 -0.03125 200 ) ( 0.03125 0 46 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+( 1792 -1440 320 ) ( 1792 -1440 352 ) ( 1792 -1632 320 ) ( ( 0.03125 0 211 ) ( 0 0.03125 11 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+( 1792 -1440 320 ) ( 1824 -1440 320 ) ( 1792 -1440 352 ) ( ( 0.03125 0 57 ) ( 0 0.03125 11 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+}
+}
+}
+// entity 19
+{
+"classname" "trigger_multiple"
+"target" "brick_4"
+"delay" "0.2"
+// brush 0
+{
+brushDef
+{
+( 1824 -1664 320 ) ( 1792 -1664 320 ) ( 1824 -1472 320 ) ( ( 0 0.03125 200 ) ( -0.03125 0 210 ) ) common/trigger 134217728 0 0
+( 1820 -1664 344 ) ( 1820 -1472 344 ) ( 1820 -1664 312 ) ( ( 0.03125 0 47 ) ( 0 0.03125 10.75 ) ) common/trigger 134217728 0 0
+( 1824 -1500 344 ) ( 1824 -1500 312 ) ( 1792 -1500 344 ) ( ( 0.03125 0 200 ) ( 0 0.03125 10.75 ) ) common/trigger 134217728 0 0
+( 1792 -1472 319 ) ( 1792 -1664 319 ) ( 1824 -1472 319 ) ( ( 0 -0.03125 200 ) ( 0.03125 0 47 ) ) common/trigger 134217728 0 0
+( 1796 -1472 312 ) ( 1796 -1472 344 ) ( 1796 -1664 312 ) ( ( 0.03125 0 210 ) ( 0 0.03125 10.75 ) ) common/trigger 134217728 0 0
+( 1792 -1476 312 ) ( 1824 -1476 312 ) ( 1792 -1476 344 ) ( ( 0.03125 0 57 ) ( 0 0.03125 10.75 ) ) common/trigger 134217728 0 0
+}
+}
+}
+// entity 20
+{
+"classname" "func_breakable"
+"targetname" "brick_4"
+"spawnflags" "4"
+"debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
+"debrismovetype" "6"
+"debrissolid" "0"
+"debrisvelocity" "0 50 100"
+"debrisvelocityjitter" "0 10 40"
+"debristime" "0.2"
+"debristimejitter" "0.2"
+"debrisfadetime" "0.3"
+"noise" "map_sxb/brick.ogg"
+"debrisskin" "2"
+// brush 0
+{
+brushDef
+{
+( 1824 -1664 352 ) ( 1792 -1664 352 ) ( 1824 -1472 352 ) ( ( 0 0.03125 200 ) ( -0.03125 0 210 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+( 1824 -1664 352 ) ( 1824 -1472 352 ) ( 1824 -1664 320 ) ( ( 0.03125 0 47 ) ( 0 0.03125 11 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+( 1824 -1504 352 ) ( 1824 -1504 320 ) ( 1792 -1504 352 ) ( ( 0.03125 0 200 ) ( 0 0.03125 11 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+( 1792 -1472 320 ) ( 1792 -1664 320 ) ( 1824 -1472 320 ) ( ( 0 -0.03125 200 ) ( 0.03125 0 47 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+( 1792 -1472 320 ) ( 1792 -1472 352 ) ( 1792 -1664 320 ) ( ( 0.03125 0 210 ) ( 0 0.03125 11 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+( 1792 -1472 320 ) ( 1824 -1472 320 ) ( 1792 -1472 352 ) ( ( 0.03125 0 57 ) ( 0 0.03125 11 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+}
+}
+}
+// entity 21
+{
+"classname" "trigger_multiple"
+"target" "brick_5"
+"delay" "0.2"
+// brush 0
+{
+brushDef
+{
+( 1824 -1664 352 ) ( 1792 -1664 352 ) ( 1824 -1472 352 ) ( ( 0 0.03125 200 ) ( -0.03125 0 210 ) ) common/trigger 134217728 0 0
+( 1820 -1664 376 ) ( 1820 -1472 376 ) ( 1820 -1664 344 ) ( ( 0.03125 0 47 ) ( 0 0.03125 11.75 ) ) common/trigger 134217728 0 0
+( 1824 -1500 376 ) ( 1824 -1500 344 ) ( 1792 -1500 376 ) ( ( 0.03125 0 200 ) ( 0 0.03125 11.75 ) ) common/trigger 134217728 0 0
+( 1792 -1472 351 ) ( 1792 -1664 351 ) ( 1824 -1472 351 ) ( ( 0 -0.03125 200 ) ( 0.03125 0 47 ) ) common/trigger 134217728 0 0
+( 1796 -1472 344 ) ( 1796 -1472 376 ) ( 1796 -1664 344 ) ( ( 0.03125 0 210 ) ( 0 0.03125 11.75 ) ) common/trigger 134217728 0 0
+( 1792 -1476 344 ) ( 1824 -1476 344 ) ( 1792 -1476 376 ) ( ( 0.03125 0 57 ) ( 0 0.03125 11.75 ) ) common/trigger 134217728 0 0
+}
+}
+}
+// entity 22
+{
+"classname" "func_breakable"
+"targetname" "brick_5"
+"spawnflags" "4"
+"debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
+"debrismovetype" "6"
+"debrissolid" "0"
+"debrisvelocity" "0 50 100"
+"debrisvelocityjitter" "0 10 40"
+"debristime" "0.2"
+"debristimejitter" "0.2"
+"debrisfadetime" "0.3"
+"noise" "map_sxb/brick.ogg"
+"debrisskin" "2"
+// brush 0
+{
+brushDef
+{
+( 1824 -1664 384 ) ( 1792 -1664 384 ) ( 1824 -1472 384 ) ( ( 0 0.03125 200 ) ( -0.03125 0 210 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+( 1824 -1664 384 ) ( 1824 -1472 384 ) ( 1824 -1664 352 ) ( ( 0.03125 0 47 ) ( 0 0.03125 12 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+( 1824 -1504 384 ) ( 1824 -1504 352 ) ( 1792 -1504 384 ) ( ( 0.03125 0 200 ) ( 0 0.03125 12 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+( 1792 -1472 352 ) ( 1792 -1664 352 ) ( 1824 -1472 352 ) ( ( 0 -0.03125 200 ) ( 0.03125 0 47 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+( 1792 -1472 352 ) ( 1792 -1472 384 ) ( 1792 -1664 352 ) ( ( 0.03125 0 210 ) ( 0 0.03125 12 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+( 1792 -1472 352 ) ( 1824 -1472 352 ) ( 1792 -1472 384 ) ( ( 0.03125 0 57 ) ( 0 0.03125 12 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+}
+}
+}
+// entity 23
+{
+"classname" "trigger_multiple"
+"target" "brick_6"
+"delay" "0.2"
+// brush 0
+{
+brushDef
+{
+( 1824 -1632 352 ) ( 1792 -1632 352 ) ( 1824 -1440 352 ) ( ( 0 0.03125 200 ) ( -0.03125 0 211 ) ) common/trigger 134217728 0 0
+( 1820 -1632 376 ) ( 1820 -1440 376 ) ( 1820 -1632 344 ) ( ( 0.03125 0 46 ) ( 0 0.03125 11.75 ) ) common/trigger 134217728 0 0
+( 1824 -1468 376 ) ( 1824 -1468 344 ) ( 1792 -1468 376 ) ( ( 0.03125 0 200 ) ( 0 0.03125 11.75 ) ) common/trigger 134217728 0 0
+( 1792 -1440 351 ) ( 1792 -1632 351 ) ( 1824 -1440 351 ) ( ( 0 -0.03125 200 ) ( 0.03125 0 46 ) ) common/trigger 134217728 0 0
+( 1796 -1440 344 ) ( 1796 -1440 376 ) ( 1796 -1632 344 ) ( ( 0.03125 0 211 ) ( 0 0.03125 11.75 ) ) common/trigger 134217728 0 0
+( 1792 -1444 344 ) ( 1824 -1444 344 ) ( 1792 -1444 376 ) ( ( 0.03125 0 57 ) ( 0 0.03125 11.75 ) ) common/trigger 134217728 0 0
+}
+}
+}
+// entity 24
+{
+"classname" "func_breakable"
+"targetname" "brick_6"
+"spawnflags" "4"
+"debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
+"debrismovetype" "6"
+"debrissolid" "0"
+"debrisvelocity" "0 50 100"
+"debrisvelocityjitter" "0 10 40"
+"debristime" "0.2"
+"debristimejitter" "0.2"
+"debrisfadetime" "0.3"
+"noise" "map_sxb/brick.ogg"
+"debrisskin" "2"
+// brush 0
+{
+brushDef
+{
+( 1824 -1632 384 ) ( 1792 -1632 384 ) ( 1824 -1440 384 ) ( ( 0 0.03125 200 ) ( -0.03125 0 211 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+( 1824 -1632 384 ) ( 1824 -1440 384 ) ( 1824 -1632 352 ) ( ( 0.03125 0 46 ) ( 0 0.03125 12 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+( 1824 -1472 384 ) ( 1824 -1472 352 ) ( 1792 -1472 384 ) ( ( 0.03125 0 200 ) ( 0 0.03125 12 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+( 1792 -1440 352 ) ( 1792 -1632 352 ) ( 1824 -1440 352 ) ( ( 0 -0.03125 200 ) ( 0.03125 0 46 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+( 1792 -1440 352 ) ( 1792 -1440 384 ) ( 1792 -1632 352 ) ( ( 0.03125 0 211 ) ( 0 0.03125 12 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+( 1792 -1440 352 ) ( 1824 -1440 352 ) ( 1792 -1440 384 ) ( ( 0.03125 0 57 ) ( 0 0.03125 12 ) ) sxb_v1_bricks/nighttime_standard_bricks 134217728 0 0
+}
+}
+}
+// entity 25
+{
+"classname" "trigger_once"
+"delay" "0.2"
+"target" "block_10"
+// brush 0
+{
+brushDef
+{
+( 1824 1376 192 ) ( 1792 1376 192 ) ( 1824 1408 192 ) ( ( 0 0.03125 200 ) ( -0.03125 0 44 ) ) common/trigger 134217728 0 0
+( 1820 1376 223 ) ( 1820 1408 223 ) ( 1820 1376 191 ) ( ( 0.03125 0 213 ) ( 0 0.03125 6.96875 ) ) common/trigger 134217728 0 0
+( 1824 1380 223 ) ( 1824 1380 191 ) ( 1792 1380 223 ) ( ( 0.03125 0 200 ) ( 0 0.03125 6.96875 ) ) common/trigger 134217728 0 0
+( 1792 1408 191 ) ( 1792 1376 191 ) ( 1824 1408 191 ) ( ( 0 -0.03125 200 ) ( 0.03125 0 213 ) ) common/trigger 134217728 0 0
+( 1796 1408 191 ) ( 1796 1408 223 ) ( 1796 1376 191 ) ( ( 0.03125 0 44 ) ( 0 0.03125 6.96875 ) ) common/trigger 134217728 0 0
+( 1792 1404 191 ) ( 1824 1404 191 ) ( 1792 1404 223 ) ( ( 0.03125 0 57 ) ( 0 0.03125 6.96875 ) ) common/trigger 134217728 0 0
+}
+}
+}
+// entity 26
+{
+"classname" "func_door"
+"angle" "-1"
+"spawnflags" "4"
+"wait" "0.1"
+"lip" "1"
+"targetname" "block_10"
+// brush 0
+{
+brushDef
+{
+( 1824 1376 224 ) ( 1792 1376 224 ) ( 1824 1408 224 ) ( ( 0 0.03125 200 ) ( -0.03125 0 44 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 1824 1376 224 ) ( 1824 1408 224 ) ( 1824 1376 192 ) ( ( 0.03125 0 213 ) ( 0 0.03125 7 ) ) sxb_v1_blocks/question_mark 134217728 0 0
+( 1824 1376 224 ) ( 1824 1376 192 ) ( 1792 1376 224 ) ( ( 0.03125 0 200 ) ( 0 0.03125 7 ) ) sxb_v1_blocks/question_mark 134217728 0 0
+( 1792 1408 192 ) ( 1792 1376 192 ) ( 1824 1408 192 ) ( ( 0 -0.03125 200 ) ( 0.03125 0 213 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 1792 1408 192 ) ( 1792 1408 224 ) ( 1792 1376 192 ) ( ( 0.03125 0 44 ) ( 0 0.03125 7 ) ) sxb_v1_blocks/question_mark 134217728 0 0
+( 1792 1408 192 ) ( 1824 1408 192 ) ( 1792 1408 224 ) ( ( 0.03125 0 57 ) ( 0 0.03125 7 ) ) sxb_v1_blocks/question_mark 134217728 0 0
+}
+}
+}
+// entity 27
+{
+"classname" "trigger_once"
+"delay" "0.2"
+"target" "block_1"
+// brush 0
+{
+brushDef
+{
+( 1824 1408 192 ) ( 1792 1408 192 ) ( 1824 1440 192 ) ( ( 0 0.03125 200 ) ( -0.03125 0 45 ) ) common/trigger 134217728 0 0
+( 1820 1408 223 ) ( 1820 1440 223 ) ( 1820 1408 191 ) ( ( 0.03125 0 212 ) ( 0 0.03125 6.96875 ) ) common/trigger 134217728 0 0
+( 1824 1412 223 ) ( 1824 1412 191 ) ( 1792 1412 223 ) ( ( 0.03125 0 200 ) ( 0 0.03125 6.96875 ) ) common/trigger 134217728 0 0
+( 1792 1440 191 ) ( 1792 1408 191 ) ( 1824 1440 191 ) ( ( 0 -0.03125 200 ) ( 0.03125 0 212 ) ) common/trigger 134217728 0 0
+( 1796 1440 191 ) ( 1796 1440 223 ) ( 1796 1408 191 ) ( ( 0.03125 0 45 ) ( 0 0.03125 6.96875 ) ) common/trigger 134217728 0 0
+( 1792 1436 191 ) ( 1824 1436 191 ) ( 1792 1436 223 ) ( ( 0.03125 0 57 ) ( 0 0.03125 6.96875 ) ) common/trigger 134217728 0 0
+}
+}
+}
+// entity 28
+{
+"classname" "func_door"
+"angle" "-1"
+"spawnflags" "4"
+"wait" "0.1"
+"lip" "1"
+"targetname" "block_1"
+// brush 0
+{
+brushDef
+{
+( 1824 1408 224 ) ( 1792 1408 224 ) ( 1824 1440 224 ) ( ( 0 0.03125 200 ) ( -0.03125 0 45 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 1824 1408 224 ) ( 1824 1440 224 ) ( 1824 1408 192 ) ( ( 0.03125 0 212 ) ( 0 0.03125 7 ) ) sxb_v1_blocks/question_mark 134217728 0 0
+( 1824 1408 224 ) ( 1824 1408 192 ) ( 1792 1408 224 ) ( ( 0.03125 0 200 ) ( 0 0.03125 7 ) ) sxb_v1_blocks/question_mark 134217728 0 0
+( 1792 1440 192 ) ( 1792 1408 192 ) ( 1824 1440 192 ) ( ( 0 -0.03125 200 ) ( 0.03125 0 212 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 1792 1440 192 ) ( 1792 1440 224 ) ( 1792 1408 192 ) ( ( 0.03125 0 45 ) ( 0 0.03125 7 ) ) sxb_v1_blocks/question_mark 134217728 0 0
+( 1792 1440 192 ) ( 1824 1440 192 ) ( 1792 1440 224 ) ( ( 0.03125 0 57 ) ( 0 0.03125 7 ) ) sxb_v1_blocks/question_mark 134217728 0 0
+}
+}
+}
+// entity 29
+{
+"classname" "trigger_once"
+"delay" "0.2"
+"target" "block_2"
+// brush 0
+{
+brushDef
+{
+( 1824 1344 192 ) ( 1792 1344 192 ) ( 1824 1376 192 ) ( ( 0 0.03125 200 ) ( -0.03125 0 43 ) ) common/trigger 134217728 0 0
+( 1820 1344 223 ) ( 1820 1376 223 ) ( 1820 1344 191 ) ( ( 0.03125 0 214 ) ( 0 0.03125 6.96875 ) ) common/trigger 134217728 0 0
+( 1824 1348 223 ) ( 1824 1348 191 ) ( 1792 1348 223 ) ( ( 0.03125 0 200 ) ( 0 0.03125 6.96875 ) ) common/trigger 134217728 0 0
+( 1792 1376 191 ) ( 1792 1344 191 ) ( 1824 1376 191 ) ( ( 0 -0.03125 200 ) ( 0.03125 0 214 ) ) common/trigger 134217728 0 0
+( 1796 1376 191 ) ( 1796 1376 223 ) ( 1796 1344 191 ) ( ( 0.03125 0 43 ) ( 0 0.03125 6.96875 ) ) common/trigger 134217728 0 0
+( 1792 1372 191 ) ( 1824 1372 191 ) ( 1792 1372 223 ) ( ( 0.03125 0 57 ) ( 0 0.03125 6.96875 ) ) common/trigger 134217728 0 0
+}
+}
+}
+// entity 30
+{
+"classname" "func_door"
+"angle" "-1"
+"spawnflags" "4"
+"wait" "0.1"
+"lip" "1"
+"targetname" "block_2"
+// brush 0
+{
+brushDef
+{
+( 1824 1344 224 ) ( 1792 1344 224 ) ( 1824 1376 224 ) ( ( 0 0.03125 200 ) ( -0.03125 0 43 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 1824 1344 224 ) ( 1824 1376 224 ) ( 1824 1344 192 ) ( ( 0.03125 0 214 ) ( 0 0.03125 7 ) ) sxb_v1_blocks/question_mark 134217728 0 0
+( 1824 1344 224 ) ( 1824 1344 192 ) ( 1792 1344 224 ) ( ( 0.03125 0 200 ) ( 0 0.03125 7 ) ) sxb_v1_blocks/question_mark 134217728 0 0
+( 1792 1376 192 ) ( 1792 1344 192 ) ( 1824 1376 192 ) ( ( 0 -0.03125 200 ) ( 0.03125 0 214 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 1792 1376 192 ) ( 1792 1376 224 ) ( 1792 1344 192 ) ( ( 0.03125 0 43 ) ( 0 0.03125 7 ) ) sxb_v1_blocks/question_mark 134217728 0 0
+( 1792 1376 192 ) ( 1824 1376 192 ) ( 1792 1376 224 ) ( ( 0.03125 0 57 ) ( 0 0.03125 7 ) ) sxb_v1_blocks/question_mark 134217728 0 0
 }
 }
 }
