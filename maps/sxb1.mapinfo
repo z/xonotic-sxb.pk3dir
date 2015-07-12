@@ -5,7 +5,6 @@ author -z-, Mario
 //cdtrack map_sxb/music_overworld
 has weapons
 gametype cts
-gametype rc
 
 settemp_for_type all sv_player_mins "-15 -15 -24"
 settemp_for_type all sv_player_maxs "15 15 31"
