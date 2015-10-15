@@ -23,16 +23,16 @@ settemp_for_type all g_physics_clientselect 0
 
 settemp_for_type all sv_intermission_cdtrack map_sxb/sxb_intermission
 settemp_for_type all g_mod_physics Q
-settemp_for_type all sv_gravity 800
-settemp_for_type all sv_maxspeed 320
-settemp_for_type all sv_maxairspeed 70
+settemp_for_type all sv_gravity 200
+settemp_for_type all sv_jumpvelocity 150
+settemp_for_type all sv_maxspeed 150
+settemp_for_type all sv_maxairspeed 150
 settemp_for_type all sv_stopspeed 100
 settemp_for_type all sv_accelerate 5
 settemp_for_type all sv_airaccelerate 106.66666666666666666666
 settemp_for_type all sv_friction 4
 settemp_for_type all edgefriction 1
 settemp_for_type all sv_stepheight 1
-settemp_for_type all sv_jumpvelocity 360
 settemp_for_type all sv_wateraccelerate -1
 settemp_for_type all sv_waterfriction -1
 settemp_for_type all sv_airaccel_sideways_friction 0

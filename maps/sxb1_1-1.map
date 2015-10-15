@@ -4485,7 +4485,7 @@ brushDef
 // entity 166
 {
 "classname" "trigger_delay"
-"origin" "2864.000000 2976.000000 184.000000"
+"origin" "2864.000000 2928.000000 216.000000"
 "target" "coin_1"
 "targetname" "block_4"
 "wait" "0.7"
@@ -4501,7 +4501,7 @@ brushDef
 // entity 168
 {
 "classname" "trigger_delay"
-"origin" "2864.000000 2816.000000 184.000000"
+"origin" "2864.000000 2768.000000 216.000000"
 "target" "coin_2"
 "targetname" "block_3"
 "wait" "0.7"
@@ -4517,7 +4517,7 @@ brushDef
 // entity 170
 {
 "classname" "trigger_delay"
-"origin" "2864.000000 2784.000000 312.000000"
+"origin" "2864.000000 2736.000000 336.000000"
 "target" "coin_3"
 "targetname" "block_1"
 "wait" "0.7"
@@ -4533,7 +4533,7 @@ brushDef
 // entity 172
 {
 "classname" "trigger_delay"
-"origin" "2864.000000 480.000000 312.000000"
+"origin" "2864.000000 432.000000 352.000000"
 "target" "coin_4"
 "targetname" "block_6"
 "wait" "0.7"
@@ -4549,7 +4549,7 @@ brushDef
 // entity 174
 {
 "classname" "trigger_delay"
-"origin" "2864.000000 96.000000 184.000000"
+"origin" "2864.000000 48.000000 224.000000"
 "target" "coin_5"
 "targetname" "block_7"
 "wait" "0.7"
@@ -4565,7 +4565,7 @@ brushDef
 // entity 176
 {
 "classname" "trigger_delay"
-"origin" "2864.000000 0.000000 184.000000"
+"origin" "2864.000000 -48.000000 224.000000"
 "target" "coin_6"
 "targetname" "block_8"
 "wait" "0.7"
@@ -4581,7 +4581,7 @@ brushDef
 // entity 178
 {
 "classname" "trigger_delay"
-"origin" "2864.000000 -96.000000 184.000000"
+"origin" "2864.000000 -144.000000 216.000000"
 "target" "coin_7"
 "targetname" "block_9"
 "wait" "0.7"
@@ -4597,7 +4597,7 @@ brushDef
 // entity 180
 {
 "classname" "trigger_delay"
-"origin" "2864.000000 -640.000000 312.000000"
+"origin" "2864.000000 -688.000000 344.000000"
 "target" "coin_9"
 "targetname" "block_11"
 "wait" "0.7"
@@ -4613,7 +4613,7 @@ brushDef
 // entity 182
 {
 "classname" "trigger_delay"
-"origin" "2872.000000 -760.000000 336.000000"
+"origin" "2872.000000 -720.000000 344.000000"
 "target" "coin_10"
 "targetname" "block_12"
 "wait" "0.7"
@@ -4629,7 +4629,7 @@ brushDef
 // entity 184
 {
 "classname" "trigger_delay"
-"origin" "2864.000000 -1984.000000 184.000000"
+"origin" "2864.000000 -2032.000000 208.000000"
 "target" "coin_11"
 "targetname" "block_13"
 "wait" "0.7"
