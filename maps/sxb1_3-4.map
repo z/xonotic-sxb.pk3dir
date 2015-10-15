@@ -1211,3 +1211,27 @@ brushDef
 }
 }
 }
+// entity 31
+{
+"classname" "item_health_small"
+"origin" "1808.000000 176.000000 256.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 32
+{
+"classname" "item_health_small"
+"origin" "1808.000000 112.000000 256.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 33
+{
+"classname" "item_health_small"
+"origin" "1808.000000 144.000000 256.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
