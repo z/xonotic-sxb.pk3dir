@@ -2105,6 +2105,7 @@ brushDef
 "model" "models/sxb-models/coin.md3"
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
+"message" "origin $self.origin owner $activator noalign 1 model models/map_sxb/coin.md3 colormap $activator.colormap classname droppedweapon $ spawnfunc_item_health_small think thrown_wep_think nextthink $time+0.5 velocity_z 512 movetype 3"
 }
 // entity 58
 {
@@ -4480,4 +4481,164 @@ brushDef
 "targetname" "next"
 "spawnflags" "2"
 "chmap" "sxb1_1-2"
+}
+// entity 166
+{
+"classname" "trigger_delay"
+"origin" "2864.000000 2976.000000 184.000000"
+"target" "coin_1"
+"targetname" "block_4"
+"wait" "0.7"
+}
+// entity 167
+{
+"classname" "target_spawn"
+"origin" "2864.000000 2928.000000 176.000000"
+"angle" "-179.999985"
+"targetname" "coin_1"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+}
+// entity 168
+{
+"classname" "trigger_delay"
+"origin" "2864.000000 2816.000000 184.000000"
+"target" "coin_2"
+"targetname" "block_3"
+"wait" "0.7"
+}
+// entity 169
+{
+"classname" "target_spawn"
+"origin" "2864.000000 2768.000000 176.000000"
+"angle" "-179.999985"
+"targetname" "coin_2"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+}
+// entity 170
+{
+"classname" "trigger_delay"
+"origin" "2864.000000 2784.000000 312.000000"
+"target" "coin_3"
+"targetname" "block_1"
+"wait" "0.7"
+}
+// entity 171
+{
+"classname" "target_spawn"
+"origin" "2864.000000 2736.000000 304.000000"
+"angle" "-179.999985"
+"targetname" "coin_3"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+}
+// entity 172
+{
+"classname" "trigger_delay"
+"origin" "2864.000000 480.000000 312.000000"
+"target" "coin_4"
+"targetname" "block_6"
+"wait" "0.7"
+}
+// entity 173
+{
+"classname" "target_spawn"
+"origin" "2864.000000 432.000000 304.000000"
+"angle" "-179.999985"
+"targetname" "coin_4"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+}
+// entity 174
+{
+"classname" "trigger_delay"
+"origin" "2864.000000 96.000000 184.000000"
+"target" "coin_5"
+"targetname" "block_7"
+"wait" "0.7"
+}
+// entity 175
+{
+"classname" "target_spawn"
+"origin" "2864.000000 48.000000 176.000000"
+"angle" "-179.999985"
+"targetname" "coin_5"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+}
+// entity 176
+{
+"classname" "trigger_delay"
+"origin" "2864.000000 0.000000 184.000000"
+"target" "coin_6"
+"targetname" "block_8"
+"wait" "0.7"
+}
+// entity 177
+{
+"classname" "target_spawn"
+"origin" "2864.000000 -48.000000 176.000000"
+"angle" "-179.999985"
+"targetname" "coin_6"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+}
+// entity 178
+{
+"classname" "trigger_delay"
+"origin" "2864.000000 -96.000000 184.000000"
+"target" "coin_7"
+"targetname" "block_9"
+"wait" "0.7"
+}
+// entity 179
+{
+"classname" "target_spawn"
+"origin" "2864.000000 -144.000000 176.000000"
+"angle" "-179.999985"
+"targetname" "coin_7"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+}
+// entity 180
+{
+"classname" "trigger_delay"
+"origin" "2864.000000 -640.000000 312.000000"
+"target" "coin_9"
+"targetname" "block_11"
+"wait" "0.7"
+}
+// entity 181
+{
+"classname" "target_spawn"
+"origin" "2864.000000 -688.000000 304.000000"
+"angle" "-179.999985"
+"targetname" "coin_9"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+}
+// entity 182
+{
+"classname" "trigger_delay"
+"origin" "2872.000000 -760.000000 336.000000"
+"target" "coin_10"
+"targetname" "block_12"
+"wait" "0.7"
+}
+// entity 183
+{
+"classname" "target_spawn"
+"origin" "2864.000000 -720.000000 304.000000"
+"angle" "-179.999985"
+"targetname" "coin_10"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+}
+// entity 184
+{
+"classname" "trigger_delay"
+"origin" "2864.000000 -1984.000000 184.000000"
+"target" "coin_11"
+"targetname" "block_13"
+"wait" "0.7"
+}
+// entity 185
+{
+"classname" "target_spawn"
+"origin" "2864.000000 -2032.000000 176.000000"
+"angle" "-179.999985"
+"targetname" "coin_11"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
 }

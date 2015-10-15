@@ -20,6 +20,7 @@ clientsettemp_for_type all cl_movement_track_canjump 1
 
 settemp_for_type all g_physics_clientselect 0
 
+settemp_for_type all sv_intermission_cdtrack map_sxb/sxb_intermission
 settemp_for_type all g_mod_physics Q
 settemp_for_type all sv_gravity 800
 settemp_for_type all sv_maxspeed 320
