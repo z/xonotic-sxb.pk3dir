@@ -30,6 +30,30 @@ textures/sxb_v1_skies/underground
 	}
 }
 
+// misc
+textures/sxb_v1_misc/wire
+{
+	qer_editorimage textures/sxb_v1_misc/wire
+	dpoffsetmapping none
+
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	nopicmip
+	nomipmaps
+
+	polygonOffset
+	sort 6
+	cull none
+
+	{
+		map textures/sxb_v1_misc/wire
+		blendFunc filter
+		rgbgen identity
+	}
+}
+
 // items
 models/sxb-models/coin
 {
