@@ -12,6 +12,7 @@ Create a file names `build-maps.conf` in the root directory of this project and 
 
 Example:
 `XONDIR=$HOME/dev/xonotic`
+`RADIANTDIR=netradiant/install`
 
 Build maps with:
 `./build-maps.sh`
