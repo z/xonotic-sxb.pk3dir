@@ -222,42 +222,6 @@ brushDef
 {
 brushDef
 {
-( 2656 -1152 192 ) ( 2560 -1152 192 ) ( 2656 -1120 192 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
-( 2656 -1152 192 ) ( 2656 -1120 192 ) ( 2656 -1152 160 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
-( 2656 -1152 192 ) ( 2656 -1152 160 ) ( 2560 -1152 192 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
-( 2560 -1120 160 ) ( 2560 -1152 160 ) ( 2656 -1120 160 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
-( 2560 -1120 160 ) ( 2560 -1120 192 ) ( 2560 -1152 160 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
-( 2560 -1120 160 ) ( 2656 -1120 160 ) ( 2560 -1120 192 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
-}
-}
-// brush 19
-{
-brushDef
-{
-( 2656 -1088 192 ) ( 2560 -1088 192 ) ( 2656 -1056 192 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
-( 2656 -1088 192 ) ( 2656 -1056 192 ) ( 2656 -1088 160 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
-( 2656 -1088 192 ) ( 2656 -1088 160 ) ( 2560 -1088 192 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
-( 2560 -1056 160 ) ( 2560 -1088 160 ) ( 2656 -1056 160 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
-( 2560 -1056 160 ) ( 2560 -1056 192 ) ( 2560 -1088 160 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
-( 2560 -1056 160 ) ( 2656 -1056 160 ) ( 2560 -1056 192 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
-}
-}
-// brush 20
-{
-brushDef
-{
-( 2656 -1120 192 ) ( 2560 -1120 192 ) ( 2656 -1088 192 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
-( 2656 -1120 192 ) ( 2656 -1088 192 ) ( 2656 -1120 160 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
-( 2656 -1120 192 ) ( 2656 -1120 160 ) ( 2560 -1120 192 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
-( 2560 -1088 160 ) ( 2560 -1120 160 ) ( 2656 -1088 160 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
-( 2560 -1088 160 ) ( 2560 -1088 192 ) ( 2560 -1120 160 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
-( 2560 -1088 160 ) ( 2656 -1088 160 ) ( 2560 -1088 192 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
-}
-}
-// brush 21
-{
-brushDef
-{
 ( 2656 -1376 192 ) ( 2560 -1376 192 ) ( 2656 -1312 192 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_blocks/big_block 134217728 0 0
 ( 2656 -1376 192 ) ( 2656 -1312 192 ) ( 2656 -1376 160 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_blocks/big_block 134217728 0 0
 ( 2656 -1376 192 ) ( 2656 -1376 160 ) ( 2560 -1376 192 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_blocks/big_block 134217728 0 0
@@ -266,7 +230,7 @@ brushDef
 ( 2560 -1312 160 ) ( 2656 -1312 160 ) ( 2560 -1312 192 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_blocks/big_block 134217728 0 0
 }
 }
-// brush 22
+// brush 19
 {
 brushDef
 {
@@ -278,7 +242,7 @@ brushDef
 ( 2592 -1760 64 ) ( 2688 -1760 64 ) ( 2592 -1760 128 ) ( ( 0.03125 0 1 ) ( 0 0.03125 0 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 23
+// brush 20
 {
 brushDef
 {
@@ -290,7 +254,7 @@ brushDef
 ( 2592 -1408 64 ) ( 2688 -1408 64 ) ( 2592 -1408 128 ) ( ( 0.03125 0 1 ) ( 0 0.03125 0 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 24
+// brush 21
 {
 brushDef
 {
@@ -302,7 +266,7 @@ brushDef
 ( 2560 -2112 64 ) ( 2656 -2112 64 ) ( 2560 -2112 96 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_blocks/big_block 134217728 0 0
 }
 }
-// brush 25
+// brush 22
 {
 brushDef
 {
@@ -314,7 +278,7 @@ brushDef
 ( 2560 -2240 192 ) ( 2656 -2240 192 ) ( 2560 -2240 224 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_blocks/big_block 134217728 0 0
 }
 }
-// brush 26
+// brush 23
 {
 brushDef
 {
@@ -326,7 +290,7 @@ brushDef
 ( 2560 -2208 160 ) ( 2656 -2208 160 ) ( 2560 -2208 192 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_blocks/big_block 134217728 0 0
 }
 }
-// brush 27
+// brush 24
 {
 brushDef
 {
@@ -338,7 +302,7 @@ brushDef
 ( 2560 -2176 128 ) ( 2656 -2176 128 ) ( 2560 -2176 160 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_blocks/big_block 134217728 0 0
 }
 }
-// brush 28
+// brush 25
 {
 brushDef
 {
@@ -350,7 +314,7 @@ brushDef
 ( 2560 -2144 96 ) ( 2656 -2144 96 ) ( 2560 -2144 128 ) ( ( 0.03125 0 -0 ) ( -0 0.03125 0 ) ) sxb_v1_blocks/big_block 134217728 0 0
 }
 }
-// brush 29
+// brush 26
 {
 brushDef
 {
@@ -362,7 +326,7 @@ brushDef
 ( 3072 3712 512 ) ( 2048 2976 512 ) ( 3072 2976 512 ) ( ( 0 -0.0078125 108 ) ( 0.0078125 0 103 ) ) sxb_v1_skies/overworld 0 0 0
 }
 }
-// brush 30
+// brush 27
 {
 brushDef
 {
@@ -374,7 +338,7 @@ brushDef
 ( 3192 2944 320 ) ( 3192 3680 384 ) ( 3192 2944 384 ) ( ( 0.0078125 0 24.75 ) ( 0 0.0078125 0 ) ) sxb_v1_skies/overworld 0 0 0
 }
 }
-// brush 31
+// brush 28
 {
 brushDef
 {
@@ -386,7 +350,7 @@ brushDef
 ( 2112 -3104 384 ) ( 3136 -3104 320 ) ( 3136 -3104 384 ) ( ( 0.0078125 0 19.5 ) ( 0 0.0078125 0 ) ) sxb_v1_skies/overworld 0 0 0
 }
 }
-// brush 32
+// brush 29
 {
 brushDef
 {
@@ -398,7 +362,7 @@ brushDef
 ( 3072 3648 -504 ) ( 2048 2912 -504 ) ( 2048 3648 -504 ) ( ( 0 0.0078125 108 ) ( -0.0078125 0 25.5 ) ) sxb_v1_skies/overworld 0 0 0
 }
 }
-// brush 33
+// brush 30
 {
 brushDef
 {
@@ -410,7 +374,7 @@ brushDef
 ( 2056 2944 320 ) ( 2056 3680 384 ) ( 2056 3680 320 ) ( ( 0.0078125 0 103.25 ) ( 0 0.0078125 0 ) ) sxb_v1_skies/overworld 0 0 0
 }
 }
-// brush 34
+// brush 31
 {
 brushDef
 {
@@ -422,7 +386,7 @@ brushDef
 ( 2048 3712 384 ) ( 3072 3712 320 ) ( 2048 3712 320 ) ( ( 0.0078125 0 108 ) ( 0 0.0078125 0 ) ) sxb_v1_skies/overworld 0 0 0
 }
 }
-// brush 35
+// brush 32
 {
 brushDef
 {
@@ -434,7 +398,7 @@ brushDef
 ( 2624 3568 512 ) ( 2624 3680 520 ) ( 2624 3568 520 ) ( ( 0.015625 0 49.5 ) ( 0 0.015625 0 ) ) common/clip 0 0 0
 }
 }
-// brush 36
+// brush 33
 {
 brushDef
 {
@@ -446,7 +410,7 @@ brushDef
 ( 2592 3568 512 ) ( 2592 3680 520 ) ( 2592 3680 512 ) ( ( 0.015625 0 206.5 ) ( 0 0.015625 0 ) ) common/clip 0 0 0
 }
 }
-// brush 37
+// brush 34
 {
 brushDef
 {
@@ -458,7 +422,7 @@ brushDef
 ( 928 2592 -1472 ) ( 1024 2592 -1472 ) ( 928 2592 -1440 ) ( ( 0.03125 0 241 ) ( 0 0.03125 255 ) ) sxb_v1_bricks/underground_bricks 0 0 0
 }
 }
-// brush 38
+// brush 35
 {
 brushDef
 {
@@ -470,7 +434,7 @@ brushDef
 ( 928 2496 -1504 ) ( 1024 2496 -1504 ) ( 928 2496 -1472 ) ( ( 0.03125 0 241 ) ( 0 0.03125 255 ) ) sxb_v1_bricks/underground_bricks 0 0 0
 }
 }
-// brush 39
+// brush 36
 {
 brushDef
 {
@@ -482,7 +446,7 @@ brushDef
 ( 960 2624 -1504 ) ( 992 2624 -1504 ) ( 960 2624 -1312 ) ( ( 0 0.03125 0 ) ( -0.03125 0 15 ) ) sxb_v1_bricks/underground_bricks 0 0 0
 }
 }
-// brush 40
+// brush 37
 {
 brushDef
 {
@@ -494,7 +458,7 @@ brushDef
 ( 960 2848 -1312 ) ( 992 2848 -1312 ) ( 960 2848 -1280 ) ( ( 0.03125 0 241 ) ( 0 0.03125 255 ) ) sxb_v1_bricks/underground_bricks 0 0 0
 }
 }
-// brush 41
+// brush 38
 {
 brushDef
 {
@@ -506,7 +470,7 @@ brushDef
 ( 960 2848 -1472 ) ( 992 2848 -1472 ) ( 960 2848 -1440 ) ( ( 0.03125 0 241 ) ( 0 0.03125 255 ) ) sxb_v1_bricks/underground_bricks 0 0 0
 }
 }
-// brush 42
+// brush 39
 {
 brushDef
 {
@@ -518,7 +482,7 @@ brushDef
 ( 960 2848 -1504 ) ( 992 2848 -1504 ) ( 960 2848 -1472 ) ( ( 0.03125 0 241 ) ( 0 0.03125 255 ) ) sxb_v1_bricks/underground_bricks 0 0 0
 }
 }
-// brush 43
+// brush 40
 {
 brushDef
 {
@@ -530,7 +494,7 @@ brushDef
 ( 928 2976 -1824 ) ( 960 2976 -1824 ) ( 928 2976 -1312 ) ( ( 0.03125 0 241 ) ( 0 0.03125 255 ) ) sxb_v1_bricks/underground_bricks 134217728 0 0
 }
 }
-// brush 44
+// brush 41
 {
 brushDef
 {
@@ -542,7 +506,7 @@ brushDef
 ( 928 2976 -1728 ) ( 960 2976 -1728 ) ( 928 2976 -1664 ) ( ( 0.03125 0 241 ) ( 0 0.03125 0 ) ) sxb_v1_floors/brick_underground_ground 0 0 0
 }
 }
-// brush 45
+// brush 42
 {
 brushDef
 {
@@ -554,7 +518,7 @@ brushDef
 ( 992 2464 -1664 ) ( 1024 2464 -1664 ) ( 992 2464 -1280 ) ( ( 0.03125 0 241 ) ( 0 0.03125 0 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 46
+// brush 43
 {
 brushDef
 {
@@ -566,7 +530,7 @@ brushDef
 ( 1440 2912 -1280 ) ( 416 2176 -1280 ) ( 1440 2176 -1280 ) ( ( 0 -0.5 48 ) ( 0.5 0 80 ) ) sxb_v1_skies/underground 0 0 0
 }
 }
-// brush 47
+// brush 44
 {
 brushDef
 {
@@ -578,7 +542,7 @@ brushDef
 ( 1560 8512 -1472 ) ( 1560 9248 -1408 ) ( 1560 8512 -1408 ) ( ( 0.5 0 16 ) ( 0 0.5 128 ) ) sxb_v1_skies/underground 0 0 0
 }
 }
-// brush 48
+// brush 45
 {
 brushDef
 {
@@ -590,7 +554,7 @@ brushDef
 ( 480 2400 -832 ) ( 1504 2400 -896 ) ( 1504 2400 -832 ) ( ( 0.5 0 176 ) ( 0 0.5 160 ) ) sxb_v1_skies/underground 0 0 0
 }
 }
-// brush 49
+// brush 46
 {
 brushDef
 {
@@ -602,7 +566,7 @@ brushDef
 ( 1440 2848 -1728 ) ( 416 2112 -1728 ) ( 416 2848 -1728 ) ( ( 0 0.5 48 ) ( -0.5 0 208 ) ) sxb_v1_skies/underground 0 0 0
 }
 }
-// brush 50
+// brush 47
 {
 brushDef
 {
@@ -614,7 +578,7 @@ brushDef
 ( 424 8480 -1472 ) ( 424 9216 -1408 ) ( 424 9216 -1472 ) ( ( 0.5 0 0 ) ( 0 0.5 128 ) ) sxb_v1_skies/underground 0 0 0
 }
 }
-// brush 51
+// brush 48
 {
 brushDef
 {
@@ -626,7 +590,7 @@ brushDef
 ( 416 2976 -832 ) ( 1440 2976 -896 ) ( 416 2976 -896 ) ( ( 0.5 0 48 ) ( 0 0.5 160 ) ) sxb_v1_skies/underground 0 0 0
 }
 }
-// brush 52
+// brush 49
 {
 brushDef
 {
@@ -638,7 +602,7 @@ brushDef
 ( 992 9136 -1280 ) ( 992 9248 -1272 ) ( 992 9136 -1272 ) ( ( 0.015625 0 136.5 ) ( 0 0.015625 228 ) ) common/clip 0 0 0
 }
 }
-// brush 53
+// brush 50
 {
 brushDef
 {
@@ -650,7 +614,7 @@ brushDef
 ( 960 8112 -1280 ) ( 960 8224 -1272 ) ( 960 8224 -1280 ) ( ( 0.015625 0 135.5 ) ( 0 0.015625 228 ) ) common/clip 0 0 0
 }
 }
-// brush 54
+// brush 51
 {
 brushDef
 {
@@ -662,7 +626,7 @@ brushDef
 ( 2648 -1376 256 ) ( 2648 -1312 288 ) ( 2648 -1376 288 ) ( ( 0.015625 0 163.5 ) ( 0 0.015625 4 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 55
+// brush 52
 {
 brushDef
 {
@@ -674,7 +638,7 @@ brushDef
 ( 2624 -1368 288 ) ( 2656 -1368 256 ) ( 2656 -1368 288 ) ( ( 0.015625 0 208.5 ) ( 0 0.015625 4 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 56
+// brush 53
 {
 brushDef
 {
@@ -686,7 +650,7 @@ brushDef
 ( 2568 -1376 256 ) ( 2568 -1312 288 ) ( 2568 -1312 256 ) ( ( 0.015625 0 92.5 ) ( 0 0.015625 4 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 57
+// brush 54
 {
 brushDef
 {
@@ -698,7 +662,7 @@ brushDef
 ( 2560 -1320 192 ) ( 2592 -1320 160 ) ( 2560 -1320 160 ) ( ( 0.015625 0 46.5 ) ( 0 0.015625 2.5 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 58
+// brush 55
 {
 brushDef
 {
@@ -710,7 +674,7 @@ brushDef
 ( 960 2536 -1594 ) ( 928 2472 -1594 ) ( 960 2472 -1594 ) ( ( 0.03125 0 13.75 ) ( 0 0.03125 241 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 59
+// brush 56
 {
 brushDef
 {
@@ -722,7 +686,7 @@ brushDef
 ( 1016 2464 -1658 ) ( 1016 2528 -1594 ) ( 1016 2464 -1594 ) ( ( 0.03125 0 241.5 ) ( 0 0.03125 0.1875 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 60
+// brush 57
 {
 brushDef
 {
@@ -734,7 +698,7 @@ brushDef
 ( 992 2448 -1600 ) ( 1024 2448 -1664 ) ( 1024 2448 -1600 ) ( ( 0.03125 0 241 ) ( 0 0.03125 0 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 61
+// brush 58
 {
 brushDef
 {
@@ -746,7 +710,7 @@ brushDef
 ( 936 2464 -1658 ) ( 936 2528 -1594 ) ( 936 2528 -1658 ) ( ( 0.03125 0 14.5 ) ( 0 0.03125 0.1875 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 62
+// brush 59
 {
 brushDef
 {
@@ -758,7 +722,7 @@ brushDef
 ( 2648 -1536 64 ) ( 2648 -1472 96 ) ( 2648 -1536 96 ) ( ( 0.015625 0 224.5 ) ( 0 0.015625 255 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 63
+// brush 60
 {
 brushDef
 {
@@ -770,7 +734,7 @@ brushDef
 ( 2560 -1592 96 ) ( 2592 -1592 64 ) ( 2592 -1592 96 ) ( ( 0.015625 0 209.5 ) ( 0 0.015625 255 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 64
+// brush 61
 {
 brushDef
 {
@@ -782,7 +746,7 @@ brushDef
 ( 2568 -1600 64 ) ( 2568 -1536 96 ) ( 2568 -1536 64 ) ( ( 0.015625 0 30.5 ) ( 0 0.015625 255 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 65
+// brush 62
 {
 brushDef
 {
@@ -794,7 +758,7 @@ brushDef
 ( 2624 -1544 96 ) ( 2656 -1544 64 ) ( 2624 -1544 64 ) ( ( 0.015625 0 47.5 ) ( 0 0.015625 255 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 66
+// brush 63
 {
 brushDef
 {
@@ -806,7 +770,7 @@ brushDef
 ( 1144 8448 -1440 ) ( 1144 9184 -1376 ) ( 1144 8448 -1376 ) ( ( 0.003125 0 1021.799987793 ) ( 0 0.0062500001 0.390625 ) ) logos/logo02_red_glowy 0 0 0
 }
 }
-// brush 67
+// brush 64
 {
 brushDef
 {
@@ -1528,4 +1492,409 @@ brushDef
 "targetname" "next0"
 "spawnflags" "2"
 "chmap" "sxb1_5-2"
+}
+// entity 58
+{
+"classname" "trigger_multiple"
+"target" "brick_50"
+"delay" "0.2"
+// brush 0
+{
+brushDef
+{
+( 2624 -1248 160 ) ( 2592 -1248 160 ) ( 2624 -1056 160 ) ( ( 0 0.03125 175 ) ( -0.03125 0 223 ) ) common/trigger 134217728 0 0
+( 2620 -1248 184 ) ( 2620 -1056 184 ) ( 2620 -1248 152 ) ( ( 0.03125 0 34 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+( 2624 -1084 184 ) ( 2624 -1084 152 ) ( 2592 -1084 184 ) ( ( 0.03125 0 175 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+( 2592 -1056 159 ) ( 2592 -1248 159 ) ( 2624 -1056 159 ) ( ( 0 -0.03125 175 ) ( 0.03125 0 34 ) ) common/trigger 134217728 0 0
+( 2596 -1056 152 ) ( 2596 -1056 184 ) ( 2596 -1248 152 ) ( ( 0.03125 0 223 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+( 2592 -1060 152 ) ( 2624 -1060 152 ) ( 2592 -1060 184 ) ( ( 0.03125 0 82 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+}
+}
+}
+// entity 59
+{
+"classname" "func_breakable"
+"targetname" "brick_50"
+"spawnflags" "4"
+"debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
+"debrismovetype" "6"
+"debrissolid" "0"
+"debrisvelocity" "0 50 100"
+"debrisvelocityjitter" "0 10 40"
+"debristime" "0.2"
+"debristimejitter" "0.2"
+"debrisfadetime" "0.3"
+"noise" "map_sxb/brick.ogg"
+// brush 0
+{
+brushDef
+{
+( 2624 -1248 192 ) ( 2592 -1248 192 ) ( 2624 -1056 192 ) ( ( 0 0.03125 175 ) ( -0.03125 0 223 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2624 -1248 192 ) ( 2624 -1056 192 ) ( 2624 -1248 160 ) ( ( 0.03125 0 34 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2624 -1088 192 ) ( 2624 -1088 160 ) ( 2592 -1088 192 ) ( ( 0.03125 0 175 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2592 -1056 160 ) ( 2592 -1248 160 ) ( 2624 -1056 160 ) ( ( 0 -0.03125 175 ) ( 0.03125 0 34 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2592 -1056 160 ) ( 2592 -1056 192 ) ( 2592 -1248 160 ) ( ( 0.03125 0 223 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2592 -1056 160 ) ( 2624 -1056 160 ) ( 2592 -1056 192 ) ( ( 0.03125 0 82 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+}
+}
+}
+// entity 60
+{
+"classname" "trigger_multiple"
+"target" "brick_1"
+"delay" "0.2"
+// brush 0
+{
+brushDef
+{
+( 2624 -1280 160 ) ( 2592 -1280 160 ) ( 2624 -1088 160 ) ( ( 0 0.03125 175 ) ( -0.03125 0 222 ) ) common/trigger 134217728 0 0
+( 2620 -1280 184 ) ( 2620 -1088 184 ) ( 2620 -1280 152 ) ( ( 0.03125 0 35 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+( 2624 -1116 184 ) ( 2624 -1116 152 ) ( 2592 -1116 184 ) ( ( 0.03125 0 175 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+( 2592 -1088 159 ) ( 2592 -1280 159 ) ( 2624 -1088 159 ) ( ( 0 -0.03125 175 ) ( 0.03125 0 35 ) ) common/trigger 134217728 0 0
+( 2596 -1088 152 ) ( 2596 -1088 184 ) ( 2596 -1280 152 ) ( ( 0.03125 0 222 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+( 2592 -1092 152 ) ( 2624 -1092 152 ) ( 2592 -1092 184 ) ( ( 0.03125 0 82 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+}
+}
+}
+// entity 61
+{
+"classname" "func_breakable"
+"targetname" "brick_1"
+"spawnflags" "4"
+"debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
+"debrismovetype" "6"
+"debrissolid" "0"
+"debrisvelocity" "0 50 100"
+"debrisvelocityjitter" "0 10 40"
+"debristime" "0.2"
+"debristimejitter" "0.2"
+"debrisfadetime" "0.3"
+"noise" "map_sxb/brick.ogg"
+// brush 0
+{
+brushDef
+{
+( 2624 -1280 192 ) ( 2592 -1280 192 ) ( 2624 -1088 192 ) ( ( 0 0.03125 175 ) ( -0.03125 0 222 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2624 -1280 192 ) ( 2624 -1088 192 ) ( 2624 -1280 160 ) ( ( 0.03125 0 35 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2624 -1120 192 ) ( 2624 -1120 160 ) ( 2592 -1120 192 ) ( ( 0.03125 0 175 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2592 -1088 160 ) ( 2592 -1280 160 ) ( 2624 -1088 160 ) ( ( 0 -0.03125 175 ) ( 0.03125 0 35 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2592 -1088 160 ) ( 2592 -1088 192 ) ( 2592 -1280 160 ) ( ( 0.03125 0 222 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2592 -1088 160 ) ( 2624 -1088 160 ) ( 2592 -1088 192 ) ( ( 0.03125 0 82 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+}
+}
+}
+// entity 62
+{
+"classname" "trigger_multiple"
+"target" "brick_2"
+"delay" "0.2"
+// brush 0
+{
+brushDef
+{
+( 2624 -1312 160 ) ( 2592 -1312 160 ) ( 2624 -1120 160 ) ( ( 0 0.03125 175 ) ( -0.03125 0 221 ) ) common/trigger 134217728 0 0
+( 2620 -1312 184 ) ( 2620 -1120 184 ) ( 2620 -1312 152 ) ( ( 0.03125 0 36 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+( 2624 -1148 184 ) ( 2624 -1148 152 ) ( 2592 -1148 184 ) ( ( 0.03125 0 175 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+( 2592 -1120 159 ) ( 2592 -1312 159 ) ( 2624 -1120 159 ) ( ( 0 -0.03125 175 ) ( 0.03125 0 36 ) ) common/trigger 134217728 0 0
+( 2596 -1120 152 ) ( 2596 -1120 184 ) ( 2596 -1312 152 ) ( ( 0.03125 0 221 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+( 2592 -1124 152 ) ( 2624 -1124 152 ) ( 2592 -1124 184 ) ( ( 0.03125 0 82 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+}
+}
+}
+// entity 63
+{
+"classname" "func_breakable"
+"targetname" "brick_2"
+"spawnflags" "4"
+"debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
+"debrismovetype" "6"
+"debrissolid" "0"
+"debrisvelocity" "0 50 100"
+"debrisvelocityjitter" "0 10 40"
+"debristime" "0.2"
+"debristimejitter" "0.2"
+"debrisfadetime" "0.3"
+"noise" "map_sxb/brick.ogg"
+// brush 0
+{
+brushDef
+{
+( 2624 -1312 192 ) ( 2592 -1312 192 ) ( 2624 -1120 192 ) ( ( 0 0.03125 175 ) ( -0.03125 0 221 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2624 -1312 192 ) ( 2624 -1120 192 ) ( 2624 -1312 160 ) ( ( 0.03125 0 36 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2624 -1152 192 ) ( 2624 -1152 160 ) ( 2592 -1152 192 ) ( ( 0.03125 0 175 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2592 -1120 160 ) ( 2592 -1312 160 ) ( 2624 -1120 160 ) ( ( 0 -0.03125 175 ) ( 0.03125 0 36 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2592 -1120 160 ) ( 2592 -1120 192 ) ( 2592 -1312 160 ) ( ( 0.03125 0 221 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2592 -1120 160 ) ( 2624 -1120 160 ) ( 2592 -1120 192 ) ( ( 0.03125 0 82 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+}
+}
+}
+// entity 64
+{
+"classname" "trigger_multiple"
+"target" "brick_5"
+"delay" "0.2"
+// brush 0
+{
+brushDef
+{
+( 2592 -1248 160 ) ( 2560 -1248 160 ) ( 2592 -1056 160 ) ( ( 0 0.03125 176 ) ( -0.03125 0 223 ) ) common/trigger 134217728 0 0
+( 2588 -1248 184 ) ( 2588 -1056 184 ) ( 2588 -1248 152 ) ( ( 0.03125 0 34 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+( 2592 -1084 184 ) ( 2592 -1084 152 ) ( 2560 -1084 184 ) ( ( 0.03125 0 176 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+( 2560 -1056 159 ) ( 2560 -1248 159 ) ( 2592 -1056 159 ) ( ( 0 -0.03125 176 ) ( 0.03125 0 34 ) ) common/trigger 134217728 0 0
+( 2564 -1056 152 ) ( 2564 -1056 184 ) ( 2564 -1248 152 ) ( ( 0.03125 0 223 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+( 2560 -1060 152 ) ( 2592 -1060 152 ) ( 2560 -1060 184 ) ( ( 0.03125 0 81 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+}
+}
+}
+// entity 65
+{
+"classname" "func_breakable"
+"targetname" "brick_5"
+"spawnflags" "4"
+"debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
+"debrismovetype" "6"
+"debrissolid" "0"
+"debrisvelocity" "0 50 100"
+"debrisvelocityjitter" "0 10 40"
+"debristime" "0.2"
+"debristimejitter" "0.2"
+"debrisfadetime" "0.3"
+"noise" "map_sxb/brick.ogg"
+// brush 0
+{
+brushDef
+{
+( 2592 -1248 192 ) ( 2560 -1248 192 ) ( 2592 -1056 192 ) ( ( 0 0.03125 176 ) ( -0.03125 0 223 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2592 -1248 192 ) ( 2592 -1056 192 ) ( 2592 -1248 160 ) ( ( 0.03125 0 34 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2592 -1088 192 ) ( 2592 -1088 160 ) ( 2560 -1088 192 ) ( ( 0.03125 0 176 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2560 -1056 160 ) ( 2560 -1248 160 ) ( 2592 -1056 160 ) ( ( 0 -0.03125 176 ) ( 0.03125 0 34 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2560 -1056 160 ) ( 2560 -1056 192 ) ( 2560 -1248 160 ) ( ( 0.03125 0 223 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2560 -1056 160 ) ( 2592 -1056 160 ) ( 2560 -1056 192 ) ( ( 0.03125 0 81 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+}
+}
+}
+// entity 66
+{
+"classname" "trigger_multiple"
+"target" "brick_3"
+"delay" "0.2"
+// brush 0
+{
+brushDef
+{
+( 2592 -1280 160 ) ( 2560 -1280 160 ) ( 2592 -1088 160 ) ( ( 0 0.03125 176 ) ( -0.03125 0 222 ) ) common/trigger 134217728 0 0
+( 2588 -1280 184 ) ( 2588 -1088 184 ) ( 2588 -1280 152 ) ( ( 0.03125 0 35 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+( 2592 -1116 184 ) ( 2592 -1116 152 ) ( 2560 -1116 184 ) ( ( 0.03125 0 176 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+( 2560 -1088 159 ) ( 2560 -1280 159 ) ( 2592 -1088 159 ) ( ( 0 -0.03125 176 ) ( 0.03125 0 35 ) ) common/trigger 134217728 0 0
+( 2564 -1088 152 ) ( 2564 -1088 184 ) ( 2564 -1280 152 ) ( ( 0.03125 0 222 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+( 2560 -1092 152 ) ( 2592 -1092 152 ) ( 2560 -1092 184 ) ( ( 0.03125 0 81 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+}
+}
+}
+// entity 67
+{
+"classname" "func_breakable"
+"targetname" "brick_3"
+"spawnflags" "4"
+"debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
+"debrismovetype" "6"
+"debrissolid" "0"
+"debrisvelocity" "0 50 100"
+"debrisvelocityjitter" "0 10 40"
+"debristime" "0.2"
+"debristimejitter" "0.2"
+"debrisfadetime" "0.3"
+"noise" "map_sxb/brick.ogg"
+// brush 0
+{
+brushDef
+{
+( 2592 -1280 192 ) ( 2560 -1280 192 ) ( 2592 -1088 192 ) ( ( 0 0.03125 176 ) ( -0.03125 0 222 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2592 -1280 192 ) ( 2592 -1088 192 ) ( 2592 -1280 160 ) ( ( 0.03125 0 35 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2592 -1120 192 ) ( 2592 -1120 160 ) ( 2560 -1120 192 ) ( ( 0.03125 0 176 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2560 -1088 160 ) ( 2560 -1280 160 ) ( 2592 -1088 160 ) ( ( 0 -0.03125 176 ) ( 0.03125 0 35 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2560 -1088 160 ) ( 2560 -1088 192 ) ( 2560 -1280 160 ) ( ( 0.03125 0 222 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2560 -1088 160 ) ( 2592 -1088 160 ) ( 2560 -1088 192 ) ( ( 0.03125 0 81 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+}
+}
+}
+// entity 68
+{
+"classname" "trigger_multiple"
+"target" "brick_4"
+"delay" "0.2"
+// brush 0
+{
+brushDef
+{
+( 2592 -1312 160 ) ( 2560 -1312 160 ) ( 2592 -1120 160 ) ( ( 0 0.03125 176 ) ( -0.03125 0 221 ) ) common/trigger 134217728 0 0
+( 2588 -1312 184 ) ( 2588 -1120 184 ) ( 2588 -1312 152 ) ( ( 0.03125 0 36 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+( 2592 -1148 184 ) ( 2592 -1148 152 ) ( 2560 -1148 184 ) ( ( 0.03125 0 176 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+( 2560 -1120 159 ) ( 2560 -1312 159 ) ( 2592 -1120 159 ) ( ( 0 -0.03125 176 ) ( 0.03125 0 36 ) ) common/trigger 134217728 0 0
+( 2564 -1120 152 ) ( 2564 -1120 184 ) ( 2564 -1312 152 ) ( ( 0.03125 0 221 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+( 2560 -1124 152 ) ( 2592 -1124 152 ) ( 2560 -1124 184 ) ( ( 0.03125 0 81 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+}
+}
+}
+// entity 69
+{
+"classname" "func_breakable"
+"targetname" "brick_4"
+"spawnflags" "4"
+"debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
+"debrismovetype" "6"
+"debrissolid" "0"
+"debrisvelocity" "0 50 100"
+"debrisvelocityjitter" "0 10 40"
+"debristime" "0.2"
+"debristimejitter" "0.2"
+"debrisfadetime" "0.3"
+"noise" "map_sxb/brick.ogg"
+// brush 0
+{
+brushDef
+{
+( 2592 -1312 192 ) ( 2560 -1312 192 ) ( 2592 -1120 192 ) ( ( 0 0.03125 176 ) ( -0.03125 0 221 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2592 -1312 192 ) ( 2592 -1120 192 ) ( 2592 -1312 160 ) ( ( 0.03125 0 36 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2592 -1152 192 ) ( 2592 -1152 160 ) ( 2560 -1152 192 ) ( ( 0.03125 0 176 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2560 -1120 160 ) ( 2560 -1312 160 ) ( 2592 -1120 160 ) ( ( 0 -0.03125 176 ) ( 0.03125 0 36 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2560 -1120 160 ) ( 2560 -1120 192 ) ( 2560 -1312 160 ) ( ( 0.03125 0 221 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2560 -1120 160 ) ( 2592 -1120 160 ) ( 2560 -1120 192 ) ( ( 0.03125 0 81 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+}
+}
+}
+// entity 70
+{
+"classname" "trigger_multiple"
+"target" "brick_8"
+"delay" "0.2"
+// brush 0
+{
+brushDef
+{
+( 2656 -1248 160 ) ( 2624 -1248 160 ) ( 2656 -1056 160 ) ( ( 0 0.03125 174 ) ( -0.03125 0 223 ) ) common/trigger 134217728 0 0
+( 2652 -1248 184 ) ( 2652 -1056 184 ) ( 2652 -1248 152 ) ( ( 0.03125 0 34 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+( 2656 -1084 184 ) ( 2656 -1084 152 ) ( 2624 -1084 184 ) ( ( 0.03125 0 174 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+( 2624 -1056 159 ) ( 2624 -1248 159 ) ( 2656 -1056 159 ) ( ( 0 -0.03125 174 ) ( 0.03125 0 34 ) ) common/trigger 134217728 0 0
+( 2628 -1056 152 ) ( 2628 -1056 184 ) ( 2628 -1248 152 ) ( ( 0.03125 0 223 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+( 2624 -1060 152 ) ( 2656 -1060 152 ) ( 2624 -1060 184 ) ( ( 0.03125 0 83 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+}
+}
+}
+// entity 71
+{
+"classname" "func_breakable"
+"targetname" "brick_8"
+"spawnflags" "4"
+"debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
+"debrismovetype" "6"
+"debrissolid" "0"
+"debrisvelocity" "0 50 100"
+"debrisvelocityjitter" "0 10 40"
+"debristime" "0.2"
+"debristimejitter" "0.2"
+"debrisfadetime" "0.3"
+"noise" "map_sxb/brick.ogg"
+// brush 0
+{
+brushDef
+{
+( 2656 -1248 192 ) ( 2624 -1248 192 ) ( 2656 -1056 192 ) ( ( 0 0.03125 174 ) ( -0.03125 0 223 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2656 -1248 192 ) ( 2656 -1056 192 ) ( 2656 -1248 160 ) ( ( 0.03125 0 34 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2656 -1088 192 ) ( 2656 -1088 160 ) ( 2624 -1088 192 ) ( ( 0.03125 0 174 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2624 -1056 160 ) ( 2624 -1248 160 ) ( 2656 -1056 160 ) ( ( 0 -0.03125 174 ) ( 0.03125 0 34 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2624 -1056 160 ) ( 2624 -1056 192 ) ( 2624 -1248 160 ) ( ( 0.03125 0 223 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2624 -1056 160 ) ( 2656 -1056 160 ) ( 2624 -1056 192 ) ( ( 0.03125 0 83 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+}
+}
+}
+// entity 72
+{
+"classname" "trigger_multiple"
+"target" "brick_6"
+"delay" "0.2"
+// brush 0
+{
+brushDef
+{
+( 2656 -1280 160 ) ( 2624 -1280 160 ) ( 2656 -1088 160 ) ( ( 0 0.03125 174 ) ( -0.03125 0 222 ) ) common/trigger 134217728 0 0
+( 2652 -1280 184 ) ( 2652 -1088 184 ) ( 2652 -1280 152 ) ( ( 0.03125 0 35 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+( 2656 -1116 184 ) ( 2656 -1116 152 ) ( 2624 -1116 184 ) ( ( 0.03125 0 174 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+( 2624 -1088 159 ) ( 2624 -1280 159 ) ( 2656 -1088 159 ) ( ( 0 -0.03125 174 ) ( 0.03125 0 35 ) ) common/trigger 134217728 0 0
+( 2628 -1088 152 ) ( 2628 -1088 184 ) ( 2628 -1280 152 ) ( ( 0.03125 0 222 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+( 2624 -1092 152 ) ( 2656 -1092 152 ) ( 2624 -1092 184 ) ( ( 0.03125 0 83 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+}
+}
+}
+// entity 73
+{
+"classname" "func_breakable"
+"targetname" "brick_6"
+"spawnflags" "4"
+"debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
+"debrismovetype" "6"
+"debrissolid" "0"
+"debrisvelocity" "0 50 100"
+"debrisvelocityjitter" "0 10 40"
+"debristime" "0.2"
+"debristimejitter" "0.2"
+"debrisfadetime" "0.3"
+"noise" "map_sxb/brick.ogg"
+// brush 0
+{
+brushDef
+{
+( 2656 -1280 192 ) ( 2624 -1280 192 ) ( 2656 -1088 192 ) ( ( 0 0.03125 174 ) ( -0.03125 0 222 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2656 -1280 192 ) ( 2656 -1088 192 ) ( 2656 -1280 160 ) ( ( 0.03125 0 35 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2656 -1120 192 ) ( 2656 -1120 160 ) ( 2624 -1120 192 ) ( ( 0.03125 0 174 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2624 -1088 160 ) ( 2624 -1280 160 ) ( 2656 -1088 160 ) ( ( 0 -0.03125 174 ) ( 0.03125 0 35 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2624 -1088 160 ) ( 2624 -1088 192 ) ( 2624 -1280 160 ) ( ( 0.03125 0 222 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2624 -1088 160 ) ( 2656 -1088 160 ) ( 2624 -1088 192 ) ( ( 0.03125 0 83 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+}
+}
+}
+// entity 74
+{
+"classname" "trigger_multiple"
+"target" "brick_7"
+"delay" "0.2"
+// brush 0
+{
+brushDef
+{
+( 2656 -1312 160 ) ( 2624 -1312 160 ) ( 2656 -1120 160 ) ( ( 0 0.03125 174 ) ( -0.03125 0 221 ) ) common/trigger 134217728 0 0
+( 2652 -1312 184 ) ( 2652 -1120 184 ) ( 2652 -1312 152 ) ( ( 0.03125 0 36 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+( 2656 -1148 184 ) ( 2656 -1148 152 ) ( 2624 -1148 184 ) ( ( 0.03125 0 174 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+( 2624 -1120 159 ) ( 2624 -1312 159 ) ( 2656 -1120 159 ) ( ( 0 -0.03125 174 ) ( 0.03125 0 36 ) ) common/trigger 134217728 0 0
+( 2628 -1120 152 ) ( 2628 -1120 184 ) ( 2628 -1312 152 ) ( ( 0.03125 0 221 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+( 2624 -1124 152 ) ( 2656 -1124 152 ) ( 2624 -1124 184 ) ( ( 0.03125 0 83 ) ( 0 0.03125 5.75 ) ) common/trigger 134217728 0 0
+}
+}
+}
+// entity 75
+{
+"classname" "func_breakable"
+"targetname" "brick_7"
+"spawnflags" "4"
+"debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
+"debrismovetype" "6"
+"debrissolid" "0"
+"debrisvelocity" "0 50 100"
+"debrisvelocityjitter" "0 10 40"
+"debristime" "0.2"
+"debristimejitter" "0.2"
+"debrisfadetime" "0.3"
+"noise" "map_sxb/brick.ogg"
+// brush 0
+{
+brushDef
+{
+( 2656 -1312 192 ) ( 2624 -1312 192 ) ( 2656 -1120 192 ) ( ( 0 0.03125 174 ) ( -0.03125 0 221 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2656 -1312 192 ) ( 2656 -1120 192 ) ( 2656 -1312 160 ) ( ( 0.03125 0 36 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2656 -1152 192 ) ( 2656 -1152 160 ) ( 2624 -1152 192 ) ( ( 0.03125 0 174 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2624 -1120 160 ) ( 2624 -1312 160 ) ( 2656 -1120 160 ) ( ( 0 -0.03125 174 ) ( 0.03125 0 36 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2624 -1120 160 ) ( 2624 -1120 192 ) ( 2624 -1312 160 ) ( ( 0.03125 0 221 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+( 2624 -1120 160 ) ( 2656 -1120 160 ) ( 2624 -1120 192 ) ( ( 0.03125 0 83 ) ( 0 0.03125 6 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
+}
+}
 }
