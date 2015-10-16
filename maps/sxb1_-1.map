@@ -618,12 +618,12 @@ brushDef
 {
 brushDef
 {
-( 3904 1984 64 ) ( 2880 1984 64 ) ( 3904 2720 64 ) ( ( 0 0.015625 203 ) ( -0.015625 0 34.5 ) ) common/caulk 0 0 0
-( 3968 -2688 0 ) ( 3968 -2688 -64 ) ( 2944 -2688 0 ) ( ( 0.015625 0 202 ) ( 0 0.015625 250 ) ) common/caulk 0 0 0
-( 2880 3488 -896 ) ( 2880 2752 -896 ) ( 3904 3488 -896 ) ( ( 0 -0.015625 203 ) ( 0.015625 0 209.5 ) ) common/caulk 0 0 0
-( 2880 3552 -64 ) ( 2880 3552 0 ) ( 2880 2816 -64 ) ( ( 0.015625 0 47.5 ) ( 0 0.015625 250 ) ) common/caulk 0 0 0
-( 2880 3552 -64 ) ( 3904 3552 -64 ) ( 2880 3552 0 ) ( ( 0.015625 0 53 ) ( 0 0.015625 250 ) ) common/caulk 0 0 0
-( 2888 4192 -128 ) ( 2888 4928 -64 ) ( 2888 4928 -128 ) ( ( 0.0078125 0 93.5 ) ( 0 0.0078125 508.5 ) ) sxb_v1_skies/overworld 0 0 0
+( 3904 1216 160 ) ( 2880 1216 160 ) ( 3904 1952 160 ) ( ( 0 0.015625 203 ) ( -0.015625 0 22.5 ) ) common/caulk 0 0 0
+( 3968 -3456 96 ) ( 3968 -3456 32 ) ( 2944 -3456 96 ) ( ( 0.015625 0 202 ) ( 0 0.015625 251.5 ) ) common/caulk 0 0 0
+( 2880 2720 -800 ) ( 2880 1984 -800 ) ( 3904 2720 -800 ) ( ( 0 -0.015625 203 ) ( 0.015625 0 221.5 ) ) common/caulk 0 0 0
+( 2880 2784 32 ) ( 2880 2784 96 ) ( 2880 2048 32 ) ( ( 0.015625 0 35.5 ) ( 0 0.015625 251.5 ) ) common/caulk 0 0 0
+( 2880 2784 32 ) ( 3904 2784 32 ) ( 2880 2784 96 ) ( ( 0.015625 0 53 ) ( 0 0.015625 251.5 ) ) common/caulk 0 0 0
+( 2888 3424 -32 ) ( 2888 4160 32 ) ( 2888 4160 -32 ) ( ( 0.0078125 0 99.5 ) ( 0 0.0078125 509.25 ) ) sxb_v1_skies/overworld 0 0 0
 }
 }
 // brush 52
@@ -696,6 +696,30 @@ brushDef
 ( 3392 -2552 -264 ) ( 3392 -2552 -200 ) ( 3392 -2616 -264 ) ( ( 0.03125 0 83.25 ) ( 0 0.03125 43.75 ) ) common/caulk 134217728 0 0
 ( 3456 -2552 -264 ) ( 3488 -2552 -264 ) ( 3456 -2552 -200 ) ( ( 0.03125 0 62 ) ( 0 0.03125 43.75 ) ) common/caulk 134217728 0 0
 ( 3400 -2616 -250 ) ( 3400 -2552 -186 ) ( 3400 -2552 -250 ) ( ( 0.03125 0 173.25 ) ( 0 0.03125 44.1875 ) ) common/caulk 134217728 0 0
+}
+}
+// brush 58
+{
+brushDef
+{
+( 3904 1984 64 ) ( 2880 1984 64 ) ( 3904 2720 64 ) ( ( 0 0.015625 203 ) ( -0.015625 0 34.5 ) ) common/caulk 0 0 0
+( 3968 -2688 0 ) ( 3968 -2688 -64 ) ( 2944 -2688 0 ) ( ( 0.015625 0 202 ) ( 0 0.015625 250 ) ) common/caulk 0 0 0
+( 2880 3488 -896 ) ( 2880 2752 -896 ) ( 3904 3488 -896 ) ( ( 0 -0.015625 203 ) ( 0.015625 0 209.5 ) ) common/caulk 0 0 0
+( 2880 3552 -64 ) ( 2880 3552 0 ) ( 2880 2816 -64 ) ( ( 0.015625 0 47.5 ) ( 0 0.015625 250 ) ) common/caulk 0 0 0
+( 2880 3552 -64 ) ( 3904 3552 -64 ) ( 2880 3552 0 ) ( ( 0.015625 0 53 ) ( 0 0.015625 250 ) ) common/caulk 0 0 0
+( 2888 4192 -128 ) ( 2888 4928 -64 ) ( 2888 4928 -128 ) ( ( 0.0078125 0 93.5 ) ( 0 0.0078125 508.5 ) ) sxb_v1_skies/overworld 0 0 0
+}
+}
+// brush 59
+{
+brushDef
+{
+( 3904 1216 64 ) ( 2880 1216 64 ) ( 3904 1952 64 ) ( ( 0 0.015625 203 ) ( -0.015625 0 22.5 ) ) common/caulk 0 0 0
+( 3968 -3456 0 ) ( 3968 -3456 -64 ) ( 2944 -3456 0 ) ( ( 0.015625 0 202 ) ( 0 0.015625 250 ) ) common/caulk 0 0 0
+( 2880 2720 -896 ) ( 2880 1984 -896 ) ( 3904 2720 -896 ) ( ( 0 -0.015625 203 ) ( 0.015625 0 221.5 ) ) common/caulk 0 0 0
+( 2880 2784 -64 ) ( 2880 2784 0 ) ( 2880 2048 -64 ) ( ( 0.015625 0 35.5 ) ( 0 0.015625 250 ) ) common/caulk 0 0 0
+( 2880 2784 -64 ) ( 3904 2784 -64 ) ( 2880 2784 0 ) ( ( 0.015625 0 53 ) ( 0 0.015625 250 ) ) common/caulk 0 0 0
+( 2888 3424 -128 ) ( 2888 4160 -64 ) ( 2888 4160 -128 ) ( ( 0.0078125 0 99.5 ) ( 0 0.0078125 508.5 ) ) sxb_v1_skies/overworld 0 0 0
 }
 }
 }
@@ -974,4 +998,228 @@ brushDef
 "classname" "target_changelevel"
 "origin" "3024.000000 3408.000000 -232.000000"
 "targetname" "level_end"
+}
+// entity 27
+{
+"classname" "item_health_small"
+"origin" "3440.000000 -784.000000 -352.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 28
+{
+"classname" "item_health_small"
+"origin" "3440.000000 -1584.000000 -288.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 29
+{
+"classname" "item_health_small"
+"origin" "3440.000000 3024.000000 -384.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 30
+{
+"classname" "item_health_small"
+"origin" "3440.000000 3056.000000 -384.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 31
+{
+"classname" "item_health_small"
+"origin" "3440.000000 -1616.000000 -288.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 32
+{
+"classname" "item_health_small"
+"origin" "3440.000000 2608.000000 -128.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 33
+{
+"classname" "item_health_small"
+"origin" "3440.000000 2576.000000 -128.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 34
+{
+"classname" "item_health_small"
+"origin" "3440.000000 2640.000000 -128.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 35
+{
+"classname" "item_health_small"
+"origin" "3440.000000 2288.000000 -384.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 36
+{
+"classname" "item_health_small"
+"origin" "3440.000000 2256.000000 -384.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 37
+{
+"classname" "item_health_small"
+"origin" "3440.000000 2320.000000 -384.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 38
+{
+"classname" "item_health_small"
+"origin" "3440.000000 1296.000000 -320.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 39
+{
+"classname" "item_health_small"
+"origin" "3440.000000 1264.000000 -320.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 40
+{
+"classname" "item_health_small"
+"origin" "3440.000000 1328.000000 -320.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 41
+{
+"classname" "item_health_small"
+"origin" "3440.000000 208.000000 -352.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 42
+{
+"classname" "item_health_small"
+"origin" "3440.000000 176.000000 -352.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 43
+{
+"classname" "item_health_small"
+"origin" "3440.000000 240.000000 -352.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 44
+{
+"classname" "item_health_small"
+"origin" "3440.000000 -176.000000 -192.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 45
+{
+"classname" "item_health_small"
+"origin" "3440.000000 -208.000000 -192.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 46
+{
+"classname" "item_health_small"
+"origin" "3440.000000 -144.000000 -192.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 47
+{
+"classname" "item_health_small"
+"origin" "3440.000000 -1648.000000 -288.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 48
+{
+"classname" "item_health_small"
+"origin" "3440.000000 -912.000000 -352.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 49
+{
+"classname" "item_health_small"
+"origin" "3440.000000 -848.000000 -384.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 50
+{
+"classname" "item_health_small"
+"origin" "3440.000000 -816.000000 -384.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 51
+{
+"classname" "item_health_small"
+"origin" "3440.000000 -880.000000 -384.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 52
+{
+"classname" "item_health_small"
+"origin" "3440.000000 -1616.000000 -384.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 53
+{
+"classname" "item_health_small"
+"origin" "3440.000000 -1584.000000 -384.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 54
+{
+"classname" "item_health_small"
+"origin" "3440.000000 -1648.000000 -384.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
 }
