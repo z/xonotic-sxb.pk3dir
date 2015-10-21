@@ -8,14 +8,23 @@ A Super Mario themed collection of assets and maps for Xonotic!
 
 Requirements to build: Netradiant (for q3map2)
 
-Create a file names `build-maps.conf` in the root directory of this project and set a `XONDIR` variable to the path of your Xonotic game.
+Create a file named `build-maps.conf` in this project's root directory, and set the path variables. You can use the example conf as your base: `cp build-maps.example.conf build-maps.conf`
 
 Example:
-`XONDIR=$HOME/dev/xonotic`
-`RADIANTDIR=netradiant/install`
+
+```
+XONDIR=$HOME/games/xonotic
+RADIANTDIR=$XONDIR/netradiant/install
+```
 
 Build maps with:
-`./build-maps.sh`
+`./build-maps.sh -a`
+
+Other options:
+```d
+./build-maps.sh -d      # remove bsps
+./build-maps.sh -s 1-3  # compile single map with [world]-[level] 
+```
 
 
 #### Playing
