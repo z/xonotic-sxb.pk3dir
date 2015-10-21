@@ -29,16 +29,10 @@ Other options:
 
 #### Playing
 
-For playing in sidescroll mode, you'll need a compiled copy of Mario's mod from Xonotic git.
-
-`./all checkout Mario/combined_updates && ./all update && ./all compile -r`
+As of Xonotic 0.8.1, the side-scrolling mod is a part of the game, no client modifications required to play these levels!
 
 Play maps by typing `map mapname` e.g. `map sxb1_1-1`
 
-
-For Mario-like physics:
-
-`exec mario-physics.cfg`
 
 
 #### Contributing
