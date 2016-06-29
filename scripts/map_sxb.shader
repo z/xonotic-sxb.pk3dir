@@ -335,3 +335,58 @@ textures/sxb_v1_earth/nighttime_land_tower_top_middle
 		blendfunc filter
 	}
 }
+
+// coral
+//deformVertexes wave <div> <func> <base> <amplitude> <phase> <freq>
+textures/sxb_v1_earth/coral
+{
+	qer_editorimage textures/sxb_v1_earth/coral
+	surfaceparm alphashadow
+	deformVertexes autoSprite2
+	deformVertexes wave 150 sin 0 1 1 0.5
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	q3map_noclip
+	q3map_notjunc
+	cull disable
+	{
+		map textures/sxb_v1_earth/coral
+		rgbGen identity
+		depthWrite
+		alphaFunc GE128
+	}
+	{
+		map $lightmap
+		blendfunc filter
+		rgbGen identity
+		tcGen lightmap
+		depthFunc equal
+	}
+}
+textures/sxb_v1_earth/coral_top
+{
+	qer_editorimage textures/sxb_v1_earth/coral_top
+	surfaceparm alphashadow
+	deformVertexes autoSprite2
+	deformVertexes wave 150 sin 0 1 1 0.5
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	q3map_noclip
+	q3map_notjunc
+	cull disable
+	{
+		map textures/sxb_v1_earth/coral_top
+		rgbGen identity
+		depthWrite
+		alphaFunc GE128
+	}
+	{
+		map $lightmap
+		blendfunc filter
+		rgbGen identity
+		tcGen lightmap
+		depthFunc equal
+	}
+}

@@ -1,10 +1,9 @@
 title Super Xonotic Bros
-description It's-a Go Time!
+description The adventure begins
 author -z-, Mario
-// not setting cdtrack here, as we do it via entities
-//cdtrack map_sxb/music_overworld
 has weapons
-gametype cts
+gametype dm
+hidden // singleplayer
 
 settemp_for_type all sv_player_mins "-15 -15 -24"
 settemp_for_type all sv_player_maxs "15 15 31"
@@ -20,7 +19,7 @@ settemp_for_type all sv_track_canjump 1
 
 settemp_for_type all g_physics_clientselect 0
 
-settemp_for_type all sv_intermission_cdtrack map_sxb/sxb_intermission
+//settemp_for_type all sv_intermission_cdtrack map_sxb/sxb_intermission
 settemp_for_type all g_mod_physics Q
 settemp_for_type all sv_gravity 800
 settemp_for_type all sv_maxspeed 320
