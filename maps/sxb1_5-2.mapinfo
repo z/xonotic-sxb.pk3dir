@@ -7,6 +7,8 @@ has weapons
 gametype dm
 hidden // singleplayer
 
+fog 1 0.2 0.2 0.5 1 0 99999 -300 300
+
 settemp_for_type all sv_player_mins "-15 -15 -24"
 settemp_for_type all sv_player_maxs "15 15 31"
 settemp_for_type all sv_player_crouch_mins "-15 -15 -24"
@@ -56,3 +58,6 @@ settemp_for_type all sv_jumpspeedcap_min ""
 settemp_for_type all sv_jumpspeedcap_max ""
 settemp_for_type all sv_jumpspeedcap_max_disable_on_ramps 0
 settemp_for_type all g_teleport_maxspeed 0
+
+settemp_for_type all g_balance_contents_drowndelay 99999
+settemp_for_type all g_balance_contents_playerdamage_drowning 0
