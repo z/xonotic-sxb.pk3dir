@@ -624,6 +624,7 @@ brushDef
 // entity 6
 {
 "classname" "trigger_once"
+"wait" "3"
 "target" "bridge0"
 "targetname" "bridge_trigger0"
 // brush 0
@@ -643,7 +644,7 @@ brushDef
 {
 "classname" "func_door"
 "spawnflags" "12"
-"wait" "-1"
+"wait" "3"
 "targetname" "bridge0"
 "angle" "-2"
 "lip" "-1500"
