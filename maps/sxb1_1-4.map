@@ -1014,3 +1014,21 @@ brushDef
 }
 }
 }
+// entity 18
+{
+"classname" "info_player_deathmatch"
+"origin" "1840.000000 2544.000000 192.000000"
+"angle" "-90.000000"
+}
+// entity 19
+{
+"classname" "info_player_deathmatch"
+"origin" "1840.000000 2480.000000 192.000000"
+"angle" "-90.000000"
+}
+// entity 20
+{
+"classname" "info_player_deathmatch"
+"origin" "1840.000000 2416.000000 192.000000"
+"angle" "-90.000000"
+}
