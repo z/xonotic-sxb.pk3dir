@@ -63,8 +63,8 @@ settemp_for_type all g_balance_fireball_secondary_laseredgedamage 0
 settemp_for_type all g_balance_fireball_secondary_laserradius 0
 settemp_for_type all g_balance_fireball_secondary_lifetime 3
 settemp_for_type all g_balance_fireball_secondary_refire 0.75
-settemp_for_type all g_balance_fireball_secondary_speed 600
-settemp_for_type all g_balance_fireball_secondary_speed_up 20
+settemp_for_type all g_balance_fireball_secondary_speed 300
+settemp_for_type all g_balance_fireball_secondary_speed_up 0
 
 settemp_for_type all sv_intermission_cdtrack map_sxb/sxb_intermission
 settemp_for_type all g_mod_physics Q

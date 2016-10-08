@@ -390,3 +390,53 @@ textures/sxb_v1_earth/coral_top
 		depthFunc equal
 	}
 }
+
+// background
+textures/sxb_v1_background/lava
+{
+	qer_editorimage textures/sxb_v1_background/lava
+	surfaceparm metalsteps
+	surfaceparm trans
+	surfaceparm solid
+	surfaceparm alphashadow
+	q3map_bouncescale 1.75
+	cull none
+	nopicmip
+	nomipmaps
+
+	{
+		map textures/sxb_v1_background/lava
+		blendfunc blend
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/sxb_v1_background/lava_top
+{
+	qer_editorimage textures/sxb_v1_background/lava_top
+	surfaceparm metalsteps
+	surfaceparm trans
+	surfaceparm solid
+	surfaceparm alphashadow
+	q3map_bouncescale 1.75
+	cull none
+	nopicmip
+	nomipmaps
+
+	{
+		map textures/sxb_v1_background/lava_top
+		blendfunc blend
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
