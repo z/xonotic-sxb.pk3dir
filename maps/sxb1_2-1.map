@@ -9994,7 +9994,8 @@ brushDef
 }
 // entity 59
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_3"
 // brush 0
@@ -10123,7 +10124,8 @@ brushDef
 }
 // entity 65
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_1"
 // brush 0
@@ -10162,7 +10164,8 @@ brushDef
 }
 // entity 67
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_4"
 // brush 0
@@ -10201,7 +10204,8 @@ brushDef
 }
 // entity 69
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_5"
 // brush 0
@@ -10240,7 +10244,8 @@ brushDef
 }
 // entity 71
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_6"
 // brush 0
@@ -10279,7 +10284,8 @@ brushDef
 }
 // entity 73
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_7"
 // brush 0
@@ -10318,7 +10324,8 @@ brushDef
 }
 // entity 75
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_8"
 // brush 0
@@ -10357,7 +10364,8 @@ brushDef
 }
 // entity 77
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_9"
 // brush 0
@@ -10396,7 +10404,8 @@ brushDef
 }
 // entity 79
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_10"
 // brush 0
@@ -10435,7 +10444,8 @@ brushDef
 }
 // entity 81
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_11"
 // brush 0
@@ -10474,7 +10484,8 @@ brushDef
 }
 // entity 83
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_12"
 // brush 0
@@ -10513,7 +10524,8 @@ brushDef
 }
 // entity 85
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_13"
 // brush 0
@@ -10552,7 +10564,8 @@ brushDef
 }
 // entity 87
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_14"
 // brush 0
@@ -10591,7 +10604,8 @@ brushDef
 }
 // entity 89
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_15"
 // brush 0
@@ -10630,7 +10644,8 @@ brushDef
 }
 // entity 91
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_16"
 // brush 0
@@ -10669,7 +10684,8 @@ brushDef
 }
 // entity 93
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_17"
 // brush 0
@@ -10708,7 +10724,8 @@ brushDef
 }
 // entity 95
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_18"
 // brush 0
@@ -10747,7 +10764,8 @@ brushDef
 }
 // entity 97
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_19"
 // brush 0
@@ -10786,7 +10804,8 @@ brushDef
 }
 // entity 99
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_20"
 // brush 0
@@ -10825,7 +10844,8 @@ brushDef
 }
 // entity 101
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_21"
 // brush 0

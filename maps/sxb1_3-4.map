@@ -1097,7 +1097,8 @@ brushDef
 }
 // entity 25
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_10"
 // brush 0
@@ -1136,7 +1137,8 @@ brushDef
 }
 // entity 27
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_1"
 // brush 0
@@ -1175,7 +1177,8 @@ brushDef
 }
 // entity 29
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_2"
 // brush 0

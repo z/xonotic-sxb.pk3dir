@@ -8631,7 +8631,8 @@ brushDef
 }
 // entity 6
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_4"
 // brush 0

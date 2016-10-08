@@ -44,8 +44,8 @@ brushDef
 {
 ( 2880 448 32 ) ( 2784 448 32 ) ( 2880 608 32 ) ( ( 0 0.03125 169 ) ( -0.03125 0 97 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 2944 448 32 ) ( 2944 608 32 ) ( 2944 448 0 ) ( ( 0.03125 0 164 ) ( 0 0.03125 5 ) ) sxb_v1_floors/brick_ground 0 0 0
-( 2848 -1440 32 ) ( 2848 -1440 0 ) ( 2752 -1440 32 ) ( ( 0.03125 0 169 ) ( 0 0.03125 5 ) ) sxb_v1_floors/brick_ground 0 0 0
-( 2784 608 -64 ) ( 2784 448 -64 ) ( 2880 608 -64 ) ( ( 0 -0.03125 169 ) ( 0.03125 0 169 ) ) sxb_v1_floors/brick_ground 0 0 0
+( 2848 -1440 -416 ) ( 2848 -1440 -448 ) ( 2752 -1440 -416 ) ( ( 0.03125 0 169 ) ( 0 0.03125 247 ) ) sxb_v1_floors/brick_ground 0 0 0
+( 2784 608 -512 ) ( 2784 448 -512 ) ( 2880 608 -512 ) ( ( 0 -0.03125 169 ) ( 0.03125 0 169 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 2784 608 0 ) ( 2784 608 32 ) ( 2784 448 0 ) ( ( 0.03125 0 92 ) ( 0 0.03125 5 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 2784 608 -32 ) ( 2880 608 -32 ) ( 2784 608 0 ) ( ( 0.03125 0 87 ) ( 0 0.03125 5 ) ) sxb_v1_floors/brick_ground 0 0 0
 }
@@ -57,7 +57,7 @@ brushDef
 ( 2880 -1600 32 ) ( 2784 -1600 32 ) ( 2880 -1536 32 ) ( ( 0 0.03125 169 ) ( -0.03125 0 97 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 2944 -1600 32 ) ( 2944 -1536 32 ) ( 2944 -1600 0 ) ( ( 0.03125 0 164 ) ( 0 0.03125 5 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 2912 -3328 32 ) ( 2912 -3328 0 ) ( 2816 -3328 32 ) ( ( 0.03125 0 169 ) ( 0 0.03125 5 ) ) sxb_v1_floors/brick_ground 0 0 0
-( 2784 -1536 -64 ) ( 2784 -1600 -64 ) ( 2880 -1536 -64 ) ( ( 0 -0.03125 169 ) ( 0.03125 0 169 ) ) sxb_v1_floors/brick_ground 0 0 0
+( 2784 -1536 -512 ) ( 2784 -1600 -512 ) ( 2880 -1536 -512 ) ( ( 0 -0.03125 169 ) ( 0.03125 0 169 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 2784 -1536 0 ) ( 2784 -1536 32 ) ( 2784 -1600 0 ) ( ( 0.03125 0 92 ) ( 0 0.03125 5 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 2720 -1504 -32 ) ( 2816 -1504 -32 ) ( 2720 -1504 0 ) ( ( 0.03125 0 85 ) ( 0 0.03125 5 ) ) sxb_v1_floors/brick_ground 0 0 0
 }
@@ -380,7 +380,7 @@ brushDef
 {
 ( 2816 2848 32 ) ( 2784 2848 32 ) ( 2816 2944 32 ) ( ( 0 0.03125 168 ) ( -0.03125 0 97 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 2944 2848 96 ) ( 2944 2944 96 ) ( 2944 2848 -32 ) ( ( 0.03125 0 164 ) ( 0 0.03125 5 ) ) sxb_v1_floors/brick_ground 0 0 0
-( 2784 2944 -96 ) ( 2784 2848 -96 ) ( 2816 2944 -96 ) ( ( 0 -0.03125 168 ) ( 0.03125 0 169 ) ) sxb_v1_floors/brick_ground 0 0 0
+( 2784 2944 -512 ) ( 2784 2848 -512 ) ( 2816 2944 -512 ) ( ( 0 -0.03125 168 ) ( 0.03125 0 169 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 2784 2944 -32 ) ( 2784 2944 96 ) ( 2784 2848 -32 ) ( ( 0.03125 0 92 ) ( 0 0.03125 5 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 2784 3456 -32 ) ( 2816 3456 -32 ) ( 2784 3456 96 ) ( ( 0.03125 0 88 ) ( 0 0.03125 5 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 3040 1248 32 ) ( 3040 1248 0 ) ( 3008 1248 32 ) ( ( 0.03125 0 164 ) ( 0 0.03125 5 ) ) sxb_v1_floors/brick_ground 0 0 0
@@ -392,8 +392,8 @@ brushDef
 {
 ( 2816 864 32 ) ( 2784 864 32 ) ( 2816 928 32 ) ( ( 0 0.03125 169 ) ( -0.03125 0 97 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 2944 832 32 ) ( 2944 896 32 ) ( 2944 832 0 ) ( ( 0.03125 0 165 ) ( 0 0.03125 5 ) ) sxb_v1_floors/brick_ground 0 0 0
-( 2944 704 32 ) ( 2944 704 0 ) ( 2912 704 32 ) ( ( 0.03125 0 165 ) ( 0 0.03125 5 ) ) sxb_v1_floors/brick_ground 0 0 0
-( 2784 928 -64 ) ( 2784 864 -64 ) ( 2816 928 -64 ) ( ( 0 -0.03125 169 ) ( 0.03125 0 169 ) ) sxb_v1_floors/brick_ground 0 0 0
+( 2944 704 -416 ) ( 2944 704 -448 ) ( 2912 704 -416 ) ( ( 0.03125 0 165 ) ( 0 0.03125 247 ) ) sxb_v1_floors/brick_ground 0 0 0
+( 2784 928 -512 ) ( 2784 864 -512 ) ( 2816 928 -512 ) ( ( 0 -0.03125 169 ) ( 0.03125 0 169 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 2784 928 0 ) ( 2784 928 32 ) ( 2784 864 0 ) ( ( 0.03125 0 92 ) ( 0 0.03125 5 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 2784 1184 -32 ) ( 2816 1184 -32 ) ( 2784 1184 0 ) ( ( 0.03125 0 87 ) ( 0 0.03125 5 ) ) sxb_v1_floors/brick_ground 0 0 0
 }
@@ -606,24 +606,24 @@ brushDef
 {
 brushDef
 {
-( 1512 3280 -1280 ) ( 1400 3280 -1280 ) ( 1512 3392 -1280 ) ( ( 0 0.015625 234 ) ( -0.015625 0 45 ) ) common/clip 0 0 0
-( 1512 3280 -696 ) ( 1512 3392 -696 ) ( 1512 3280 -704 ) ( ( 0.015625 0 211 ) ( 0 0.015625 237 ) ) common/clip 0 0 0
-( 1640 2880 -696 ) ( 1640 2880 -704 ) ( 1528 2880 -696 ) ( ( 0.015625 0 232 ) ( 0 0.015625 237 ) ) common/clip 0 0 0
-( 1400 3328 -1728 ) ( 1400 3216 -1728 ) ( 1512 3328 -1728 ) ( ( 0 -0.015625 234 ) ( 0.015625 0 212 ) ) common/clip 0 0 0
-( 1400 3392 -704 ) ( 1512 3392 -704 ) ( 1400 3392 -696 ) ( ( 0.015625 0 22 ) ( 0 0.015625 237 ) ) common/clip 0 0 0
-( 1504 9552 -1280 ) ( 1504 9664 -1272 ) ( 1504 9552 -1272 ) ( ( 0.015625 0 143 ) ( 0 0.015625 228 ) ) common/clip 0 0 0
+( 1480 3280 -1280 ) ( 1368 3280 -1280 ) ( 1480 3392 -1280 ) ( ( 0 0.015625 234.5 ) ( -0.015625 0 45 ) ) common/clip 0 0 0
+( 1480 3280 -696 ) ( 1480 3392 -696 ) ( 1480 3280 -704 ) ( ( 0.015625 0 211 ) ( 0 0.015625 237 ) ) common/clip 0 0 0
+( 1608 2880 -696 ) ( 1608 2880 -704 ) ( 1496 2880 -696 ) ( ( 0.015625 0 232.5 ) ( 0 0.015625 237 ) ) common/clip 0 0 0
+( 1368 3328 -1728 ) ( 1368 3216 -1728 ) ( 1480 3328 -1728 ) ( ( 0 -0.015625 234.5 ) ( 0.015625 0 212 ) ) common/clip 0 0 0
+( 1368 3392 -704 ) ( 1480 3392 -704 ) ( 1368 3392 -696 ) ( ( 0.015625 0 21.5 ) ( 0 0.015625 237 ) ) common/clip 0 0 0
+( 1472 9552 -1280 ) ( 1472 9664 -1272 ) ( 1472 9552 -1272 ) ( ( 0.015625 0 143 ) ( 0 0.015625 228 ) ) common/clip 0 0 0
 }
 }
 // brush 51
 {
 brushDef
 {
-( 1512 3280 -1280 ) ( 1400 3280 -1280 ) ( 1512 3392 -1280 ) ( ( 0 0.015625 234 ) ( -0.015625 0 45 ) ) common/clip 0 0 0
-( 1640 2880 -696 ) ( 1640 2880 -704 ) ( 1528 2880 -696 ) ( ( 0.015625 0 232 ) ( 0 0.015625 237 ) ) common/clip 0 0 0
-( 1400 3328 -1728 ) ( 1400 3216 -1728 ) ( 1512 3328 -1728 ) ( ( 0 -0.015625 234 ) ( 0.015625 0 212 ) ) common/clip 0 0 0
-( 1400 4416 -704 ) ( 1400 4416 -696 ) ( 1400 4304 -704 ) ( ( 0.015625 0 61 ) ( 0 0.015625 237 ) ) common/clip 0 0 0
-( 1400 3392 -704 ) ( 1512 3392 -704 ) ( 1400 3392 -696 ) ( ( 0.015625 0 22 ) ( 0 0.015625 237 ) ) common/clip 0 0 0
-( 1408 8528 -1280 ) ( 1408 8640 -1272 ) ( 1408 8640 -1280 ) ( ( 0.015625 0 129 ) ( 0 0.015625 228 ) ) common/clip 0 0 0
+( 1544 3280 -1280 ) ( 1432 3280 -1280 ) ( 1544 3392 -1280 ) ( ( 0 0.015625 233.5 ) ( -0.015625 0 45 ) ) common/clip 0 0 0
+( 1672 2880 -696 ) ( 1672 2880 -704 ) ( 1560 2880 -696 ) ( ( 0.015625 0 231.5 ) ( 0 0.015625 237 ) ) common/clip 0 0 0
+( 1432 3328 -1728 ) ( 1432 3216 -1728 ) ( 1544 3328 -1728 ) ( ( 0 -0.015625 233.5 ) ( 0.015625 0 212 ) ) common/clip 0 0 0
+( 1432 4416 -704 ) ( 1432 4416 -696 ) ( 1432 4304 -704 ) ( ( 0.015625 0 61 ) ( 0 0.015625 237 ) ) common/clip 0 0 0
+( 1432 3392 -704 ) ( 1544 3392 -704 ) ( 1432 3392 -696 ) ( ( 0.015625 0 22.5 ) ( 0 0.015625 237 ) ) common/clip 0 0 0
+( 1440 8528 -1280 ) ( 1440 8640 -1272 ) ( 1440 8640 -1280 ) ( ( 0.015625 0 129 ) ( 0 0.015625 228 ) ) common/clip 0 0 0
 }
 }
 // brush 52
@@ -1213,10 +1213,10 @@ brushDef
 {
 "classname" "func_door"
 "spawnflags" "260"
-"angle" "-90"
 "lip" "64"
 "speed" "60"
 "targetname" "pipe_2"
+"angle" "90"
 // brush 0
 {
 brushDef
@@ -3162,7 +3162,8 @@ brushDef
 }
 // entity 134
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_1"
 // brush 0
@@ -3201,7 +3202,8 @@ brushDef
 }
 // entity 136
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_2"
 // brush 0
@@ -3240,7 +3242,8 @@ brushDef
 }
 // entity 138
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_3"
 // brush 0
@@ -3279,7 +3282,8 @@ brushDef
 }
 // entity 140
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_4"
 // brush 0
@@ -3318,24 +3322,6 @@ brushDef
 }
 // entity 142
 {
-"classname" "trigger_once"
-"delay" "0.2"
-"target" "block_5"
-// brush 0
-{
-brushDef
-{
-( 2880 928 128 ) ( 2848 928 128 ) ( 2880 960 128 ) ( ( 0 0.03125 167 ) ( -0.03125 0 30 ) ) common/trigger 134217728 0 0
-( 2876 928 159 ) ( 2876 960 159 ) ( 2876 928 127 ) ( ( 0.03125 0 227 ) ( 0 0.03125 4.96875 ) ) common/trigger 134217728 0 0
-( 2880 932 159 ) ( 2880 932 127 ) ( 2848 932 159 ) ( ( 0.03125 0 167 ) ( 0 0.03125 4.96875 ) ) common/trigger 134217728 0 0
-( 2848 960 127 ) ( 2848 928 127 ) ( 2880 960 127 ) ( ( 0 -0.03125 167 ) ( 0.03125 0 227 ) ) common/trigger 134217728 0 0
-( 2852 960 127 ) ( 2852 960 159 ) ( 2852 928 127 ) ( ( 0.03125 0 30 ) ( 0 0.03125 4.96875 ) ) common/trigger 134217728 0 0
-( 2848 956 127 ) ( 2880 956 127 ) ( 2848 956 159 ) ( ( 0.03125 0 90 ) ( 0 0.03125 4.96875 ) ) common/trigger 134217728 0 0
-}
-}
-}
-// entity 143
-{
 "classname" "func_door"
 "angle" "-1"
 "spawnflags" "4"
@@ -3355,9 +3341,10 @@ brushDef
 }
 }
 }
-// entity 144
+// entity 143
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_6"
 // brush 0
@@ -3373,7 +3360,7 @@ brushDef
 }
 }
 }
-// entity 145
+// entity 144
 {
 "classname" "func_door"
 "angle" "-1"
@@ -3394,9 +3381,10 @@ brushDef
 }
 }
 }
-// entity 146
+// entity 145
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_7"
 // brush 0
@@ -3412,7 +3400,7 @@ brushDef
 }
 }
 }
-// entity 147
+// entity 146
 {
 "classname" "func_door"
 "angle" "-1"
@@ -3433,9 +3421,10 @@ brushDef
 }
 }
 }
-// entity 148
+// entity 147
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_8"
 // brush 0
@@ -3451,7 +3440,7 @@ brushDef
 }
 }
 }
-// entity 149
+// entity 148
 {
 "classname" "func_door"
 "angle" "-1"
@@ -3472,9 +3461,10 @@ brushDef
 }
 }
 }
-// entity 150
+// entity 149
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_9"
 // brush 0
@@ -3490,7 +3480,7 @@ brushDef
 }
 }
 }
-// entity 151
+// entity 150
 {
 "classname" "func_door"
 "angle" "-1"
@@ -3511,9 +3501,10 @@ brushDef
 }
 }
 }
-// entity 152
+// entity 151
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_10"
 // brush 0
@@ -3529,7 +3520,7 @@ brushDef
 }
 }
 }
-// entity 153
+// entity 152
 {
 "classname" "func_door"
 "angle" "-1"
@@ -3550,9 +3541,10 @@ brushDef
 }
 }
 }
-// entity 154
+// entity 153
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_11"
 // brush 0
@@ -3568,7 +3560,7 @@ brushDef
 }
 }
 }
-// entity 155
+// entity 154
 {
 "classname" "func_door"
 "angle" "-1"
@@ -3589,9 +3581,10 @@ brushDef
 }
 }
 }
-// entity 156
+// entity 155
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_12"
 // brush 0
@@ -3607,7 +3600,7 @@ brushDef
 }
 }
 }
-// entity 157
+// entity 156
 {
 "classname" "func_door"
 "angle" "-1"
@@ -3628,9 +3621,10 @@ brushDef
 }
 }
 }
-// entity 158
+// entity 157
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_13"
 // brush 0
@@ -3646,7 +3640,7 @@ brushDef
 }
 }
 }
-// entity 159
+// entity 158
 {
 "classname" "func_door"
 "angle" "-1"
@@ -3667,7 +3661,7 @@ brushDef
 }
 }
 }
-// entity 160
+// entity 159
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -3757,7 +3751,7 @@ brushDef
 }
 }
 }
-// entity 161
+// entity 160
 {
 "classname" "trigger_impulse"
 "strength" "0.03"
@@ -3774,7 +3768,7 @@ brushDef
 }
 }
 }
-// entity 162
+// entity 161
 {
 "classname" "trigger_multiple"
 "target" "flag0"
@@ -3791,7 +3785,7 @@ brushDef
 }
 }
 }
-// entity 163
+// entity 162
 {
 "classname" "func_door"
 "spawnflags" "1028"
@@ -3813,7 +3807,7 @@ brushDef
 }
 }
 }
-// entity 164
+// entity 163
 {
 "classname" "trigger_multiple"
 "target" "next"
@@ -3830,7 +3824,7 @@ brushDef
 }
 }
 }
-// entity 165
+// entity 164
 {
 "classname" "target_changelevel"
 "origin" "2560.000000 -3104.000000 0.000000"
@@ -3838,7 +3832,7 @@ brushDef
 "spawnflags" "2"
 "chmap" "sxb1_1-2"
 }
-// entity 166
+// entity 165
 {
 "classname" "trigger_delay"
 "origin" "2864.000000 2928.000000 216.000000"
@@ -3846,7 +3840,7 @@ brushDef
 "targetname" "block_4"
 "wait" "0.7"
 }
-// entity 167
+// entity 166
 {
 "classname" "target_spawn"
 "origin" "2864.000000 2928.000000 176.000000"
@@ -3854,7 +3848,7 @@ brushDef
 "targetname" "coin_1"
 "message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
 }
-// entity 168
+// entity 167
 {
 "classname" "trigger_delay"
 "origin" "2864.000000 2768.000000 216.000000"
@@ -3862,7 +3856,7 @@ brushDef
 "targetname" "block_3"
 "wait" "0.7"
 }
-// entity 169
+// entity 168
 {
 "classname" "target_spawn"
 "origin" "2864.000000 2768.000000 176.000000"
@@ -3870,7 +3864,7 @@ brushDef
 "targetname" "coin_2"
 "message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
 }
-// entity 170
+// entity 169
 {
 "classname" "trigger_delay"
 "origin" "2864.000000 2736.000000 336.000000"
@@ -3878,7 +3872,7 @@ brushDef
 "targetname" "block_1"
 "wait" "0.7"
 }
-// entity 171
+// entity 170
 {
 "classname" "target_spawn"
 "origin" "2864.000000 2736.000000 304.000000"
@@ -3886,7 +3880,7 @@ brushDef
 "targetname" "coin_3"
 "message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
 }
-// entity 172
+// entity 171
 {
 "classname" "trigger_delay"
 "origin" "2864.000000 432.000000 352.000000"
@@ -3894,7 +3888,7 @@ brushDef
 "targetname" "block_6"
 "wait" "0.7"
 }
-// entity 173
+// entity 172
 {
 "classname" "target_spawn"
 "origin" "2864.000000 432.000000 304.000000"
@@ -3902,7 +3896,7 @@ brushDef
 "targetname" "coin_4"
 "message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
 }
-// entity 174
+// entity 173
 {
 "classname" "trigger_delay"
 "origin" "2864.000000 48.000000 224.000000"
@@ -3910,7 +3904,7 @@ brushDef
 "targetname" "block_7"
 "wait" "0.7"
 }
-// entity 175
+// entity 174
 {
 "classname" "target_spawn"
 "origin" "2864.000000 48.000000 176.000000"
@@ -3918,7 +3912,7 @@ brushDef
 "targetname" "coin_5"
 "message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
 }
-// entity 176
+// entity 175
 {
 "classname" "trigger_delay"
 "origin" "2864.000000 -48.000000 224.000000"
@@ -3926,7 +3920,7 @@ brushDef
 "targetname" "block_8"
 "wait" "0.7"
 }
-// entity 177
+// entity 176
 {
 "classname" "target_spawn"
 "origin" "2864.000000 -48.000000 176.000000"
@@ -3934,7 +3928,7 @@ brushDef
 "targetname" "coin_6"
 "message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
 }
-// entity 178
+// entity 177
 {
 "classname" "trigger_delay"
 "origin" "2864.000000 -144.000000 216.000000"
@@ -3942,7 +3936,7 @@ brushDef
 "targetname" "block_9"
 "wait" "0.7"
 }
-// entity 179
+// entity 178
 {
 "classname" "target_spawn"
 "origin" "2864.000000 -144.000000 176.000000"
@@ -3950,7 +3944,7 @@ brushDef
 "targetname" "coin_7"
 "message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
 }
-// entity 180
+// entity 179
 {
 "classname" "trigger_delay"
 "origin" "2864.000000 -688.000000 344.000000"
@@ -3958,7 +3952,7 @@ brushDef
 "targetname" "block_11"
 "wait" "0.7"
 }
-// entity 181
+// entity 180
 {
 "classname" "target_spawn"
 "origin" "2864.000000 -688.000000 304.000000"
@@ -3966,15 +3960,15 @@ brushDef
 "targetname" "coin_9"
 "message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
 }
-// entity 182
+// entity 181
 {
 "classname" "trigger_delay"
-"origin" "2872.000000 -720.000000 344.000000"
+"origin" "2864.000000 -720.000000 344.000000"
 "target" "coin_10"
 "targetname" "block_12"
 "wait" "0.7"
 }
-// entity 183
+// entity 182
 {
 "classname" "target_spawn"
 "origin" "2864.000000 -720.000000 304.000000"
@@ -3982,7 +3976,7 @@ brushDef
 "targetname" "coin_10"
 "message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
 }
-// entity 184
+// entity 183
 {
 "classname" "trigger_delay"
 "origin" "2864.000000 -2032.000000 208.000000"
@@ -3990,7 +3984,7 @@ brushDef
 "targetname" "block_13"
 "wait" "0.7"
 }
-// entity 185
+// entity 184
 {
 "classname" "target_spawn"
 "origin" "2864.000000 -2032.000000 176.000000"
@@ -3998,25 +3992,25 @@ brushDef
 "targetname" "coin_11"
 "message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
 }
-// entity 186
+// entity 185
 {
 "classname" "info_player_deathmatch"
 "origin" "2864.000000 3248.000000 64.000000"
 "angle" "-90.000000"
 }
-// entity 187
+// entity 186
 {
 "classname" "info_player_deathmatch"
 "origin" "2864.000000 3184.000000 64.000000"
 "angle" "-90.000000"
 }
-// entity 188
+// entity 187
 {
 "classname" "info_player_deathmatch"
 "origin" "2864.000000 3376.000000 64.000000"
 "angle" "-90.000000"
 }
-// entity 189
+// entity 188
 {
 "classname" "misc_gamemodel"
 "origin" "3120.000000 -3080.000000 32.000000"
@@ -4024,4 +4018,23 @@ brushDef
 "loddistance1" "2000"
 "lodmodel1" "null"
 "lodmodel2" "null"
+}
+// entity 189
+{
+"classname" "trigger_multiple"
+"delay" "0.2"
+"target" "block_5"
+"wait" "10"
+// brush 0
+{
+brushDef
+{
+( 2880 928 128 ) ( 2848 928 128 ) ( 2880 960 128 ) ( ( 0 0.03125 167 ) ( -0.03125 0 30 ) ) common/trigger 134217728 0 0
+( 2876 928 159 ) ( 2876 960 159 ) ( 2876 928 127 ) ( ( 0.03125 0 227 ) ( 0 0.03125 4.96875 ) ) common/trigger 134217728 0 0
+( 2880 932 159 ) ( 2880 932 127 ) ( 2848 932 159 ) ( ( 0.03125 0 167 ) ( 0 0.03125 4.96875 ) ) common/trigger 134217728 0 0
+( 2848 960 127 ) ( 2848 928 127 ) ( 2880 960 127 ) ( ( 0 -0.03125 167 ) ( 0.03125 0 227 ) ) common/trigger 134217728 0 0
+( 2852 960 127 ) ( 2852 960 159 ) ( 2852 928 127 ) ( ( 0.03125 0 30 ) ( 0 0.03125 4.96875 ) ) common/trigger 134217728 0 0
+( 2848 956 127 ) ( 2880 956 127 ) ( 2848 956 159 ) ( ( 0.03125 0 90 ) ( 0 0.03125 4.96875 ) ) common/trigger 134217728 0 0
+}
+}
 }

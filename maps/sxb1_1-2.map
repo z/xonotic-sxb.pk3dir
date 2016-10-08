@@ -19861,7 +19861,8 @@ brushDef
 }
 // entity 828
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_4"
 // brush 0
@@ -19900,7 +19901,8 @@ brushDef
 }
 // entity 830
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_1"
 // brush 0
@@ -19939,7 +19941,8 @@ brushDef
 }
 // entity 832
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_2"
 // brush 0
@@ -19978,7 +19981,8 @@ brushDef
 }
 // entity 834
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_3"
 // brush 0
@@ -20017,7 +20021,8 @@ brushDef
 }
 // entity 836
 {
-"classname" "trigger_once"
+"classname" "trigger_multiple"
+"wait" "10"
 "delay" "0.2"
 "target" "block_5"
 // brush 0
