@@ -3838,7 +3838,7 @@ brushDef
 "origin" "2864.000000 2928.000000 216.000000"
 "target" "coin_1"
 "targetname" "block_4"
-"wait" "0.7"
+"wait" "0.3"
 }
 // entity 166
 {
@@ -3854,7 +3854,7 @@ brushDef
 "origin" "2864.000000 2768.000000 216.000000"
 "target" "coin_2"
 "targetname" "block_3"
-"wait" "0.7"
+"wait" "0.3"
 }
 // entity 168
 {
@@ -3870,7 +3870,7 @@ brushDef
 "origin" "2864.000000 2736.000000 336.000000"
 "target" "coin_3"
 "targetname" "block_1"
-"wait" "0.7"
+"wait" "0.3"
 }
 // entity 170
 {
@@ -3886,7 +3886,7 @@ brushDef
 "origin" "2864.000000 432.000000 352.000000"
 "target" "coin_4"
 "targetname" "block_6"
-"wait" "0.7"
+"wait" "0.3"
 }
 // entity 172
 {
@@ -3902,7 +3902,7 @@ brushDef
 "origin" "2864.000000 48.000000 224.000000"
 "target" "coin_5"
 "targetname" "block_7"
-"wait" "0.7"
+"wait" "0.3"
 }
 // entity 174
 {
@@ -3918,7 +3918,7 @@ brushDef
 "origin" "2864.000000 -48.000000 224.000000"
 "target" "coin_6"
 "targetname" "block_8"
-"wait" "0.7"
+"wait" "0.3"
 }
 // entity 176
 {
@@ -3934,7 +3934,7 @@ brushDef
 "origin" "2864.000000 -144.000000 216.000000"
 "target" "coin_7"
 "targetname" "block_9"
-"wait" "0.7"
+"wait" "0.3"
 }
 // entity 178
 {
@@ -3950,7 +3950,7 @@ brushDef
 "origin" "2864.000000 -688.000000 344.000000"
 "target" "coin_9"
 "targetname" "block_11"
-"wait" "0.7"
+"wait" "0.3"
 }
 // entity 180
 {
@@ -3966,7 +3966,7 @@ brushDef
 "origin" "2864.000000 -720.000000 344.000000"
 "target" "coin_10"
 "targetname" "block_12"
-"wait" "0.7"
+"wait" "0.3"
 }
 // entity 182
 {
@@ -3982,7 +3982,7 @@ brushDef
 "origin" "2864.000000 -2032.000000 208.000000"
 "target" "coin_11"
 "targetname" "block_13"
-"wait" "0.7"
+"wait" "0.3"
 }
 // entity 184
 {
@@ -4037,4 +4037,69 @@ brushDef
 ( 2848 956 127 ) ( 2880 956 127 ) ( 2848 956 159 ) ( ( 0.03125 0 90 ) ( 0 0.03125 4.96875 ) ) common/trigger 134217728 0 0
 }
 }
+}
+// entity 190
+{
+"classname" "trigger_multiple"
+"target" "invisiblock"
+"wait" "10"
+"antiwall_flag" "2"
+"target2" "invisicoin"
+// brush 0
+{
+brushDef
+{
+( 2880 1376 128 ) ( 2848 1376 128 ) ( 2880 1408 128 ) ( ( 0 0.03125 167 ) ( -0.03125 0 44 ) ) common/trigger 134217728 0 0
+( 2876 1376 159 ) ( 2876 1408 159 ) ( 2876 1376 127 ) ( ( 0.03125 0 213 ) ( 0 0.03125 4.96875 ) ) common/trigger 134217728 0 0
+( 2880 1380 159 ) ( 2880 1380 127 ) ( 2848 1380 159 ) ( ( 0.03125 0 167 ) ( 0 0.03125 4.96875 ) ) common/trigger 134217728 0 0
+( 2848 1408 125 ) ( 2848 1376 125 ) ( 2880 1408 125 ) ( ( 0 -0.03125 167 ) ( 0.03125 0 213 ) ) common/trigger 134217728 0 0
+( 2852 1408 127 ) ( 2852 1408 159 ) ( 2852 1376 127 ) ( ( 0.03125 0 44 ) ( 0 0.03125 4.96875 ) ) common/trigger 134217728 0 0
+( 2848 1404 127 ) ( 2880 1404 127 ) ( 2848 1404 159 ) ( ( 0.03125 0 90 ) ( 0 0.03125 4.96875 ) ) common/trigger 134217728 0 0
+}
+}
+}
+// entity 191
+{
+"classname" "func_clientwall"
+"targetname" "invisiblock"
+"antiwall_flag" "1"
+"solid" "1"
+"inactive" "1"
+// brush 0
+{
+brushDef
+{
+( 2880 1376 160 ) ( 2848 1376 160 ) ( 2880 1408 160 ) ( ( 0 0.03125 167 ) ( -0.03125 0 44 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 2880 1376 160 ) ( 2880 1408 160 ) ( 2880 1376 128 ) ( ( 0 0.03125 167 ) ( -0.03125 0 44 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 2880 1376 160 ) ( 2880 1376 128 ) ( 2848 1376 160 ) ( ( 0 0.03125 167 ) ( -0.03125 0 44 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 2848 1408 128 ) ( 2848 1376 128 ) ( 2880 1408 128 ) ( ( 0 -0.03125 167 ) ( 0.03125 0 213 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 2848 1408 128 ) ( 2848 1408 160 ) ( 2848 1376 128 ) ( ( 0 0.03125 167 ) ( -0.03125 0 44 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 2848 1408 128 ) ( 2880 1408 128 ) ( 2848 1408 160 ) ( ( 0 0.03125 167 ) ( -0.03125 0 44 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+}
+}
+}
+// entity 192
+{
+"classname" "trigger_delay"
+"origin" "2864.000000 1392.000000 224.000000"
+"target" "coin_8"
+"targetname" "invisicoin"
+"wait" "0.1"
+}
+// entity 193
+{
+"classname" "target_spawn"
+"origin" "2864.000000 1392.000000 176.000000"
+"angle" "-179.999985"
+"targetname" "coin_8"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+}
+// entity 194
+{
+"classname" "trigger_delay"
+"origin" "2864.000000 1360.000000 224.000000"
+"target" "invisiblock"
+"targetname" "coin_8"
+"wait" "5"
+"antiwall_flag" "1"
 }
