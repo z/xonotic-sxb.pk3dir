@@ -4049,12 +4049,12 @@ brushDef
 {
 brushDef
 {
-( 2880 1376 128 ) ( 2848 1376 128 ) ( 2880 1408 128 ) ( ( 0 0.03125 167 ) ( -0.03125 0 44 ) ) common/trigger 134217728 0 0
-( 2876 1376 159 ) ( 2876 1408 159 ) ( 2876 1376 127 ) ( ( 0.03125 0 213 ) ( 0 0.03125 4.96875 ) ) common/trigger 134217728 0 0
-( 2880 1380 159 ) ( 2880 1380 127 ) ( 2848 1380 159 ) ( ( 0.03125 0 167 ) ( 0 0.03125 4.96875 ) ) common/trigger 134217728 0 0
-( 2848 1408 125 ) ( 2848 1376 125 ) ( 2880 1408 125 ) ( ( 0 -0.03125 167 ) ( 0.03125 0 213 ) ) common/trigger 134217728 0 0
-( 2852 1408 127 ) ( 2852 1408 159 ) ( 2852 1376 127 ) ( ( 0.03125 0 44 ) ( 0 0.03125 4.96875 ) ) common/trigger 134217728 0 0
-( 2848 1404 127 ) ( 2880 1404 127 ) ( 2848 1404 159 ) ( ( 0.03125 0 90 ) ( 0 0.03125 4.96875 ) ) common/trigger 134217728 0 0
+( 2880 1376 160 ) ( 2848 1376 160 ) ( 2880 1408 160 ) ( ( 0 0.03125 167 ) ( -0.03125 0 44 ) ) common/trigger 134217728 0 0
+( 2876 1376 191 ) ( 2876 1408 191 ) ( 2876 1376 159 ) ( ( 0.03125 0 213 ) ( 0 0.03125 5.96875 ) ) common/trigger 134217728 0 0
+( 2880 1380 191 ) ( 2880 1380 159 ) ( 2848 1380 191 ) ( ( 0.03125 0 167 ) ( 0 0.03125 5.96875 ) ) common/trigger 134217728 0 0
+( 2848 1408 157 ) ( 2848 1376 157 ) ( 2880 1408 157 ) ( ( 0 -0.03125 167 ) ( 0.03125 0 213 ) ) common/trigger 134217728 0 0
+( 2852 1408 159 ) ( 2852 1408 191 ) ( 2852 1376 159 ) ( ( 0.03125 0 44 ) ( 0 0.03125 5.96875 ) ) common/trigger 134217728 0 0
+( 2848 1404 159 ) ( 2880 1404 159 ) ( 2848 1404 191 ) ( ( 0.03125 0 90 ) ( 0 0.03125 5.96875 ) ) common/trigger 134217728 0 0
 }
 }
 }
@@ -4069,19 +4069,19 @@ brushDef
 {
 brushDef
 {
-( 2880 1376 160 ) ( 2848 1376 160 ) ( 2880 1408 160 ) ( ( 0 0.03125 167 ) ( -0.03125 0 44 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
-( 2880 1376 160 ) ( 2880 1408 160 ) ( 2880 1376 128 ) ( ( 0 0.03125 167 ) ( -0.03125 0 44 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
-( 2880 1376 160 ) ( 2880 1376 128 ) ( 2848 1376 160 ) ( ( 0 0.03125 167 ) ( -0.03125 0 44 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
-( 2848 1408 128 ) ( 2848 1376 128 ) ( 2880 1408 128 ) ( ( 0 -0.03125 167 ) ( 0.03125 0 213 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
-( 2848 1408 128 ) ( 2848 1408 160 ) ( 2848 1376 128 ) ( ( 0 0.03125 167 ) ( -0.03125 0 44 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
-( 2848 1408 128 ) ( 2880 1408 128 ) ( 2848 1408 160 ) ( ( 0 0.03125 167 ) ( -0.03125 0 44 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 2880 1376 192 ) ( 2848 1376 192 ) ( 2880 1408 192 ) ( ( 0 0.03125 167 ) ( -0.03125 0 44 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 2880 1376 192 ) ( 2880 1408 192 ) ( 2880 1376 160 ) ( ( 0 0.03125 168 ) ( -0.03125 0 44 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 2880 1376 192 ) ( 2880 1376 160 ) ( 2848 1376 192 ) ( ( 0 0.03125 168 ) ( -0.03125 0 44 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 2848 1408 160 ) ( 2848 1376 160 ) ( 2880 1408 160 ) ( ( 0 -0.03125 167 ) ( 0.03125 0 213 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 2848 1408 160 ) ( 2848 1408 192 ) ( 2848 1376 160 ) ( ( 0 0.03125 168 ) ( -0.03125 0 44 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 2848 1408 160 ) ( 2880 1408 160 ) ( 2848 1408 192 ) ( ( 0 0.03125 168 ) ( -0.03125 0 44 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
 }
 }
 }
 // entity 192
 {
 "classname" "trigger_delay"
-"origin" "2864.000000 1392.000000 224.000000"
+"origin" "2864.000000 1392.000000 256.000000"
 "target" "coin_8"
 "targetname" "invisicoin"
 "wait" "0.1"
@@ -4089,7 +4089,7 @@ brushDef
 // entity 193
 {
 "classname" "target_spawn"
-"origin" "2864.000000 1392.000000 176.000000"
+"origin" "2864.000000 1392.000000 208.000000"
 "angle" "-179.999985"
 "targetname" "coin_8"
 "message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/green_mushroom.md3 noalign -1 $ spawnfunc_item_health_mega velocity_z 300 noalign -1 classname droppedweapon"
@@ -4097,9 +4097,41 @@ brushDef
 // entity 194
 {
 "classname" "trigger_delay"
-"origin" "2864.000000 1360.000000 224.000000"
+"origin" "2864.000000 1360.000000 256.000000"
 "target" "invisiblock"
 "targetname" "coin_8"
 "wait" "5"
 "antiwall_flag" "1"
+}
+// entity 195
+{
+"classname" "trigger_delay"
+"origin" "2864.000000 944.000000 224.000000"
+"target" "coin_12"
+"targetname" "block_5"
+"wait" "0.3"
+}
+// entity 196
+{
+"classname" "target_spawn"
+"origin" "2864.000000 944.000000 176.000000"
+"angle" "-179.999985"
+"targetname" "coin_12"
+"message" "origin $self.origin noalign -1 $ spawnfunc_weapon_fireball velocity_z 300 noalign -1 classname droppedweapon"
+}
+// entity 197
+{
+"classname" "trigger_delay"
+"origin" "2864.000000 2704.000000 216.000000"
+"target" "coin_13"
+"targetname" "block_2"
+"wait" "0.3"
+}
+// entity 198
+{
+"classname" "target_spawn"
+"origin" "2864.000000 2704.000000 176.000000"
+"angle" "-179.999985"
+"targetname" "coin_13"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/small_mushroom.md3 noalign -1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon"
 }

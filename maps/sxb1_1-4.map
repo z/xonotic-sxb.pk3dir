@@ -831,25 +831,6 @@ brushDef
 }
 // entity 11
 {
-"classname" "trigger_once"
-"wait" "3"
-"target" "bridge0"
-"targetname" "bridge_trigger0"
-// brush 0
-{
-brushDef
-{
-( 1856 -1792 192 ) ( 1824 -1792 192 ) ( 1856 -1760 192 ) ( ( 0.03125 0 1 ) ( 0 0.03125 255 ) ) common/trigger 134217728 0 0
-( 1848 -1792 192 ) ( 1848 -1760 192 ) ( 1848 -1792 160 ) ( ( 0.03125 0 1 ) ( 0 0.03125 255 ) ) common/trigger 134217728 0 0
-( 1856 -1784 192 ) ( 1856 -1784 160 ) ( 1824 -1784 192 ) ( ( 0.03125 0 255 ) ( 0 0.03125 255 ) ) common/trigger 134217728 0 0
-( 1824 -1760 160 ) ( 1824 -1792 160 ) ( 1856 -1760 160 ) ( ( 0.03125 0 1 ) ( 0 0.03125 1 ) ) common/trigger 134217728 0 0
-( 1832 -1760 160 ) ( 1832 -1760 192 ) ( 1832 -1792 160 ) ( ( 0.03125 0 255 ) ( 0 0.03125 255 ) ) common/trigger 134217728 0 0
-( 1824 -1768 160 ) ( 1856 -1768 160 ) ( 1824 -1768 192 ) ( ( 0.03125 0 1 ) ( 0 0.03125 255 ) ) common/trigger 134217728 0 0
-}
-}
-}
-// entity 12
-{
 "classname" "func_door"
 "spawnflags" "12"
 "wait" "3"
@@ -954,7 +935,7 @@ brushDef
 }
 }
 }
-// entity 13
+// entity 12
 {
 "classname" "item_key"
 "origin" "1840.000000 -1776.000000 184.000000"
@@ -962,7 +943,7 @@ brushDef
 "itemkeys" "1"
 "angle" "90.000000"
 }
-// entity 14
+// entity 13
 {
 "classname" "trigger_multiple"
 "target" "next0"
@@ -979,7 +960,7 @@ brushDef
 }
 }
 }
-// entity 15
+// entity 14
 {
 "classname" "target_changelevel"
 "origin" "1472.000000 -2144.000000 0.000000"
@@ -987,17 +968,17 @@ brushDef
 "spawnflags" "2"
 "chmap" "sxb1_2-1"
 }
-// entity 16
+// entity 15
 {
 "classname" "misc_gamemodel"
 "origin" "1856.000000 -2032.000000 56.000000"
-"model" "models/player/ignishalfmasked.iqm"
+"model" "models/player/ignis.iqm"
 "colormap" "1092"
 "angle" "-179.999985"
 "frame" "6"
 "solid" "0"
 }
-// entity 17
+// entity 16
 {
 "classname" "trigger_multiple"
 "noise" "map_sxb/yousuck.ogg"
@@ -1015,19 +996,19 @@ brushDef
 }
 }
 }
-// entity 18
+// entity 17
 {
 "classname" "info_player_deathmatch"
 "origin" "1840.000000 2544.000000 192.000000"
 "angle" "-90.000000"
 }
-// entity 19
+// entity 18
 {
 "classname" "info_player_deathmatch"
 "origin" "1840.000000 2480.000000 192.000000"
 "angle" "-90.000000"
 }
-// entity 20
+// entity 19
 {
 "classname" "info_player_deathmatch"
 "origin" "1840.000000 2416.000000 192.000000"

@@ -1023,7 +1023,7 @@ brushDef
 {
 "classname" "misc_gamemodel"
 "origin" "2848.000000 -3024.000000 88.000000"
-"model" "models/player/ignishalfmasked.iqm"
+"model" "models/player/ignis.iqm"
 "colormap" "1092"
 "angle" "-179.999985"
 "frame" "6"
