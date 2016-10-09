@@ -91,6 +91,78 @@ textures/sxb_v1_earth/hill_1
 		blendfunc filter
 	}
 }
+textures/sxb_v1_earth/bush_1
+{
+	qer_editorimage textures/sxb_v1_earth/bush_1
+	surfaceparm metalsteps
+	surfaceparm trans
+	surfaceparm solid
+	surfaceparm alphashadow
+	q3map_bouncescale 1.75
+	cull none
+	nopicmip
+	nomipmaps
+
+	{
+		map textures/sxb_v1_earth/bush_1
+		blendfunc blend
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/sxb_v1_earth/bush_2
+{
+	qer_editorimage textures/sxb_v1_earth/bush_2
+	surfaceparm metalsteps
+	surfaceparm trans
+	surfaceparm solid
+	surfaceparm alphashadow
+	q3map_bouncescale 1.75
+	cull none
+	nopicmip
+	nomipmaps
+
+	{
+		map textures/sxb_v1_earth/bush_2
+		blendfunc blend
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/sxb_v1_earth/bush_3
+{
+	qer_editorimage textures/sxb_v1_earth/bush_3
+	surfaceparm metalsteps
+	surfaceparm trans
+	surfaceparm solid
+	surfaceparm alphashadow
+	q3map_bouncescale 1.75
+	cull none
+	nopicmip
+	nomipmaps
+
+	{
+		map textures/sxb_v1_earth/bush_3
+		blendfunc blend
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
 
 // world textures
 textures/sxb_v1_platforms/orange_platform
