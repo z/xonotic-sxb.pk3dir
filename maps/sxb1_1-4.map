@@ -1081,7 +1081,6 @@ brushDef
 {
 "classname" "func_rotating"
 "speed" "50"
-"touch" "trigger_hurt_touch"
 "dmg" "50"
 "message" "was too slow to dodge the fireballs"
 "message2" "was pushed into the spinning fireballs by"
@@ -1117,7 +1116,6 @@ brushDef
 {
 "classname" "func_rotating"
 "speed" "50"
-"touch" "trigger_hurt_touch"
 "dmg" "50"
 "message" "was too slow to dodge the fireballs"
 "message2" "was pushed into the spinning fireballs by"
@@ -1153,7 +1151,6 @@ brushDef
 {
 "classname" "func_rotating"
 "speed" "50"
-"touch" "trigger_hurt_touch"
 "dmg" "50"
 "message" "was too slow to dodge the fireballs"
 "message2" "was pushed into the spinning fireballs by"
