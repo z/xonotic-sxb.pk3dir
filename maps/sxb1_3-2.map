@@ -639,6 +639,7 @@ brushDef
 // entity 15
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_41"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -684,6 +685,7 @@ brushDef
 // entity 17
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_1"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -729,6 +731,7 @@ brushDef
 // entity 19
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_2"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"

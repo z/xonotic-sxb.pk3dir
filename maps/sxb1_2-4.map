@@ -2034,6 +2034,7 @@ brushDef
 // entity 31
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_1"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -2080,6 +2081,7 @@ brushDef
 // entity 33
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_2"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -2126,6 +2128,7 @@ brushDef
 // entity 35
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_3"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -2172,6 +2175,7 @@ brushDef
 // entity 37
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_4"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -2218,6 +2222,7 @@ brushDef
 // entity 39
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_5"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -2264,6 +2269,7 @@ brushDef
 // entity 41
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_6"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"

@@ -1,3 +1,27 @@
+// env
+textures/sxb_env/cel
+{
+    qer_editorimage textures/sxb_env/cel.tga
+
+    q3map_notjunc
+    q3map_nonplanar
+    q3map_bounce 0.0
+    q3map_shadeangle 120
+    q3map_texturesize 1 1
+    q3map_invert
+    q3map_offset -6.0
+
+    surfaceparm nolightmap
+    surfaceparm trans
+    surfaceparm nonsolid
+    surfaceparm nomarks
+
+    {
+        map textures/sxb_env/cel.tga
+        rgbGen identity
+    }
+}
+
 // skies
 textures/sxb_v1_skies/overworld
 {
@@ -73,6 +97,57 @@ textures/sxb_v1_misc/wire_white
 		map textures/sxb_v1_misc/wire_white
 		blendFunc filter
 		rgbgen identity
+	}
+}
+textures/sxb_v1_misc/blaster_base
+{
+	qer_editorimage textures/sxb_v1_misc/blaster_base
+	q3map_notjunc
+	q3map_nonplanar
+	q3map_bounce 0.0
+	// q3map_shadeangle 120
+	q3map_shadeangle 175
+	q3map_texturesize 1 1
+	q3map_invert
+	q3map_offset -2.0
+	surfaceparm nolightmap
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nomarks
+	//cull back
+	{
+		map textures/sxb_v1_misc/blaster_base
+		rgbGen identity
+	}
+}
+textures/sxb_v1_misc/blaster_bolt
+{
+	qer_editorimage textures/sxb_v1_misc/blaster_bolt
+	dpoffsetmapping - 1.20986276779202975385 match8 15.26756100000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm alphashadow
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nomarks
+	surfaceparm noimpact
+	surfaceparm nolightmap
+	cull disable
+	nopicmip
+	nomipmaps
+	{
+		map textures/sxb_v1_misc/blaster_bolt
+		rgbGen identity
+		depthWrite
+		alphaFunc GE128
+	}
+	{
+		map $lightmap
+		blendfunc filter
+		rgbGen identity
+		tcGen lightmap
+		depthFunc equal
 	}
 }
 
@@ -272,6 +347,54 @@ textures/sxb_v1_earth/water_top
 
 	{
 		map textures/sxb_v1_earth/water_top
+		blendfunc blend
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/sxb_v1_earth/water_light
+{
+	qer_editorimage textures/sxb_v1_earth/water_light
+	surfaceparm metalsteps
+	surfaceparm trans
+	surfaceparm solid
+	surfaceparm alphashadow
+	q3map_bouncescale 1.75
+	cull none
+	nopicmip
+	nomipmaps
+
+	{
+		map textures/sxb_v1_earth/water_light
+		blendfunc blend
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/sxb_v1_earth/water_light_top
+{
+	qer_editorimage textures/sxb_v1_earth/water_light_top
+	surfaceparm metalsteps
+	surfaceparm trans
+	surfaceparm solid
+	surfaceparm alphashadow
+	q3map_bouncescale 1.75
+	cull none
+	nopicmip
+	nomipmaps
+
+	{
+		map textures/sxb_v1_earth/water_light_top
 		blendfunc blend
 	}
 

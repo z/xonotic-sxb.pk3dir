@@ -390,27 +390,15 @@ brushDef
 {
 brushDef
 {
-( 640 -3008 672 ) ( 544 -3008 672 ) ( 640 -2976 672 ) ( ( 0 0.015625 247.5 ) ( -0.015625 0 244 ) ) common/caulk 134217728 0 0
-( 608 -3008 672 ) ( 608 -2976 672 ) ( 608 -3008 608 ) ( ( 0.015625 0 12 ) ( 0 0.015625 8.5 ) ) common/caulk 134217728 0 0
-( 640 -3008 672 ) ( 640 -3008 608 ) ( 544 -3008 672 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 8.5 ) ) common/caulk 134217728 0 0
-( 544 -2976 608 ) ( 544 -3008 608 ) ( 640 -2976 608 ) ( ( 0 -0.015625 247.5 ) ( 0.015625 0 12 ) ) common/caulk 134217728 0 0
-( 576 -2976 608 ) ( 576 -2976 672 ) ( 576 -3008 608 ) ( ( 0.015625 0 244 ) ( 0 0.015625 8.5 ) ) common/caulk 134217728 0 0
-( 544 -2976 608 ) ( 640 -2976 608 ) ( 544 -2976 672 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 8.5 ) ) common/caulk 134217728 0 0
+( 608 -3008 672 ) ( 512 -3008 672 ) ( 608 -2976 672 ) ( ( 0 0.015625 248 ) ( -0.015625 0 244 ) ) common/caulk 134217728 0 0
+( 576 -3008 672 ) ( 576 -2976 672 ) ( 576 -3008 608 ) ( ( 0.015625 0 12 ) ( 0 0.015625 8.5 ) ) common/caulk 134217728 0 0
+( 608 -3008 672 ) ( 608 -3008 608 ) ( 512 -3008 672 ) ( ( 0.015625 0 248 ) ( 0 0.015625 8.5 ) ) common/caulk 134217728 0 0
+( 512 -2976 640 ) ( 512 -3008 640 ) ( 608 -2976 640 ) ( ( 0 -0.015625 248 ) ( 0.015625 0 12 ) ) common/caulk 134217728 0 0
+( 544 -2976 608 ) ( 544 -2976 672 ) ( 544 -3008 608 ) ( ( 0.015625 0 244 ) ( 0 0.015625 8.5 ) ) common/caulk 134217728 0 0
+( 512 -2976 608 ) ( 608 -2976 608 ) ( 512 -2976 672 ) ( ( 0.015625 0 8 ) ( 0 0.015625 8.5 ) ) common/caulk 134217728 0 0
 }
 }
 // brush 33
-{
-brushDef
-{
-( 640 -3008 608 ) ( 544 -3008 608 ) ( 640 -2976 608 ) ( ( 0 0.015625 247.5 ) ( -0.015625 0 244 ) ) common/caulk 134217728 0 0
-( 608 -3008 640 ) ( 608 -2976 640 ) ( 608 -3008 576 ) ( ( 0.015625 0 12 ) ( 0 0.015625 8 ) ) common/caulk 134217728 0 0
-( 640 -3008 640 ) ( 640 -3008 576 ) ( 544 -3008 640 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 8 ) ) common/caulk 134217728 0 0
-( 544 -2976 576 ) ( 544 -3008 576 ) ( 640 -2976 576 ) ( ( 0 -0.015625 247.5 ) ( 0.015625 0 12 ) ) common/caulk 134217728 0 0
-( 576 -2976 576 ) ( 576 -2976 640 ) ( 576 -3008 576 ) ( ( 0.015625 0 244 ) ( 0 0.015625 8 ) ) common/caulk 134217728 0 0
-( 544 -2976 576 ) ( 640 -2976 576 ) ( 544 -2976 640 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 8 ) ) common/caulk 134217728 0 0
-}
-}
-// brush 34
 {
 brushDef
 {
@@ -422,7 +410,7 @@ brushDef
 ( 512 -4192 576 ) ( 608 -4192 576 ) ( 512 -4192 640 ) ( ( 0.015625 0 8 ) ( 0 0.015625 8 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 35
+// brush 34
 {
 brushDef
 {
@@ -434,7 +422,7 @@ brushDef
 ( 512 -4448 0 ) ( 608 -4448 0 ) ( 512 -4448 64 ) ( ( 0.03125 0 18 ) ( 0 0.03125 3 ) ) sxb_v1_floors/brick_ground 0 0 0
 }
 }
-// brush 36
+// brush 35
 {
 brushDef
 {
@@ -446,7 +434,7 @@ brushDef
 ( 512 -4544 576 ) ( 608 -4544 576 ) ( 512 -4544 640 ) ( ( 0.015625 0 8 ) ( 0 0.015625 8 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 37
+// brush 36
 {
 brushDef
 {
@@ -458,7 +446,7 @@ brushDef
 ( 512 -4640 0 ) ( 608 -4640 0 ) ( 512 -4640 64 ) ( ( 0.03125 0 18 ) ( 0 0.03125 3 ) ) sxb_v1_floors/brick_ground 0 0 0
 }
 }
-// brush 38
+// brush 37
 {
 brushDef
 {
@@ -470,7 +458,7 @@ brushDef
 ( 512 -4704 0 ) ( 608 -4704 0 ) ( 512 -4704 64 ) ( ( 0.03125 0 18 ) ( 0 0.03125 3 ) ) sxb_v1_floors/brick_ground 0 0 0
 }
 }
-// brush 39
+// brush 38
 {
 brushDef
 {
@@ -482,7 +470,7 @@ brushDef
 ( 576 -3680 576 ) ( 672 -3680 576 ) ( 576 -3680 608 ) ( ( 0.015625 0 9 ) ( 0 0.015625 8 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 40
+// brush 39
 {
 brushDef
 {
@@ -494,7 +482,7 @@ brushDef
 ( 512 -5600 0 ) ( 608 -5600 0 ) ( 512 -5600 96 ) ( ( 0.03125 0 18 ) ( 0 0.03125 3 ) ) sxb_v1_floors/brick_ground 0 0 0
 }
 }
-// brush 41
+// brush 40
 {
 brushDef
 {
@@ -506,7 +494,7 @@ brushDef
 ( 576 -5600 576 ) ( 672 -5600 576 ) ( 576 -5600 672 ) ( ( 0.015625 0 9 ) ( 0 0.015625 8 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 42
+// brush 41
 {
 brushDef
 {
@@ -518,7 +506,7 @@ brushDef
 ( 512 -5728 0 ) ( 608 -5728 0 ) ( 512 -5728 64 ) ( ( 0.03125 0 18 ) ( 0 0.03125 3 ) ) sxb_v1_floors/brick_ground 0 0 0
 }
 }
-// brush 43
+// brush 42
 {
 brushDef
 {
@@ -530,7 +518,7 @@ brushDef
 ( 544 -5952 704 ) ( 576 -5952 704 ) ( 544 -5952 736 ) ( ( 0.03125 0 189 ) ( 0 0.03125 22 ) ) sxb_v1_blocks/big_block 134217728 0 0
 }
 }
-// brush 44
+// brush 43
 {
 brushDef
 {
@@ -542,7 +530,7 @@ brushDef
 ( 544 -5824 576 ) ( 576 -5824 576 ) ( 544 -5824 608 ) ( ( 0.03125 0 189 ) ( 0 0.03125 22 ) ) sxb_v1_blocks/big_block 134217728 0 0
 }
 }
-// brush 45
+// brush 44
 {
 brushDef
 {
@@ -554,7 +542,7 @@ brushDef
 ( 544 -5856 608 ) ( 576 -5856 608 ) ( 544 -5856 640 ) ( ( 0.03125 0 189 ) ( 0 0.03125 22 ) ) sxb_v1_blocks/big_block 134217728 0 0
 }
 }
-// brush 46
+// brush 45
 {
 brushDef
 {
@@ -566,7 +554,7 @@ brushDef
 ( 544 -5888 640 ) ( 576 -5888 640 ) ( 544 -5888 672 ) ( ( 0.03125 0 189 ) ( 0 0.03125 22 ) ) sxb_v1_blocks/big_block 134217728 0 0
 }
 }
-// brush 47
+// brush 46
 {
 brushDef
 {
@@ -578,7 +566,7 @@ brushDef
 ( 544 -5920 672 ) ( 576 -5920 672 ) ( 544 -5920 704 ) ( ( 0.03125 0 189 ) ( 0 0.03125 22 ) ) sxb_v1_blocks/big_block 134217728 0 0
 }
 }
-// brush 48
+// brush 47
 {
 brushDef
 {
@@ -590,7 +578,7 @@ brushDef
 ( 512 -6432 640 ) ( 608 -6432 640 ) ( 512 -6432 672 ) ( ( 0.03125 0 189 ) ( 0 0.03125 22 ) ) sxb_v1_blocks/big_block 134217728 0 0
 }
 }
-// brush 49
+// brush 48
 {
 brushDef
 {
@@ -602,7 +590,7 @@ brushDef
 ( 512 -6368 576 ) ( 608 -6368 576 ) ( 512 -6368 608 ) ( ( 0.03125 0 189 ) ( 0 0.03125 22 ) ) sxb_v1_blocks/big_block 134217728 0 0
 }
 }
-// brush 50
+// brush 49
 {
 brushDef
 {
@@ -614,7 +602,7 @@ brushDef
 ( 512 -6400 608 ) ( 608 -6400 608 ) ( 512 -6400 640 ) ( ( 0.03125 0 189 ) ( 0 0.03125 22 ) ) sxb_v1_blocks/big_block 134217728 0 0
 }
 }
-// brush 51
+// brush 50
 {
 brushDef
 {
@@ -626,7 +614,7 @@ brushDef
 ( 544 -4000 608 ) ( 640 -4000 608 ) ( 544 -4000 672 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 8.5 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 52
+// brush 51
 {
 brushDef
 {
@@ -638,7 +626,7 @@ brushDef
 ( 544 -4000 576 ) ( 640 -4000 576 ) ( 544 -4000 640 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 8 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 53
+// brush 52
 {
 brushDef
 {
@@ -650,7 +638,7 @@ brushDef
 ( 544 -6496 512 ) ( 576 -6496 512 ) ( 544 -6496 576 ) ( ( 0.03125 0 18 ) ( 0 0.03125 19 ) ) sxb_v1_floors/brick_ground 0 0 0
 }
 }
-// brush 54
+// brush 53
 {
 brushDef
 {
@@ -662,7 +650,7 @@ brushDef
 ( 544 -6496 608 ) ( 576 -6496 608 ) ( 544 -6496 768 ) ( ( 0.03125 0 189 ) ( 0 0.03125 22 ) ) sxb_v1_blocks/big_block 134217728 0 0
 }
 }
-// brush 55
+// brush 54
 {
 brushDef
 {
@@ -674,7 +662,7 @@ brushDef
 ( 1024 0 1024 ) ( 0 -736 1024 ) ( 1024 -736 1024 ) ( ( 0 -0.0078125 124 ) ( 0.0078125 0 132 ) ) sxb_v1_skies/overworld 0 0 0
 }
 }
-// brush 56
+// brush 55
 {
 brushDef
 {
@@ -686,7 +674,7 @@ brushDef
 ( 1144 -1312 832 ) ( 1144 -576 896 ) ( 1144 -1312 896 ) ( ( 0.0078125 0 503.5 ) ( 0 0.0078125 4 ) ) sxb_v1_skies/overworld 0 0 0
 }
 }
-// brush 57
+// brush 56
 {
 brushDef
 {
@@ -698,7 +686,7 @@ brushDef
 ( 64 -7360 896 ) ( 1088 -7360 832 ) ( 1088 -7360 896 ) ( ( 0.0078125 0 3.5 ) ( 0 0.0078125 4 ) ) sxb_v1_skies/overworld 0 0 0
 }
 }
-// brush 58
+// brush 57
 {
 brushDef
 {
@@ -710,7 +698,7 @@ brushDef
 ( 1024 -64 8 ) ( 0 -800 8 ) ( 0 -64 8 ) ( ( 0 0.0078125 124 ) ( -0.0078125 0 508.5 ) ) sxb_v1_skies/overworld 0 0 0
 }
 }
-// brush 59
+// brush 58
 {
 brushDef
 {
@@ -722,7 +710,7 @@ brushDef
 ( 8 -1312 832 ) ( 8 -576 896 ) ( 8 -576 832 ) ( ( 0.0078125 0 136.5 ) ( 0 0.0078125 4 ) ) sxb_v1_skies/overworld 0 0 0
 }
 }
-// brush 60
+// brush 59
 {
 brushDef
 {
@@ -734,7 +722,7 @@ brushDef
 ( 0 0 896 ) ( 1024 0 832 ) ( 0 0 832 ) ( ( 0.0078125 0 124 ) ( 0 0.0078125 4 ) ) sxb_v1_skies/overworld 0 0 0
 }
 }
-// brush 61
+// brush 60
 {
 brushDef
 {
@@ -746,7 +734,7 @@ brushDef
 ( 576 -688 1024 ) ( 576 -576 1032 ) ( 576 -688 1032 ) ( ( 0.015625 0 239 ) ( 0 0.015625 8 ) ) common/clip 0 0 0
 }
 }
-// brush 62
+// brush 61
 {
 brushDef
 {
@@ -758,7 +746,7 @@ brushDef
 ( 544 -688 1024 ) ( 544 -576 1032 ) ( 544 -576 1024 ) ( ( 0.015625 0 17 ) ( 0 0.015625 8 ) ) common/clip 0 0 0
 }
 }
-// brush 63
+// brush 62
 {
 brushDef
 {
@@ -770,7 +758,7 @@ brushDef
 ( 512 -6956 928 ) ( 512 -6924 928 ) ( 512 -6956 1120 ) ( ( 0.015625 0 208.3125 ) ( 0 0.015625 49.5 ) ) common/clip 0 0 0
 }
 }
-// brush 64
+// brush 63
 {
 brushDef
 {
@@ -782,7 +770,7 @@ brushDef
 ( 544 -1408 576 ) ( 576 -1408 576 ) ( 544 -1408 608 ) ( ( 0.03125 0 136 ) ( 0 0.03125 26 ) ) sxb_v1_bricks/standard_bricks 134217728 0 0
 }
 }
-// brush 65
+// brush 64
 {
 brushDef
 {
@@ -794,7 +782,7 @@ brushDef
 ( 544 -1408 186 ) ( 576 -1408 186 ) ( 544 -1408 698 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 16.90625 ) ) sxb_v1_earth/land_tower_top 134217728 0 0
 }
 }
-// brush 66
+// brush 65
 {
 brushDef
 {
@@ -806,7 +794,7 @@ brushDef
 ( 544 -1408 136 ) ( 576 -1408 136 ) ( 544 -1408 648 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 16.125 ) ) sxb_v1_earth/land_tower_top 134217728 0 0
 }
 }
-// brush 67
+// brush 66
 {
 brushDef
 {
@@ -818,7 +806,7 @@ brushDef
 ( 564 -1414 608 ) ( 596 -1414 608 ) ( 564 -1414 616 ) ( ( 0.015625 0 8.8125 ) ( 0 0.015625 9 ) ) sxb_v1_earth/nighttime_land_tower_top 134217728 0 0
 }
 }
-// brush 68
+// brush 67
 {
 brushDef
 {
@@ -830,7 +818,7 @@ brushDef
 ( 564 -1430 608 ) ( 596 -1430 608 ) ( 564 -1430 616 ) ( ( 0.015625 0 8.8125 ) ( 0 0.015625 9 ) ) sxb_v1_earth/nighttime_land_tower_top 134217728 0 0
 }
 }
-// brush 69
+// brush 68
 {
 brushDef
 {
@@ -842,7 +830,7 @@ brushDef
 ( 548 -1414 608 ) ( 580 -1414 608 ) ( 548 -1414 616 ) ( ( 0.015625 0 8.5625 ) ( 0 0.015625 9 ) ) sxb_v1_earth/nighttime_land_tower_top 134217728 0 0
 }
 }
-// brush 70
+// brush 69
 {
 brushDef
 {
@@ -854,7 +842,7 @@ brushDef
 ( 548 -1430 608 ) ( 580 -1430 608 ) ( 548 -1430 616 ) ( ( 0.015625 0 8.5625 ) ( 0 0.015625 9 ) ) sxb_v1_earth/nighttime_land_tower_top 134217728 0 0
 }
 }
-// brush 71
+// brush 70
 {
 brushDef
 {
@@ -866,7 +854,7 @@ brushDef
 ( 548 -1420 630 ) ( 580 -1420 630 ) ( 548 -1420 638 ) ( ( 0.015625 0 8.5625 ) ( 0 0.015625 9.34375 ) ) sxb_v1_earth/nighttime_land_tower_top 134217728 0 0
 }
 }
-// brush 72
+// brush 71
 {
 brushDef
 {
@@ -878,7 +866,7 @@ brushDef
 ( 548 -1420 588 ) ( 580 -1420 588 ) ( 548 -1420 596 ) ( ( 0.015625 0 8.5625 ) ( 0 0.015625 8.6875 ) ) sxb_v1_earth/nighttime_land_tower_top 134217728 0 0
 }
 }
-// brush 73
+// brush 72
 {
 brushDef
 {
@@ -890,7 +878,7 @@ brushDef
 ( 564 -1420 630 ) ( 596 -1420 630 ) ( 564 -1420 638 ) ( ( 0.015625 0 8.8125 ) ( 0 0.015625 9.34375 ) ) sxb_v1_earth/nighttime_land_tower_top 134217728 0 0
 }
 }
-// brush 74
+// brush 73
 {
 brushDef
 {
@@ -902,7 +890,7 @@ brushDef
 ( 564 -1420 588 ) ( 596 -1420 588 ) ( 564 -1420 596 ) ( ( 0.015625 0 8.8125 ) ( 0 0.015625 8.6875 ) ) sxb_v1_earth/nighttime_land_tower_top 134217728 0 0
 }
 }
-// brush 75
+// brush 74
 {
 brushDef
 {
@@ -914,7 +902,7 @@ brushDef
 ( 564 -1415.623046875 615.0635375977 ) ( 572 -1415.623046875 615.0635375977 ) ( 564 -1424.9208984375 635.0023193359 ) ( ( 0.015625 0 8.5 ) ( 0 0.0156250019 17.4327411652 ) ) sxb_v1_platforms/castle_bridge_core 134217728 0 0
 }
 }
-// brush 76
+// brush 75
 {
 brushDef
 {
@@ -926,7 +914,7 @@ brushDef
 ( 548 -1415.623046875 615.0635375977 ) ( 556 -1415.623046875 615.0635375977 ) ( 548 -1424.9208984375 635.0023193359 ) ( ( 0.015625 0 8.25 ) ( 0 0.0156250037 17.4327430725 ) ) sxb_v1_platforms/castle_bridge_core 134217728 0 0
 }
 }
-// brush 77
+// brush 76
 {
 brushDef
 {
@@ -938,7 +926,7 @@ brushDef
 ( 564 -1423.0791015625 635.0023193359 ) ( 572 -1432.376953125 615.0635375977 ) ( 564 -1432.376953125 615.0635375977 ) ( ( -0.015625 0 8.5 ) ( 0 0.0156250037 254.6264648438 ) ) sxb_v1_platforms/castle_bridge_core 134217728 0 0
 }
 }
-// brush 78
+// brush 77
 {
 brushDef
 {
@@ -950,7 +938,7 @@ brushDef
 ( 548 -1423.0791015625 635.0023193359 ) ( 556 -1432.376953125 615.0635375977 ) ( 548 -1432.376953125 615.0635375977 ) ( ( -0.015625 0 8.25 ) ( 0 0.0156250037 254.6264648438 ) ) sxb_v1_platforms/castle_bridge_core 134217728 0 0
 }
 }
-// brush 79
+// brush 78
 {
 brushDef
 {
@@ -962,7 +950,7 @@ brushDef
 ( 564 -1424.9208984375 588.9976806641 ) ( 572 -1415.623046875 608.9364624023 ) ( 564 -1415.623046875 608.9364624023 ) ( ( 0.015625 0 8.5 ) ( 0 -0.0156250037 0.099637866 ) ) sxb_v1_platforms/castle_bridge_core 134217728 0 0
 }
 }
-// brush 80
+// brush 79
 {
 brushDef
 {
@@ -974,7 +962,7 @@ brushDef
 ( 548 -1424.9208984375 588.9976806641 ) ( 556 -1415.623046875 608.9364624023 ) ( 548 -1415.623046875 608.9364624023 ) ( ( 0.015625 0 8.25 ) ( 0 -0.0156250037 0.099637866 ) ) sxb_v1_platforms/castle_bridge_core 134217728 0 0
 }
 }
-// brush 81
+// brush 80
 {
 brushDef
 {
@@ -986,7 +974,7 @@ brushDef
 ( 564 -1432.376953125 608.9364624023 ) ( 572 -1432.376953125 608.9364624023 ) ( 564 -1423.0791015625 588.9976806641 ) ( ( -0.015625 0 8.5 ) ( 0 -0.0156250037 237.2933807373 ) ) sxb_v1_platforms/castle_bridge_core 134217728 0 0
 }
 }
-// brush 82
+// brush 81
 {
 brushDef
 {
@@ -998,7 +986,7 @@ brushDef
 ( 548 -1432.376953125 608.9364624023 ) ( 556 -1432.376953125 608.9364624023 ) ( 548 -1423.0791015625 588.9976806641 ) ( ( -0.015625 0 8.25 ) ( 0 -0.0156250037 237.2933807373 ) ) sxb_v1_platforms/castle_bridge_core 134217728 0 0
 }
 }
-// brush 83
+// brush 82
 {
 brushDef
 {
@@ -1010,7 +998,7 @@ brushDef
 ( 480 0 512 ) ( 576 0 512 ) ( 480 0 544 ) ( ( 0.03125 0 191 ) ( 0 0.03125 16 ) ) sxb_v1_floors/brick_ground 0 0 0
 }
 }
-// brush 84
+// brush 83
 {
 brushDef
 {
@@ -1022,7 +1010,7 @@ brushDef
 ( 480 -6976 512 ) ( 576 -6976 512 ) ( 480 -6976 544 ) ( ( 0.03125 0 191 ) ( 0 0.03125 16 ) ) sxb_v1_floors/brick_ground 0 0 0
 }
 }
-// brush 85
+// brush 84
 {
 brushDef
 {
@@ -1034,7 +1022,7 @@ brushDef
 ( 1408 768 -1440 ) ( 1440 768 -1440 ) ( 1408 768 -928 ) ( ( 0.03125 0 0 ) ( 0 0.03125 267 ) ) sxb_v1_bricks/underground_bricks 134217728 0 0
 }
 }
-// brush 86
+// brush 85
 {
 brushDef
 {
@@ -1046,7 +1034,7 @@ brushDef
 ( 1408 768 -1344 ) ( 1440 768 -1344 ) ( 1408 768 -1280 ) ( ( 0.03125 0 0 ) ( 0 0.03125 12 ) ) sxb_v1_floors/brick_underground_ground 0 0 0
 }
 }
-// brush 87
+// brush 86
 {
 brushDef
 {
@@ -1058,7 +1046,7 @@ brushDef
 ( 1472 256 -1280 ) ( 1504 256 -1280 ) ( 1472 256 -896 ) ( ( 0.03125 0 0 ) ( 0 0.03125 12 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 88
+// brush 87
 {
 brushDef
 {
@@ -1070,7 +1058,7 @@ brushDef
 ( 1920 704 -896 ) ( 896 -32 -896 ) ( 1920 -32 -896 ) ( ( 0 -0.5 64 ) ( 0.5 0 160 ) ) sxb_v1_skies/underground 0 0 0
 }
 }
-// brush 89
+// brush 88
 {
 brushDef
 {
@@ -1082,7 +1070,7 @@ brushDef
 ( 2040 6304 -1088 ) ( 2040 7040 -1024 ) ( 2040 6304 -1024 ) ( ( 0.5 0 192 ) ( 0 0.5 64 ) ) sxb_v1_skies/underground 0 0 0
 }
 }
-// brush 90
+// brush 89
 {
 brushDef
 {
@@ -1094,7 +1082,7 @@ brushDef
 ( 960 192 -448 ) ( 1984 192 -512 ) ( 1984 192 -448 ) ( ( 0.5 0 160 ) ( 0 0.5 96 ) ) sxb_v1_skies/underground 0 0 0
 }
 }
-// brush 91
+// brush 90
 {
 brushDef
 {
@@ -1106,7 +1094,7 @@ brushDef
 ( 1920 640 -1344 ) ( 896 -96 -1344 ) ( 896 640 -1344 ) ( ( 0 0.5 64 ) ( -0.5 0 128 ) ) sxb_v1_skies/underground 0 0 0
 }
 }
-// brush 92
+// brush 91
 {
 brushDef
 {
@@ -1118,7 +1106,7 @@ brushDef
 ( 904 6272 -1088 ) ( 904 7008 -1024 ) ( 904 7008 -1088 ) ( ( 0.5 0 80 ) ( 0 0.5 64 ) ) sxb_v1_skies/underground 0 0 0
 }
 }
-// brush 93
+// brush 92
 {
 brushDef
 {
@@ -1130,7 +1118,7 @@ brushDef
 ( 896 768 -448 ) ( 1920 768 -512 ) ( 896 768 -512 ) ( ( 0.5 0 64 ) ( 0 0.5 96 ) ) sxb_v1_skies/underground 0 0 0
 }
 }
-// brush 94
+// brush 93
 {
 brushDef
 {
@@ -1142,7 +1130,7 @@ brushDef
 ( 1472 6928 -896 ) ( 1472 7040 -888 ) ( 1472 6928 -888 ) ( ( 0.015625 0 102 ) ( 0 0.015625 234 ) ) common/clip 0 0 0
 }
 }
-// brush 95
+// brush 94
 {
 brushDef
 {
@@ -1154,7 +1142,7 @@ brushDef
 ( 1440 5904 -896 ) ( 1440 6016 -888 ) ( 1440 6016 -896 ) ( ( 0.015625 0 170 ) ( 0 0.015625 234 ) ) common/clip 0 0 0
 }
 }
-// brush 96
+// brush 95
 {
 brushDef
 {
@@ -1166,7 +1154,7 @@ brushDef
 ( 1440 328 -1210 ) ( 1408 264 -1210 ) ( 1440 264 -1210 ) ( ( 0.03125 0 82.75 ) ( 0 0.03125 0 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 97
+// brush 96
 {
 brushDef
 {
@@ -1178,7 +1166,7 @@ brushDef
 ( 1496 256 -1274 ) ( 1496 320 -1210 ) ( 1496 256 -1210 ) ( ( 0.03125 0 172.5 ) ( 0 0.03125 12.1875 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 98
+// brush 97
 {
 brushDef
 {
@@ -1190,7 +1178,7 @@ brushDef
 ( 1472 240 -1216 ) ( 1504 240 -1280 ) ( 1504 240 -1216 ) ( ( 0.03125 0 0 ) ( 0 0.03125 12 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 99
+// brush 98
 {
 brushDef
 {
@@ -1202,7 +1190,7 @@ brushDef
 ( 1416 256 -1274 ) ( 1416 320 -1210 ) ( 1416 320 -1274 ) ( ( 0.03125 0 83.5 ) ( 0 0.03125 12.1875 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 100
+// brush 99
 {
 brushDef
 {
@@ -1214,7 +1202,7 @@ brushDef
 ( 1624 6240 -1056 ) ( 1624 6976 -992 ) ( 1624 6240 -992 ) ( ( 0.003125 0 1014.9000244141 ) ( 0 0.0062500001 2.7906250954 ) ) logos/logo02_red_glowy 0 0 0
 }
 }
-// brush 101
+// brush 100
 {
 brushDef
 {
@@ -1226,7 +1214,7 @@ brushDef
 ( 600 -5056 672 ) ( 600 -4992 704 ) ( 600 -5056 704 ) ( ( 0.015625 0 106 ) ( 0 0.015625 10.5 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 102
+// brush 101
 {
 brushDef
 {
@@ -1238,7 +1226,7 @@ brushDef
 ( 576 -5048 736 ) ( 608 -5048 704 ) ( 608 -5048 736 ) ( ( 0.015625 0 176.5 ) ( 0 0.015625 11 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 103
+// brush 102
 {
 brushDef
 {
@@ -1250,7 +1238,7 @@ brushDef
 ( 528 -4992 640 ) ( 496 -5056 640 ) ( 496 -4992 640 ) ( ( 0 -0.015625 177.25 ) ( 0.015625 0 57 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 104
+// brush 103
 {
 brushDef
 {
@@ -1262,7 +1250,7 @@ brushDef
 ( 520 -5056 672 ) ( 520 -4992 704 ) ( 520 -4992 672 ) ( ( 0.015625 0 150 ) ( 0 0.015625 10.5 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 105
+// brush 104
 {
 brushDef
 {
@@ -1274,7 +1262,7 @@ brushDef
 ( 512 -5000 640 ) ( 544 -5000 608 ) ( 512 -5000 608 ) ( ( 0.015625 0 78.5 ) ( 0 0.015625 9.5 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 106
+// brush 105
 {
 brushDef
 {
@@ -1286,7 +1274,7 @@ brushDef
 ( 600 -5216 576 ) ( 600 -5152 608 ) ( 600 -5216 608 ) ( ( 0.015625 0 167 ) ( 0 0.015625 7 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 107
+// brush 106
 {
 brushDef
 {
@@ -1298,7 +1286,7 @@ brushDef
 ( 512 -5272 608 ) ( 544 -5272 576 ) ( 544 -5272 608 ) ( ( 0.015625 0 177.5 ) ( 0 0.015625 7 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 108
+// brush 107
 {
 brushDef
 {
@@ -1310,7 +1298,7 @@ brushDef
 ( 608 -5216 584 ) ( 576 -5280 584 ) ( 576 -5216 584 ) ( ( 0 -0.015625 176.5 ) ( 0.015625 0 4 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 109
+// brush 108
 {
 brushDef
 {
@@ -1322,7 +1310,7 @@ brushDef
 ( 520 -5280 576 ) ( 520 -5216 608 ) ( 520 -5216 576 ) ( ( 0.015625 0 88 ) ( 0 0.015625 7 ) ) common/caulk 134217728 0 0
 }
 }
-// brush 110
+// brush 109
 {
 brushDef
 {
@@ -1332,6 +1320,42 @@ brushDef
 ( 512 -5216 576 ) ( 512 -5216 608 ) ( 512 -5280 576 ) ( ( 0.015625 0 252 ) ( 0 0.015625 7 ) ) common/caulk 134217728 0 0
 ( 576 -5216 576 ) ( 608 -5216 576 ) ( 576 -5216 608 ) ( ( 0.015625 0 7.5 ) ( 0 0.015625 7 ) ) common/caulk 134217728 0 0
 ( 576 -5224 608 ) ( 608 -5224 576 ) ( 576 -5224 576 ) ( ( 0.015625 0 79.5 ) ( 0 0.015625 7 ) ) common/caulk 134217728 0 0
+}
+}
+// brush 110
+{
+brushDef
+{
+( 576 -3008 608 ) ( 544 -3008 608 ) ( 576 -2976 608 ) ( ( 0 0.015625 247.5 ) ( -0.015625 0 217.5 ) ) sxb_v1_skies/underground 0 0 0
+( 576 -3008 608 ) ( 576 -2976 608 ) ( 576 -3008 576 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 576 -3008 608 ) ( 576 -3008 576 ) ( 544 -3008 608 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -2976 576 ) ( 544 -3008 576 ) ( 576 -2976 576 ) ( ( 0 -0.015625 247.5 ) ( 0.015625 0 38.5 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -2978 576 ) ( 544 -2978 608 ) ( 544 -3010 576 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -2976 576 ) ( 576 -2976 576 ) ( 544 -2976 608 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 111
+{
+brushDef
+{
+( 576 -3008 632 ) ( 544 -3008 632 ) ( 576 -2976 632 ) ( ( 0 0.015625 247.5 ) ( -0.015625 0 217.5 ) ) sxb_v1_skies/underground 0 0 0
+( 576 -3008 640 ) ( 576 -2976 640 ) ( 576 -3008 608 ) ( ( 0.03125 0 77 ) ( 0 0.0355113596 22.5205936432 ) ) sxb_v1_misc/blaster_logo 0 0 0
+( 576 -3008 640 ) ( 576 -3008 608 ) ( 544 -3008 640 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -2976 608 ) ( 544 -3008 608 ) ( 576 -2976 608 ) ( ( 0 -0.015625 247.5 ) ( 0.015625 0 38.5 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -2978 608 ) ( 544 -2978 640 ) ( 544 -3010 608 ) ( ( 0.03125 0 179 ) ( 0 0.0355113596 22.5205936432 ) ) sxb_v1_misc/blaster_logo 0 0 0
+( 544 -2976 608 ) ( 576 -2976 608 ) ( 544 -2976 640 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 112
+{
+brushDef
+{
+( 568 -3008 644 ) ( 560 -3008 644 ) ( 568 -2976 644 ) ( ( 0 0.015625 247.5 ) ( -0.015625 0 217.5 ) ) sxb_v1_skies/underground 0 0 0
+( 560 -2976 632 ) ( 560 -3008 632 ) ( 568 -2976 632 ) ( ( 0 -0.015625 247.5 ) ( 0.015625 0 38.5 ) ) sxb_v1_skies/underground 0 0 0
+( 608 -2976 632 ) ( 608 -2984 644 ) ( 480 -2976 632 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 28.8478336334 ) ) sxb_v1_skies/underground 0 0 0
+( 480 -3008 632 ) ( 608 -3000 644 ) ( 608 -3008 632 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 242.135925293 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -2912 632 ) ( 552 -2912 644 ) ( 544 -3040 632 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 12.2068481445 ) ) sxb_v1_skies/underground 0 0 0
+( 576 -3040 632 ) ( 568 -2912 644 ) ( 576 -2912 632 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 2.7769241333 ) ) sxb_v1_skies/underground 0 0 0
 }
 }
 }
@@ -1626,6 +1650,7 @@ brushDef
 // entity 18
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_3"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -1671,6 +1696,7 @@ brushDef
 // entity 20
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_1"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -1716,6 +1742,7 @@ brushDef
 // entity 22
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_2"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -1761,6 +1788,7 @@ brushDef
 // entity 24
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_4"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -1806,6 +1834,7 @@ brushDef
 // entity 26
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_5"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -1851,6 +1880,7 @@ brushDef
 // entity 28
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_6"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -1896,6 +1926,7 @@ brushDef
 // entity 30
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_7"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -1941,6 +1972,7 @@ brushDef
 // entity 32
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_8"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -1986,6 +2018,7 @@ brushDef
 // entity 34
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_9"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -2031,6 +2064,7 @@ brushDef
 // entity 36
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_10"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -2076,6 +2110,7 @@ brushDef
 // entity 38
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_11"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -2121,6 +2156,7 @@ brushDef
 // entity 40
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_12"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -2166,6 +2202,7 @@ brushDef
 // entity 42
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_13"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -2211,6 +2248,7 @@ brushDef
 // entity 44
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_14"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -2256,6 +2294,7 @@ brushDef
 // entity 46
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_15"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -2301,6 +2340,7 @@ brushDef
 // entity 48
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_16"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -2346,6 +2386,7 @@ brushDef
 // entity 50
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_17"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -2391,6 +2432,7 @@ brushDef
 // entity 52
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_18"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -2436,6 +2478,7 @@ brushDef
 // entity 54
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_19"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -2481,6 +2524,7 @@ brushDef
 // entity 56
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_20"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -2526,6 +2570,7 @@ brushDef
 // entity 58
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_21"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -2571,6 +2616,7 @@ brushDef
 // entity 60
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_22"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -2616,6 +2662,7 @@ brushDef
 // entity 62
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_23"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -2661,6 +2708,7 @@ brushDef
 // entity 64
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_24"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -2706,6 +2754,7 @@ brushDef
 // entity 66
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_25"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -2751,6 +2800,7 @@ brushDef
 // entity 68
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_26"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -2796,6 +2846,7 @@ brushDef
 // entity 70
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_27"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -2841,6 +2892,7 @@ brushDef
 // entity 72
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_28"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -2886,6 +2938,7 @@ brushDef
 // entity 74
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_29"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -2931,6 +2984,7 @@ brushDef
 // entity 76
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_30"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -2976,6 +3030,7 @@ brushDef
 // entity 78
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_31"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -3021,6 +3076,7 @@ brushDef
 // entity 80
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_32"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -3066,6 +3122,7 @@ brushDef
 // entity 82
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_33"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -3111,6 +3168,7 @@ brushDef
 // entity 84
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_34"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -3156,6 +3214,7 @@ brushDef
 // entity 86
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_35"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -3201,6 +3260,7 @@ brushDef
 // entity 88
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_36"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -3246,6 +3306,7 @@ brushDef
 // entity 90
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_37"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -3291,6 +3352,7 @@ brushDef
 // entity 92
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_38"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -3336,6 +3398,7 @@ brushDef
 // entity 94
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_39"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -3381,6 +3444,7 @@ brushDef
 // entity 96
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_40"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -3426,6 +3490,7 @@ brushDef
 // entity 98
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_41"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -3812,6 +3877,7 @@ brushDef
 // entity 134
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_426"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -3858,6 +3924,7 @@ brushDef
 // entity 136
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_427"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -3904,6 +3971,7 @@ brushDef
 // entity 138
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_428"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -3950,6 +4018,7 @@ brushDef
 // entity 140
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_429"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -3996,6 +4065,7 @@ brushDef
 // entity 142
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_430"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -4042,6 +4112,7 @@ brushDef
 // entity 144
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_431"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -4088,6 +4159,7 @@ brushDef
 // entity 146
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_432"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -4134,6 +4206,7 @@ brushDef
 // entity 148
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_433"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -4180,6 +4253,7 @@ brushDef
 // entity 150
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_434"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -4226,6 +4300,7 @@ brushDef
 // entity 152
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_435"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -4272,6 +4347,7 @@ brushDef
 // entity 154
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_436"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -4318,6 +4394,7 @@ brushDef
 // entity 156
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_437"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -4364,6 +4441,7 @@ brushDef
 // entity 158
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_438"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -4410,6 +4488,7 @@ brushDef
 // entity 160
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_439"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -4456,6 +4535,7 @@ brushDef
 // entity 162
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_440"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -4502,6 +4582,7 @@ brushDef
 // entity 164
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_441"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -4548,6 +4629,7 @@ brushDef
 // entity 166
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_442"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -4594,6 +4676,7 @@ brushDef
 // entity 168
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_444"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -4640,6 +4723,7 @@ brushDef
 // entity 170
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_445"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -4686,6 +4770,7 @@ brushDef
 // entity 172
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_446"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -4732,6 +4817,7 @@ brushDef
 // entity 174
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_447"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -4778,6 +4864,7 @@ brushDef
 // entity 176
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_448"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -4824,6 +4911,7 @@ brushDef
 // entity 178
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_449"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -4870,6 +4958,7 @@ brushDef
 // entity 180
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_450"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -4916,6 +5005,7 @@ brushDef
 // entity 182
 {
 "classname" "func_breakable"
+"respawntime" "20"
 "targetname" "brick_451"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
@@ -5074,6 +5164,1034 @@ brushDef
 ( 504 -64 0 ) ( 504 -176 0 ) ( 616 -64 0 ) ( ( 0 -0.015625 248 ) ( 0.015625 0 9 ) ) common/trigger 0 0 0
 ( 536 0 1024 ) ( 536 0 1032 ) ( 536 -112 1024 ) ( ( 0.015625 0 248 ) ( 0 0.015625 8 ) ) common/trigger 0 0 0
 ( 504 0 1024 ) ( 616 0 1024 ) ( 504 0 1032 ) ( ( 0.015625 0 8 ) ( 0 0.015625 8 ) ) common/trigger 0 0 0
+}
+}
+}
+// entity 194
+{
+"classname" "func_clientillusionary"
+// brush 0
+{
+brushDef
+{
+( 572 -3012 656 ) ( 540 -3012 656 ) ( 540 -3012 660 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -3004 660 ) ( 544 -3004 656 ) ( 576 -3004 656 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 560 -2992 642 ) ( 560 -3020 642 ) ( 576 -3020 642 ) ( ( 0 -0.015625 247.5 ) ( 0.015625 0 38.5 ) ) sxb_v1_skies/underground 0 0 0
+( 568 -2992 644 ) ( 568 -3020 644 ) ( 582 -3020 652 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 11.8459777832 ) ) sxb_v1_skies/underground 0 0 0
+( 574 -2992 650 ) ( 574 -3020 650 ) ( 582 -3020 664 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 12.0334777832 ) ) sxb_v1_skies/underground 0 0 0
+( 546 -2992 650 ) ( 546 -3020 650 ) ( 554 -3020 636 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 3.5991172791 ) ) sxb_v1_skies/underground 0 0 0
+( 552 -2992 644 ) ( 552 -3020 644 ) ( 566 -3020 636 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 253.0858306885 ) ) sxb_v1_skies/underground 0 0 0
+( 571.200012207 -3020 646.799987793 ) ( 560 -3020 646.799987793 ) ( 560 -2992 646.799987793 ) ( ( 0 0.015625 247.5 ) ( -0.015625 0 217.5 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 1
+{
+brushDef
+{
+( 572 -3012 656 ) ( 540 -3012 656 ) ( 540 -3012 660 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -3004 660 ) ( 544 -3004 656 ) ( 576 -3004 656 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 574 -2992 666 ) ( 574 -3020 666 ) ( 566 -3020 680 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 3.5991172791 ) ) sxb_v1_skies/underground 0 0 0
+( 568 -2992 672 ) ( 568 -3020 672 ) ( 554 -3020 680 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 253.0858306885 ) ) sxb_v1_skies/underground 0 0 0
+( 569.799987793 -2992 652.4000244141 ) ( 569.799987793 -3020 652.4000244141 ) ( 575.4000244141 -3020 662.200012207 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 12.0334777832 ) ) sxb_v1_skies/underground 0 0 0
+( 571.200012207 -3020 669.200012207 ) ( 571.200012207 -3020 658 ) ( 571.200012207 -2992 658 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 2
+{
+brushDef
+{
+( 572 -3012 656 ) ( 540 -3012 656 ) ( 540 -3012 660 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -3004 660 ) ( 544 -3004 656 ) ( 576 -3004 656 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 568 -2992 672 ) ( 568 -3020 672 ) ( 554 -3020 680 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 253.0858306885 ) ) sxb_v1_skies/underground 0 0 0
+( 560 -2992 674 ) ( 560 -3020 674 ) ( 544 -3020 674 ) ( ( 0 0.015625 247.5 ) ( -0.015625 0 217.5 ) ) sxb_v1_skies/underground 0 0 0
+( 571.200012207 -2992 658 ) ( 571.200012207 -3020 658 ) ( 571.200012207 -3020 669.200012207 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 564.200012207 -3020 673.4000244141 ) ( 569.799987793 -3020 663.5999755859 ) ( 569.799987793 -2992 663.5999755859 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 3.5991039276 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 3
+{
+brushDef
+{
+( 572 -3012 656 ) ( 540 -3012 656 ) ( 540 -3012 660 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -3004 660 ) ( 544 -3004 656 ) ( 576 -3004 656 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 552 -2992 672 ) ( 552 -3020 672 ) ( 538 -3020 664 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 11.8459777832 ) ) sxb_v1_skies/underground 0 0 0
+( 546 -2992 666 ) ( 546 -3020 666 ) ( 538 -3020 652 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 12.0334777832 ) ) sxb_v1_skies/underground 0 0 0
+( 565.5999755859 -2992 667.799987793 ) ( 565.5999755859 -3020 667.799987793 ) ( 555.799987793 -3020 673.4000244141 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 253.0858154297 ) ) sxb_v1_skies/underground 0 0 0
+( 548.799987793 -3020 669.200012207 ) ( 560 -3020 669.200012207 ) ( 560 -2992 669.200012207 ) ( ( 0 -0.015625 247.5 ) ( 0.015625 0 38.5 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 4
+{
+brushDef
+{
+( 572 -3012 656 ) ( 540 -3012 656 ) ( 540 -3012 660 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -3004 660 ) ( 544 -3004 656 ) ( 576 -3004 656 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 576 -2992 658 ) ( 576 -3020 658 ) ( 576 -3020 674 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 574 -2992 666 ) ( 574 -3020 666 ) ( 566 -3020 680 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 3.5991172791 ) ) sxb_v1_skies/underground 0 0 0
+( 565.5999755859 -2992 648.200012207 ) ( 565.5999755859 -3020 648.200012207 ) ( 575.4000244141 -3020 653.799987793 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 11.8459472656 ) ) sxb_v1_skies/underground 0 0 0
+( 575.4000244141 -3020 662.200012207 ) ( 569.799987793 -3020 652.4000244141 ) ( 569.799987793 -2992 652.4000244141 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 12.0334777832 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 5
+{
+brushDef
+{
+( 572 -3012 656 ) ( 540 -3012 656 ) ( 540 -3012 660 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -3004 660 ) ( 544 -3004 656 ) ( 576 -3004 656 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 546 -2992 666 ) ( 546 -3020 666 ) ( 538 -3020 652 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 12.0334777832 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -2992 658 ) ( 544 -3020 658 ) ( 544 -3020 642 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 560 -2992 669.200012207 ) ( 560 -3020 669.200012207 ) ( 548.799987793 -3020 669.200012207 ) ( ( 0 0.015625 247.5 ) ( -0.015625 0 217.5 ) ) sxb_v1_skies/underground 0 0 0
+( 544.5999755859 -3020 662.200012207 ) ( 554.4000244141 -3020 667.799987793 ) ( 554.4000244141 -2992 667.799987793 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 11.8459472656 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 6
+{
+brushDef
+{
+( 572 -3012 656 ) ( 540 -3012 656 ) ( 540 -3012 660 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -3004 660 ) ( 544 -3004 656 ) ( 576 -3004 656 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 574 -2992 650 ) ( 574 -3020 650 ) ( 582 -3020 664 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 12.0334777832 ) ) sxb_v1_skies/underground 0 0 0
+( 576 -2992 658 ) ( 576 -3020 658 ) ( 576 -3020 674 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 560 -2992 646.799987793 ) ( 560 -3020 646.799987793 ) ( 571.200012207 -3020 646.799987793 ) ( ( 0 -0.015625 247.5 ) ( 0.015625 0 38.5 ) ) sxb_v1_skies/underground 0 0 0
+( 575.4000244141 -3020 653.799987793 ) ( 565.5999755859 -3020 648.200012207 ) ( 565.5999755859 -2992 648.200012207 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 11.8459472656 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 7
+{
+brushDef
+{
+( 572 -3012 656 ) ( 540 -3012 656 ) ( 540 -3012 660 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -3004 660 ) ( 544 -3004 656 ) ( 576 -3004 656 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 560 -2992 674 ) ( 560 -3020 674 ) ( 544 -3020 674 ) ( ( 0 0.015625 247.5 ) ( -0.015625 0 217.5 ) ) sxb_v1_skies/underground 0 0 0
+( 552 -2992 672 ) ( 552 -3020 672 ) ( 538 -3020 664 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 11.8459777832 ) ) sxb_v1_skies/underground 0 0 0
+( 569.799987793 -2992 663.5999755859 ) ( 569.799987793 -3020 663.5999755859 ) ( 564.200012207 -3020 673.4000244141 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 3.5991039276 ) ) sxb_v1_skies/underground 0 0 0
+( 555.799987793 -3020 673.4000244141 ) ( 565.5999755859 -3020 667.799987793 ) ( 565.5999755859 -2992 667.799987793 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 253.0858154297 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 8
+{
+brushDef
+{
+( 574 -3004 669 ) ( 574 -3004 647 ) ( 546 -3004 647 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 546 -2980 647 ) ( 574 -2980 647 ) ( 574 -2980 669 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 548 -2980 665 ) ( 548 -3004 665 ) ( 541 -3004 653 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 12.059173584 ) ) sxb_v1_skies/underground 0 0 0
+( 546 -2980 658 ) ( 546 -3004 658 ) ( 546 -3004 644 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 554.4000244141 -2992 667.799987793 ) ( 554.4000244141 -3020 667.799987793 ) ( 544.5999755859 -3020 662.200012207 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 11.8459472656 ) ) sxb_v1_skies/underground 0 0 0
+( 544.5999755859 -3020 653.799987793 ) ( 550.200012207 -3020 663.5999755859 ) ( 550.200012207 -2992 663.5999755859 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 12.0334777832 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 9
+{
+brushDef
+{
+( 574 -3004 669 ) ( 574 -3004 647 ) ( 546 -3004 647 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 546 -2980 647 ) ( 574 -2980 647 ) ( 574 -2980 669 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 560 -2992 646.799987793 ) ( 560 -3020 646.799987793 ) ( 571.200012207 -3020 646.799987793 ) ( ( 0 -0.015625 247.5 ) ( 0.015625 0 38.5 ) ) sxb_v1_skies/underground 0 0 0
+( 550.200012207 -2992 652.4000244141 ) ( 550.200012207 -3020 652.4000244141 ) ( 555.799987793 -3020 642.5999755859 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 3.5991039276 ) ) sxb_v1_skies/underground 0 0 0
+( 564.200012207 -3020 642.5999755859 ) ( 554.4000244141 -3020 648.200012207 ) ( 554.4000244141 -2992 648.200012207 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 253.0858154297 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 10
+{
+brushDef
+{
+( 574 -3004 669 ) ( 574 -3004 647 ) ( 546 -3004 647 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 546 -2980 647 ) ( 574 -2980 647 ) ( 574 -2980 669 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 548 -2980 651 ) ( 548 -3004 651 ) ( 555 -3004 639 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 3.4933567047 ) ) sxb_v1_skies/underground 0 0 0
+( 553 -2980 646 ) ( 553 -3004 646 ) ( 565 -3004 639 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 253.1959838867 ) ) sxb_v1_skies/underground 0 0 0
+( 560 -2992 646.799987793 ) ( 560 -3020 646.799987793 ) ( 571.200012207 -3020 646.799987793 ) ( ( 0 -0.015625 247.5 ) ( 0.015625 0 38.5 ) ) sxb_v1_skies/underground 0 0 0
+( 548.799987793 -2992 658 ) ( 548.799987793 -3020 658 ) ( 548.799987793 -3020 646.799987793 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 555.799987793 -3020 642.5999755859 ) ( 550.200012207 -3020 652.4000244141 ) ( 550.200012207 -2992 652.4000244141 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 3.5991039276 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 11
+{
+brushDef
+{
+( 574 -3004 669 ) ( 574 -3004 647 ) ( 546 -3004 647 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 546 -2980 647 ) ( 574 -2980 647 ) ( 574 -2980 669 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 560 -2980 672 ) ( 560 -3004 672 ) ( 546 -3004 672 ) ( ( 0 0.015625 247.5 ) ( -0.015625 0 217.5 ) ) sxb_v1_skies/underground 0 0 0
+( 553 -2980 670 ) ( 553 -3004 670 ) ( 541 -3004 663 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 11.8802185059 ) ) sxb_v1_skies/underground 0 0 0
+( 565.5999755859 -2992 667.799987793 ) ( 565.5999755859 -3020 667.799987793 ) ( 555.799987793 -3020 673.4000244141 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 253.0858154297 ) ) sxb_v1_skies/underground 0 0 0
+( 548.799987793 -3020 669.200012207 ) ( 560 -3020 669.200012207 ) ( 560 -2992 669.200012207 ) ( ( 0 -0.015625 247.5 ) ( 0.015625 0 38.5 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 12
+{
+brushDef
+{
+( 574 -3004 669 ) ( 574 -3004 647 ) ( 546 -3004 647 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 546 -2980 647 ) ( 574 -2980 647 ) ( 574 -2980 669 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 553 -2980 670 ) ( 553 -3004 670 ) ( 541 -3004 663 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 11.8802185059 ) ) sxb_v1_skies/underground 0 0 0
+( 548 -2980 665 ) ( 548 -3004 665 ) ( 541 -3004 653 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 12.059173584 ) ) sxb_v1_skies/underground 0 0 0
+( 560 -2992 669.200012207 ) ( 560 -3020 669.200012207 ) ( 548.799987793 -3020 669.200012207 ) ( ( 0 0.015625 247.5 ) ( -0.015625 0 217.5 ) ) sxb_v1_skies/underground 0 0 0
+( 544.5999755859 -3020 662.200012207 ) ( 554.4000244141 -3020 667.799987793 ) ( 554.4000244141 -2992 667.799987793 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 11.8459472656 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 13
+{
+brushDef
+{
+( 553 -3000 656 ) ( 553 -2984 656 ) ( 553 -3000 644 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 576 -3000 656 ) ( 576 -3000 644 ) ( 544 -3000 656 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 552 -2988 644 ) ( 552 -2988 656 ) ( 552 -3004 644 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -2984 644 ) ( 576 -2984 644 ) ( 544 -2984 656 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 560 -2992 646.799987793 ) ( 560 -3020 646.799987793 ) ( 571.200012207 -3020 646.799987793 ) ( ( 0 -0.015625 247.5 ) ( 0.015625 0 38.5 ) ) sxb_v1_skies/underground 0 0 0
+( 555.799987793 -3020 642.5999755859 ) ( 550.200012207 -3020 652.4000244141 ) ( 550.200012207 -2992 652.4000244141 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 3.5991039276 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 14
+{
+brushDef
+{
+( 568 -3000 656 ) ( 568 -2984 656 ) ( 568 -3000 644 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 588 -3000 656 ) ( 588 -3000 644 ) ( 556 -3000 656 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 567 -2989 644 ) ( 567 -2989 656 ) ( 567 -3005 644 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 556 -2984 644 ) ( 588 -2984 644 ) ( 556 -2984 656 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 560 -2992 646.799987793 ) ( 560 -3020 646.799987793 ) ( 571.200012207 -3020 646.799987793 ) ( ( 0 -0.015625 247.5 ) ( 0.015625 0 38.5 ) ) sxb_v1_skies/underground 0 0 0
+( 575.4000244141 -3020 653.799987793 ) ( 565.5999755859 -3020 648.200012207 ) ( 565.5999755859 -2992 648.200012207 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 11.8459472656 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 15
+{
+brushDef
+{
+( 576 -3000 658 ) ( 576 -2984 658 ) ( 576 -3000 646 ) ( ( 0.0625 0 187.5 ) ( 0 0.043859642 28.807012558 ) ) sxb_v1_misc/blaster_bolt 0 0 0
+( 596 -3000 658 ) ( 596 -3000 646 ) ( 564 -3000 658 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) common/nodrawnonsolid 0 0 0
+( 564 -2984 634 ) ( 564 -3000 634 ) ( 596 -2984 634 ) ( ( 0 -0.015625 247.5 ) ( 0.015625 0 38.5 ) ) common/nodrawnonsolid 0 0 0
+( 575 -2989 642 ) ( 575 -2989 654 ) ( 575 -3005 642 ) ( ( 0.0625 0 69.5 ) ( 0 0.043859642 28.807012558 ) ) common/nodrawnonsolid 0 0 0
+( 564 -2984 646 ) ( 596 -2984 646 ) ( 564 -2984 658 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) common/nodrawnonsolid 0 0 0
+( 579.200012207 -3020 656.799987793 ) ( 568 -3020 656.799987793 ) ( 568 -2992 656.799987793 ) ( ( 0 0.015625 247.5 ) ( -0.015625 0 217.5 ) ) common/nodrawnonsolid 0 0 0
+}
+}
+// brush 16
+{
+brushDef
+{
+( 574 -3004 669 ) ( 574 -3004 647 ) ( 546 -3004 647 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 546 -2980 647 ) ( 574 -2980 647 ) ( 574 -2980 669 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 546 -2980 658 ) ( 546 -3004 658 ) ( 546 -3004 644 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 548 -2980 651 ) ( 548 -3004 651 ) ( 555 -3004 639 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 3.4933567047 ) ) sxb_v1_skies/underground 0 0 0
+( 550.200012207 -2992 663.5999755859 ) ( 550.200012207 -3020 663.5999755859 ) ( 544.5999755859 -3020 653.799987793 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 12.0334777832 ) ) sxb_v1_skies/underground 0 0 0
+( 548.799987793 -3020 646.799987793 ) ( 548.799987793 -3020 658 ) ( 548.799987793 -2992 658 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 17
+{
+brushDef
+{
+( 545 -3000 662 ) ( 545 -2984 662 ) ( 545 -3000 650 ) ( ( 0.0625 0 187.5 ) ( 0 0.043859642 28.807012558 ) ) common/nodrawnonsolid 0 0 0
+( 568 -3000 658 ) ( 568 -3000 646 ) ( 536 -3000 658 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) common/nodrawnonsolid 0 0 0
+( 536 -2984 634 ) ( 536 -3000 634 ) ( 568 -2984 634 ) ( ( 0 -0.015625 247.5 ) ( 0.015625 0 38.5 ) ) common/nodrawnonsolid 0 0 0
+( 544 -2988 646 ) ( 544 -2988 658 ) ( 544 -3004 646 ) ( ( 0.0625 0 69.5 ) ( 0 0.043859642 28.807012558 ) ) sxb_v1_misc/blaster_bolt 0 0 0
+( 536 -2984 646 ) ( 568 -2984 646 ) ( 536 -2984 658 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) common/nodrawnonsolid 0 0 0
+( 563.200012207 -3020 656.799987793 ) ( 552 -3020 656.799987793 ) ( 552 -2992 656.799987793 ) ( ( 0 0.015625 247.5 ) ( -0.015625 0 217.5 ) ) common/nodrawnonsolid 0 0 0
+}
+}
+// brush 18
+{
+brushDef
+{
+( 553 -3000 656 ) ( 553 -2984 656 ) ( 553 -3000 644 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 576 -3000 656 ) ( 576 -3000 644 ) ( 544 -3000 656 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 552 -2988 644 ) ( 552 -2988 656 ) ( 552 -3004 644 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -2984 644 ) ( 576 -2984 644 ) ( 544 -2984 656 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 550.200012207 -2992 652.4000244141 ) ( 550.200012207 -3020 652.4000244141 ) ( 555.799987793 -3020 642.5999755859 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 3.5991039276 ) ) sxb_v1_skies/underground 0 0 0
+( 564.200012207 -3020 642.5999755859 ) ( 554.4000244141 -3020 648.200012207 ) ( 554.4000244141 -2992 648.200012207 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 253.0858154297 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 19
+{
+brushDef
+{
+( 572 -2980 656 ) ( 540 -2980 656 ) ( 540 -2980 660 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -2972 660 ) ( 544 -2972 656 ) ( 576 -2972 656 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 574 -2960 666 ) ( 574 -2988 666 ) ( 566 -2988 680 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 3.5991172791 ) ) sxb_v1_skies/underground 0 0 0
+( 568 -2960 672 ) ( 568 -2988 672 ) ( 554 -2988 680 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 253.0858306885 ) ) sxb_v1_skies/underground 0 0 0
+( 569.799987793 -2992 652.4000244141 ) ( 569.799987793 -3020 652.4000244141 ) ( 575.4000244141 -3020 662.200012207 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 12.0334777832 ) ) sxb_v1_skies/underground 0 0 0
+( 571.200012207 -3020 669.200012207 ) ( 571.200012207 -3020 658 ) ( 571.200012207 -2992 658 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 20
+{
+brushDef
+{
+( 574 -3004 669 ) ( 574 -3004 647 ) ( 546 -3004 647 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 546 -2980 647 ) ( 574 -2980 647 ) ( 574 -2980 669 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 572 -2980 665 ) ( 572 -3004 665 ) ( 565 -3004 677 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 3.4933567047 ) ) sxb_v1_skies/underground 0 0 0
+( 567 -2980 670 ) ( 567 -3004 670 ) ( 555 -3004 677 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 253.1959838867 ) ) sxb_v1_skies/underground 0 0 0
+( 571.200012207 -2992 658 ) ( 571.200012207 -3020 658 ) ( 571.200012207 -3020 669.200012207 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 564.200012207 -3020 673.4000244141 ) ( 569.799987793 -3020 663.5999755859 ) ( 569.799987793 -2992 663.5999755859 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 3.5991039276 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 21
+{
+brushDef
+{
+( 574 -3004 669 ) ( 574 -3004 647 ) ( 546 -3004 647 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 546 -2980 647 ) ( 574 -2980 647 ) ( 574 -2980 669 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 567 -2980 670 ) ( 567 -3004 670 ) ( 555 -3004 677 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 253.1959838867 ) ) sxb_v1_skies/underground 0 0 0
+( 560 -2980 672 ) ( 560 -3004 672 ) ( 546 -3004 672 ) ( ( 0 0.015625 247.5 ) ( -0.015625 0 217.5 ) ) sxb_v1_skies/underground 0 0 0
+( 569.799987793 -2992 663.5999755859 ) ( 569.799987793 -3020 663.5999755859 ) ( 564.200012207 -3020 673.4000244141 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 3.5991039276 ) ) sxb_v1_skies/underground 0 0 0
+( 555.799987793 -3020 673.4000244141 ) ( 565.5999755859 -3020 667.799987793 ) ( 565.5999755859 -2992 667.799987793 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 253.0858154297 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 22
+{
+brushDef
+{
+( 574 -3004 669 ) ( 574 -3004 647 ) ( 546 -3004 647 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 546 -2980 647 ) ( 574 -2980 647 ) ( 574 -2980 669 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 574 -2980 658 ) ( 574 -3004 658 ) ( 574 -3004 672 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 572 -2980 651 ) ( 572 -3004 651 ) ( 579 -3004 663 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 12.059173584 ) ) sxb_v1_skies/underground 0 0 0
+( 565.5999755859 -2992 648.200012207 ) ( 565.5999755859 -3020 648.200012207 ) ( 575.4000244141 -3020 653.799987793 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 11.8459472656 ) ) sxb_v1_skies/underground 0 0 0
+( 575.4000244141 -3020 662.200012207 ) ( 569.799987793 -3020 652.4000244141 ) ( 569.799987793 -2992 652.4000244141 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 12.0334777832 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 23
+{
+brushDef
+{
+( 572 -2980 656 ) ( 540 -2980 656 ) ( 540 -2980 660 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -2972 660 ) ( 544 -2972 656 ) ( 576 -2972 656 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -2960 658 ) ( 544 -2988 658 ) ( 544 -2988 642 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 546 -2960 650 ) ( 546 -2988 650 ) ( 554 -2988 636 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 3.5991172791 ) ) sxb_v1_skies/underground 0 0 0
+( 554.4000244141 -2992 667.799987793 ) ( 554.4000244141 -3020 667.799987793 ) ( 544.5999755859 -3020 662.200012207 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 11.8459472656 ) ) sxb_v1_skies/underground 0 0 0
+( 544.5999755859 -3020 653.799987793 ) ( 550.200012207 -3020 663.5999755859 ) ( 550.200012207 -2992 663.5999755859 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 12.0334777832 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 24
+{
+brushDef
+{
+( 572 -3012 656 ) ( 540 -3012 656 ) ( 540 -3012 660 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -3004 660 ) ( 544 -3004 656 ) ( 576 -3004 656 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 546 -2992 650 ) ( 546 -3020 650 ) ( 554 -3020 636 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 3.5991172791 ) ) sxb_v1_skies/underground 0 0 0
+( 560 -2992 646.799987793 ) ( 560 -3020 646.799987793 ) ( 571.200012207 -3020 646.799987793 ) ( ( 0 -0.015625 247.5 ) ( 0.015625 0 38.5 ) ) sxb_v1_skies/underground 0 0 0
+( 550.200012207 -2992 663.5999755859 ) ( 550.200012207 -3020 663.5999755859 ) ( 544.5999755859 -3020 653.799987793 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 12.0334777832 ) ) sxb_v1_skies/underground 0 0 0
+( 548.799987793 -3020 646.799987793 ) ( 548.799987793 -3020 658 ) ( 548.799987793 -2992 658 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 25
+{
+brushDef
+{
+( 572 -2980 656 ) ( 540 -2980 656 ) ( 540 -2980 660 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -2972 660 ) ( 544 -2972 656 ) ( 576 -2972 656 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 560 -2960 642 ) ( 560 -2988 642 ) ( 576 -2988 642 ) ( ( 0 -0.015625 247.5 ) ( 0.015625 0 38.5 ) ) sxb_v1_skies/underground 0 0 0
+( 568 -2960 644 ) ( 568 -2988 644 ) ( 582 -2988 652 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 11.8459777832 ) ) sxb_v1_skies/underground 0 0 0
+( 574 -2960 650 ) ( 574 -2988 650 ) ( 582 -2988 664 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 12.0334777832 ) ) sxb_v1_skies/underground 0 0 0
+( 546 -2960 650 ) ( 546 -2988 650 ) ( 554 -2988 636 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 3.5991172791 ) ) sxb_v1_skies/underground 0 0 0
+( 552 -2960 644 ) ( 552 -2988 644 ) ( 566 -2988 636 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 253.0858306885 ) ) sxb_v1_skies/underground 0 0 0
+( 571.200012207 -3020 646.799987793 ) ( 560 -3020 646.799987793 ) ( 560 -2992 646.799987793 ) ( ( 0 0.015625 247.5 ) ( -0.015625 0 217.5 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 26
+{
+brushDef
+{
+( 572 -2980 656 ) ( 540 -2980 656 ) ( 540 -2980 660 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -2972 660 ) ( 544 -2972 656 ) ( 576 -2972 656 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 568 -2960 672 ) ( 568 -2988 672 ) ( 554 -2988 680 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 253.0858306885 ) ) sxb_v1_skies/underground 0 0 0
+( 560 -2960 674 ) ( 560 -2988 674 ) ( 544 -2988 674 ) ( ( 0 0.015625 247.5 ) ( -0.015625 0 217.5 ) ) sxb_v1_skies/underground 0 0 0
+( 571.200012207 -2992 658 ) ( 571.200012207 -3020 658 ) ( 571.200012207 -3020 669.200012207 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 564.200012207 -3020 673.4000244141 ) ( 569.799987793 -3020 663.5999755859 ) ( 569.799987793 -2992 663.5999755859 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 3.5991039276 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 27
+{
+brushDef
+{
+( 572 -3012 656 ) ( 540 -3012 656 ) ( 540 -3012 660 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -3004 660 ) ( 544 -3004 656 ) ( 576 -3004 656 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -2992 658 ) ( 544 -3020 658 ) ( 544 -3020 642 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 546 -2992 650 ) ( 546 -3020 650 ) ( 554 -3020 636 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 3.5991172791 ) ) sxb_v1_skies/underground 0 0 0
+( 554.4000244141 -2992 667.799987793 ) ( 554.4000244141 -3020 667.799987793 ) ( 544.5999755859 -3020 662.200012207 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 11.8459472656 ) ) sxb_v1_skies/underground 0 0 0
+( 544.5999755859 -3020 653.799987793 ) ( 550.200012207 -3020 663.5999755859 ) ( 550.200012207 -2992 663.5999755859 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 12.0334777832 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 28
+{
+brushDef
+{
+( 572 -2980 656 ) ( 540 -2980 656 ) ( 540 -2980 660 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -2972 660 ) ( 544 -2972 656 ) ( 576 -2972 656 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 546 -2960 666 ) ( 546 -2988 666 ) ( 538 -2988 652 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 12.0334777832 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -2960 658 ) ( 544 -2988 658 ) ( 544 -2988 642 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 560 -2992 669.200012207 ) ( 560 -3020 669.200012207 ) ( 548.799987793 -3020 669.200012207 ) ( ( 0 0.015625 247.5 ) ( -0.015625 0 217.5 ) ) sxb_v1_skies/underground 0 0 0
+( 544.5999755859 -3020 662.200012207 ) ( 554.4000244141 -3020 667.799987793 ) ( 554.4000244141 -2992 667.799987793 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 11.8459472656 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 29
+{
+brushDef
+{
+( 572 -2980 656 ) ( 540 -2980 656 ) ( 540 -2980 660 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -2972 660 ) ( 544 -2972 656 ) ( 576 -2972 656 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 552 -2960 672 ) ( 552 -2988 672 ) ( 538 -2988 664 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 11.8459777832 ) ) sxb_v1_skies/underground 0 0 0
+( 546 -2960 666 ) ( 546 -2988 666 ) ( 538 -2988 652 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 12.0334777832 ) ) sxb_v1_skies/underground 0 0 0
+( 565.5999755859 -2992 667.799987793 ) ( 565.5999755859 -3020 667.799987793 ) ( 555.799987793 -3020 673.4000244141 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 253.0858154297 ) ) sxb_v1_skies/underground 0 0 0
+( 548.799987793 -3020 669.200012207 ) ( 560 -3020 669.200012207 ) ( 560 -2992 669.200012207 ) ( ( 0 -0.015625 247.5 ) ( 0.015625 0 38.5 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 30
+{
+brushDef
+{
+( 572 -2980 656 ) ( 540 -2980 656 ) ( 540 -2980 660 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -2972 660 ) ( 544 -2972 656 ) ( 576 -2972 656 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 560 -2992 646.799987793 ) ( 560 -3020 646.799987793 ) ( 571.200012207 -3020 646.799987793 ) ( ( 0 -0.015625 247.5 ) ( 0.015625 0 38.5 ) ) sxb_v1_skies/underground 0 0 0
+( 548.799987793 -2992 658 ) ( 548.799987793 -3020 658 ) ( 548.799987793 -3020 646.799987793 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 555.799987793 -3020 642.5999755859 ) ( 550.200012207 -3020 652.4000244141 ) ( 550.200012207 -2992 652.4000244141 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 3.5991039276 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 31
+{
+brushDef
+{
+( 572 -3012 656 ) ( 540 -3012 656 ) ( 540 -3012 660 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -3004 660 ) ( 544 -3004 656 ) ( 576 -3004 656 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 560 -2992 646.799987793 ) ( 560 -3020 646.799987793 ) ( 571.200012207 -3020 646.799987793 ) ( ( 0 -0.015625 247.5 ) ( 0.015625 0 38.5 ) ) sxb_v1_skies/underground 0 0 0
+( 550.200012207 -2992 652.4000244141 ) ( 550.200012207 -3020 652.4000244141 ) ( 555.799987793 -3020 642.5999755859 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 3.5991039276 ) ) sxb_v1_skies/underground 0 0 0
+( 564.200012207 -3020 642.5999755859 ) ( 554.4000244141 -3020 648.200012207 ) ( 554.4000244141 -2992 648.200012207 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 253.0858154297 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 32
+{
+brushDef
+{
+( 574 -3004 669 ) ( 574 -3004 647 ) ( 546 -3004 647 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 546 -2980 647 ) ( 574 -2980 647 ) ( 574 -2980 669 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 574 -2980 658 ) ( 574 -3004 658 ) ( 574 -3004 672 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 572 -2980 665 ) ( 572 -3004 665 ) ( 565 -3004 677 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 3.4933567047 ) ) sxb_v1_skies/underground 0 0 0
+( 569.799987793 -2992 652.4000244141 ) ( 569.799987793 -3020 652.4000244141 ) ( 575.4000244141 -3020 662.200012207 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 12.0334777832 ) ) sxb_v1_skies/underground 0 0 0
+( 571.200012207 -3020 669.200012207 ) ( 571.200012207 -3020 658 ) ( 571.200012207 -2992 658 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 33
+{
+brushDef
+{
+( 572 -2980 656 ) ( 540 -2980 656 ) ( 540 -2980 660 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -2972 660 ) ( 544 -2972 656 ) ( 576 -2972 656 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 560 -2960 674 ) ( 560 -2988 674 ) ( 544 -2988 674 ) ( ( 0 0.015625 247.5 ) ( -0.015625 0 217.5 ) ) sxb_v1_skies/underground 0 0 0
+( 552 -2960 672 ) ( 552 -2988 672 ) ( 538 -2988 664 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 11.8459777832 ) ) sxb_v1_skies/underground 0 0 0
+( 569.799987793 -2992 663.5999755859 ) ( 569.799987793 -3020 663.5999755859 ) ( 564.200012207 -3020 673.4000244141 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 3.5991039276 ) ) sxb_v1_skies/underground 0 0 0
+( 555.799987793 -3020 673.4000244141 ) ( 565.5999755859 -3020 667.799987793 ) ( 565.5999755859 -2992 667.799987793 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 253.0858154297 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 34
+{
+brushDef
+{
+( 572 -2980 656 ) ( 540 -2980 656 ) ( 540 -2980 660 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -2972 660 ) ( 544 -2972 656 ) ( 576 -2972 656 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 546 -2960 650 ) ( 546 -2988 650 ) ( 554 -2988 636 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 3.5991172791 ) ) sxb_v1_skies/underground 0 0 0
+( 560 -2992 646.799987793 ) ( 560 -3020 646.799987793 ) ( 571.200012207 -3020 646.799987793 ) ( ( 0 -0.015625 247.5 ) ( 0.015625 0 38.5 ) ) sxb_v1_skies/underground 0 0 0
+( 550.200012207 -2992 663.5999755859 ) ( 550.200012207 -3020 663.5999755859 ) ( 544.5999755859 -3020 653.799987793 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 12.0334777832 ) ) sxb_v1_skies/underground 0 0 0
+( 548.799987793 -3020 646.799987793 ) ( 548.799987793 -3020 658 ) ( 548.799987793 -2992 658 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 35
+{
+brushDef
+{
+( 572 -2980 656 ) ( 540 -2980 656 ) ( 540 -2980 660 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -2972 660 ) ( 544 -2972 656 ) ( 576 -2972 656 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 560 -2992 646.799987793 ) ( 560 -3020 646.799987793 ) ( 571.200012207 -3020 646.799987793 ) ( ( 0 -0.015625 247.5 ) ( 0.015625 0 38.5 ) ) sxb_v1_skies/underground 0 0 0
+( 550.200012207 -2992 652.4000244141 ) ( 550.200012207 -3020 652.4000244141 ) ( 555.799987793 -3020 642.5999755859 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 3.5991039276 ) ) sxb_v1_skies/underground 0 0 0
+( 564.200012207 -3020 642.5999755859 ) ( 554.4000244141 -3020 648.200012207 ) ( 554.4000244141 -2992 648.200012207 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 253.0858154297 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 36
+{
+brushDef
+{
+( 572 -2980 656 ) ( 540 -2980 656 ) ( 540 -2980 660 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -2972 660 ) ( 544 -2972 656 ) ( 576 -2972 656 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 576 -2960 658 ) ( 576 -2988 658 ) ( 576 -2988 674 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 574 -2960 666 ) ( 574 -2988 666 ) ( 566 -2988 680 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 3.5991172791 ) ) sxb_v1_skies/underground 0 0 0
+( 565.5999755859 -2992 648.200012207 ) ( 565.5999755859 -3020 648.200012207 ) ( 575.4000244141 -3020 653.799987793 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 11.8459472656 ) ) sxb_v1_skies/underground 0 0 0
+( 575.4000244141 -3020 662.200012207 ) ( 569.799987793 -3020 652.4000244141 ) ( 569.799987793 -2992 652.4000244141 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 12.0334777832 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 37
+{
+brushDef
+{
+( 574 -3004 669 ) ( 574 -3004 647 ) ( 546 -3004 647 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 546 -2980 647 ) ( 574 -2980 647 ) ( 574 -2980 669 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 567 -2980 646 ) ( 567 -3004 646 ) ( 579 -3004 653 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 11.8802185059 ) ) sxb_v1_skies/underground 0 0 0
+( 572 -2980 651 ) ( 572 -3004 651 ) ( 579 -3004 663 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 12.059173584 ) ) sxb_v1_skies/underground 0 0 0
+( 560 -2992 646.799987793 ) ( 560 -3020 646.799987793 ) ( 571.200012207 -3020 646.799987793 ) ( ( 0 -0.015625 247.5 ) ( 0.015625 0 38.5 ) ) sxb_v1_skies/underground 0 0 0
+( 575.4000244141 -3020 653.799987793 ) ( 565.5999755859 -3020 648.200012207 ) ( 565.5999755859 -2992 648.200012207 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 11.8459472656 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 38
+{
+brushDef
+{
+( 572 -2980 656 ) ( 540 -2980 656 ) ( 540 -2980 660 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -2972 660 ) ( 544 -2972 656 ) ( 576 -2972 656 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 574 -2960 650 ) ( 574 -2988 650 ) ( 582 -2988 664 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 12.0334777832 ) ) sxb_v1_skies/underground 0 0 0
+( 576 -2960 658 ) ( 576 -2988 658 ) ( 576 -2988 674 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 560 -2992 646.799987793 ) ( 560 -3020 646.799987793 ) ( 571.200012207 -3020 646.799987793 ) ( ( 0 -0.015625 247.5 ) ( 0.015625 0 38.5 ) ) sxb_v1_skies/underground 0 0 0
+( 575.4000244141 -3020 653.799987793 ) ( 565.5999755859 -3020 648.200012207 ) ( 565.5999755859 -2992 648.200012207 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 11.8459472656 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 39
+{
+brushDef
+{
+( 572 -3012 656 ) ( 540 -3012 656 ) ( 540 -3012 660 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 544 -3004 660 ) ( 544 -3004 656 ) ( 576 -3004 656 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 560 -2992 646.799987793 ) ( 560 -3020 646.799987793 ) ( 571.200012207 -3020 646.799987793 ) ( ( 0 -0.015625 247.5 ) ( 0.015625 0 38.5 ) ) sxb_v1_skies/underground 0 0 0
+( 548.799987793 -2992 658 ) ( 548.799987793 -3020 658 ) ( 548.799987793 -3020 646.799987793 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 555.799987793 -3020 642.5999755859 ) ( 550.200012207 -3020 652.4000244141 ) ( 550.200012207 -2992 652.4000244141 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 3.5991039276 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+// brush 40
+{
+brushDef
+{
+( 574 -3004 669 ) ( 574 -3004 647 ) ( 546 -3004 647 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 546 -2980 647 ) ( 574 -2980 647 ) ( 574 -2980 669 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 9 ) ) sxb_v1_skies/underground 0 0 0
+( 553 -2980 646 ) ( 553 -3004 646 ) ( 565 -3004 639 ) ( ( 0.015625 0 217.5 ) ( 0 0.015625 253.1959838867 ) ) sxb_v1_skies/underground 0 0 0
+( 560 -2980 644 ) ( 560 -3004 644 ) ( 574 -3004 644 ) ( ( 0 -0.015625 247.5 ) ( 0.015625 0 38.5 ) ) sxb_v1_skies/underground 0 0 0
+( 567 -2980 646 ) ( 567 -3004 646 ) ( 579 -3004 653 ) ( ( 0.015625 0 38.5 ) ( 0 0.015625 11.8802185059 ) ) sxb_v1_skies/underground 0 0 0
+( 571.200012207 -3020 646.799987793 ) ( 560 -3020 646.799987793 ) ( 560 -2992 646.799987793 ) ( ( 0 0.015625 247.5 ) ( -0.015625 0 217.5 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+}
+// entity 195
+{
+"classname" "func_clientillusionary"
+// brush 0
+{
+brushDef
+{
+( 577.200012207 -3009.1999511719 604.799987793 ) ( 542 -3009.1999511719 604.799987793 ) ( 577.200012207 -2974 604.799987793 ) ( ( 0 0.048780486 55.5609893799 ) ( -0.048780486 0 47.024394989 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 577.200012207 -3009.1999511719 604.799987793 ) ( 577.200012207 -2974 604.799987793 ) ( 577.200012207 -3009.1999511719 569.5999755859 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 577.200012207 -3009.1999511719 604.799987793 ) ( 577.200012207 -3009.1999511719 569.5999755859 ) ( 542 -3009.1999511719 604.799987793 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -2974 575.5999755859 ) ( 542 -3009.1999511719 575.5999755859 ) ( 577.200012207 -2974 575.5999755859 ) ( ( 0 -0.048780486 55.5609893799 ) ( 0.048780486 0 34.975605011 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -2976.1999511719 569.5999755859 ) ( 542 -2976.1999511719 604.799987793 ) ( 542 -3011.3999023438 569.5999755859 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -2974 569.5999755859 ) ( 577.200012207 -2974 569.5999755859 ) ( 542 -2974 604.799987793 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 1
+{
+brushDef
+{
+( 577.200012207 -3009.1999511719 631.200012207 ) ( 542 -3009.1999511719 631.200012207 ) ( 577.200012207 -2974 631.200012207 ) ( ( 0 0.048780486 55.5609893799 ) ( -0.048780486 0 47.024394989 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 577.200012207 -3009.1999511719 640 ) ( 577.200012207 -2974 640 ) ( 577.200012207 -3009.1999511719 604.799987793 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 577.200012207 -3009.1999511719 640 ) ( 577.200012207 -3009.1999511719 604.799987793 ) ( 542 -3009.1999511719 640 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -2974 604.799987793 ) ( 542 -3009.1999511719 604.799987793 ) ( 577.200012207 -2974 604.799987793 ) ( ( 0 -0.048780486 55.5609893799 ) ( 0.048780486 0 34.975605011 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -2976.1999511719 604.799987793 ) ( 542 -2976.1999511719 640 ) ( 542 -3011.3999023438 604.799987793 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -2974 604.799987793 ) ( 577.200012207 -2974 604.799987793 ) ( 542 -2974 640 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 2
+{
+brushDef
+{
+( 568.4000244141 -3009.1999511719 644.4000244141 ) ( 559.5999755859 -3009.1999511719 644.4000244141 ) ( 568.4000244141 -2974 644.4000244141 ) ( ( 0 0.048780486 55.5609893799 ) ( -0.048780486 0 47.024394989 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 559.5999755859 -2974 631.200012207 ) ( 559.5999755859 -3009.1999511719 631.200012207 ) ( 568.4000244141 -2974 631.200012207 ) ( ( 0 -0.048780486 55.5609893799 ) ( 0.048780486 0 34.975605011 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 612.4000244141 -2974 631.200012207 ) ( 612.4000244141 -2982.8000488281 644.4000244141 ) ( 471.6000061035 -2974 631.200012207 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 6.2649364471 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 471.6000061035 -3009.1999511719 631.200012207 ) ( 612.4000244141 -3000.3999023438 644.4000244141 ) ( 612.4000244141 -3009.1999511719 631.200012207 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 40.4922409058 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -2903.6000976563 631.200012207 ) ( 550.799987793 -2903.6000976563 644.4000244141 ) ( 542 -3044.3999023438 631.200012207 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 38.0443267822 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 577.200012207 -3044.3999023438 631.200012207 ) ( 568.4000244141 -2903.6000976563 644.4000244141 ) ( 577.200012207 -2903.6000976563 631.200012207 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 8.7128295898 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 3
+{
+brushDef
+{
+( 575 -3004.8000488281 671.9000244141 ) ( 575 -3004.8000488281 647.700012207 ) ( 544.200012207 -3004.8000488281 647.700012207 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 544.200012207 -2978.3999023438 647.700012207 ) ( 575 -2978.3999023438 647.700012207 ) ( 575 -2978.3999023438 671.9000244141 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 575 -2978.3999023438 659.799987793 ) ( 575 -3004.8000488281 659.799987793 ) ( 575 -3004.8000488281 675.200012207 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 572.799987793 -2978.3999023438 652.0999755859 ) ( 572.799987793 -3004.8000488281 652.0999755859 ) ( 580.5 -3004.8000488281 665.299987793 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 37.5919189453 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 565.7600097656 -2991.6000976563 649.0200195313 ) ( 565.7600097656 -3022.3999023438 649.0200195313 ) ( 576.5399780273 -3022.3999023438 655.1799926758 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.0487804823 36.8958129883 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 576.5399780273 -3022.3999023438 664.4199829102 ) ( 570.3800048828 -3022.3999023438 653.6400146484 ) ( 570.3800048828 -2991.6000976563 653.6400146484 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.0487804785 37.5129318237 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 4
+{
+brushDef
+{
+( 572.799987793 -3013.6000976563 657.5999755859 ) ( 537.5999755859 -3013.6000976563 657.5999755859 ) ( 537.5999755859 -3013.6000976563 662 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -3004.8000488281 662 ) ( 542 -3004.8000488281 657.5999755859 ) ( 577.200012207 -3004.8000488281 657.5999755859 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -2991.6000976563 659.799987793 ) ( 542 -3022.3999023438 659.799987793 ) ( 542 -3022.3999023438 642.200012207 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 544.200012207 -2991.6000976563 651 ) ( 544.200012207 -3022.3999023438 651 ) ( 553 -3022.3999023438 635.5999755859 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 11.2780761719 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 553.4400024414 -2991.6000976563 670.5800170898 ) ( 553.4400024414 -3022.3999023438 670.5800170898 ) ( 542.6600341797 -3022.3999023438 664.4199829102 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.0487804823 36.8958129883 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542.6600341797 -3022.3999023438 655.1799926758 ) ( 548.8200073242 -3022.3999023438 665.9600219727 ) ( 548.8200073242 -2991.6000976563 665.9600219727 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.0487804785 37.5129318237 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 5
+{
+brushDef
+{
+( 572.799987793 -2978.3999023438 657.5999755859 ) ( 537.5999755859 -2978.3999023438 657.5999755859 ) ( 537.5999755859 -2978.3999023438 662 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -2969.6000976563 662 ) ( 542 -2969.6000976563 657.5999755859 ) ( 577.200012207 -2969.6000976563 657.5999755859 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 575 -2956.3999023438 668.5999755859 ) ( 575 -2987.1999511719 668.5999755859 ) ( 566.200012207 -2987.1999511719 684 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 11.2780761719 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 568.4000244141 -2956.3999023438 675.200012207 ) ( 568.4000244141 -2987.1999511719 675.200012207 ) ( 553 -2987.1999511719 684 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 72.9848175049 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 570.3800048828 -2991.6000976563 653.6400146484 ) ( 570.3800048828 -3022.3999023438 653.6400146484 ) ( 576.5399780273 -3022.3999023438 664.4199829102 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.0487804785 37.5129318237 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 571.9199829102 -3022.3999023438 672.1199951172 ) ( 571.9199829102 -3022.3999023438 659.799987793 ) ( 571.9199829102 -2991.6000976563 659.799987793 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 6
+{
+brushDef
+{
+( 575 -3004.8000488281 671.9000244141 ) ( 575 -3004.8000488281 647.700012207 ) ( 544.200012207 -3004.8000488281 647.700012207 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 544.200012207 -2978.3999023438 647.700012207 ) ( 575 -2978.3999023438 647.700012207 ) ( 575 -2978.3999023438 671.9000244141 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 575 -2978.3999023438 659.799987793 ) ( 575 -3004.8000488281 659.799987793 ) ( 575 -3004.8000488281 675.200012207 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 572.799987793 -2978.3999023438 667.5 ) ( 572.799987793 -3004.8000488281 667.5 ) ( 565.0999755859 -3004.8000488281 680.700012207 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 10.9482345581 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 570.3800048828 -2991.6000976563 653.6400146484 ) ( 570.3800048828 -3022.3999023438 653.6400146484 ) ( 576.5399780273 -3022.3999023438 664.4199829102 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.0487804785 37.5129318237 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 571.9199829102 -3022.3999023438 672.1199951172 ) ( 571.9199829102 -3022.3999023438 659.799987793 ) ( 571.9199829102 -2991.6000976563 659.799987793 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 7
+{
+brushDef
+{
+( 572.799987793 -2978.3999023438 657.5999755859 ) ( 537.5999755859 -2978.3999023438 657.5999755859 ) ( 537.5999755859 -2978.3999023438 662 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -2969.6000976563 662 ) ( 542 -2969.6000976563 657.5999755859 ) ( 577.200012207 -2969.6000976563 657.5999755859 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -2956.3999023438 659.799987793 ) ( 542 -2987.1999511719 659.799987793 ) ( 542 -2987.1999511719 642.200012207 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 544.200012207 -2956.3999023438 651 ) ( 544.200012207 -2987.1999511719 651 ) ( 553 -2987.1999511719 635.5999755859 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 11.2780761719 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 553.4400024414 -2991.6000976563 670.5800170898 ) ( 553.4400024414 -3022.3999023438 670.5800170898 ) ( 542.6600341797 -3022.3999023438 664.4199829102 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.0487804823 36.8958129883 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542.6600341797 -3022.3999023438 655.1799926758 ) ( 548.8200073242 -3022.3999023438 665.9600219727 ) ( 548.8200073242 -2991.6000976563 665.9600219727 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.0487804785 37.5129318237 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 8
+{
+brushDef
+{
+( 572.799987793 -2978.3999023438 657.5999755859 ) ( 537.5999755859 -2978.3999023438 657.5999755859 ) ( 537.5999755859 -2978.3999023438 662 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -2969.6000976563 662 ) ( 542 -2969.6000976563 657.5999755859 ) ( 577.200012207 -2969.6000976563 657.5999755859 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 544.200012207 -2956.3999023438 651 ) ( 544.200012207 -2987.1999511719 651 ) ( 553 -2987.1999511719 635.5999755859 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 11.2780761719 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 559.5999755859 -2991.6000976563 647.4799804688 ) ( 559.5999755859 -3022.3999023438 647.4799804688 ) ( 571.9199829102 -3022.3999023438 647.4799804688 ) ( ( 0 -0.048780486 55.5609893799 ) ( 0.048780486 0 34.975605011 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 548.8200073242 -2991.6000976563 665.9600219727 ) ( 548.8200073242 -3022.3999023438 665.9600219727 ) ( 542.6600341797 -3022.3999023438 655.1799926758 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.0487804785 37.5129318237 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 547.2800292969 -3022.3999023438 647.4799804688 ) ( 547.2800292969 -3022.3999023438 659.799987793 ) ( 547.2800292969 -2991.6000976563 659.799987793 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 9
+{
+brushDef
+{
+( 572.799987793 -2978.3999023438 657.5999755859 ) ( 537.5999755859 -2978.3999023438 657.5999755859 ) ( 537.5999755859 -2978.3999023438 662 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -2969.6000976563 662 ) ( 542 -2969.6000976563 657.5999755859 ) ( 577.200012207 -2969.6000976563 657.5999755859 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 544.200012207 -2956.3999023438 668.5999755859 ) ( 544.200012207 -2987.1999511719 668.5999755859 ) ( 535.4000244141 -2987.1999511719 653.200012207 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 37.5129470825 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -2956.3999023438 659.799987793 ) ( 542 -2987.1999511719 659.799987793 ) ( 542 -2987.1999511719 642.200012207 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 559.5999755859 -2991.6000976563 672.1199951172 ) ( 559.5999755859 -3022.3999023438 672.1199951172 ) ( 547.2800292969 -3022.3999023438 672.1199951172 ) ( ( 0 0.048780486 55.5609893799 ) ( -0.048780486 0 47.024394989 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542.6600341797 -3022.3999023438 664.4199829102 ) ( 553.4400024414 -3022.3999023438 670.5800170898 ) ( 553.4400024414 -2991.6000976563 670.5800170898 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.0487804823 36.8958129883 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 10
+{
+brushDef
+{
+( 572.799987793 -2978.3999023438 657.5999755859 ) ( 537.5999755859 -2978.3999023438 657.5999755859 ) ( 537.5999755859 -2978.3999023438 662 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -2969.6000976563 662 ) ( 542 -2969.6000976563 657.5999755859 ) ( 577.200012207 -2969.6000976563 657.5999755859 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 559.5999755859 -2991.6000976563 647.4799804688 ) ( 559.5999755859 -3022.3999023438 647.4799804688 ) ( 571.9199829102 -3022.3999023438 647.4799804688 ) ( ( 0 -0.048780486 55.5609893799 ) ( 0.048780486 0 34.975605011 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 548.8200073242 -2991.6000976563 653.6400146484 ) ( 548.8200073242 -3022.3999023438 653.6400146484 ) ( 554.9799804688 -3022.3999023438 642.8599853516 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 11.2780380249 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 564.2199707031 -3022.3999023438 642.8599853516 ) ( 553.4400024414 -3022.3999023438 649.0200195313 ) ( 553.4400024414 -2991.6000976563 649.0200195313 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.0487804674 72.9848022461 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 11
+{
+brushDef
+{
+( 572.799987793 -2978.3999023438 657.5999755859 ) ( 537.5999755859 -2978.3999023438 657.5999755859 ) ( 537.5999755859 -2978.3999023438 662 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -2969.6000976563 662 ) ( 542 -2969.6000976563 657.5999755859 ) ( 577.200012207 -2969.6000976563 657.5999755859 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 577.200012207 -2956.3999023438 659.799987793 ) ( 577.200012207 -2987.1999511719 659.799987793 ) ( 577.200012207 -2987.1999511719 677.4000244141 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 575 -2956.3999023438 668.5999755859 ) ( 575 -2987.1999511719 668.5999755859 ) ( 566.200012207 -2987.1999511719 684 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 11.2780761719 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 565.7600097656 -2991.6000976563 649.0200195313 ) ( 565.7600097656 -3022.3999023438 649.0200195313 ) ( 576.5399780273 -3022.3999023438 655.1799926758 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.0487804823 36.8958129883 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 576.5399780273 -3022.3999023438 664.4199829102 ) ( 570.3800048828 -3022.3999023438 653.6400146484 ) ( 570.3800048828 -2991.6000976563 653.6400146484 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.0487804785 37.5129318237 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 12
+{
+brushDef
+{
+( 572.799987793 -2978.3999023438 657.5999755859 ) ( 537.5999755859 -2978.3999023438 657.5999755859 ) ( 537.5999755859 -2978.3999023438 662 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -2969.6000976563 662 ) ( 542 -2969.6000976563 657.5999755859 ) ( 577.200012207 -2969.6000976563 657.5999755859 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 559.5999755859 -2956.3999023438 677.4000244141 ) ( 559.5999755859 -2987.1999511719 677.4000244141 ) ( 542 -2987.1999511719 677.4000244141 ) ( ( 0 0.048780486 55.5609893799 ) ( -0.048780486 0 47.024394989 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 550.799987793 -2956.3999023438 675.200012207 ) ( 550.799987793 -2987.1999511719 675.200012207 ) ( 535.4000244141 -2987.1999511719 666.4000244141 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 36.8958129883 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 570.3800048828 -2991.6000976563 665.9600219727 ) ( 570.3800048828 -3022.3999023438 665.9600219727 ) ( 564.2199707031 -3022.3999023438 676.7399902344 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.0487804823 11.2780609131 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 554.9799804688 -3022.3999023438 676.7399902344 ) ( 565.7600097656 -3022.3999023438 670.5800170898 ) ( 565.7600097656 -2991.6000976563 670.5800170898 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.0487804785 72.9847717285 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 13
+{
+brushDef
+{
+( 575 -3004.8000488281 671.9000244141 ) ( 575 -3004.8000488281 647.700012207 ) ( 544.200012207 -3004.8000488281 647.700012207 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 544.200012207 -2978.3999023438 647.700012207 ) ( 575 -2978.3999023438 647.700012207 ) ( 575 -2978.3999023438 671.9000244141 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 544.200012207 -2978.3999023438 659.799987793 ) ( 544.200012207 -3004.8000488281 659.799987793 ) ( 544.200012207 -3004.8000488281 644.4000244141 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 546.4000244141 -2978.3999023438 652.0999755859 ) ( 546.4000244141 -3004.8000488281 652.0999755859 ) ( 554.0999755859 -3004.8000488281 638.9000244141 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 10.9481964111 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 548.8200073242 -2991.6000976563 665.9600219727 ) ( 548.8200073242 -3022.3999023438 665.9600219727 ) ( 542.6600341797 -3022.3999023438 655.1799926758 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.0487804785 37.5129318237 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 547.2800292969 -3022.3999023438 647.4799804688 ) ( 547.2800292969 -3022.3999023438 659.799987793 ) ( 547.2800292969 -2991.6000976563 659.799987793 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 14
+{
+brushDef
+{
+( 572.799987793 -2978.3999023438 657.5999755859 ) ( 537.5999755859 -2978.3999023438 657.5999755859 ) ( 537.5999755859 -2978.3999023438 662 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -2969.6000976563 662 ) ( 542 -2969.6000976563 657.5999755859 ) ( 577.200012207 -2969.6000976563 657.5999755859 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 568.4000244141 -2956.3999023438 675.200012207 ) ( 568.4000244141 -2987.1999511719 675.200012207 ) ( 553 -2987.1999511719 684 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 72.9848175049 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 559.5999755859 -2956.3999023438 677.4000244141 ) ( 559.5999755859 -2987.1999511719 677.4000244141 ) ( 542 -2987.1999511719 677.4000244141 ) ( ( 0 0.048780486 55.5609893799 ) ( -0.048780486 0 47.024394989 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 571.9199829102 -2991.6000976563 659.799987793 ) ( 571.9199829102 -3022.3999023438 659.799987793 ) ( 571.9199829102 -3022.3999023438 672.1199951172 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 564.2199707031 -3022.3999023438 676.7399902344 ) ( 570.3800048828 -3022.3999023438 665.9600219727 ) ( 570.3800048828 -2991.6000976563 665.9600219727 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.0487804823 11.2780609131 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 15
+{
+brushDef
+{
+( 543.0999755859 -3000.3999023438 664.200012207 ) ( 543.0999755859 -2982.8000488281 664.200012207 ) ( 543.0999755859 -3000.3999023438 651 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 568.4000244141 -3000.3999023438 659.799987793 ) ( 568.4000244141 -3000.3999023438 646.5999755859 ) ( 533.200012207 -3000.3999023438 659.799987793 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 533.200012207 -2982.8000488281 633.4000244141 ) ( 533.200012207 -3000.3999023438 633.4000244141 ) ( 568.4000244141 -2982.8000488281 633.4000244141 ) ( ( 0 -0.048780486 55.5609893799 ) ( 0.048780486 0 34.975605011 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -2987.1999511719 646.5999755859 ) ( 542 -2987.1999511719 659.799987793 ) ( 542 -3004.8000488281 646.5999755859 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 533.200012207 -2982.8000488281 646.5999755859 ) ( 568.4000244141 -2982.8000488281 646.5999755859 ) ( 533.200012207 -2982.8000488281 659.799987793 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 563.1199951172 -3022.3999023438 658.4799804688 ) ( 550.799987793 -3022.3999023438 658.4799804688 ) ( 550.799987793 -2991.6000976563 658.4799804688 ) ( ( 0 0.048780486 55.5609893799 ) ( -0.048780486 0 47.024394989 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 16
+{
+brushDef
+{
+( 572.799987793 -2978.3999023438 657.5999755859 ) ( 537.5999755859 -2978.3999023438 657.5999755859 ) ( 537.5999755859 -2978.3999023438 662 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -2969.6000976563 662 ) ( 542 -2969.6000976563 657.5999755859 ) ( 577.200012207 -2969.6000976563 657.5999755859 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 559.5999755859 -2991.6000976563 647.4799804688 ) ( 559.5999755859 -3022.3999023438 647.4799804688 ) ( 571.9199829102 -3022.3999023438 647.4799804688 ) ( ( 0 -0.048780486 55.5609893799 ) ( 0.048780486 0 34.975605011 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 547.2800292969 -2991.6000976563 659.799987793 ) ( 547.2800292969 -3022.3999023438 659.799987793 ) ( 547.2800292969 -3022.3999023438 647.4799804688 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 554.9799804688 -3022.3999023438 642.8599853516 ) ( 548.8200073242 -3022.3999023438 653.6400146484 ) ( 548.8200073242 -2991.6000976563 653.6400146484 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 11.2780380249 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 17
+{
+brushDef
+{
+( 575 -3004.8000488281 671.9000244141 ) ( 575 -3004.8000488281 647.700012207 ) ( 544.200012207 -3004.8000488281 647.700012207 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 544.200012207 -2978.3999023438 647.700012207 ) ( 575 -2978.3999023438 647.700012207 ) ( 575 -2978.3999023438 671.9000244141 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 567.299987793 -2978.3999023438 673 ) ( 567.299987793 -3004.8000488281 673 ) ( 554.0999755859 -3004.8000488281 680.700012207 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 73.3200683594 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 559.5999755859 -2978.3999023438 675.200012207 ) ( 559.5999755859 -3004.8000488281 675.200012207 ) ( 544.200012207 -3004.8000488281 675.200012207 ) ( ( 0 0.048780486 55.5609893799 ) ( -0.048780486 0 47.024394989 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 570.3800048828 -2991.6000976563 665.9600219727 ) ( 570.3800048828 -3022.3999023438 665.9600219727 ) ( 564.2199707031 -3022.3999023438 676.7399902344 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.0487804823 11.2780609131 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 554.9799804688 -3022.3999023438 676.7399902344 ) ( 565.7600097656 -3022.3999023438 670.5800170898 ) ( 565.7600097656 -2991.6000976563 670.5800170898 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.0487804785 72.9847717285 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 18
+{
+brushDef
+{
+( 575 -3004.8000488281 671.9000244141 ) ( 575 -3004.8000488281 647.700012207 ) ( 544.200012207 -3004.8000488281 647.700012207 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 544.200012207 -2978.3999023438 647.700012207 ) ( 575 -2978.3999023438 647.700012207 ) ( 575 -2978.3999023438 671.9000244141 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 572.799987793 -2978.3999023438 667.5 ) ( 572.799987793 -3004.8000488281 667.5 ) ( 565.0999755859 -3004.8000488281 680.700012207 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 10.9482345581 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 567.299987793 -2978.3999023438 673 ) ( 567.299987793 -3004.8000488281 673 ) ( 554.0999755859 -3004.8000488281 680.700012207 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 73.3200683594 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 571.9199829102 -2991.6000976563 659.799987793 ) ( 571.9199829102 -3022.3999023438 659.799987793 ) ( 571.9199829102 -3022.3999023438 672.1199951172 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 564.2199707031 -3022.3999023438 676.7399902344 ) ( 570.3800048828 -3022.3999023438 665.9600219727 ) ( 570.3800048828 -2991.6000976563 665.9600219727 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.0487804823 11.2780609131 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 19
+{
+brushDef
+{
+( 572.799987793 -3013.6000976563 657.5999755859 ) ( 537.5999755859 -3013.6000976563 657.5999755859 ) ( 537.5999755859 -3013.6000976563 662 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -3004.8000488281 662 ) ( 542 -3004.8000488281 657.5999755859 ) ( 577.200012207 -3004.8000488281 657.5999755859 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 544.200012207 -2991.6000976563 651 ) ( 544.200012207 -3022.3999023438 651 ) ( 553 -3022.3999023438 635.5999755859 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 11.2780761719 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 559.5999755859 -2991.6000976563 647.4799804688 ) ( 559.5999755859 -3022.3999023438 647.4799804688 ) ( 571.9199829102 -3022.3999023438 647.4799804688 ) ( ( 0 -0.048780486 55.5609893799 ) ( 0.048780486 0 34.975605011 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 548.8200073242 -2991.6000976563 665.9600219727 ) ( 548.8200073242 -3022.3999023438 665.9600219727 ) ( 542.6600341797 -3022.3999023438 655.1799926758 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.0487804785 37.5129318237 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 547.2800292969 -3022.3999023438 647.4799804688 ) ( 547.2800292969 -3022.3999023438 659.799987793 ) ( 547.2800292969 -2991.6000976563 659.799987793 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 20
+{
+brushDef
+{
+( 572.799987793 -3013.6000976563 657.5999755859 ) ( 537.5999755859 -3013.6000976563 657.5999755859 ) ( 537.5999755859 -3013.6000976563 662 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -3004.8000488281 662 ) ( 542 -3004.8000488281 657.5999755859 ) ( 577.200012207 -3004.8000488281 657.5999755859 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 559.5999755859 -2991.6000976563 647.4799804688 ) ( 559.5999755859 -3022.3999023438 647.4799804688 ) ( 571.9199829102 -3022.3999023438 647.4799804688 ) ( ( 0 -0.048780486 55.5609893799 ) ( 0.048780486 0 34.975605011 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 548.8200073242 -2991.6000976563 653.6400146484 ) ( 548.8200073242 -3022.3999023438 653.6400146484 ) ( 554.9799804688 -3022.3999023438 642.8599853516 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 11.2780380249 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 564.2199707031 -3022.3999023438 642.8599853516 ) ( 553.4400024414 -3022.3999023438 649.0200195313 ) ( 553.4400024414 -2991.6000976563 649.0200195313 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.0487804674 72.9848022461 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 21
+{
+brushDef
+{
+( 572.799987793 -2978.3999023438 657.5999755859 ) ( 537.5999755859 -2978.3999023438 657.5999755859 ) ( 537.5999755859 -2978.3999023438 662 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -2969.6000976563 662 ) ( 542 -2969.6000976563 657.5999755859 ) ( 577.200012207 -2969.6000976563 657.5999755859 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 550.799987793 -2956.3999023438 675.200012207 ) ( 550.799987793 -2987.1999511719 675.200012207 ) ( 535.4000244141 -2987.1999511719 666.4000244141 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 36.8958129883 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 544.200012207 -2956.3999023438 668.5999755859 ) ( 544.200012207 -2987.1999511719 668.5999755859 ) ( 535.4000244141 -2987.1999511719 653.200012207 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 37.5129470825 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 565.7600097656 -2991.6000976563 670.5800170898 ) ( 565.7600097656 -3022.3999023438 670.5800170898 ) ( 554.9799804688 -3022.3999023438 676.7399902344 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.0487804785 72.9847717285 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 547.2800292969 -3022.3999023438 672.1199951172 ) ( 559.5999755859 -3022.3999023438 672.1199951172 ) ( 559.5999755859 -2991.6000976563 672.1199951172 ) ( ( 0 -0.048780486 55.5609893799 ) ( 0.048780486 0 34.975605011 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 22
+{
+brushDef
+{
+( 575 -3004.8000488281 671.9000244141 ) ( 575 -3004.8000488281 647.700012207 ) ( 544.200012207 -3004.8000488281 647.700012207 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 544.200012207 -2978.3999023438 647.700012207 ) ( 575 -2978.3999023438 647.700012207 ) ( 575 -2978.3999023438 671.9000244141 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 567.299987793 -2978.3999023438 646.5999755859 ) ( 567.299987793 -3004.8000488281 646.5999755859 ) ( 580.5 -3004.8000488281 654.299987793 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 36.9950256348 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 572.799987793 -2978.3999023438 652.0999755859 ) ( 572.799987793 -3004.8000488281 652.0999755859 ) ( 580.5 -3004.8000488281 665.299987793 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 37.5919189453 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 559.5999755859 -2991.6000976563 647.4799804688 ) ( 559.5999755859 -3022.3999023438 647.4799804688 ) ( 571.9199829102 -3022.3999023438 647.4799804688 ) ( ( 0 -0.048780486 55.5609893799 ) ( 0.048780486 0 34.975605011 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 576.5399780273 -3022.3999023438 655.1799926758 ) ( 565.7600097656 -3022.3999023438 649.0200195313 ) ( 565.7600097656 -2991.6000976563 649.0200195313 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.0487804823 36.8958129883 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 23
+{
+brushDef
+{
+( 572.799987793 -2978.3999023438 657.5999755859 ) ( 537.5999755859 -2978.3999023438 657.5999755859 ) ( 537.5999755859 -2978.3999023438 662 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -2969.6000976563 662 ) ( 542 -2969.6000976563 657.5999755859 ) ( 577.200012207 -2969.6000976563 657.5999755859 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 559.5999755859 -2956.3999023438 642.200012207 ) ( 559.5999755859 -2987.1999511719 642.200012207 ) ( 577.200012207 -2987.1999511719 642.200012207 ) ( ( 0 -0.048780486 55.5609893799 ) ( 0.048780486 0 34.975605011 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 568.4000244141 -2956.3999023438 644.4000244141 ) ( 568.4000244141 -2987.1999511719 644.4000244141 ) ( 583.799987793 -2987.1999511719 653.200012207 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 36.8958129883 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 575 -2956.3999023438 651 ) ( 575 -2987.1999511719 651 ) ( 583.799987793 -2987.1999511719 666.4000244141 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 37.5129547119 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 544.200012207 -2956.3999023438 651 ) ( 544.200012207 -2987.1999511719 651 ) ( 553 -2987.1999511719 635.5999755859 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 11.2780761719 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 550.799987793 -2956.3999023438 644.4000244141 ) ( 550.799987793 -2987.1999511719 644.4000244141 ) ( 566.200012207 -2987.1999511719 635.5999755859 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 72.9847717285 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 571.9199829102 -3022.3999023438 647.4799804688 ) ( 559.5999755859 -3022.3999023438 647.4799804688 ) ( 559.5999755859 -2991.6000976563 647.4799804688 ) ( ( 0 0.048780486 55.5609893799 ) ( -0.048780486 0 47.024394989 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 24
+{
+brushDef
+{
+( 551.9000244141 -3000.3999023438 657.5999755859 ) ( 551.9000244141 -2982.8000488281 657.5999755859 ) ( 551.9000244141 -3000.3999023438 644.4000244141 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 577.200012207 -3000.3999023438 657.5999755859 ) ( 577.200012207 -3000.3999023438 644.4000244141 ) ( 542 -3000.3999023438 657.5999755859 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 550.799987793 -2987.1999511719 644.4000244141 ) ( 550.799987793 -2987.1999511719 657.5999755859 ) ( 550.799987793 -3004.8000488281 644.4000244141 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -2982.8000488281 644.4000244141 ) ( 577.200012207 -2982.8000488281 644.4000244141 ) ( 542 -2982.8000488281 657.5999755859 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 548.8200073242 -2991.6000976563 653.6400146484 ) ( 548.8200073242 -3022.3999023438 653.6400146484 ) ( 554.9799804688 -3022.3999023438 642.8599853516 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 11.2780380249 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 564.2199707031 -3022.3999023438 642.8599853516 ) ( 553.4400024414 -3022.3999023438 649.0200195313 ) ( 553.4400024414 -2991.6000976563 649.0200195313 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.0487804674 72.9848022461 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 25
+{
+brushDef
+{
+( 575 -3004.8000488281 671.9000244141 ) ( 575 -3004.8000488281 647.700012207 ) ( 544.200012207 -3004.8000488281 647.700012207 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 544.200012207 -2978.3999023438 647.700012207 ) ( 575 -2978.3999023438 647.700012207 ) ( 575 -2978.3999023438 671.9000244141 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 551.9000244141 -2978.3999023438 646.5999755859 ) ( 551.9000244141 -3004.8000488281 646.5999755859 ) ( 565.0999755859 -3004.8000488281 638.9000244141 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 73.3200836182 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 559.5999755859 -2978.3999023438 644.4000244141 ) ( 559.5999755859 -3004.8000488281 644.4000244141 ) ( 575 -3004.8000488281 644.4000244141 ) ( ( 0 -0.048780486 55.5609893799 ) ( 0.048780486 0 34.975605011 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 567.299987793 -2978.3999023438 646.5999755859 ) ( 567.299987793 -3004.8000488281 646.5999755859 ) ( 580.5 -3004.8000488281 654.299987793 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 36.9950256348 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 571.9199829102 -3022.3999023438 647.4799804688 ) ( 559.5999755859 -3022.3999023438 647.4799804688 ) ( 559.5999755859 -2991.6000976563 647.4799804688 ) ( ( 0 0.048780486 55.5609893799 ) ( -0.048780486 0 47.024394989 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 26
+{
+brushDef
+{
+( 572.799987793 -2978.3999023438 657.5999755859 ) ( 537.5999755859 -2978.3999023438 657.5999755859 ) ( 537.5999755859 -2978.3999023438 662 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -2969.6000976563 662 ) ( 542 -2969.6000976563 657.5999755859 ) ( 577.200012207 -2969.6000976563 657.5999755859 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 575 -2956.3999023438 651 ) ( 575 -2987.1999511719 651 ) ( 583.799987793 -2987.1999511719 666.4000244141 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 37.5129547119 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 577.200012207 -2956.3999023438 659.799987793 ) ( 577.200012207 -2987.1999511719 659.799987793 ) ( 577.200012207 -2987.1999511719 677.4000244141 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 559.5999755859 -2991.6000976563 647.4799804688 ) ( 559.5999755859 -3022.3999023438 647.4799804688 ) ( 571.9199829102 -3022.3999023438 647.4799804688 ) ( ( 0 -0.048780486 55.5609893799 ) ( 0.048780486 0 34.975605011 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 576.5399780273 -3022.3999023438 655.1799926758 ) ( 565.7600097656 -3022.3999023438 649.0200195313 ) ( 565.7600097656 -2991.6000976563 649.0200195313 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.0487804823 36.8958129883 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 27
+{
+brushDef
+{
+( 572.799987793 -3013.6000976563 657.5999755859 ) ( 537.5999755859 -3013.6000976563 657.5999755859 ) ( 537.5999755859 -3013.6000976563 662 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -3004.8000488281 662 ) ( 542 -3004.8000488281 657.5999755859 ) ( 577.200012207 -3004.8000488281 657.5999755859 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 559.5999755859 -2991.6000976563 647.4799804688 ) ( 559.5999755859 -3022.3999023438 647.4799804688 ) ( 571.9199829102 -3022.3999023438 647.4799804688 ) ( ( 0 -0.048780486 55.5609893799 ) ( 0.048780486 0 34.975605011 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 547.2800292969 -2991.6000976563 659.799987793 ) ( 547.2800292969 -3022.3999023438 659.799987793 ) ( 547.2800292969 -3022.3999023438 647.4799804688 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 554.9799804688 -3022.3999023438 642.8599853516 ) ( 548.8200073242 -3022.3999023438 653.6400146484 ) ( 548.8200073242 -2991.6000976563 653.6400146484 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 11.2780380249 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 28
+{
+brushDef
+{
+( 577.200012207 -3000.3999023438 659.799987793 ) ( 577.200012207 -2982.8000488281 659.799987793 ) ( 577.200012207 -3000.3999023438 646.5999755859 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 599.200012207 -3000.3999023438 659.799987793 ) ( 599.200012207 -3000.3999023438 646.5999755859 ) ( 564 -3000.3999023438 659.799987793 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 564 -2982.8000488281 633.4000244141 ) ( 564 -3000.3999023438 633.4000244141 ) ( 599.200012207 -2982.8000488281 633.4000244141 ) ( ( 0 -0.048780486 55.5609893799 ) ( 0.048780486 0 34.975605011 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 576.0999755859 -2988.3000488281 642.200012207 ) ( 576.0999755859 -2988.3000488281 655.4000244141 ) ( 576.0999755859 -3005.8999023438 642.200012207 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 564 -2982.8000488281 646.5999755859 ) ( 599.200012207 -2982.8000488281 646.5999755859 ) ( 564 -2982.8000488281 659.799987793 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 580.7199707031 -3022.3999023438 658.4799804688 ) ( 568.4000244141 -3022.3999023438 658.4799804688 ) ( 568.4000244141 -2991.6000976563 658.4799804688 ) ( ( 0 0.048780486 55.5609893799 ) ( -0.048780486 0 47.024394989 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 29
+{
+brushDef
+{
+( 572.799987793 -3013.6000976563 657.5999755859 ) ( 537.5999755859 -3013.6000976563 657.5999755859 ) ( 537.5999755859 -3013.6000976563 662 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -3004.8000488281 662 ) ( 542 -3004.8000488281 657.5999755859 ) ( 577.200012207 -3004.8000488281 657.5999755859 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 575 -2991.6000976563 651 ) ( 575 -3022.3999023438 651 ) ( 583.799987793 -3022.3999023438 666.4000244141 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 37.5129547119 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 577.200012207 -2991.6000976563 659.799987793 ) ( 577.200012207 -3022.3999023438 659.799987793 ) ( 577.200012207 -3022.3999023438 677.4000244141 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 559.5999755859 -2991.6000976563 647.4799804688 ) ( 559.5999755859 -3022.3999023438 647.4799804688 ) ( 571.9199829102 -3022.3999023438 647.4799804688 ) ( ( 0 -0.048780486 55.5609893799 ) ( 0.048780486 0 34.975605011 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 576.5399780273 -3022.3999023438 655.1799926758 ) ( 565.7600097656 -3022.3999023438 649.0200195313 ) ( 565.7600097656 -2991.6000976563 649.0200195313 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.0487804823 36.8958129883 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 30
+{
+brushDef
+{
+( 572.799987793 -3013.6000976563 657.5999755859 ) ( 537.5999755859 -3013.6000976563 657.5999755859 ) ( 537.5999755859 -3013.6000976563 662 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -3004.8000488281 662 ) ( 542 -3004.8000488281 657.5999755859 ) ( 577.200012207 -3004.8000488281 657.5999755859 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 577.200012207 -2991.6000976563 659.799987793 ) ( 577.200012207 -3022.3999023438 659.799987793 ) ( 577.200012207 -3022.3999023438 677.4000244141 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 575 -2991.6000976563 668.5999755859 ) ( 575 -3022.3999023438 668.5999755859 ) ( 566.200012207 -3022.3999023438 684 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 11.2780761719 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 565.7600097656 -2991.6000976563 649.0200195313 ) ( 565.7600097656 -3022.3999023438 649.0200195313 ) ( 576.5399780273 -3022.3999023438 655.1799926758 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.0487804823 36.8958129883 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 576.5399780273 -3022.3999023438 664.4199829102 ) ( 570.3800048828 -3022.3999023438 653.6400146484 ) ( 570.3800048828 -2991.6000976563 653.6400146484 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.0487804785 37.5129318237 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 31
+{
+brushDef
+{
+( 572.799987793 -3013.6000976563 657.5999755859 ) ( 537.5999755859 -3013.6000976563 657.5999755859 ) ( 537.5999755859 -3013.6000976563 662 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -3004.8000488281 662 ) ( 542 -3004.8000488281 657.5999755859 ) ( 577.200012207 -3004.8000488281 657.5999755859 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 575 -2991.6000976563 668.5999755859 ) ( 575 -3022.3999023438 668.5999755859 ) ( 566.200012207 -3022.3999023438 684 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 11.2780761719 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 568.4000244141 -2991.6000976563 675.200012207 ) ( 568.4000244141 -3022.3999023438 675.200012207 ) ( 553 -3022.3999023438 684 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 72.9848175049 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 570.3800048828 -2991.6000976563 653.6400146484 ) ( 570.3800048828 -3022.3999023438 653.6400146484 ) ( 576.5399780273 -3022.3999023438 664.4199829102 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.0487804785 37.5129318237 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 571.9199829102 -3022.3999023438 672.1199951172 ) ( 571.9199829102 -3022.3999023438 659.799987793 ) ( 571.9199829102 -2991.6000976563 659.799987793 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 32
+{
+brushDef
+{
+( 572.799987793 -3013.6000976563 657.5999755859 ) ( 537.5999755859 -3013.6000976563 657.5999755859 ) ( 537.5999755859 -3013.6000976563 662 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -3004.8000488281 662 ) ( 542 -3004.8000488281 657.5999755859 ) ( 577.200012207 -3004.8000488281 657.5999755859 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 568.4000244141 -2991.6000976563 675.200012207 ) ( 568.4000244141 -3022.3999023438 675.200012207 ) ( 553 -3022.3999023438 684 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 72.9848175049 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 559.5999755859 -2991.6000976563 677.4000244141 ) ( 559.5999755859 -3022.3999023438 677.4000244141 ) ( 542 -3022.3999023438 677.4000244141 ) ( ( 0 0.048780486 55.5609893799 ) ( -0.048780486 0 47.024394989 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 571.9199829102 -2991.6000976563 659.799987793 ) ( 571.9199829102 -3022.3999023438 659.799987793 ) ( 571.9199829102 -3022.3999023438 672.1199951172 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 564.2199707031 -3022.3999023438 676.7399902344 ) ( 570.3800048828 -3022.3999023438 665.9600219727 ) ( 570.3800048828 -2991.6000976563 665.9600219727 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.0487804823 11.2780609131 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 33
+{
+brushDef
+{
+( 572.799987793 -3013.6000976563 657.5999755859 ) ( 537.5999755859 -3013.6000976563 657.5999755859 ) ( 537.5999755859 -3013.6000976563 662 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -3004.8000488281 662 ) ( 542 -3004.8000488281 657.5999755859 ) ( 577.200012207 -3004.8000488281 657.5999755859 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 544.200012207 -2991.6000976563 668.5999755859 ) ( 544.200012207 -3022.3999023438 668.5999755859 ) ( 535.4000244141 -3022.3999023438 653.200012207 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 37.5129470825 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -2991.6000976563 659.799987793 ) ( 542 -3022.3999023438 659.799987793 ) ( 542 -3022.3999023438 642.200012207 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 559.5999755859 -2991.6000976563 672.1199951172 ) ( 559.5999755859 -3022.3999023438 672.1199951172 ) ( 547.2800292969 -3022.3999023438 672.1199951172 ) ( ( 0 0.048780486 55.5609893799 ) ( -0.048780486 0 47.024394989 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542.6600341797 -3022.3999023438 664.4199829102 ) ( 553.4400024414 -3022.3999023438 670.5800170898 ) ( 553.4400024414 -2991.6000976563 670.5800170898 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.0487804823 36.8958129883 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 34
+{
+brushDef
+{
+( 551.9000244141 -3000.3999023438 657.5999755859 ) ( 551.9000244141 -2982.8000488281 657.5999755859 ) ( 551.9000244141 -3000.3999023438 644.4000244141 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 577.200012207 -3000.3999023438 657.5999755859 ) ( 577.200012207 -3000.3999023438 644.4000244141 ) ( 542 -3000.3999023438 657.5999755859 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 550.799987793 -2987.1999511719 644.4000244141 ) ( 550.799987793 -2987.1999511719 657.5999755859 ) ( 550.799987793 -3004.8000488281 644.4000244141 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -2982.8000488281 644.4000244141 ) ( 577.200012207 -2982.8000488281 644.4000244141 ) ( 542 -2982.8000488281 657.5999755859 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 559.5999755859 -2991.6000976563 647.4799804688 ) ( 559.5999755859 -3022.3999023438 647.4799804688 ) ( 571.9199829102 -3022.3999023438 647.4799804688 ) ( ( 0 -0.048780486 55.5609893799 ) ( 0.048780486 0 34.975605011 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 554.9799804688 -3022.3999023438 642.8599853516 ) ( 548.8200073242 -3022.3999023438 653.6400146484 ) ( 548.8200073242 -2991.6000976563 653.6400146484 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 11.2780380249 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 35
+{
+brushDef
+{
+( 572.799987793 -3013.6000976563 657.5999755859 ) ( 537.5999755859 -3013.6000976563 657.5999755859 ) ( 537.5999755859 -3013.6000976563 662 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -3004.8000488281 662 ) ( 542 -3004.8000488281 657.5999755859 ) ( 577.200012207 -3004.8000488281 657.5999755859 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 559.5999755859 -2991.6000976563 677.4000244141 ) ( 559.5999755859 -3022.3999023438 677.4000244141 ) ( 542 -3022.3999023438 677.4000244141 ) ( ( 0 0.048780486 55.5609893799 ) ( -0.048780486 0 47.024394989 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 550.799987793 -2991.6000976563 675.200012207 ) ( 550.799987793 -3022.3999023438 675.200012207 ) ( 535.4000244141 -3022.3999023438 666.4000244141 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 36.8958129883 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 570.3800048828 -2991.6000976563 665.9600219727 ) ( 570.3800048828 -3022.3999023438 665.9600219727 ) ( 564.2199707031 -3022.3999023438 676.7399902344 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.0487804823 11.2780609131 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 554.9799804688 -3022.3999023438 676.7399902344 ) ( 565.7600097656 -3022.3999023438 670.5800170898 ) ( 565.7600097656 -2991.6000976563 670.5800170898 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.0487804785 72.9847717285 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 36
+{
+brushDef
+{
+( 575 -3004.8000488281 671.9000244141 ) ( 575 -3004.8000488281 647.700012207 ) ( 544.200012207 -3004.8000488281 647.700012207 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 544.200012207 -2978.3999023438 647.700012207 ) ( 575 -2978.3999023438 647.700012207 ) ( 575 -2978.3999023438 671.9000244141 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 546.4000244141 -2978.3999023438 667.5 ) ( 546.4000244141 -3004.8000488281 667.5 ) ( 538.700012207 -3004.8000488281 654.299987793 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 37.5919189453 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 544.200012207 -2978.3999023438 659.799987793 ) ( 544.200012207 -3004.8000488281 659.799987793 ) ( 544.200012207 -3004.8000488281 644.4000244141 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 553.4400024414 -2991.6000976563 670.5800170898 ) ( 553.4400024414 -3022.3999023438 670.5800170898 ) ( 542.6600341797 -3022.3999023438 664.4199829102 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.0487804823 36.8958129883 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542.6600341797 -3022.3999023438 655.1799926758 ) ( 548.8200073242 -3022.3999023438 665.9600219727 ) ( 548.8200073242 -2991.6000976563 665.9600219727 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.0487804785 37.5129318237 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 37
+{
+brushDef
+{
+( 572.799987793 -3013.6000976563 657.5999755859 ) ( 537.5999755859 -3013.6000976563 657.5999755859 ) ( 537.5999755859 -3013.6000976563 662 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -3004.8000488281 662 ) ( 542 -3004.8000488281 657.5999755859 ) ( 577.200012207 -3004.8000488281 657.5999755859 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 559.5999755859 -2991.6000976563 642.200012207 ) ( 559.5999755859 -3022.3999023438 642.200012207 ) ( 577.200012207 -3022.3999023438 642.200012207 ) ( ( 0 -0.048780486 55.5609893799 ) ( 0.048780486 0 34.975605011 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 568.4000244141 -2991.6000976563 644.4000244141 ) ( 568.4000244141 -3022.3999023438 644.4000244141 ) ( 583.799987793 -3022.3999023438 653.200012207 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 36.8958129883 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 575 -2991.6000976563 651 ) ( 575 -3022.3999023438 651 ) ( 583.799987793 -3022.3999023438 666.4000244141 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 37.5129547119 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 544.200012207 -2991.6000976563 651 ) ( 544.200012207 -3022.3999023438 651 ) ( 553 -3022.3999023438 635.5999755859 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 11.2780761719 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 550.799987793 -2991.6000976563 644.4000244141 ) ( 550.799987793 -3022.3999023438 644.4000244141 ) ( 566.200012207 -3022.3999023438 635.5999755859 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 72.9847717285 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 571.9199829102 -3022.3999023438 647.4799804688 ) ( 559.5999755859 -3022.3999023438 647.4799804688 ) ( 559.5999755859 -2991.6000976563 647.4799804688 ) ( ( 0 0.048780486 55.5609893799 ) ( -0.048780486 0 47.024394989 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 38
+{
+brushDef
+{
+( 575 -3004.8000488281 671.9000244141 ) ( 575 -3004.8000488281 647.700012207 ) ( 544.200012207 -3004.8000488281 647.700012207 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 544.200012207 -2978.3999023438 647.700012207 ) ( 575 -2978.3999023438 647.700012207 ) ( 575 -2978.3999023438 671.9000244141 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 559.5999755859 -2991.6000976563 647.4799804688 ) ( 559.5999755859 -3022.3999023438 647.4799804688 ) ( 571.9199829102 -3022.3999023438 647.4799804688 ) ( ( 0 -0.048780486 55.5609893799 ) ( 0.048780486 0 34.975605011 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 548.8200073242 -2991.6000976563 653.6400146484 ) ( 548.8200073242 -3022.3999023438 653.6400146484 ) ( 554.9799804688 -3022.3999023438 642.8599853516 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 11.2780380249 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 564.2199707031 -3022.3999023438 642.8599853516 ) ( 553.4400024414 -3022.3999023438 649.0200195313 ) ( 553.4400024414 -2991.6000976563 649.0200195313 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.0487804674 72.9848022461 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 39
+{
+brushDef
+{
+( 575 -3004.8000488281 671.9000244141 ) ( 575 -3004.8000488281 647.700012207 ) ( 544.200012207 -3004.8000488281 647.700012207 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 544.200012207 -2978.3999023438 647.700012207 ) ( 575 -2978.3999023438 647.700012207 ) ( 575 -2978.3999023438 671.9000244141 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 546.4000244141 -2978.3999023438 652.0999755859 ) ( 546.4000244141 -3004.8000488281 652.0999755859 ) ( 554.0999755859 -3004.8000488281 638.9000244141 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 10.9481964111 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 551.9000244141 -2978.3999023438 646.5999755859 ) ( 551.9000244141 -3004.8000488281 646.5999755859 ) ( 565.0999755859 -3004.8000488281 638.9000244141 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 73.3200836182 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 559.5999755859 -2991.6000976563 647.4799804688 ) ( 559.5999755859 -3022.3999023438 647.4799804688 ) ( 571.9199829102 -3022.3999023438 647.4799804688 ) ( ( 0 -0.048780486 55.5609893799 ) ( 0.048780486 0 34.975605011 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 547.2800292969 -2991.6000976563 659.799987793 ) ( 547.2800292969 -3022.3999023438 659.799987793 ) ( 547.2800292969 -3022.3999023438 647.4799804688 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 554.9799804688 -3022.3999023438 642.8599853516 ) ( 548.8200073242 -3022.3999023438 653.6400146484 ) ( 548.8200073242 -2991.6000976563 653.6400146484 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 11.2780380249 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 40
+{
+brushDef
+{
+( 575 -3004.8000488281 671.9000244141 ) ( 575 -3004.8000488281 647.700012207 ) ( 544.200012207 -3004.8000488281 647.700012207 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 544.200012207 -2978.3999023438 647.700012207 ) ( 575 -2978.3999023438 647.700012207 ) ( 575 -2978.3999023438 671.9000244141 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 559.5999755859 -2978.3999023438 675.200012207 ) ( 559.5999755859 -3004.8000488281 675.200012207 ) ( 544.200012207 -3004.8000488281 675.200012207 ) ( ( 0 0.048780486 55.5609893799 ) ( -0.048780486 0 47.024394989 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 551.9000244141 -2978.3999023438 673 ) ( 551.9000244141 -3004.8000488281 673 ) ( 538.700012207 -3004.8000488281 665.299987793 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 36.9950256348 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 565.7600097656 -2991.6000976563 670.5800170898 ) ( 565.7600097656 -3022.3999023438 670.5800170898 ) ( 554.9799804688 -3022.3999023438 676.7399902344 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.0487804785 72.9847717285 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 547.2800292969 -3022.3999023438 672.1199951172 ) ( 559.5999755859 -3022.3999023438 672.1199951172 ) ( 559.5999755859 -2991.6000976563 672.1199951172 ) ( ( 0 -0.048780486 55.5609893799 ) ( 0.048780486 0 34.975605011 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 41
+{
+brushDef
+{
+( 575 -3004.8000488281 671.9000244141 ) ( 575 -3004.8000488281 647.700012207 ) ( 544.200012207 -3004.8000488281 647.700012207 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 544.200012207 -2978.3999023438 647.700012207 ) ( 575 -2978.3999023438 647.700012207 ) ( 575 -2978.3999023438 671.9000244141 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 551.9000244141 -2978.3999023438 673 ) ( 551.9000244141 -3004.8000488281 673 ) ( 538.700012207 -3004.8000488281 665.299987793 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 36.9950256348 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 546.4000244141 -2978.3999023438 667.5 ) ( 546.4000244141 -3004.8000488281 667.5 ) ( 538.700012207 -3004.8000488281 654.299987793 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 37.5919189453 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 559.5999755859 -2991.6000976563 672.1199951172 ) ( 559.5999755859 -3022.3999023438 672.1199951172 ) ( 547.2800292969 -3022.3999023438 672.1199951172 ) ( ( 0 0.048780486 55.5609893799 ) ( -0.048780486 0 47.024394989 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542.6600341797 -3022.3999023438 664.4199829102 ) ( 553.4400024414 -3022.3999023438 670.5800170898 ) ( 553.4400024414 -2991.6000976563 670.5800170898 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.0487804823 36.8958129883 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 42
+{
+brushDef
+{
+( 568.4000244141 -3000.3999023438 657.5999755859 ) ( 568.4000244141 -2982.8000488281 657.5999755859 ) ( 568.4000244141 -3000.3999023438 644.4000244141 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 590.4000244141 -3000.3999023438 657.5999755859 ) ( 590.4000244141 -3000.3999023438 644.4000244141 ) ( 555.200012207 -3000.3999023438 657.5999755859 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 567.299987793 -2988.3000488281 644.4000244141 ) ( 567.299987793 -2988.3000488281 657.5999755859 ) ( 567.299987793 -3005.8999023438 644.4000244141 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 555.200012207 -2982.8000488281 644.4000244141 ) ( 590.4000244141 -2982.8000488281 644.4000244141 ) ( 555.200012207 -2982.8000488281 657.5999755859 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 559.5999755859 -2991.6000976563 647.4799804688 ) ( 559.5999755859 -3022.3999023438 647.4799804688 ) ( 571.9199829102 -3022.3999023438 647.4799804688 ) ( ( 0 -0.048780486 55.5609893799 ) ( 0.048780486 0 34.975605011 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 576.5399780273 -3022.3999023438 655.1799926758 ) ( 565.7600097656 -3022.3999023438 649.0200195313 ) ( 565.7600097656 -2991.6000976563 649.0200195313 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.0487804823 36.8958129883 ) ) sxb_v1_misc/blaster_base 0 0 0
+}
+}
+// brush 43
+{
+brushDef
+{
+( 572.799987793 -3013.6000976563 657.5999755859 ) ( 537.5999755859 -3013.6000976563 657.5999755859 ) ( 537.5999755859 -3013.6000976563 662 ) ( ( 0.048780486 0 55.5609893799 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 542 -3004.8000488281 662 ) ( 542 -3004.8000488281 657.5999755859 ) ( 577.200012207 -3004.8000488281 657.5999755859 ) ( ( 0.048780486 0 26.4390106201 ) ( 0 0.048780486 28.0975589752 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 550.799987793 -2991.6000976563 675.200012207 ) ( 550.799987793 -3022.3999023438 675.200012207 ) ( 535.4000244141 -3022.3999023438 666.4000244141 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 36.8958129883 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 544.200012207 -2991.6000976563 668.5999755859 ) ( 544.200012207 -3022.3999023438 668.5999755859 ) ( 535.4000244141 -3022.3999023438 653.200012207 ) ( ( 0.048780486 0 47.024394989 ) ( 0 0.048780486 37.5129470825 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 565.7600097656 -2991.6000976563 670.5800170898 ) ( 565.7600097656 -3022.3999023438 670.5800170898 ) ( 554.9799804688 -3022.3999023438 676.7399902344 ) ( ( 0.048780486 0 34.975605011 ) ( 0 0.0487804785 72.9847717285 ) ) sxb_v1_misc/blaster_base 0 0 0
+( 547.2800292969 -3022.3999023438 672.1199951172 ) ( 559.5999755859 -3022.3999023438 672.1199951172 ) ( 559.5999755859 -2991.6000976563 672.1199951172 ) ( ( 0 -0.048780486 55.5609893799 ) ( 0.048780486 0 34.975605011 ) ) sxb_v1_misc/blaster_base 0 0 0
 }
 }
 }
