@@ -2291,24 +2291,6 @@ brushDef
 }
 // entity 42
 {
-"classname" "trigger_once"
-"target" "bridge"
-"targetname" "bridge_trigger"
-// brush 0
-{
-brushDef
-{
-( 576 -4552 736 ) ( 544 -4552 736 ) ( 576 -4520 736 ) ( ( 0.03125 0 87.25 ) ( 0 0.03125 39 ) ) common/trigger 134217728 0 0
-( 568 -4552 736 ) ( 568 -4520 736 ) ( 568 -4552 704 ) ( ( 0.03125 0 87.25 ) ( 0 0.03125 16 ) ) common/trigger 134217728 0 0
-( 576 -4544 736 ) ( 576 -4544 704 ) ( 544 -4544 736 ) ( ( 0.03125 0 39 ) ( 0 0.03125 16 ) ) common/trigger 134217728 0 0
-( 544 -4520 704 ) ( 544 -4552 704 ) ( 576 -4520 704 ) ( ( 0.03125 0 87.25 ) ( 0 0.03125 217 ) ) common/trigger 134217728 0 0
-( 552 -4520 704 ) ( 552 -4520 736 ) ( 552 -4552 704 ) ( ( 0.03125 0 168.75 ) ( 0 0.03125 16 ) ) common/trigger 134217728 0 0
-( 544 -4528 704 ) ( 576 -4528 704 ) ( 544 -4528 736 ) ( ( 0.03125 0 217 ) ( 0 0.03125 16 ) ) common/trigger 134217728 0 0
-}
-}
-}
-// entity 43
-{
 "classname" "func_door"
 "spawnflags" "12"
 "wait" "-1"
@@ -2413,7 +2395,7 @@ brushDef
 }
 }
 }
-// entity 44
+// entity 43
 {
 "classname" "item_key"
 "origin" "560.000000 -4536.000000 728.000000"
@@ -2421,7 +2403,7 @@ brushDef
 "itemkeys" "1"
 "angle" "90.000000"
 }
-// entity 45
+// entity 44
 {
 "classname" "func_bobbing"
 "spawnflags" "2"
@@ -2500,7 +2482,7 @@ brushDef
 }
 }
 }
-// entity 46
+// entity 45
 {
 "classname" "misc_gamemodel"
 "origin" "576.000000 -4824.000000 600.000000"
@@ -2510,7 +2492,7 @@ brushDef
 "frame" "6"
 "solid" "0"
 }
-// entity 47
+// entity 46
 {
 "classname" "trigger_multiple"
 "noise" "map_sxb/yousuck.ogg"
@@ -2528,7 +2510,7 @@ brushDef
 }
 }
 }
-// entity 48
+// entity 47
 {
 "classname" "trigger_multiple"
 "target" "next"
@@ -2545,7 +2527,7 @@ brushDef
 }
 }
 }
-// entity 49
+// entity 48
 {
 "classname" "target_changelevel"
 "origin" "384.000000 -5032.000000 672.000000"
@@ -2553,7 +2535,7 @@ brushDef
 "chmap" "sxb1_3-1"
 "spawnflags" "2"
 }
-// entity 50
+// entity 49
 {
 "classname" "trigger_multiple"
 "wait" "10"
@@ -2572,7 +2554,7 @@ brushDef
 }
 }
 }
-// entity 51
+// entity 50
 {
 "classname" "func_door"
 "angle" "-1"
@@ -2593,7 +2575,7 @@ brushDef
 }
 }
 }
-// entity 52
+// entity 51
 {
 "classname" "item_health_small"
 "origin" "560.000000 -3288.000000 688.000000"
@@ -2601,7 +2583,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 53
+// entity 52
 {
 "classname" "item_health_small"
 "origin" "560.000000 -3352.000000 688.000000"
@@ -2609,7 +2591,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 54
+// entity 53
 {
 "classname" "item_health_small"
 "origin" "560.000000 -3320.000000 688.000000"
@@ -2617,7 +2599,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 55
+// entity 54
 {
 "classname" "item_health_small"
 "origin" "560.000000 -3288.000000 568.000000"
@@ -2625,7 +2607,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 56
+// entity 55
 {
 "classname" "item_health_small"
 "origin" "560.000000 -3352.000000 568.000000"
@@ -2633,7 +2615,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 57
+// entity 56
 {
 "classname" "item_health_small"
 "origin" "560.000000 -3320.000000 568.000000"

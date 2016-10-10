@@ -2,7 +2,7 @@ title Super Xonotic Bros
 description World 3, level 2
 author -z-, Mario
 // not setting cdtrack here, as we do it via entities
-cdtrack map_sxb/music_overworld
+cdtrack map_sxb/sxb-1-1-js
 has weapons
 gametype dm
 hidden // singleplayer
