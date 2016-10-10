@@ -5149,7 +5149,7 @@ brushDef
 {
 "classname" "func_door"
 "spawnflags" "260"
-"angle" "-90"
+"angle" "90"
 "lip" "64"
 "speed" "60"
 "targetname" "pipe_2"

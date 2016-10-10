@@ -863,25 +863,6 @@ brushDef
 }
 // entity 6
 {
-"classname" "trigger_once"
-"wait" "3"
-"target" "bridge0"
-"targetname" "bridge_trigger0"
-// brush 0
-{
-brushDef
-{
-( 576 -6600 736 ) ( 544 -6600 736 ) ( 576 -6568 736 ) ( ( 0.03125 0 151.25 ) ( 0 0.03125 39 ) ) common/trigger 134217728 0 0
-( 568 -6600 736 ) ( 568 -6568 736 ) ( 568 -6600 704 ) ( ( 0.03125 0 151.25 ) ( 0 0.03125 16 ) ) common/trigger 134217728 0 0
-( 576 -6592 736 ) ( 576 -6592 704 ) ( 544 -6592 736 ) ( ( 0.03125 0 39 ) ( 0 0.03125 16 ) ) common/trigger 134217728 0 0
-( 544 -6568 704 ) ( 544 -6600 704 ) ( 576 -6568 704 ) ( ( 0.03125 0 151.25 ) ( 0 0.03125 217 ) ) common/trigger 134217728 0 0
-( 552 -6568 704 ) ( 552 -6568 736 ) ( 552 -6600 704 ) ( ( 0.03125 0 104.75 ) ( 0 0.03125 16 ) ) common/trigger 134217728 0 0
-( 544 -6576 704 ) ( 576 -6576 704 ) ( 544 -6576 736 ) ( ( 0.03125 0 217 ) ( 0 0.03125 16 ) ) common/trigger 134217728 0 0
-}
-}
-}
-// entity 7
-{
 "classname" "func_door"
 "spawnflags" "12"
 "wait" "3"
@@ -986,7 +967,7 @@ brushDef
 }
 }
 }
-// entity 8
+// entity 7
 {
 "classname" "item_key"
 "origin" "560.000000 -6584.000000 728.000000"
@@ -994,7 +975,7 @@ brushDef
 "itemkeys" "1"
 "angle" "90.000000"
 }
-// entity 9
+// entity 8
 {
 "classname" "trigger_multiple"
 "target" "next0"
@@ -1011,7 +992,7 @@ brushDef
 }
 }
 }
-// entity 10
+// entity 9
 {
 "classname" "target_changelevel"
 "origin" "192.000000 -6952.000000 544.000000"
@@ -1019,7 +1000,7 @@ brushDef
 "spawnflags" "2"
 "chmap" "sxb1_8-1"
 }
-// entity 11
+// entity 10
 {
 "classname" "misc_gamemodel"
 "origin" "576.000000 -6840.000000 600.000000"
@@ -1029,7 +1010,7 @@ brushDef
 "frame" "6"
 "solid" "0"
 }
-// entity 12
+// entity 11
 {
 "classname" "trigger_multiple"
 "noise" "map_sxb/yousuck.ogg"
