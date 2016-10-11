@@ -20,6 +20,7 @@ clientsettemp_for_type all sv_player_crouch_maxs "15 15 6"
 settemp_for_type all sv_track_canjump 1
 
 settemp_for_type all g_physics_clientselect 0
+settemp_for_type all g_start_ammo_shells 0
 
 settemp_for_type all g_balance_health_start 50
 settemp_for_type all g_balance_health_regen 0
