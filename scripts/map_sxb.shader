@@ -169,7 +169,6 @@ textures/sxb_v1_earth/hill_1
 	qer_editorimage textures/sxb_v1_earth/hill_1
 	surfaceparm metalsteps
 	surfaceparm trans
-	surfaceparm solid
 	surfaceparm alphashadow
 	q3map_bouncescale 1.75
 	cull none
@@ -193,7 +192,6 @@ textures/sxb_v1_earth/bush_1
 	qer_editorimage textures/sxb_v1_earth/bush_1
 	surfaceparm metalsteps
 	surfaceparm trans
-	surfaceparm solid
 	surfaceparm alphashadow
 	q3map_bouncescale 1.75
 	cull none
@@ -217,7 +215,6 @@ textures/sxb_v1_earth/bush_2
 	qer_editorimage textures/sxb_v1_earth/bush_2
 	surfaceparm metalsteps
 	surfaceparm trans
-	surfaceparm solid
 	surfaceparm alphashadow
 	q3map_bouncescale 1.75
 	cull none
@@ -241,7 +238,6 @@ textures/sxb_v1_earth/bush_3
 	qer_editorimage textures/sxb_v1_earth/bush_3
 	surfaceparm metalsteps
 	surfaceparm trans
-	surfaceparm solid
 	surfaceparm alphashadow
 	q3map_bouncescale 1.75
 	cull none
@@ -261,12 +257,81 @@ textures/sxb_v1_earth/bush_3
 	}
 }
 
+textures/sxb_v1_earth/cloud_1
+{
+	qer_editorimage textures/sxb_v1_earth/cloud_1
+	surfaceparm metalsteps
+	surfaceparm trans
+	surfaceparm alphashadow
+	q3map_bouncescale 1.75
+	cull none
+	nopicmip
+	nomipmaps
+
+	{
+		map textures/sxb_v1_earth/cloud_1
+		blendfunc blend
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/sxb_v1_earth/cloud_2
+{
+	qer_editorimage textures/sxb_v1_earth/cloud_2
+	surfaceparm metalsteps
+	surfaceparm trans
+	surfaceparm alphashadow
+	q3map_bouncescale 1.75
+	cull none
+	nopicmip
+	nomipmaps
+
+	{
+		map textures/sxb_v1_earth/cloud_2
+		blendfunc blend
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/sxb_v1_earth/cloud_3
+{
+	qer_editorimage textures/sxb_v1_earth/cloud_3
+	surfaceparm metalsteps
+	surfaceparm trans
+	surfaceparm alphashadow
+	q3map_bouncescale 1.75
+	cull none
+	nopicmip
+	nomipmaps
+
+	{
+		map textures/sxb_v1_earth/cloud_3
+		blendfunc blend
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
 textures/sxb_v1_earth/lava
 {
 	qer_editorimage textures/sxb_v1_earth/lava
 	surfaceparm metalsteps
 	surfaceparm trans
-	surfaceparm solid
 	surfaceparm alphashadow
 	q3map_bouncescale 1.75
 	cull none
@@ -290,7 +355,6 @@ textures/sxb_v1_earth/lava_top
 	qer_editorimage textures/sxb_v1_earth/lava_top
 	surfaceparm metalsteps
 	surfaceparm trans
-	surfaceparm solid
 	surfaceparm alphashadow
 	q3map_bouncescale 1.75
 	cull none
@@ -314,7 +378,6 @@ textures/sxb_v1_earth/water
 	qer_editorimage textures/sxb_v1_earth/water
 	surfaceparm metalsteps
 	surfaceparm trans
-	surfaceparm solid
 	surfaceparm alphashadow
 	q3map_bouncescale 1.75
 	cull none
@@ -338,7 +401,6 @@ textures/sxb_v1_earth/water_top
 	qer_editorimage textures/sxb_v1_earth/water_top
 	surfaceparm metalsteps
 	surfaceparm trans
-	surfaceparm solid
 	surfaceparm alphashadow
 	q3map_bouncescale 1.75
 	cull none
@@ -362,7 +424,6 @@ textures/sxb_v1_earth/water_light
 	qer_editorimage textures/sxb_v1_earth/water_light
 	surfaceparm metalsteps
 	surfaceparm trans
-	surfaceparm solid
 	surfaceparm alphashadow
 	q3map_bouncescale 1.75
 	cull none
@@ -386,7 +447,6 @@ textures/sxb_v1_earth/water_light_top
 	qer_editorimage textures/sxb_v1_earth/water_light_top
 	surfaceparm metalsteps
 	surfaceparm trans
-	surfaceparm solid
 	surfaceparm alphashadow
 	q3map_bouncescale 1.75
 	cull none
@@ -412,7 +472,6 @@ textures/sxb_v1_platforms/orange_platform
 	qer_editorimage textures/sxb_v1_platforms/orange_platform
 	surfaceparm metalsteps
 	surfaceparm trans
-	surfaceparm solid
 	surfaceparm alphashadow
 	q3map_bouncescale 1.75
 	cull none
@@ -436,7 +495,6 @@ textures/sxb_v1_earth/land_tower_top_edge
 	qer_editorimage textures/sxb_v1_earth/land_tower_top_edge
 	surfaceparm metalsteps
 	surfaceparm trans
-	surfaceparm solid
 	surfaceparm alphashadow
 	q3map_bouncescale 1.75
 	cull none
@@ -460,7 +518,6 @@ textures/sxb_v1_earth/land_tower_top_middle
 	qer_editorimage textures/sxb_v1_earth/land_tower_top_middle
 	surfaceparm metalsteps
 	surfaceparm trans
-	surfaceparm solid
 	surfaceparm alphashadow
 	q3map_bouncescale 1.75
 	cull none
@@ -484,7 +541,6 @@ textures/sxb_v1_earth/mushroom_tower_bottom
 	qer_editorimage textures/sxb_v1_earth/mushroom_tower_bottom
 	surfaceparm metalsteps
 	surfaceparm trans
-	surfaceparm solid
 	surfaceparm alphashadow
 	q3map_bouncescale 1.75
 	cull none
@@ -508,7 +564,6 @@ textures/sxb_v1_earth/mushroom_tower_bottom_repeating
 	qer_editorimage textures/sxb_v1_earth/mushroom_tower_bottom_repeating
 	surfaceparm metalsteps
 	surfaceparm trans
-	surfaceparm solid
 	surfaceparm alphashadow
 	q3map_bouncescale 1.75
 	cull none
@@ -532,7 +587,6 @@ textures/sxb_v1_earth/mushroom_tower_top_edge
 	qer_editorimage textures/sxb_v1_earth/mushroom_tower_top_edge
 	surfaceparm metalsteps
 	surfaceparm trans
-	surfaceparm solid
 	surfaceparm alphashadow
 	q3map_bouncescale 1.75
 	cull none
@@ -556,7 +610,6 @@ textures/sxb_v1_earth/mushroom_tower_top_middle
 	qer_editorimage textures/sxb_v1_earth/mushroom_tower_top_middle
 	surfaceparm metalsteps
 	surfaceparm trans
-	surfaceparm solid
 	surfaceparm alphashadow
 	q3map_bouncescale 1.75
 	cull none
@@ -581,7 +634,6 @@ textures/sxb_v1_platforms/castle_bridge
 	qer_editorimage textures/sxb_v1_platforms/castle_bridge
 	surfaceparm metalsteps
 	surfaceparm trans
-	surfaceparm solid
 	surfaceparm alphashadow
 	q3map_bouncescale 1.75
 	cull none
@@ -606,7 +658,6 @@ textures/sxb_v1_earth/nighttime_land_tower_top_edge
 	qer_editorimage textures/sxb_v1_earth/nighttime_land_tower_top_edge
 	surfaceparm metalsteps
 	surfaceparm trans
-	surfaceparm solid
 	surfaceparm alphashadow
 	q3map_bouncescale 1.75
 	cull none
@@ -630,7 +681,6 @@ textures/sxb_v1_earth/nighttime_land_tower_top_middle
 	qer_editorimage textures/sxb_v1_earth/nighttime_land_tower_top_middle
 	surfaceparm metalsteps
 	surfaceparm trans
-	surfaceparm solid
 	surfaceparm alphashadow
 	q3map_bouncescale 1.75
 	cull none
