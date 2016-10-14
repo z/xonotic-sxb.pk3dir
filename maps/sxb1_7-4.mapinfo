@@ -39,6 +39,7 @@ settemp_for_type all g_pickup_healthmega 100
 
 settemp_for_type all g_balance_blaster_primary_speed 350
 settemp_for_type all g_balance_blaster_weaponstart 0
+settemp_for_type all g_balance_shotgun_weaponthrowable 0
 settemp_for_type all g_balance_powerup_invincible_takedamage 0
 settemp_for_type all g_balance_superweapons_time 999
 settemp_for_type all g_pickup_respawntime_superweapon 30
