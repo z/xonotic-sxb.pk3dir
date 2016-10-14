@@ -54,6 +54,45 @@ textures/sxb_v1_skies/underground
 	}
 }
 
+// blocks
+textures/sxb_v1_blocks/question_mark
+{
+	qer_editorimage textures/sxb_v1_blocks/question_mark
+	nopicmip
+	nomipmaps
+
+	{
+		map textures/sxb_v1_blocks/question_mark
+		//animmap 10 textures/sxb_v1_blocks/question_mark textures/sxb_v1_blocks/question_mark textures/sxb_v1_blocks/question_mark textures/sxb_v1_blocks/question_mark textures/sxb_v1_blocks/question_mark textures/sxb_v1_blocks/question_mark_1 textures/sxb_v1_blocks/question_mark_2 textures/sxb_v1_blocks/question_mark_2 textures/sxb_v1_blocks/question_mark_2 textures/sxb_v1_blocks/question_mark_1
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
+textures/sxb_v1_blocks/questionless_mark
+{
+	qer_editorimage textures/sxb_v1_blocks/questionless_mark
+	nopicmip
+	nomipmaps
+
+	{
+		map textures/sxb_v1_blocks/questionless_mark
+		//animmap 10 textures/sxb_v1_blocks/questionless_mark textures/sxb_v1_blocks/questionless_mark textures/sxb_v1_blocks/questionless_mark textures/sxb_v1_blocks/questionless_mark textures/sxb_v1_blocks/questionless_mark textures/sxb_v1_blocks/questionless_mark_1 textures/sxb_v1_blocks/questionless_mark_2 textures/sxb_v1_blocks/questionless_mark_2 textures/sxb_v1_blocks/questionless_mark_2 textures/sxb_v1_blocks/questionless_mark_1
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
 // misc
 textures/sxb_v1_misc/wire
 {
