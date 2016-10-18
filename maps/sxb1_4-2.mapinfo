@@ -26,7 +26,7 @@ settemp_for_type all g_monsters_miniboss_chance 0
 settemp_for_type all g_physics_clientselect 0
 settemp_for_type all g_start_ammo_shells 0
 
-settemp_for_type all g_player_crush 1
+settemp_for_type all g_player_crush_damage 50
 settemp_for_type all g_player_crush_simple -1
 settemp_for_type all g_player_crush_bounce 200
 settemp_for_type all g_player_crush_bounce_jump 400
