@@ -4796,6 +4796,7 @@ brushDef
 // entity 43
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "pipe_1"
 // brush 0
 {
@@ -4829,6 +4830,7 @@ brushDef
 // entity 45
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "music_underwater"
 // brush 0
 {
@@ -5733,6 +5735,7 @@ brushDef
 // entity 127
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "noise" "map_sxb/useless.wav"
 "wait" "6"
 // brush 0
@@ -6142,6 +6145,7 @@ brushDef
 // entity 166
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "pressedkeys" "32"
 "target" "pipe_2"
 // brush 0
@@ -6198,6 +6202,7 @@ brushDef
 // entity 169
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "pressedkeys" "32"
 "target" "pipe_4"
 // brush 0
@@ -6254,6 +6259,7 @@ brushDef
 // entity 172
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "pressedkeys" "32"
 "target" "pipe_6"
 // brush 0
@@ -6310,6 +6316,7 @@ brushDef
 // entity 175
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "pressedkeys" "32"
 "target" "pipe_7"
 // brush 0
@@ -6396,6 +6403,7 @@ brushDef
 // entity 180
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "pressedkeys" "32"
 "target" "pipe_9"
 // brush 0
@@ -6452,6 +6460,7 @@ brushDef
 // entity 183
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "pressedkeys" "32"
 "target" "pipe_10"
 // brush 0
@@ -6508,6 +6517,7 @@ brushDef
 // entity 186
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "pressedkeys" "32"
 "target" "pipe_11"
 // brush 0
@@ -7376,6 +7386,7 @@ brushDef
 // entity 272
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "pressedkeys" "32"
 "target" "pipe_13"
 // brush 0
@@ -7432,6 +7443,7 @@ brushDef
 // entity 275
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "pressedkeys" "32"
 "target" "pipe_14"
 // brush 0
@@ -7488,6 +7500,7 @@ brushDef
 // entity 278
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "pressedkeys" "32"
 "target" "pipe_15"
 // brush 0
@@ -7544,6 +7557,7 @@ brushDef
 // entity 281
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "pressedkeys" "32"
 "target" "pipe_16"
 // brush 0
@@ -7579,6 +7593,7 @@ brushDef
 // entity 283
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "next2"
 // brush 0
 {
@@ -7647,6 +7662,7 @@ brushDef
 // entity 287
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "pressedkeys" "32"
 "target" "pipe_18"
 // brush 0
@@ -7688,6 +7704,7 @@ brushDef
 // entity 290
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "music_castle"
 // brush 0
 {
@@ -7752,6 +7769,7 @@ brushDef
 // entity 298
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "music_castle"
 // brush 0
 {
@@ -7775,6 +7793,7 @@ brushDef
 // entity 300
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "music_castle"
 // brush 0
 {
@@ -7810,6 +7829,7 @@ brushDef
 // entity 303
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "invisiblock0"
 "wait" "10"
 "antiwall_flag" "2"
@@ -7858,6 +7878,7 @@ brushDef
 // entity 306
 {
 "classname" "target_spawn"
+"count" "1"
 "origin" "2704.000000 496.000000 -976.000000"
 "angle" "-179.999985"
 "targetname" "coin_8"
@@ -7875,6 +7896,7 @@ brushDef
 // entity 308
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "invisiblock1"
 "wait" "10"
 "antiwall_flag" "2"
@@ -7923,6 +7945,7 @@ brushDef
 // entity 311
 {
 "classname" "target_spawn"
+"count" "1"
 "origin" "2704.000000 -2064.000000 -976.000000"
 "angle" "-179.999985"
 "targetname" "coin_1"
@@ -8970,6 +8993,7 @@ brushDef
 // entity 6
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "wait" "2"
 "delay" "1.5"
 "target" "player1_drop"
@@ -9015,6 +9039,7 @@ brushDef
 // entity 9
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "wait" "2"
 "delay" "1.5"
 "target" "player1_drop1"
@@ -9060,6 +9085,7 @@ brushDef
 // entity 12
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "wait" "2"
 "delay" "1.5"
 "target" "player1_drop2"
@@ -9105,6 +9131,7 @@ brushDef
 // entity 15
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "wait" "2"
 "delay" "1.5"
 "target" "player1_drop3"
@@ -9150,6 +9177,7 @@ brushDef
 // entity 18
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "wait" "2"
 "delay" "1.5"
 "target" "player1_drop4"
@@ -9195,6 +9223,7 @@ brushDef
 // entity 21
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "wait" "2"
 "delay" "1.5"
 "target" "player1_drop5"

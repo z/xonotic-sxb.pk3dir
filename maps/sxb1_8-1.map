@@ -1441,6 +1441,7 @@ brushDef
 // entity 32
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "flag0"
 // brush 0
 {
@@ -1480,6 +1481,7 @@ brushDef
 // entity 34
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "next0"
 // brush 0
 {
@@ -1505,6 +1507,7 @@ brushDef
 // entity 36
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_1"
 "delay" "0.2"
 // brush 0
@@ -1551,6 +1554,7 @@ brushDef
 // entity 38
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_2"
 "delay" "0.2"
 // brush 0
@@ -1597,6 +1601,7 @@ brushDef
 // entity 40
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_4"
 "delay" "0.2"
 // brush 0
@@ -1643,6 +1648,7 @@ brushDef
 // entity 42
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_5"
 "delay" "0.2"
 // brush 0
@@ -1689,6 +1695,7 @@ brushDef
 // entity 44
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_6"
 "delay" "0.2"
 // brush 0
@@ -1735,6 +1742,7 @@ brushDef
 // entity 46
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_7"
 "delay" "0.2"
 // brush 0
@@ -1781,6 +1789,7 @@ brushDef
 // entity 48
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_8"
 "delay" "0.2"
 // brush 0
@@ -1827,6 +1836,7 @@ brushDef
 // entity 50
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_9"
 "delay" "0.2"
 // brush 0
@@ -1873,6 +1883,7 @@ brushDef
 // entity 52
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_12"
 "delay" "0.2"
 // brush 0
@@ -1919,6 +1930,7 @@ brushDef
 // entity 54
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_10"
 "delay" "0.2"
 // brush 0
@@ -1965,6 +1977,7 @@ brushDef
 // entity 56
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_11"
 "delay" "0.2"
 // brush 0
@@ -2011,6 +2024,7 @@ brushDef
 // entity 58
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_13"
 "delay" "0.2"
 // brush 0
@@ -2057,6 +2071,7 @@ brushDef
 // entity 60
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_14"
 "delay" "0.2"
 // brush 0
@@ -2103,6 +2118,7 @@ brushDef
 // entity 62
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_15"
 "delay" "0.2"
 // brush 0
@@ -2149,6 +2165,7 @@ brushDef
 // entity 64
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_16"
 "delay" "0.2"
 // brush 0
@@ -2195,6 +2212,7 @@ brushDef
 // entity 66
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_18"
 "delay" "0.2"
 // brush 0
@@ -2348,6 +2366,7 @@ brushDef
 // entity 78
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "pipe_2"
 // brush 0
 {
@@ -2433,6 +2452,7 @@ brushDef
 // entity 83
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "pressedkeys" "32"
 "target" "pipe_1"
 // brush 0
@@ -2481,6 +2501,7 @@ brushDef
 // entity 87
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "music_bonus"
 // brush 0
 {
@@ -2498,6 +2519,7 @@ brushDef
 // entity 88
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_265"
 "delay" "0.2"
 // brush 0
@@ -2545,6 +2567,7 @@ brushDef
 // entity 90
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_266"
 "delay" "0.2"
 // brush 0
@@ -2592,6 +2615,7 @@ brushDef
 // entity 92
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_267"
 "delay" "0.2"
 // brush 0
@@ -2639,6 +2663,7 @@ brushDef
 // entity 94
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_268"
 "delay" "0.2"
 // brush 0
@@ -2686,6 +2711,7 @@ brushDef
 // entity 96
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_269"
 "delay" "0.2"
 // brush 0
@@ -2733,6 +2759,7 @@ brushDef
 // entity 98
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_270"
 "delay" "0.2"
 // brush 0
@@ -2780,6 +2807,7 @@ brushDef
 // entity 100
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_271"
 "delay" "0.2"
 // brush 0
@@ -2827,6 +2855,7 @@ brushDef
 // entity 102
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_272"
 "delay" "0.2"
 // brush 0
@@ -2874,6 +2903,7 @@ brushDef
 // entity 104
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_273"
 "delay" "0.2"
 // brush 0
@@ -2921,6 +2951,7 @@ brushDef
 // entity 106
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_274"
 "delay" "0.2"
 // brush 0
@@ -2968,6 +2999,7 @@ brushDef
 // entity 108
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_275"
 "delay" "0.2"
 // brush 0
@@ -3015,6 +3047,7 @@ brushDef
 // entity 110
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_276"
 "delay" "0.2"
 // brush 0
@@ -3062,6 +3095,7 @@ brushDef
 // entity 112
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_277"
 "delay" "0.2"
 // brush 0
@@ -3109,6 +3143,7 @@ brushDef
 // entity 114
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_278"
 "delay" "0.2"
 // brush 0
@@ -3156,6 +3191,7 @@ brushDef
 // entity 116
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_279"
 "delay" "0.2"
 // brush 0
@@ -3203,6 +3239,7 @@ brushDef
 // entity 118
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_280"
 "delay" "0.2"
 // brush 0
@@ -3250,6 +3287,7 @@ brushDef
 // entity 120
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_281"
 "delay" "0.2"
 // brush 0
@@ -3297,6 +3335,7 @@ brushDef
 // entity 122
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_282"
 "delay" "0.2"
 // brush 0
@@ -3344,6 +3383,7 @@ brushDef
 // entity 124
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_283"
 "delay" "0.2"
 // brush 0
@@ -3391,6 +3431,7 @@ brushDef
 // entity 126
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_284"
 "delay" "0.2"
 // brush 0
@@ -3438,6 +3479,7 @@ brushDef
 // entity 128
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_285"
 "delay" "0.2"
 // brush 0
@@ -3485,6 +3527,7 @@ brushDef
 // entity 130
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_286"
 "delay" "0.2"
 // brush 0
@@ -3532,6 +3575,7 @@ brushDef
 // entity 132
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_287"
 "delay" "0.2"
 // brush 0
@@ -3579,6 +3623,7 @@ brushDef
 // entity 134
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_288"
 "delay" "0.2"
 // brush 0
@@ -3626,6 +3671,7 @@ brushDef
 // entity 136
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_289"
 "delay" "0.2"
 // brush 0
@@ -3673,6 +3719,7 @@ brushDef
 // entity 138
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_290"
 "delay" "0.2"
 // brush 0
@@ -3720,6 +3767,7 @@ brushDef
 // entity 140
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_291"
 "delay" "0.2"
 // brush 0
@@ -3767,6 +3815,7 @@ brushDef
 // entity 142
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_292"
 "delay" "0.2"
 // brush 0
@@ -3814,6 +3863,7 @@ brushDef
 // entity 144
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_293"
 "delay" "0.2"
 // brush 0
@@ -3861,6 +3911,7 @@ brushDef
 // entity 146
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_294"
 "delay" "0.2"
 // brush 0
@@ -3908,6 +3959,7 @@ brushDef
 // entity 148
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_295"
 "delay" "0.2"
 // brush 0
@@ -3955,6 +4007,7 @@ brushDef
 // entity 150
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_296"
 "delay" "0.2"
 // brush 0
@@ -4002,6 +4055,7 @@ brushDef
 // entity 152
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_297"
 "delay" "0.2"
 // brush 0
@@ -4049,6 +4103,7 @@ brushDef
 // entity 154
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_298"
 "delay" "0.2"
 // brush 0
@@ -4096,6 +4151,7 @@ brushDef
 // entity 156
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_299"
 "delay" "0.2"
 // brush 0
@@ -4143,6 +4199,7 @@ brushDef
 // entity 158
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_300"
 "delay" "0.2"
 // brush 0
@@ -4190,6 +4247,7 @@ brushDef
 // entity 160
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_301"
 "delay" "0.2"
 // brush 0
@@ -4237,6 +4295,7 @@ brushDef
 // entity 162
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_302"
 "delay" "0.2"
 // brush 0
@@ -4284,6 +4343,7 @@ brushDef
 // entity 164
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_303"
 "delay" "0.2"
 // brush 0
@@ -4331,6 +4391,7 @@ brushDef
 // entity 166
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_304"
 "delay" "0.2"
 // brush 0
@@ -4378,6 +4439,7 @@ brushDef
 // entity 168
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_305"
 "delay" "0.2"
 // brush 0
@@ -4425,6 +4487,7 @@ brushDef
 // entity 170
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_306"
 "delay" "0.2"
 // brush 0
@@ -4472,6 +4535,7 @@ brushDef
 // entity 172
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_307"
 "delay" "0.2"
 // brush 0
@@ -4519,6 +4583,7 @@ brushDef
 // entity 174
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_308"
 "delay" "0.2"
 // brush 0
@@ -4566,6 +4631,7 @@ brushDef
 // entity 176
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_309"
 "delay" "0.2"
 // brush 0
@@ -4613,6 +4679,7 @@ brushDef
 // entity 178
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_310"
 "delay" "0.2"
 // brush 0
@@ -4660,6 +4727,7 @@ brushDef
 // entity 180
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_311"
 "delay" "0.2"
 // brush 0
@@ -4707,6 +4775,7 @@ brushDef
 // entity 182
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_312"
 "delay" "0.2"
 // brush 0
@@ -4754,6 +4823,7 @@ brushDef
 // entity 184
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_313"
 "delay" "0.2"
 // brush 0
@@ -4801,6 +4871,7 @@ brushDef
 // entity 186
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_314"
 "delay" "0.2"
 // brush 0
@@ -4960,6 +5031,7 @@ brushDef
 // entity 202
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_318"
 "delay" "0.2"
 // brush 0
@@ -5007,6 +5079,7 @@ brushDef
 // entity 204
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_319"
 "delay" "0.2"
 // brush 0
@@ -5054,6 +5127,7 @@ brushDef
 // entity 206
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_320"
 "delay" "0.2"
 // brush 0
@@ -5101,6 +5175,7 @@ brushDef
 // entity 208
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_321"
 "delay" "0.2"
 // brush 0
@@ -5148,6 +5223,7 @@ brushDef
 // entity 210
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_322"
 "delay" "0.2"
 // brush 0
@@ -5195,6 +5271,7 @@ brushDef
 // entity 212
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_323"
 "delay" "0.2"
 // brush 0
@@ -5242,6 +5319,7 @@ brushDef
 // entity 214
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_324"
 "delay" "0.2"
 // brush 0
@@ -5289,6 +5367,7 @@ brushDef
 // entity 216
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_325"
 "delay" "0.2"
 // brush 0
@@ -5411,6 +5490,7 @@ brushDef
 // entity 228
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "music_overworld"
 // brush 0
 {
@@ -5483,6 +5563,7 @@ brushDef
 // entity 6
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "wait" "2"
 "delay" "1.5"
 "target" "player1_drop"
@@ -5528,6 +5609,7 @@ brushDef
 // entity 9
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "wait" "2"
 "delay" "1.5"
 "target" "player1_drop1"
@@ -5573,6 +5655,7 @@ brushDef
 // entity 12
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "wait" "2"
 "delay" "1.5"
 "target" "player1_drop2"
@@ -5618,6 +5701,7 @@ brushDef
 // entity 15
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "wait" "2"
 "delay" "1.5"
 "target" "player1_drop3"
@@ -5663,6 +5747,7 @@ brushDef
 // entity 18
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "wait" "2"
 "delay" "1.5"
 "target" "player1_drop4"
@@ -5708,6 +5793,7 @@ brushDef
 // entity 21
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "wait" "2"
 "delay" "1.5"
 "target" "player1_drop5"

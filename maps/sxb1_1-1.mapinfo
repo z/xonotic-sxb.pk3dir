@@ -24,6 +24,11 @@ settemp_for_type all g_telefrags 0
 settemp_for_type all g_physics_clientselect 0
 settemp_for_type all g_start_ammo_shells 0
 
+settemp_for_type all g_player_crush 1
+settemp_for_type all g_player_crush_simple -1
+settemp_for_type all g_player_crush_bounce 200
+settemp_for_type all g_player_crush_bounce_jump 400
+
 settemp_for_type all g_balance_health_start 50
 settemp_for_type all g_balance_health_regen 0
 settemp_for_type all g_balance_health_regenlinear 0

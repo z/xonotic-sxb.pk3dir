@@ -2030,6 +2030,7 @@ brushDef
 // entity 30
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_1"
 "delay" "0.2"
 // brush 0
@@ -2077,6 +2078,7 @@ brushDef
 // entity 32
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_2"
 "delay" "0.2"
 // brush 0
@@ -2124,6 +2126,7 @@ brushDef
 // entity 34
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_3"
 "delay" "0.2"
 // brush 0
@@ -2171,6 +2174,7 @@ brushDef
 // entity 36
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_4"
 "delay" "0.2"
 // brush 0
@@ -2218,6 +2222,7 @@ brushDef
 // entity 38
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_5"
 "delay" "0.2"
 // brush 0
@@ -2265,6 +2270,7 @@ brushDef
 // entity 40
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "brick_6"
 "delay" "0.2"
 // brush 0
@@ -2515,6 +2521,7 @@ brushDef
 // entity 46
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "noise" "map_sxb/yousuck.ogg"
 "wait" "6"
 // brush 0
@@ -2533,6 +2540,7 @@ brushDef
 // entity 47
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "next"
 // brush 0
 {
@@ -2558,6 +2566,7 @@ brushDef
 // entity 49
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "wait" "10"
 "delay" "0.2"
 "target" "block_4"
@@ -2725,6 +2734,7 @@ brushDef
 // entity 6
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "wait" "2"
 "delay" "1.5"
 "target" "player1_drop"
@@ -2770,6 +2780,7 @@ brushDef
 // entity 9
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "wait" "2"
 "delay" "1.5"
 "target" "player1_drop1"
@@ -2815,6 +2826,7 @@ brushDef
 // entity 12
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "wait" "2"
 "delay" "1.5"
 "target" "player1_drop2"
@@ -2860,6 +2872,7 @@ brushDef
 // entity 15
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "wait" "2"
 "delay" "1.5"
 "target" "player1_drop3"
@@ -2905,6 +2918,7 @@ brushDef
 // entity 18
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "wait" "2"
 "delay" "1.5"
 "target" "player1_drop4"
@@ -2950,6 +2964,7 @@ brushDef
 // entity 21
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "wait" "2"
 "delay" "1.5"
 "target" "player1_drop5"

@@ -4519,6 +4519,7 @@ brushDef
 // entity 30
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "flag1"
 // brush 0
 {
@@ -4558,6 +4559,7 @@ brushDef
 // entity 32
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "target" "next1"
 // brush 0
 {
@@ -4625,6 +4627,7 @@ brushDef
 // entity 39
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "wait" "10"
 "delay" "0.2"
 "target" "block_1"
@@ -4673,6 +4676,7 @@ brushDef
 // entity 42
 {
 "classname" "target_spawn"
+"count" "1"
 "origin" "560.000000 -1904.000000 656.000000"
 "angle" "-179.999985"
 "targetname" "coin_1"
@@ -5052,6 +5056,7 @@ brushDef
 // entity 6
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "wait" "2"
 "delay" "1.5"
 "target" "player1_drop"
@@ -5097,6 +5102,7 @@ brushDef
 // entity 9
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "wait" "2"
 "delay" "1.5"
 "target" "player1_drop1"
@@ -5142,6 +5148,7 @@ brushDef
 // entity 12
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "wait" "2"
 "delay" "1.5"
 "target" "player1_drop2"
@@ -5187,6 +5194,7 @@ brushDef
 // entity 15
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "wait" "2"
 "delay" "1.5"
 "target" "player1_drop3"
@@ -5232,6 +5240,7 @@ brushDef
 // entity 18
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "wait" "2"
 "delay" "1.5"
 "target" "player1_drop4"
@@ -5277,6 +5286,7 @@ brushDef
 // entity 21
 {
 "classname" "trigger_multiple"
+"spawnflags" "16384"
 "wait" "2"
 "delay" "1.5"
 "target" "player1_drop5"
