@@ -20,6 +20,7 @@ clientsettemp_for_type all cl_spawn_point_particles 0
 
 settemp_for_type all sv_track_canjump 1
 settemp_for_type all g_telefrags 0
+settemp_for_type all g_monsters_miniboss_chance 0
 
 settemp_for_type all g_physics_clientselect 0
 settemp_for_type all g_start_ammo_shells 0
