@@ -1718,6 +1718,7 @@ brushDef
 "targetname" "warp_2"
 "target" "pipe_3"
 "speed" "-1"
+"target2" "goomba9"
 }
 // entity 38
 {
@@ -4558,7 +4559,7 @@ brushDef
 "origin" "560.000000 -2512.000000 688.000000"
 "angle" "-179.999985"
 "targetname" "coin_12"
-"message" "origin $self.origin noalign -1 $ spawnfunc_weapon_fireball velocity_z 300 noalign -1 classname droppedweapon"
+"message" "origin $self.origin noalign -1 model models/sxb-models/small_flower.md3 $ spawnfunc_weapon_fireball velocity_z 300 noalign -1 classname droppedweapon"
 }
 // entity 193
 {
@@ -5433,7 +5434,336 @@ brushDef
 }
 // entity 236
 {
-"classname" "monster_goomba"
-"origin" "560.000000 -720.000000 600.000000"
+"classname" "monster_spawner"
+"origin" "560.000000 -720.000000 584.000000"
 "angle" "90.000000"
+"targetname" "goomba1"
+"spawnmob" "goomba"
+"count" "1"
+}
+// entity 237
+{
+"classname" "trigger_multiple"
+"target" "goomba1"
+"spawnflags" "16384"
+// brush 0
+{
+brushDef
+{
+( 576 -320 640 ) ( 576 -640 640 ) ( 544 -320 640 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0.5 ) ) common/trigger 0 0 0
+( 576 -32 608 ) ( 544 -32 608 ) ( 576 -32 512 ) ( ( 0.015625 0 255.5 ) ( 0 0.015625 15.5 ) ) common/trigger 0 0 0
+( 576 -320 640 ) ( 576 -320 544 ) ( 576 -640 640 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 544 -640 544 ) ( 576 -640 544 ) ( 544 -320 544 ) ( ( 0.015625 0 0 ) ( 0 0.015625 255.5 ) ) common/trigger 0 0 0
+( 544 -320 512 ) ( 544 -320 608 ) ( 576 -320 512 ) ( ( 0.015625 0 0.5 ) ( 0 0.015625 15.5 ) ) common/trigger 0 0 0
+( 544 -640 544 ) ( 544 -320 544 ) ( 544 -640 640 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+}
+}
+}
+// entity 238
+{
+"classname" "monster_spawner"
+"origin" "560.000000 -1456.000000 584.000000"
+"angle" "90.000000"
+"targetname" "goomba2"
+"spawnmob" "goomba"
+"count" "1"
+}
+// entity 239
+{
+"classname" "trigger_multiple"
+"target" "goomba2"
+"spawnflags" "16384"
+// brush 0
+{
+brushDef
+{
+( 576 -1056 1024 ) ( 576 -1376 1024 ) ( 544 -1056 1024 ) ( ( 0.015625 0 11.5 ) ( 0 0.015625 0.5 ) ) common/trigger 0 0 0
+( 576 -832 608 ) ( 544 -832 608 ) ( 576 -832 512 ) ( ( 0.015625 0 255.5 ) ( 0 0.015625 15.5 ) ) common/trigger 0 0 0
+( 576 -1056 640 ) ( 576 -1056 544 ) ( 576 -1376 640 ) ( ( 0.015625 0 11.5 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 544 -1376 544 ) ( 576 -1376 544 ) ( 544 -1056 544 ) ( ( 0.015625 0 11.5 ) ( 0 0.015625 255.5 ) ) common/trigger 0 0 0
+( 544 -960 512 ) ( 544 -960 608 ) ( 576 -960 512 ) ( ( 0.015625 0 0.5 ) ( 0 0.015625 15.5 ) ) common/trigger 0 0 0
+( 544 -1376 544 ) ( 544 -1056 544 ) ( 544 -1376 640 ) ( ( 0.015625 0 244.5 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+}
+}
+}
+// entity 240
+{
+"classname" "monster_spawner"
+"origin" "560.000000 -1720.000000 584.000000"
+"angle" "90.000000"
+"targetname" "goomba3"
+"spawnmob" "goomba"
+"count" "1"
+}
+// entity 241
+{
+"classname" "trigger_multiple"
+"target" "goomba3"
+"spawnflags" "16384"
+// brush 0
+{
+brushDef
+{
+( 576 -1312 1024 ) ( 576 -1632 1024 ) ( 544 -1312 1024 ) ( ( 0.015625 0 15.5 ) ( 0 0.015625 0.5 ) ) common/trigger 0 0 0
+( 576 -1088 608 ) ( 544 -1088 608 ) ( 576 -1088 512 ) ( ( 0.015625 0 255.5 ) ( 0 0.015625 15.5 ) ) common/trigger 0 0 0
+( 576 -1312 640 ) ( 576 -1312 544 ) ( 576 -1632 640 ) ( ( 0.015625 0 15.5 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 544 -1632 544 ) ( 576 -1632 544 ) ( 544 -1312 544 ) ( ( 0.015625 0 15.5 ) ( 0 0.015625 255.5 ) ) common/trigger 0 0 0
+( 544 -1216 512 ) ( 544 -1216 608 ) ( 576 -1216 512 ) ( ( 0.015625 0 0.5 ) ( 0 0.015625 15.5 ) ) common/trigger 0 0 0
+( 544 -1632 544 ) ( 544 -1312 544 ) ( 544 -1632 640 ) ( ( 0.015625 0 240.5 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+}
+}
+}
+// entity 242
+{
+"classname" "monster_spawner"
+"origin" "560.000000 -1672.000000 584.000000"
+"angle" "90.000000"
+"targetname" "goomba3"
+"spawnmob" "goomba"
+"count" "1"
+}
+// entity 243
+{
+"classname" "monster_spawner"
+"origin" "560.000000 -3064.000000 584.000000"
+"angle" "90.000000"
+"targetname" "goomba4"
+"spawnmob" "goomba"
+"count" "1"
+}
+// entity 244
+{
+"classname" "trigger_multiple"
+"target" "goomba4"
+"spawnflags" "16384"
+// brush 0
+{
+brushDef
+{
+( 576 -2656 1024 ) ( 576 -2976 1024 ) ( 544 -2656 1024 ) ( ( 0.015625 0 36.5 ) ( 0 0.015625 0.5 ) ) common/trigger 0 0 0
+( 576 -2432 608 ) ( 544 -2432 608 ) ( 576 -2432 512 ) ( ( 0.015625 0 255.5 ) ( 0 0.015625 15.5 ) ) common/trigger 0 0 0
+( 576 -2656 640 ) ( 576 -2656 544 ) ( 576 -2976 640 ) ( ( 0.015625 0 36.5 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 544 -2976 544 ) ( 576 -2976 544 ) ( 544 -2656 544 ) ( ( 0.015625 0 36.5 ) ( 0 0.015625 255.5 ) ) common/trigger 0 0 0
+( 544 -2560 512 ) ( 544 -2560 608 ) ( 576 -2560 512 ) ( ( 0.015625 0 0.5 ) ( 0 0.015625 15.5 ) ) common/trigger 0 0 0
+( 544 -2976 544 ) ( 544 -2656 544 ) ( 544 -2976 640 ) ( ( 0.015625 0 219.5 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+}
+}
+}
+// entity 245
+{
+"classname" "monster_spawner"
+"origin" "560.000000 -3016.000000 584.000000"
+"angle" "90.000000"
+"targetname" "goomba4"
+"spawnmob" "goomba"
+"count" "1"
+}
+// entity 246
+{
+"classname" "trigger_multiple"
+"target" "goomba5"
+"spawnflags" "16384"
+// brush 0
+{
+brushDef
+{
+( 576 -2272 1024 ) ( 576 -2592 1024 ) ( 544 -2272 1024 ) ( ( 0.015625 0 30.5 ) ( 0 0.015625 0.5 ) ) common/trigger 0 0 0
+( 576 -2048 608 ) ( 544 -2048 608 ) ( 576 -2048 512 ) ( ( 0.015625 0 255.5 ) ( 0 0.015625 15.5 ) ) common/trigger 0 0 0
+( 576 -2272 640 ) ( 576 -2272 544 ) ( 576 -2592 640 ) ( ( 0.015625 0 30.5 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 544 -2592 544 ) ( 576 -2592 544 ) ( 544 -2272 544 ) ( ( 0.015625 0 30.5 ) ( 0 0.015625 255.5 ) ) common/trigger 0 0 0
+( 544 -2176 512 ) ( 544 -2176 608 ) ( 576 -2176 512 ) ( ( 0.015625 0 0.5 ) ( 0 0.015625 15.5 ) ) common/trigger 0 0 0
+( 544 -2592 544 ) ( 544 -2272 544 ) ( 544 -2592 640 ) ( ( 0.015625 0 225.5 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+}
+}
+}
+// entity 247
+{
+"classname" "monster_spawner"
+"origin" "560.000000 -3736.000000 584.000000"
+"angle" "90.000000"
+"targetname" "goomba6"
+"spawnmob" "goomba"
+"count" "1"
+}
+// entity 248
+{
+"classname" "trigger_multiple"
+"target" "goomba6"
+"spawnflags" "16384"
+// brush 0
+{
+brushDef
+{
+( 576 -3328 1024 ) ( 576 -3648 1024 ) ( 544 -3328 1024 ) ( ( 0.015625 0 47 ) ( 0 0.015625 0.5 ) ) common/trigger 0 0 0
+( 576 -3104 608 ) ( 544 -3104 608 ) ( 576 -3104 512 ) ( ( 0.015625 0 255.5 ) ( 0 0.015625 15.5 ) ) common/trigger 0 0 0
+( 576 -3328 640 ) ( 576 -3328 544 ) ( 576 -3648 640 ) ( ( 0.015625 0 47 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 544 -3648 544 ) ( 576 -3648 544 ) ( 544 -3328 544 ) ( ( 0.015625 0 47 ) ( 0 0.015625 255.5 ) ) common/trigger 0 0 0
+( 544 -3232 512 ) ( 544 -3232 608 ) ( 576 -3232 512 ) ( ( 0.015625 0 0.5 ) ( 0 0.015625 15.5 ) ) common/trigger 0 0 0
+( 544 -3648 544 ) ( 544 -3328 544 ) ( 544 -3648 640 ) ( ( 0.015625 0 209 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+}
+}
+}
+// entity 249
+{
+"classname" "monster_spawner"
+"origin" "560.000000 -3688.000000 584.000000"
+"angle" "90.000000"
+"targetname" "goomba6"
+"spawnmob" "goomba"
+"count" "1"
+}
+// entity 250
+{
+"classname" "monster_spawner"
+"origin" "560.000000 -4024.000000 584.000000"
+"angle" "90.000000"
+"targetname" "goomba7"
+"spawnmob" "goomba"
+"count" "1"
+}
+// entity 251
+{
+"classname" "trigger_multiple"
+"target" "goomba7"
+"spawnflags" "16384"
+// brush 0
+{
+brushDef
+{
+( 576 -3616 1024 ) ( 576 -3936 1024 ) ( 544 -3616 1024 ) ( ( 0.015625 0 51.5 ) ( 0 0.015625 0.5 ) ) common/trigger 0 0 0
+( 576 -3392 608 ) ( 544 -3392 608 ) ( 576 -3392 512 ) ( ( 0.015625 0 255.5 ) ( 0 0.015625 15.5 ) ) common/trigger 0 0 0
+( 576 -3616 640 ) ( 576 -3616 544 ) ( 576 -3936 640 ) ( ( 0.015625 0 51.5 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 544 -3936 544 ) ( 576 -3936 544 ) ( 544 -3616 544 ) ( ( 0.015625 0 51.5 ) ( 0 0.015625 255.5 ) ) common/trigger 0 0 0
+( 544 -3520 512 ) ( 544 -3520 608 ) ( 576 -3520 512 ) ( ( 0.015625 0 0.5 ) ( 0 0.015625 15.5 ) ) common/trigger 0 0 0
+( 544 -3936 544 ) ( 544 -3616 544 ) ( 544 -3936 640 ) ( ( 0.015625 0 204.5 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+}
+}
+}
+// entity 252
+{
+"classname" "monster_spawner"
+"origin" "560.000000 -3976.000000 584.000000"
+"angle" "90.000000"
+"targetname" "goomba7"
+"spawnmob" "goomba"
+"count" "1"
+}
+// entity 253
+{
+"classname" "monster_spawner"
+"origin" "560.000000 -4152.000000 584.000000"
+"angle" "90.000000"
+"targetname" "goomba8"
+"spawnmob" "goomba"
+"count" "1"
+}
+// entity 254
+{
+"classname" "trigger_multiple"
+"target" "goomba8"
+"spawnflags" "16384"
+// brush 0
+{
+brushDef
+{
+( 576 -3744 1024 ) ( 576 -4064 1024 ) ( 544 -3744 1024 ) ( ( 0.015625 0 53.5 ) ( 0 0.015625 0.5 ) ) common/trigger 0 0 0
+( 576 -3520 608 ) ( 544 -3520 608 ) ( 576 -3520 512 ) ( ( 0.015625 0 255.5 ) ( 0 0.015625 15.5 ) ) common/trigger 0 0 0
+( 576 -3744 640 ) ( 576 -3744 544 ) ( 576 -4064 640 ) ( ( 0.015625 0 53.5 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 544 -4064 544 ) ( 576 -4064 544 ) ( 544 -3744 544 ) ( ( 0.015625 0 53.5 ) ( 0 0.015625 255.5 ) ) common/trigger 0 0 0
+( 544 -3648 512 ) ( 544 -3648 608 ) ( 576 -3648 512 ) ( ( 0.015625 0 0.5 ) ( 0 0.015625 15.5 ) ) common/trigger 0 0 0
+( 544 -4064 544 ) ( 544 -3744 544 ) ( 544 -4064 640 ) ( ( 0.015625 0 202.5 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+}
+}
+}
+// entity 255
+{
+"classname" "monster_spawner"
+"origin" "560.000000 -4104.000000 584.000000"
+"angle" "90.000000"
+"targetname" "goomba8"
+"spawnmob" "goomba"
+"count" "1"
+}
+// entity 256
+{
+"classname" "monster_spawner"
+"origin" "560.000000 -5616.000000 584.000000"
+"angle" "90.000000"
+"targetname" "goomba9"
+"spawnmob" "goomba"
+"count" "1"
+}
+// entity 257
+{
+"classname" "trigger_multiple"
+"target" "goomba9"
+"spawnflags" "16384"
+// brush 0
+{
+brushDef
+{
+( 576 -5216 1024 ) ( 576 -5536 1024 ) ( 544 -5216 1024 ) ( ( 0.015625 0 76.5 ) ( 0 0.015625 0.5 ) ) common/trigger 0 0 0
+( 576 -4992 608 ) ( 544 -4992 608 ) ( 576 -4992 512 ) ( ( 0.015625 0 255.5 ) ( 0 0.015625 15.5 ) ) common/trigger 0 0 0
+( 576 -5216 640 ) ( 576 -5216 544 ) ( 576 -5536 640 ) ( ( 0.015625 0 76.5 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 544 -5536 544 ) ( 576 -5536 544 ) ( 544 -5216 544 ) ( ( 0.015625 0 76.5 ) ( 0 0.015625 255.5 ) ) common/trigger 0 0 0
+( 544 -5120 512 ) ( 544 -5120 608 ) ( 576 -5120 512 ) ( ( 0.015625 0 0.5 ) ( 0 0.015625 15.5 ) ) common/trigger 0 0 0
+( 544 -5536 544 ) ( 544 -5216 544 ) ( 544 -5536 640 ) ( ( 0.015625 0 179.5 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+}
+}
+}
+// entity 258
+{
+"classname" "monster_spawner"
+"origin" "560.000000 -5568.000000 584.000000"
+"angle" "90.000000"
+"targetname" "goomba9"
+"spawnmob" "goomba"
+"count" "1"
+}
+// entity 259
+{
+"classname" "monster_spawner"
+"origin" "560.000000 -2632.000000 840.000000"
+"angle" "90.000000"
+"targetname" "goomba5"
+"noalign" "1"
+"spawnmob" "goomba"
+"count" "1"
+}
+// entity 260
+{
+"classname" "monster_spawner"
+"origin" "560.000000 -2680.000000 840.000000"
+"angle" "90.000000"
+"targetname" "goomba5"
+"noalign" "1"
+"spawnmob" "goomba"
+"count" "1"
+}
+// entity 261
+{
+"classname" "monster_spawner"
+"origin" "560.000000 -3472.000000 584.000000"
+"angle" "90.000000"
+"targetname" "goomba10"
+"spawnmob" "koopa"
+"count" "1"
+}
+// entity 262
+{
+"classname" "trigger_multiple"
+"target" "goomba10"
+"spawnflags" "16384"
+// brush 0
+{
+brushDef
+{
+( 576 -3072 1024 ) ( 576 -3392 1024 ) ( 544 -3072 1024 ) ( ( 0.015625 0 43 ) ( 0 0.015625 0.5 ) ) common/trigger 0 0 0
+( 576 -2848 608 ) ( 544 -2848 608 ) ( 576 -2848 512 ) ( ( 0.015625 0 255.5 ) ( 0 0.015625 15.5 ) ) common/trigger 0 0 0
+( 576 -3072 640 ) ( 576 -3072 544 ) ( 576 -3392 640 ) ( ( 0.015625 0 43 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 544 -3392 544 ) ( 576 -3392 544 ) ( 544 -3072 544 ) ( ( 0.015625 0 43 ) ( 0 0.015625 255.5 ) ) common/trigger 0 0 0
+( 544 -2976 512 ) ( 544 -2976 608 ) ( 576 -2976 512 ) ( ( 0.015625 0 0.5 ) ( 0 0.015625 15.5 ) ) common/trigger 0 0 0
+( 544 -3392 544 ) ( 544 -3072 544 ) ( 544 -3392 640 ) ( ( 0.015625 0 213 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+}
+}
 }
