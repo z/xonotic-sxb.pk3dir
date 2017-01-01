@@ -960,3 +960,32 @@ textures/sxb_v1_misc/fire
 		depthFunc equal
 	}
 }
+
+// fireball
+textures/sxb_v1_misc/fireball
+{
+	qer_editorimage textures/sxb_v1_misc/fireball
+	surfaceparm alphashadow
+	deformVertexes autoSprite2
+	deformVertexes wave 150 sin 0 1 1 0.5
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	q3map_noclip
+	q3map_notjunc
+	cull disable
+	{
+		map textures/sxb_v1_misc/fireball
+		//animmap 10 textures/sxb_v1_misc/fireball textures/sxb_v1_misc/fireball textures/sxb_v1_misc/fireball textures/sxb_v1_misc/fireball textures/sxb_v1_misc/fireball textures/sxb_v1_misc/fireball_1 textures/sxb_v1_misc/fireball_2 textures/sxb_v1_misc/fireball_2 textures/sxb_v1_misc/fireball_2 textures/sxb_v1_misc/fireball_1
+		rgbGen identity
+		depthWrite
+		alphaFunc GE128
+	}
+	{
+		map $lightmap
+		blendfunc filter
+		rgbGen identity
+		tcGen lightmap
+		depthFunc equal
+	}
+}

@@ -8935,7 +8935,7 @@ brushDef
 }
 }
 }
-// entity 1
+// entity 346
 {
 "classname" "trigger_viewlocation"
 "target" "inter_1"
@@ -8953,27 +8953,27 @@ brushDef
 }
 }
 }
-// entity 2
+// entity 347
 {
 "classname" "target_viewlocation_end"
 "origin" "-4920.000000 -888.000000 7680.000000"
 "angle" "0.000003"
 "targetname" "inter_2"
 }
-// entity 3
+// entity 348
 {
 "classname" "target_viewlocation_start"
 "origin" "-4920.000000 -776.000000 7680.000000"
 "angle" "0.000003"
 "targetname" "inter_1"
 }
-// entity 4
+// entity 349
 {
 "classname" "info_player_deathmatch"
 "origin" "-4688.000000 -672.000000 7648.000000"
 "angle" "-90.000000"
 }
-// entity 5
+// entity 350
 {
 "classname" "trigger_teleport"
 "target" "spoint"
@@ -8990,7 +8990,7 @@ brushDef
 }
 }
 }
-// entity 6
+// entity 351
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -9010,7 +9010,7 @@ brushDef
 }
 }
 }
-// entity 7
+// entity 352
 {
 "classname" "func_door"
 "targetname" "player1_drop"
@@ -9030,13 +9030,13 @@ brushDef
 }
 }
 }
-// entity 8
+// entity 353
 {
 "classname" "info_player_deathmatch"
 "origin" "-4688.000000 -800.000000 7648.000000"
 "angle" "-90.000000"
 }
-// entity 9
+// entity 354
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -9056,7 +9056,7 @@ brushDef
 }
 }
 }
-// entity 10
+// entity 355
 {
 "classname" "func_door"
 "targetname" "player1_drop1"
@@ -9076,13 +9076,13 @@ brushDef
 }
 }
 }
-// entity 11
+// entity 356
 {
 "classname" "info_player_deathmatch"
 "origin" "-4688.000000 -928.000000 7648.000000"
 "angle" "-90.000000"
 }
-// entity 12
+// entity 357
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -9102,7 +9102,7 @@ brushDef
 }
 }
 }
-// entity 13
+// entity 358
 {
 "classname" "func_door"
 "targetname" "player1_drop2"
@@ -9122,13 +9122,13 @@ brushDef
 }
 }
 }
-// entity 14
+// entity 359
 {
 "classname" "info_player_deathmatch"
 "origin" "-4688.000000 -1056.000000 7648.000000"
 "angle" "-90.000000"
 }
-// entity 15
+// entity 360
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -9148,7 +9148,7 @@ brushDef
 }
 }
 }
-// entity 16
+// entity 361
 {
 "classname" "func_door"
 "targetname" "player1_drop3"
@@ -9168,13 +9168,13 @@ brushDef
 }
 }
 }
-// entity 17
+// entity 362
 {
 "classname" "info_player_deathmatch"
 "origin" "-4688.000000 -1184.000000 7648.000000"
 "angle" "-90.000000"
 }
-// entity 18
+// entity 363
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -9194,7 +9194,7 @@ brushDef
 }
 }
 }
-// entity 19
+// entity 364
 {
 "classname" "func_door"
 "targetname" "player1_drop4"
@@ -9214,13 +9214,13 @@ brushDef
 }
 }
 }
-// entity 20
+// entity 365
 {
 "classname" "info_player_deathmatch"
 "origin" "-4688.000000 -544.000000 7648.000000"
 "angle" "-90.000000"
 }
-// entity 21
+// entity 366
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -9240,7 +9240,7 @@ brushDef
 }
 }
 }
-// entity 22
+// entity 367
 {
 "classname" "func_door"
 "targetname" "player1_drop5"
@@ -9260,7 +9260,7 @@ brushDef
 }
 }
 }
-// entity 24
+// entity 368
 {
 "classname" "func_group"
 // brush 0
@@ -9288,7 +9288,7 @@ brushDef
 }
 }
 }
-// entity 25
+// entity 369
 {
 "classname" "func_group"
 // brush 0
@@ -9340,7 +9340,7 @@ brushDef
 }
 }
 }
-// entity 26
+// entity 370
 {
 "classname" "func_group"
 // brush 0
@@ -9380,7 +9380,7 @@ brushDef
 }
 }
 }
-// entity 27
+// entity 371
 {
 "classname" "func_group"
 // brush 0
@@ -9420,7 +9420,7 @@ brushDef
 }
 }
 }
-// entity 28
+// entity 372
 {
 "classname" "func_group"
 // brush 0
@@ -9460,7 +9460,7 @@ brushDef
 }
 }
 }
-// entity 29
+// entity 373
 {
 "classname" "func_group"
 // brush 0
@@ -9500,7 +9500,7 @@ brushDef
 }
 }
 }
-// entity 30
+// entity 374
 {
 "classname" "func_group"
 // brush 0
@@ -9540,7 +9540,7 @@ brushDef
 }
 }
 }
-// entity 31
+// entity 375
 {
 "classname" "func_group"
 // brush 0
@@ -9580,7 +9580,7 @@ brushDef
 }
 }
 }
-// entity 32
+// entity 376
 {
 "classname" "func_group"
 // brush 0
@@ -9653,6 +9653,65 @@ brushDef
 ( -5248 -512 8000 ) ( -5248 -512 8064 ) ( -5248 -1248 8000 ) ( ( 0.015625 0 48 ) ( 0 0.015625 56 ) ) common/caulk 0 0 0
 ( -5248 0 8000 ) ( -4224 0 8000 ) ( -5248 0 8064 ) ( ( 0.015625 0 54 ) ( 0 0.015625 56 ) ) common/caulk 0 0 0
 ( -4224 5568 7176 ) ( -5248 4832 7176 ) ( -5248 5568 7176 ) ( ( 0 0.015625 74 ) ( -0.015625 0 81 ) ) sxb_v1_skies/underground 0 0 0
+}
+}
+}
+// entity 377
+{
+"classname" "misc_follow"
+"origin" "-304.000000 -2840.000000 1384.000000"
+"target" "brek26"
+"killtarget" "rot38"
+}
+// entity 378
+{
+"classname" "trigger_hurt"
+"targetname" "brek26"
+"dmg" "50"
+"message" "was burned by a fireball"
+"message2" "was pushed into the fire balls by"
+// brush 0
+{
+brushDef
+{
+( -256 -2912 1400 ) ( -352 -2912 1400 ) ( -256 -2880 1400 ) ( ( 0.03125 0 91 ) ( 0 0.03125 10 ) ) common/origin 134217728 0 0
+( -296 -2912 1408 ) ( -296 -2880 1408 ) ( -296 -2912 1376 ) ( ( 0.03125 0 91 ) ( 0 0.03125 44 ) ) common/origin 134217728 0 0
+( -256 -2904 1408 ) ( -256 -2904 1376 ) ( -352 -2904 1408 ) ( ( 0.03125 0 10 ) ( 0 0.03125 44 ) ) common/origin 134217728 0 0
+( -352 -2880 1384 ) ( -352 -2912 1384 ) ( -256 -2880 1384 ) ( ( 0 -0.03125 10 ) ( 0.03125 0 91 ) ) common/origin 134217728 0 0
+( -312 -2880 1376 ) ( -312 -2880 1408 ) ( -312 -2912 1376 ) ( ( 0.03125 0 166 ) ( 0 0.03125 44 ) ) common/origin 134217728 0 0
+( -352 -2888 1376 ) ( -256 -2888 1376 ) ( -352 -2888 1408 ) ( ( 0.03125 0 247 ) ( 0 0.03125 44 ) ) common/origin 134217728 0 0
+}
+}
+// brush 1
+{
+brushDef
+{
+( -256 -2912 1400 ) ( -352 -2912 1400 ) ( -256 -2880 1400 ) ( ( 0.03125 0 91 ) ( 0 0.03125 10 ) ) common/trigger 134217728 0 0
+( -288 -2912 1408 ) ( -288 -2880 1408 ) ( -288 -2912 1376 ) ( ( 0.03125 0 91 ) ( 0 0.03125 44 ) ) common/trigger 134217728 0 0
+( -256 -2904 1408 ) ( -256 -2904 1376 ) ( -352 -2904 1408 ) ( ( 0.03125 0 10 ) ( 0 0.03125 44 ) ) common/trigger 134217728 0 0
+( -352 -2880 1384 ) ( -352 -2912 1384 ) ( -256 -2880 1384 ) ( ( 0 -0.03125 10 ) ( 0.03125 0 91 ) ) common/trigger 134217728 0 0
+( -320 -2880 1376 ) ( -320 -2880 1408 ) ( -320 -2912 1376 ) ( ( 0.03125 0 166 ) ( 0 0.03125 44 ) ) common/trigger 134217728 0 0
+( -352 -2888 1376 ) ( -256 -2888 1376 ) ( -352 -2888 1408 ) ( ( 0.03125 0 247 ) ( 0 0.03125 44 ) ) common/trigger 134217728 0 0
+}
+}
+}
+// entity 379
+{
+"classname" "func_bobbing"
+"spawnflags" "4"
+"targetname" "rot38"
+"height" "300"
+"speed" "3"
+// brush 0
+{
+brushDef
+{
+( -258 -2912 1408 ) ( -354 -2912 1408 ) ( -258 -2880 1408 ) ( ( 0.03125 0 91 ) ( 0 0.03125 10.0625 ) ) common/nodrawnonsolid 134217728 0 0
+( -300 -2914 1408 ) ( -300 -2882 1408 ) ( -300 -2914 1376 ) ( ( 0.03125 0 91.0625 ) ( 0 0.03125 44 ) ) common/nodrawnonsolid 134217728 0 0
+( -258 -2912 1408 ) ( -258 -2912 1376 ) ( -354 -2912 1408 ) ( ( 0.03125 0 10.0625 ) ( 0 0.03125 44 ) ) common/nodrawnonsolid 134217728 0 0
+( -354 -2880 1376 ) ( -354 -2912 1376 ) ( -258 -2880 1376 ) ( ( 0 -0.03125 10.0625 ) ( 0.03125 0 91 ) ) common/nodrawnonsolid 134217728 0 0
+( -304 -2880 1376 ) ( -304 -2880 1408 ) ( -304 -2912 1376 ) ( ( 0.03125 0 38 ) ( 0 0.03125 44 ) ) sxb_v1_misc/fireball 134217728 0 0
+( -354 -2880 1376 ) ( -258 -2880 1376 ) ( -354 -2880 1408 ) ( ( 0.03125 0 246.9375 ) ( 0 0.03125 44 ) ) common/nodrawnonsolid 134217728 0 0
 }
 }
 }
