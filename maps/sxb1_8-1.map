@@ -6718,3 +6718,123 @@ brushDef
 }
 }
 }
+// entity 260
+{
+"classname" "item_health_small"
+"origin" "560.000000 -10320.000000 704.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 261
+{
+"classname" "item_health_small"
+"origin" "560.000000 -2032.000000 704.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 262
+{
+"classname" "item_health_small"
+"origin" "560.000000 -2864.000000 704.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 263
+{
+"classname" "item_health_small"
+"origin" "560.000000 -3152.000000 704.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 264
+{
+"classname" "item_health_small"
+"origin" "560.000000 -10288.000000 704.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 265
+{
+"classname" "item_health_small"
+"origin" "560.000000 -3504.000000 832.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 266
+{
+"classname" "item_health_small"
+"origin" "560.000000 -3536.000000 832.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 267
+{
+"classname" "item_health_small"
+"origin" "560.000000 -7152.000000 704.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 268
+{
+"classname" "item_health_small"
+"origin" "560.000000 -7184.000000 704.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 269
+{
+"classname" "item_health_small"
+"origin" "560.000000 -9072.000000 704.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 270
+{
+"classname" "item_health_small"
+"origin" "560.000000 -9104.000000 704.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 271
+{
+"classname" "item_health_small"
+"origin" "560.000000 -9328.000000 704.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 272
+{
+"classname" "item_health_small"
+"origin" "560.000000 -9488.000000 704.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 273
+{
+"classname" "item_health_small"
+"origin" "560.000000 -10096.000000 704.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
+// entity 274
+{
+"classname" "item_health_small"
+"origin" "560.000000 -10128.000000 704.000000"
+"model" "models/sxb-models/coin.md3"
+"spawnflags" "1"
+"item_pickupsound" "sound/map_sxb/coin.wav"
+}
