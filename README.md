@@ -3,6 +3,7 @@ Super Xonotic Brothers
 
 A Super Mario themed collection of assets and maps for Xonotic!
 
+![SXB 1-1](resources/sxb1_1-1_start.png)
 
 #### Building
 
