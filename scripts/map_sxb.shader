@@ -989,3 +989,30 @@ textures/sxb_v1_misc/fireball
 		depthFunc equal
 	}
 }
+
+// tree trunk
+textures/sxb_v1_earth/tree_trunk
+{
+	qer_editorimage textures/sxb_v1_earth/tree_trunk
+	surfaceparm alphashadow
+	deformVertexes autoSprite2
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	q3map_noclip
+	q3map_notjunc
+	cull disable
+	{
+		map textures/sxb_v1_earth/tree_trunk
+		rgbGen identity
+		depthWrite
+		alphaFunc GE128
+	}
+	{
+		map $lightmap
+		blendfunc filter
+		rgbGen identity
+		tcGen lightmap
+		depthFunc equal
+	}
+}
