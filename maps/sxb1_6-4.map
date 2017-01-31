@@ -174,18 +174,6 @@ brushDef
 {
 brushDef
 {
-( 656 -4744 800 ) ( 624 -4744 800 ) ( 656 -4680 800 ) ( ( 0.03125 0 92 ) ( 0 0.03125 41.5 ) ) common/caulk 0 0 0
-( 688 -4744 800 ) ( 688 -4680 800 ) ( 688 -4744 768 ) ( ( 0.03125 0 92 ) ( 0 0.03125 16 ) ) common/caulk 0 0 0
-( 656 -4768 800 ) ( 656 -4768 768 ) ( 624 -4768 800 ) ( ( 0.03125 0 41.5 ) ( 0 0.03125 16 ) ) common/caulk 0 0 0
-( 624 -4664 784 ) ( 624 -4728 784 ) ( 656 -4664 784 ) ( ( 0.03125 0 92 ) ( 0 0.03125 214.5 ) ) common/caulk 0 0 0
-( 592 -4680 768 ) ( 592 -4680 800 ) ( 592 -4744 768 ) ( ( 0.03125 0 164 ) ( 0 0.03125 16 ) ) common/caulk 0 0 0
-( 624 -4704 768 ) ( 656 -4704 768 ) ( 624 -4704 800 ) ( ( 0.03125 0 214.5 ) ( 0 0.03125 16 ) ) common/caulk 0 0 0
-}
-}
-// brush 15
-{
-brushDef
-{
 ( 608 -704 672 ) ( 512 -704 672 ) ( 608 -480 672 ) ( ( 0.03125 0 92 ) ( 0 0.03125 44 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
 ( 640 -704 672 ) ( 640 -480 672 ) ( 640 -704 512 ) ( ( 0.03125 0 92 ) ( 0 0.03125 16 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
 ( 608 -832 160 ) ( 608 -832 0 ) ( 512 -832 160 ) ( ( 0.03125 0 44 ) ( 0 0.03125 0 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
@@ -194,7 +182,7 @@ brushDef
 ( 512 -480 512 ) ( 608 -480 512 ) ( 512 -480 672 ) ( ( 0.03125 0 468 ) ( 0 0.03125 16 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
 }
 }
-// brush 16
+// brush 15
 {
 brushDef
 {
@@ -206,7 +194,7 @@ brushDef
 ( 512 -928 512 ) ( 608 -928 512 ) ( 512 -928 672 ) ( ( 0.03125 0 468 ) ( 0 0.03125 16 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
 }
 }
-// brush 17
+// brush 16
 {
 brushDef
 {
@@ -218,7 +206,7 @@ brushDef
 ( 512 -1120 512 ) ( 608 -1120 512 ) ( 512 -1120 704 ) ( ( 0.03125 0 468 ) ( 0 0.03125 16 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
 }
 }
-// brush 18
+// brush 17
 {
 brushDef
 {
@@ -230,7 +218,7 @@ brushDef
 ( 512 -736 800 ) ( 608 -736 800 ) ( 512 -736 832 ) ( ( 0.03125 0 468 ) ( 0 0.03125 16 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
 }
 }
-// brush 19
+// brush 18
 {
 brushDef
 {
@@ -242,19 +230,7 @@ brushDef
 ( 512 -736 768 ) ( 608 -736 768 ) ( 512 -736 800 ) ( ( 0.03125 0 212 ) ( 0 0.03125 16 ) ) sxb_v1_blocks/empty_block 134217728 0 0
 }
 }
-// brush 20
-{
-brushDef
-{
-( 640 -992 800 ) ( 544 -992 800 ) ( 640 -960 800 ) ( ( 0.03125 0 94 ) ( 0 0.03125 44 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
-( 576 -992 800 ) ( 576 -960 800 ) ( 576 -992 768 ) ( ( 0.03125 0 94 ) ( 0 0.03125 16 ) ) sxb_v1_blocks/question_mark 134217728 0 0
-( 640 -992 800 ) ( 640 -992 768 ) ( 544 -992 800 ) ( ( 0.03125 0 44 ) ( 0 0.03125 16 ) ) sxb_v1_blocks/question_mark 134217728 0 0
-( 512 -960 768 ) ( 512 -992 768 ) ( 608 -960 768 ) ( ( 0.03125 0 94 ) ( 0 0.03125 212 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
-( 544 -960 768 ) ( 544 -960 800 ) ( 544 -992 768 ) ( ( 0.03125 0 162 ) ( 0 0.03125 16 ) ) sxb_v1_blocks/question_mark 134217728 0 0
-( 544 -960 768 ) ( 640 -960 768 ) ( 544 -960 800 ) ( ( 0.03125 0 212 ) ( 0 0.03125 16 ) ) sxb_v1_blocks/question_mark 134217728 0 0
-}
-}
-// brush 21
+// brush 19
 {
 brushDef
 {
@@ -266,7 +242,7 @@ brushDef
 ( 544 -768 896 ) ( 576 -768 896 ) ( 544 -768 928 ) ( ( 0.03125 0 468 ) ( 0 0.03125 16 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
 }
 }
-// brush 22
+// brush 20
 {
 brushDef
 {
@@ -278,7 +254,7 @@ brushDef
 ( 544 -1184 832 ) ( 576 -1184 832 ) ( 544 -1184 928 ) ( ( 0.03125 0 468 ) ( 0 0.03125 16 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
 }
 }
-// brush 23
+// brush 21
 {
 brushDef
 {
@@ -290,7 +266,7 @@ brushDef
 ( 544 -2400 768 ) ( 576 -2400 768 ) ( 544 -2400 800 ) ( ( 0.03125 0 212 ) ( 0 0.03125 16 ) ) sxb_v1_blocks/empty_block 134217728 0 0
 }
 }
-// brush 24
+// brush 22
 {
 brushDef
 {
@@ -302,7 +278,7 @@ brushDef
 ( 544 -1184 768 ) ( 576 -1184 768 ) ( 544 -1184 800 ) ( ( 0.03125 0 212 ) ( 0 0.03125 16 ) ) sxb_v1_blocks/empty_block 134217728 0 0
 }
 }
-// brush 25
+// brush 23
 {
 brushDef
 {
@@ -314,7 +290,7 @@ brushDef
 ( 544 -1568 768 ) ( 576 -1568 768 ) ( 544 -1568 800 ) ( ( 0.03125 0 212 ) ( 0 0.03125 16 ) ) sxb_v1_blocks/empty_block 134217728 0 0
 }
 }
-// brush 26
+// brush 24
 {
 brushDef
 {
@@ -326,7 +302,7 @@ brushDef
 ( 544 -1920 768 ) ( 576 -1920 768 ) ( 544 -1920 800 ) ( ( 0.03125 0 212 ) ( 0 0.03125 16 ) ) sxb_v1_blocks/empty_block 134217728 0 0
 }
 }
-// brush 27
+// brush 25
 {
 brushDef
 {
@@ -338,7 +314,7 @@ brushDef
 ( 544 -2176 768 ) ( 576 -2176 768 ) ( 544 -2176 800 ) ( ( 0.03125 0 212 ) ( 0 0.03125 16 ) ) sxb_v1_blocks/empty_block 134217728 0 0
 }
 }
-// brush 28
+// brush 26
 {
 brushDef
 {
@@ -350,7 +326,7 @@ brushDef
 ( 512 -2560 512 ) ( 608 -2560 512 ) ( 512 -2560 640 ) ( ( 0.03125 0 468 ) ( 0 0.03125 16 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
 }
 }
-// brush 29
+// brush 27
 {
 brushDef
 {
@@ -362,7 +338,7 @@ brushDef
 ( 512 -2560 896 ) ( 608 -2560 896 ) ( 512 -2560 928 ) ( ( 0.03125 0 468 ) ( 0 0.03125 16 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
 }
 }
-// brush 30
+// brush 28
 {
 brushDef
 {
@@ -374,7 +350,7 @@ brushDef
 ( 512 -2816 864 ) ( 608 -2816 864 ) ( 512 -2816 896 ) ( ( 0.03125 0 468 ) ( 0 0.03125 16 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
 }
 }
-// brush 31
+// brush 29
 {
 brushDef
 {
@@ -386,7 +362,7 @@ brushDef
 ( 512 -3200 640 ) ( 608 -3200 640 ) ( 512 -3200 672 ) ( ( 0.03125 0 212 ) ( 0 0.03125 16 ) ) sxb_v1_blocks/empty_block 134217728 0 0
 }
 }
-// brush 32
+// brush 30
 {
 brushDef
 {
@@ -398,7 +374,7 @@ brushDef
 ( 512 -3072 864 ) ( 608 -3072 864 ) ( 512 -3072 896 ) ( ( 0.03125 0 468 ) ( 0 0.03125 16 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
 }
 }
-// brush 33
+// brush 31
 {
 brushDef
 {
@@ -410,7 +386,7 @@ brushDef
 ( 512 -3072 832 ) ( 608 -3072 832 ) ( 512 -3072 864 ) ( ( 0.03125 0 212 ) ( 0 0.03125 16 ) ) sxb_v1_blocks/empty_block 134217728 0 0
 }
 }
-// brush 34
+// brush 32
 {
 brushDef
 {
@@ -422,7 +398,7 @@ brushDef
 ( 512 -3360 832 ) ( 608 -3360 832 ) ( 512 -3360 864 ) ( ( 0.03125 0 468 ) ( 0 0.03125 16 ) ) sxb_v1_bricks/castle_inside_bricks 134217728 0 0
 }
 }
-// brush 35
+// brush 33
 {
 brushDef
 {
@@ -434,7 +410,7 @@ brushDef
 ( 512 -2816 832 ) ( 608 -2816 832 ) ( 512 -2816 864 ) ( ( 0.03125 0 212 ) ( 0 0.03125 16 ) ) sxb_v1_blocks/empty_block 134217728 0 0
 }
 }
-// brush 36
+// brush 34
 {
 brushDef
 {
@@ -446,7 +422,7 @@ brushDef
 ( 512 -2688 640 ) ( 608 -2688 640 ) ( 512 -2688 672 ) ( ( 0.03125 0 212 ) ( 0 0.03125 16 ) ) sxb_v1_blocks/empty_block 134217728 0 0
 }
 }
-// brush 37
+// brush 35
 {
 brushDef
 {
@@ -458,7 +434,7 @@ brushDef
 ( 512 -2944 640 ) ( 608 -2944 640 ) ( 512 -2944 672 ) ( ( 0.03125 0 212 ) ( 0 0.03125 16 ) ) sxb_v1_blocks/empty_block 134217728 0 0
 }
 }
-// brush 38
+// brush 36
 {
 brushDef
 {
@@ -470,7 +446,7 @@ brushDef
 ( 1024 0 1024 ) ( 0 -736 1024 ) ( 1024 -736 1024 ) ( ( 0 -0.015625 248 ) ( 0.015625 0 8 ) ) sxb_v1_skies/underground 0 0 0
 }
 }
-// brush 39
+// brush 37
 {
 brushDef
 {
@@ -482,7 +458,7 @@ brushDef
 ( 1144 640 832 ) ( 1144 1376 896 ) ( 1144 640 896 ) ( ( 0.015625 0 13.5 ) ( 0 0.015625 8 ) ) sxb_v1_skies/underground 0 0 0
 }
 }
-// brush 40
+// brush 38
 {
 brushDef
 {
@@ -494,7 +470,7 @@ brushDef
 ( 64 -5408 896 ) ( 1088 -5408 832 ) ( 1088 -5408 896 ) ( ( 0.015625 0 7 ) ( 0 0.015625 8 ) ) sxb_v1_skies/underground 0 0 0
 }
 }
-// brush 41
+// brush 39
 {
 brushDef
 {
@@ -506,7 +482,7 @@ brushDef
 ( 1024 -64 8 ) ( 0 -800 8 ) ( 0 -64 8 ) ( ( 0 0.015625 248 ) ( -0.015625 0 249 ) ) sxb_v1_skies/underground 0 0 0
 }
 }
-// brush 42
+// brush 40
 {
 brushDef
 {
@@ -518,7 +494,7 @@ brushDef
 ( 8 640 832 ) ( 8 1376 896 ) ( 8 1376 832 ) ( ( 0.015625 0 242.5 ) ( 0 0.015625 8 ) ) sxb_v1_skies/underground 0 0 0
 }
 }
-// brush 43
+// brush 41
 {
 brushDef
 {
@@ -530,7 +506,7 @@ brushDef
 ( 0 0 896 ) ( 1024 0 832 ) ( 0 0 832 ) ( ( 0.015625 0 248 ) ( 0 0.015625 8 ) ) sxb_v1_skies/underground 0 0 0
 }
 }
-// brush 44
+// brush 42
 {
 brushDef
 {
@@ -542,7 +518,7 @@ brushDef
 ( 576 1264 1024 ) ( 576 1376 1032 ) ( 576 1264 1032 ) ( ( 0.015625 0 13.5 ) ( 0 0.015625 8 ) ) common/clip 0 0 0
 }
 }
-// brush 45
+// brush 43
 {
 brushDef
 {
@@ -554,7 +530,7 @@ brushDef
 ( 544 -1552 1024 ) ( 544 -1440 1032 ) ( 544 -1440 1024 ) ( ( 0.015625 0 30.5 ) ( 0 0.015625 8 ) ) common/clip 0 0 0
 }
 }
-// brush 46
+// brush 44
 {
 brushDef
 {
@@ -566,7 +542,7 @@ brushDef
 ( 578 1120 864 ) ( 578 1856 928 ) ( 578 1120 928 ) ( ( 0.0625 0 349.543762207 ) ( 0 0.0625 34 ) ) sxb_v1_earth/lava 134217728 0 0
 }
 }
-// brush 47
+// brush 45
 {
 brushDef
 {
@@ -578,7 +554,7 @@ brushDef
 ( 578 1120 928 ) ( 578 1856 992 ) ( 578 1120 992 ) ( ( 0.0625 0 349.543762207 ) ( 0 0.0625 38 ) ) sxb_v1_earth/lava_top 134217728 0 0
 }
 }
-// brush 48
+// brush 46
 {
 brushDef
 {
@@ -590,7 +566,7 @@ brushDef
 ( 538 1120 864 ) ( 538 1856 928 ) ( 538 1120 928 ) ( ( 0.0625 0 349.543762207 ) ( 0 0.0625 34 ) ) sxb_v1_earth/lava 134217728 0 0
 }
 }
-// brush 49
+// brush 47
 {
 brushDef
 {
@@ -602,7 +578,7 @@ brushDef
 ( 538 1120 928 ) ( 538 1856 992 ) ( 538 1120 992 ) ( ( 0.0625 0 349.114074707 ) ( 0 0.0625 38 ) ) sxb_v1_earth/lava_top 134217728 0 0
 }
 }
-// brush 50
+// brush 48
 {
 brushDef
 {
@@ -614,7 +590,7 @@ brushDef
 ( 522 1120 864 ) ( 522 1856 928 ) ( 522 1120 928 ) ( ( 0.0625 0 349.543762207 ) ( 0 0.0625 34 ) ) sxb_v1_earth/lava 134217728 0 0
 }
 }
-// brush 51
+// brush 49
 {
 brushDef
 {
@@ -626,7 +602,7 @@ brushDef
 ( 522 1120 928 ) ( 522 1856 992 ) ( 522 1120 992 ) ( ( 0.0625 0 349.543762207 ) ( 0 0.0625 38 ) ) sxb_v1_earth/lava_top 134217728 0 0
 }
 }
-// brush 52
+// brush 50
 {
 brushDef
 {
@@ -638,7 +614,7 @@ brushDef
 ( 586 1120 864 ) ( 586 1856 928 ) ( 586 1120 928 ) ( ( 0.0625 0 349.543762207 ) ( 0 0.0625 34 ) ) sxb_v1_earth/lava 134217728 0 0
 }
 }
-// brush 53
+// brush 51
 {
 brushDef
 {
@@ -650,7 +626,7 @@ brushDef
 ( 586 1120 928 ) ( 586 1856 992 ) ( 586 1120 992 ) ( ( 0.0625 0 349.836730957 ) ( 0 0.0625 38 ) ) sxb_v1_earth/lava_top 134217728 0 0
 }
 }
-// brush 54
+// brush 52
 {
 brushDef
 {
@@ -662,7 +638,7 @@ brushDef
 ( 602 1120 864 ) ( 602 1856 928 ) ( 602 1120 928 ) ( ( 0.0625 0 349.543762207 ) ( 0 0.0625 34 ) ) sxb_v1_earth/lava 134217728 0 0
 }
 }
-// brush 55
+// brush 53
 {
 brushDef
 {
@@ -674,7 +650,7 @@ brushDef
 ( 602 1120 928 ) ( 602 1856 992 ) ( 602 1120 992 ) ( ( 0.0625 0 349.778137207 ) ( 0 0.0625 38 ) ) sxb_v1_earth/lava_top 134217728 0 0
 }
 }
-// brush 56
+// brush 54
 {
 brushDef
 {
@@ -686,7 +662,7 @@ brushDef
 ( 610 1120 864 ) ( 610 1856 928 ) ( 610 1120 928 ) ( ( 0.0625 0 349.543762207 ) ( 0 0.0625 34 ) ) sxb_v1_earth/lava 134217728 0 0
 }
 }
-// brush 57
+// brush 55
 {
 brushDef
 {
@@ -698,7 +674,7 @@ brushDef
 ( 610 1120 928 ) ( 610 1856 992 ) ( 610 1120 992 ) ( ( 0.0625 0 349.442199707 ) ( 0 0.0625 38 ) ) sxb_v1_earth/lava_top 134217728 0 0
 }
 }
-// brush 58
+// brush 56
 {
 brushDef
 {
@@ -710,7 +686,7 @@ brushDef
 ( 530 1120 864 ) ( 530 1856 928 ) ( 530 1120 928 ) ( ( 0.0625 0 349.543762207 ) ( 0 0.0625 34 ) ) sxb_v1_earth/lava 134217728 0 0
 }
 }
-// brush 59
+// brush 57
 {
 brushDef
 {
@@ -722,7 +698,7 @@ brushDef
 ( 530 1120 928 ) ( 530 1856 992 ) ( 530 1120 992 ) ( ( 0.0625 0 349.918762207 ) ( 0 0.0625 38 ) ) sxb_v1_earth/lava_top 134217728 0 0
 }
 }
-// brush 60
+// brush 58
 {
 brushDef
 {
@@ -734,7 +710,7 @@ brushDef
 ( 594 1120 864 ) ( 594 1856 928 ) ( 594 1120 928 ) ( ( 0.0625 0 349.543762207 ) ( 0 0.0625 34 ) ) sxb_v1_earth/lava 134217728 0 0
 }
 }
-// brush 61
+// brush 59
 {
 brushDef
 {
@@ -746,7 +722,7 @@ brushDef
 ( 594 1120 928 ) ( 594 1856 992 ) ( 594 1120 992 ) ( ( 0.0625 0 349.168762207 ) ( 0 0.0625 38 ) ) sxb_v1_earth/lava_top 134217728 0 0
 }
 }
-// brush 62
+// brush 60
 {
 brushDef
 {
@@ -758,7 +734,7 @@ brushDef
 ( 626 1120 864 ) ( 626 1856 928 ) ( 626 1120 928 ) ( ( 0.0625 0 349.543762207 ) ( 0 0.0625 34 ) ) sxb_v1_earth/lava 134217728 0 0
 }
 }
-// brush 63
+// brush 61
 {
 brushDef
 {
@@ -770,7 +746,7 @@ brushDef
 ( 626 1120 928 ) ( 626 1856 992 ) ( 626 1120 992 ) ( ( 0.0625 0 349.778137207 ) ( 0 0.0625 38 ) ) sxb_v1_earth/lava_top 134217728 0 0
 }
 }
-// brush 64
+// brush 62
 {
 brushDef
 {
@@ -782,7 +758,7 @@ brushDef
 ( 618 1120 864 ) ( 618 1856 928 ) ( 618 1120 928 ) ( ( 0.0625 0 349.543762207 ) ( 0 0.0625 34 ) ) sxb_v1_earth/lava 134217728 0 0
 }
 }
-// brush 65
+// brush 63
 {
 brushDef
 {
@@ -794,7 +770,7 @@ brushDef
 ( 618 1120 928 ) ( 618 1856 992 ) ( 618 1120 992 ) ( ( 0.0625 0 349.168762207 ) ( 0 0.0625 38 ) ) sxb_v1_earth/lava_top 134217728 0 0
 }
 }
-// brush 66
+// brush 64
 {
 brushDef
 {
@@ -806,7 +782,7 @@ brushDef
 ( 578 544 864 ) ( 578 1280 928 ) ( 578 544 928 ) ( ( 0.0625 0 313.543762207 ) ( 0 0.0625 34 ) ) sxb_v1_earth/lava 134217728 0 0
 }
 }
-// brush 67
+// brush 65
 {
 brushDef
 {
@@ -818,7 +794,7 @@ brushDef
 ( 578 544 928 ) ( 578 1280 992 ) ( 578 544 992 ) ( ( 0.0625 0 313.543762207 ) ( 0 0.0625 38 ) ) sxb_v1_earth/lava_top 134217728 0 0
 }
 }
-// brush 68
+// brush 66
 {
 brushDef
 {
@@ -830,7 +806,7 @@ brushDef
 ( 538 544 864 ) ( 538 1280 928 ) ( 538 544 928 ) ( ( 0.0625 0 313.543762207 ) ( 0 0.0625 34 ) ) sxb_v1_earth/lava 134217728 0 0
 }
 }
-// brush 69
+// brush 67
 {
 brushDef
 {
@@ -842,7 +818,7 @@ brushDef
 ( 538 544 928 ) ( 538 1280 992 ) ( 538 544 992 ) ( ( 0.0625 0 313.114074707 ) ( 0 0.0625 38 ) ) sxb_v1_earth/lava_top 134217728 0 0
 }
 }
-// brush 70
+// brush 68
 {
 brushDef
 {
@@ -854,7 +830,7 @@ brushDef
 ( 522 544 864 ) ( 522 1280 928 ) ( 522 544 928 ) ( ( 0.0625 0 313.543762207 ) ( 0 0.0625 34 ) ) sxb_v1_earth/lava 134217728 0 0
 }
 }
-// brush 71
+// brush 69
 {
 brushDef
 {
@@ -866,7 +842,7 @@ brushDef
 ( 522 544 928 ) ( 522 1280 992 ) ( 522 544 992 ) ( ( 0.0625 0 313.543762207 ) ( 0 0.0625 38 ) ) sxb_v1_earth/lava_top 134217728 0 0
 }
 }
-// brush 72
+// brush 70
 {
 brushDef
 {
@@ -878,7 +854,7 @@ brushDef
 ( 586 544 864 ) ( 586 1280 928 ) ( 586 544 928 ) ( ( 0.0625 0 313.543762207 ) ( 0 0.0625 34 ) ) sxb_v1_earth/lava 134217728 0 0
 }
 }
-// brush 73
+// brush 71
 {
 brushDef
 {
@@ -890,7 +866,7 @@ brushDef
 ( 586 544 928 ) ( 586 1280 992 ) ( 586 544 992 ) ( ( 0.0625 0 313.836730957 ) ( 0 0.0625 38 ) ) sxb_v1_earth/lava_top 134217728 0 0
 }
 }
-// brush 74
+// brush 72
 {
 brushDef
 {
@@ -902,7 +878,7 @@ brushDef
 ( 602 544 864 ) ( 602 1280 928 ) ( 602 544 928 ) ( ( 0.0625 0 313.543762207 ) ( 0 0.0625 34 ) ) sxb_v1_earth/lava 134217728 0 0
 }
 }
-// brush 75
+// brush 73
 {
 brushDef
 {
@@ -914,7 +890,7 @@ brushDef
 ( 602 544 928 ) ( 602 1280 992 ) ( 602 544 992 ) ( ( 0.0625 0 313.778137207 ) ( 0 0.0625 38 ) ) sxb_v1_earth/lava_top 134217728 0 0
 }
 }
-// brush 76
+// brush 74
 {
 brushDef
 {
@@ -926,7 +902,7 @@ brushDef
 ( 610 544 864 ) ( 610 1280 928 ) ( 610 544 928 ) ( ( 0.0625 0 313.543762207 ) ( 0 0.0625 34 ) ) sxb_v1_earth/lava 134217728 0 0
 }
 }
-// brush 77
+// brush 75
 {
 brushDef
 {
@@ -938,7 +914,7 @@ brushDef
 ( 610 544 928 ) ( 610 1280 992 ) ( 610 544 992 ) ( ( 0.0625 0 313.442199707 ) ( 0 0.0625 38 ) ) sxb_v1_earth/lava_top 134217728 0 0
 }
 }
-// brush 78
+// brush 76
 {
 brushDef
 {
@@ -950,7 +926,7 @@ brushDef
 ( 530 544 864 ) ( 530 1280 928 ) ( 530 544 928 ) ( ( 0.0625 0 313.543762207 ) ( 0 0.0625 34 ) ) sxb_v1_earth/lava 134217728 0 0
 }
 }
-// brush 79
+// brush 77
 {
 brushDef
 {
@@ -962,7 +938,7 @@ brushDef
 ( 530 544 928 ) ( 530 1280 992 ) ( 530 544 992 ) ( ( 0.0625 0 313.918762207 ) ( 0 0.0625 38 ) ) sxb_v1_earth/lava_top 134217728 0 0
 }
 }
-// brush 80
+// brush 78
 {
 brushDef
 {
@@ -974,7 +950,7 @@ brushDef
 ( 594 544 864 ) ( 594 1280 928 ) ( 594 544 928 ) ( ( 0.0625 0 313.543762207 ) ( 0 0.0625 34 ) ) sxb_v1_earth/lava 134217728 0 0
 }
 }
-// brush 81
+// brush 79
 {
 brushDef
 {
@@ -986,7 +962,7 @@ brushDef
 ( 594 544 928 ) ( 594 1280 992 ) ( 594 544 992 ) ( ( 0.0625 0 313.168762207 ) ( 0 0.0625 38 ) ) sxb_v1_earth/lava_top 134217728 0 0
 }
 }
-// brush 82
+// brush 80
 {
 brushDef
 {
@@ -998,7 +974,7 @@ brushDef
 ( 626 544 864 ) ( 626 1280 928 ) ( 626 544 928 ) ( ( 0.0625 0 313.543762207 ) ( 0 0.0625 34 ) ) sxb_v1_earth/lava 134217728 0 0
 }
 }
-// brush 83
+// brush 81
 {
 brushDef
 {
@@ -1010,7 +986,7 @@ brushDef
 ( 626 544 928 ) ( 626 1280 992 ) ( 626 544 992 ) ( ( 0.0625 0 313.778137207 ) ( 0 0.0625 38 ) ) sxb_v1_earth/lava_top 134217728 0 0
 }
 }
-// brush 84
+// brush 82
 {
 brushDef
 {
@@ -1022,7 +998,7 @@ brushDef
 ( 618 544 864 ) ( 618 1280 928 ) ( 618 544 928 ) ( ( 0.0625 0 313.543762207 ) ( 0 0.0625 34 ) ) sxb_v1_earth/lava 134217728 0 0
 }
 }
-// brush 85
+// brush 83
 {
 brushDef
 {
@@ -1034,7 +1010,7 @@ brushDef
 ( 618 544 928 ) ( 618 1280 992 ) ( 618 544 992 ) ( ( 0.0625 0 313.168762207 ) ( 0 0.0625 38 ) ) sxb_v1_earth/lava_top 134217728 0 0
 }
 }
-// brush 86
+// brush 84
 {
 brushDef
 {
@@ -1046,7 +1022,7 @@ brushDef
 ( 578 -3136 864 ) ( 578 -2400 928 ) ( 578 -3136 928 ) ( ( 0.0625 0 83.543762207 ) ( 0 0.0625 34 ) ) sxb_v1_earth/lava 134217728 0 0
 }
 }
-// brush 87
+// brush 85
 {
 brushDef
 {
@@ -1058,7 +1034,7 @@ brushDef
 ( 578 -3136 928 ) ( 578 -2400 992 ) ( 578 -3136 992 ) ( ( 0.0625 0 83.543762207 ) ( 0 0.0625 38 ) ) sxb_v1_earth/lava_top 134217728 0 0
 }
 }
-// brush 88
+// brush 86
 {
 brushDef
 {
@@ -1070,7 +1046,7 @@ brushDef
 ( 538 -3136 864 ) ( 538 -2400 928 ) ( 538 -3136 928 ) ( ( 0.0625 0 83.543762207 ) ( 0 0.0625 34 ) ) sxb_v1_earth/lava 134217728 0 0
 }
 }
-// brush 89
+// brush 87
 {
 brushDef
 {
@@ -1082,7 +1058,7 @@ brushDef
 ( 538 -3136 928 ) ( 538 -2400 992 ) ( 538 -3136 992 ) ( ( 0.0625 0 83.114074707 ) ( 0 0.0625 38 ) ) sxb_v1_earth/lava_top 134217728 0 0
 }
 }
-// brush 90
+// brush 88
 {
 brushDef
 {
@@ -1094,7 +1070,7 @@ brushDef
 ( 522 -3136 864 ) ( 522 -2400 928 ) ( 522 -3136 928 ) ( ( 0.0625 0 83.543762207 ) ( 0 0.0625 34 ) ) sxb_v1_earth/lava 134217728 0 0
 }
 }
-// brush 91
+// brush 89
 {
 brushDef
 {
@@ -1106,7 +1082,7 @@ brushDef
 ( 522 -3136 928 ) ( 522 -2400 992 ) ( 522 -3136 992 ) ( ( 0.0625 0 83.543762207 ) ( 0 0.0625 38 ) ) sxb_v1_earth/lava_top 134217728 0 0
 }
 }
-// brush 92
+// brush 90
 {
 brushDef
 {
@@ -1118,7 +1094,7 @@ brushDef
 ( 586 -3136 864 ) ( 586 -2400 928 ) ( 586 -3136 928 ) ( ( 0.0625 0 83.543762207 ) ( 0 0.0625 34 ) ) sxb_v1_earth/lava 134217728 0 0
 }
 }
-// brush 93
+// brush 91
 {
 brushDef
 {
@@ -1130,7 +1106,7 @@ brushDef
 ( 586 -3136 928 ) ( 586 -2400 992 ) ( 586 -3136 992 ) ( ( 0.0625 0 83.836730957 ) ( 0 0.0625 38 ) ) sxb_v1_earth/lava_top 134217728 0 0
 }
 }
-// brush 94
+// brush 92
 {
 brushDef
 {
@@ -1142,7 +1118,7 @@ brushDef
 ( 602 -3136 864 ) ( 602 -2400 928 ) ( 602 -3136 928 ) ( ( 0.0625 0 83.543762207 ) ( 0 0.0625 34 ) ) sxb_v1_earth/lava 134217728 0 0
 }
 }
-// brush 95
+// brush 93
 {
 brushDef
 {
@@ -1154,7 +1130,7 @@ brushDef
 ( 602 -3136 928 ) ( 602 -2400 992 ) ( 602 -3136 992 ) ( ( 0.0625 0 83.778137207 ) ( 0 0.0625 38 ) ) sxb_v1_earth/lava_top 134217728 0 0
 }
 }
-// brush 96
+// brush 94
 {
 brushDef
 {
@@ -1166,7 +1142,7 @@ brushDef
 ( 610 -3136 864 ) ( 610 -2400 928 ) ( 610 -3136 928 ) ( ( 0.0625 0 83.543762207 ) ( 0 0.0625 34 ) ) sxb_v1_earth/lava 134217728 0 0
 }
 }
-// brush 97
+// brush 95
 {
 brushDef
 {
@@ -1178,7 +1154,7 @@ brushDef
 ( 610 -3136 928 ) ( 610 -2400 992 ) ( 610 -3136 992 ) ( ( 0.0625 0 83.442199707 ) ( 0 0.0625 38 ) ) sxb_v1_earth/lava_top 134217728 0 0
 }
 }
-// brush 98
+// brush 96
 {
 brushDef
 {
@@ -1190,7 +1166,7 @@ brushDef
 ( 530 -3136 864 ) ( 530 -2400 928 ) ( 530 -3136 928 ) ( ( 0.0625 0 83.543762207 ) ( 0 0.0625 34 ) ) sxb_v1_earth/lava 134217728 0 0
 }
 }
-// brush 99
+// brush 97
 {
 brushDef
 {
@@ -1202,7 +1178,7 @@ brushDef
 ( 530 -3136 928 ) ( 530 -2400 992 ) ( 530 -3136 992 ) ( ( 0.0625 0 83.918762207 ) ( 0 0.0625 38 ) ) sxb_v1_earth/lava_top 134217728 0 0
 }
 }
-// brush 100
+// brush 98
 {
 brushDef
 {
@@ -1214,7 +1190,7 @@ brushDef
 ( 594 -3136 864 ) ( 594 -2400 928 ) ( 594 -3136 928 ) ( ( 0.0625 0 83.543762207 ) ( 0 0.0625 34 ) ) sxb_v1_earth/lava 134217728 0 0
 }
 }
-// brush 101
+// brush 99
 {
 brushDef
 {
@@ -1226,7 +1202,7 @@ brushDef
 ( 594 -3136 928 ) ( 594 -2400 992 ) ( 594 -3136 992 ) ( ( 0.0625 0 83.168762207 ) ( 0 0.0625 38 ) ) sxb_v1_earth/lava_top 134217728 0 0
 }
 }
-// brush 102
+// brush 100
 {
 brushDef
 {
@@ -1238,7 +1214,7 @@ brushDef
 ( 626 -3136 864 ) ( 626 -2400 928 ) ( 626 -3136 928 ) ( ( 0.0625 0 83.543762207 ) ( 0 0.0625 34 ) ) sxb_v1_earth/lava 134217728 0 0
 }
 }
-// brush 103
+// brush 101
 {
 brushDef
 {
@@ -1250,7 +1226,7 @@ brushDef
 ( 626 -3136 928 ) ( 626 -2400 992 ) ( 626 -3136 992 ) ( ( 0.0625 0 83.778137207 ) ( 0 0.0625 38 ) ) sxb_v1_earth/lava_top 134217728 0 0
 }
 }
-// brush 104
+// brush 102
 {
 brushDef
 {
@@ -1262,7 +1238,7 @@ brushDef
 ( 618 -3136 864 ) ( 618 -2400 928 ) ( 618 -3136 928 ) ( ( 0.0625 0 83.543762207 ) ( 0 0.0625 34 ) ) sxb_v1_earth/lava 134217728 0 0
 }
 }
-// brush 105
+// brush 103
 {
 brushDef
 {
@@ -5107,6 +5083,545 @@ brushDef
 ( -516 -56 576 ) ( -516 -792 576 ) ( 508 -56 576 ) ( ( 0 -0.015625 0.0625 ) ( 0.015625 0 8.875 ) ) common/nodrawnonsolid 134217728 0 0
 ( -516 -4384 928 ) ( 508 -4384 928 ) ( -516 -4384 992 ) ( ( 0.015625 0 255.9375 ) ( 0 0.015625 9.5 ) ) common/nodrawnonsolid 134217728 0 0
 ( 634 -3136 928 ) ( 634 -2400 992 ) ( 634 -3136 992 ) ( ( 0.0625 0 83.543762207 ) ( 0 0.0625 38 ) ) sxb_v1_earth/lava_top 134217728 0 0
+}
+}
+}
+// entity 166
+{
+"classname" "trigger_multiple"
+"spawnflags" "16384"
+"target" "invisiblock0"
+"wait" "10"
+"antiwall_flag" "2"
+"target2" "invisicoin0"
+// brush 0
+{
+brushDef
+{
+( 576 -3680 672 ) ( 544 -3680 672 ) ( 576 -3648 672 ) ( ( 0 0.03125 239 ) ( -0.03125 0 142 ) ) common/trigger 134217728 0 0
+( 572 -3680 703 ) ( 572 -3648 703 ) ( 572 -3680 671 ) ( ( 0.03125 0 115 ) ( 0 0.03125 21.96875 ) ) common/trigger 134217728 0 0
+( 576 -3676 703 ) ( 576 -3676 671 ) ( 544 -3676 703 ) ( ( 0.03125 0 239 ) ( 0 0.03125 21.96875 ) ) common/trigger 134217728 0 0
+( 544 -3648 669 ) ( 544 -3680 669 ) ( 576 -3648 669 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 115 ) ) common/trigger 134217728 0 0
+( 548 -3648 671 ) ( 548 -3648 703 ) ( 548 -3680 671 ) ( ( 0.03125 0 142 ) ( 0 0.03125 21.96875 ) ) common/trigger 134217728 0 0
+( 544 -3652 671 ) ( 576 -3652 671 ) ( 544 -3652 703 ) ( ( 0.03125 0 18 ) ( 0 0.03125 21.96875 ) ) common/trigger 134217728 0 0
+}
+}
+}
+// entity 167
+{
+"classname" "func_clientwall"
+"targetname" "invisiblock0"
+"antiwall_flag" "1"
+"solid" "1"
+"inactive" "1"
+// brush 0
+{
+brushDef
+{
+( 576 -3680 704 ) ( 544 -3680 704 ) ( 576 -3648 704 ) ( ( 0 0.03125 239 ) ( -0.03125 0 142 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 576 -3680 704 ) ( 576 -3648 704 ) ( 576 -3680 672 ) ( ( 0 0.03125 184 ) ( -0.03125 0 142 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 576 -3680 704 ) ( 576 -3680 672 ) ( 544 -3680 704 ) ( ( 0 0.03125 184 ) ( -0.03125 0 228 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 544 -3648 672 ) ( 544 -3680 672 ) ( 576 -3648 672 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 115 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 544 -3648 672 ) ( 544 -3648 704 ) ( 544 -3680 672 ) ( ( 0 0.03125 184 ) ( -0.03125 0 202 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 544 -3648 672 ) ( 576 -3648 672 ) ( 544 -3648 704 ) ( ( 0 0.03125 184 ) ( -0.03125 0 116 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+}
+}
+}
+// entity 168
+{
+"classname" "trigger_delay"
+"origin" "560.000000 -3664.000000 768.000000"
+"target" "coin_8"
+"targetname" "invisicoin0"
+"wait" "0.1"
+}
+// entity 169
+{
+"classname" "target_spawn"
+"count" "1"
+"origin" "560.000000 -3664.000000 720.000000"
+"angle" "-179.999985"
+"targetname" "coin_8"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+}
+// entity 170
+{
+"classname" "trigger_delay"
+"origin" "560.000000 -3696.000000 768.000000"
+"target" "invisiblock0"
+"targetname" "coin_8"
+"wait" "5"
+"antiwall_flag" "1"
+}
+// entity 171
+{
+"classname" "trigger_multiple"
+"spawnflags" "16384"
+"target" "invisiblock1"
+"wait" "10"
+"antiwall_flag" "2"
+"target2" "invisicoin1"
+// brush 0
+{
+brushDef
+{
+( 576 -3776 672 ) ( 544 -3776 672 ) ( 576 -3744 672 ) ( ( 0 0.03125 239 ) ( -0.03125 0 139 ) ) common/trigger 134217728 0 0
+( 572 -3776 703 ) ( 572 -3744 703 ) ( 572 -3776 671 ) ( ( 0.03125 0 118 ) ( 0 0.03125 21.96875 ) ) common/trigger 134217728 0 0
+( 576 -3772 703 ) ( 576 -3772 671 ) ( 544 -3772 703 ) ( ( 0.03125 0 239 ) ( 0 0.03125 21.96875 ) ) common/trigger 134217728 0 0
+( 544 -3744 669 ) ( 544 -3776 669 ) ( 576 -3744 669 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 118 ) ) common/trigger 134217728 0 0
+( 548 -3744 671 ) ( 548 -3744 703 ) ( 548 -3776 671 ) ( ( 0.03125 0 139 ) ( 0 0.03125 21.96875 ) ) common/trigger 134217728 0 0
+( 544 -3748 671 ) ( 576 -3748 671 ) ( 544 -3748 703 ) ( ( 0.03125 0 18 ) ( 0 0.03125 21.96875 ) ) common/trigger 134217728 0 0
+}
+}
+}
+// entity 172
+{
+"classname" "func_clientwall"
+"targetname" "invisiblock1"
+"antiwall_flag" "1"
+"solid" "1"
+"inactive" "1"
+// brush 0
+{
+brushDef
+{
+( 576 -3776 704 ) ( 544 -3776 704 ) ( 576 -3744 704 ) ( ( 0 0.03125 239 ) ( -0.03125 0 139 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 576 -3776 704 ) ( 576 -3744 704 ) ( 576 -3776 672 ) ( ( 0 0.03125 184 ) ( -0.03125 0 139 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 576 -3776 704 ) ( 576 -3776 672 ) ( 544 -3776 704 ) ( ( 0 0.03125 184 ) ( -0.03125 0 228 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 544 -3744 672 ) ( 544 -3776 672 ) ( 576 -3744 672 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 118 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 544 -3744 672 ) ( 544 -3744 704 ) ( 544 -3776 672 ) ( ( 0 0.03125 184 ) ( -0.03125 0 205 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 544 -3744 672 ) ( 576 -3744 672 ) ( 544 -3744 704 ) ( ( 0 0.03125 184 ) ( -0.03125 0 116 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+}
+}
+}
+// entity 173
+{
+"classname" "trigger_delay"
+"origin" "560.000000 -3760.000000 768.000000"
+"target" "coin_1"
+"targetname" "invisicoin1"
+"wait" "0.1"
+}
+// entity 174
+{
+"classname" "target_spawn"
+"count" "1"
+"origin" "560.000000 -3760.000000 720.000000"
+"angle" "-179.999985"
+"targetname" "coin_1"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+}
+// entity 175
+{
+"classname" "trigger_delay"
+"origin" "560.000000 -3792.000000 768.000000"
+"target" "invisiblock1"
+"targetname" "coin_1"
+"wait" "5"
+"antiwall_flag" "1"
+}
+// entity 176
+{
+"classname" "trigger_multiple"
+"spawnflags" "16384"
+"target" "invisiblock2"
+"wait" "10"
+"antiwall_flag" "2"
+"target2" "invisicoin2"
+// brush 0
+{
+brushDef
+{
+( 576 -3872 672 ) ( 544 -3872 672 ) ( 576 -3840 672 ) ( ( 0 0.03125 239 ) ( -0.03125 0 136 ) ) common/trigger 134217728 0 0
+( 572 -3872 703 ) ( 572 -3840 703 ) ( 572 -3872 671 ) ( ( 0.03125 0 121 ) ( 0 0.03125 21.96875 ) ) common/trigger 134217728 0 0
+( 576 -3868 703 ) ( 576 -3868 671 ) ( 544 -3868 703 ) ( ( 0.03125 0 239 ) ( 0 0.03125 21.96875 ) ) common/trigger 134217728 0 0
+( 544 -3840 669 ) ( 544 -3872 669 ) ( 576 -3840 669 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 121 ) ) common/trigger 134217728 0 0
+( 548 -3840 671 ) ( 548 -3840 703 ) ( 548 -3872 671 ) ( ( 0.03125 0 136 ) ( 0 0.03125 21.96875 ) ) common/trigger 134217728 0 0
+( 544 -3844 671 ) ( 576 -3844 671 ) ( 544 -3844 703 ) ( ( 0.03125 0 18 ) ( 0 0.03125 21.96875 ) ) common/trigger 134217728 0 0
+}
+}
+}
+// entity 177
+{
+"classname" "func_clientwall"
+"targetname" "invisiblock2"
+"antiwall_flag" "1"
+"solid" "1"
+"inactive" "1"
+// brush 0
+{
+brushDef
+{
+( 576 -3872 704 ) ( 544 -3872 704 ) ( 576 -3840 704 ) ( ( 0 0.03125 239 ) ( -0.03125 0 136 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 576 -3872 704 ) ( 576 -3840 704 ) ( 576 -3872 672 ) ( ( 0 0.03125 184 ) ( -0.03125 0 136 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 576 -3872 704 ) ( 576 -3872 672 ) ( 544 -3872 704 ) ( ( 0 0.03125 184 ) ( -0.03125 0 228 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 544 -3840 672 ) ( 544 -3872 672 ) ( 576 -3840 672 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 121 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 544 -3840 672 ) ( 544 -3840 704 ) ( 544 -3872 672 ) ( ( 0 0.03125 184 ) ( -0.03125 0 208 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 544 -3840 672 ) ( 576 -3840 672 ) ( 544 -3840 704 ) ( ( 0 0.03125 184 ) ( -0.03125 0 116 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+}
+}
+}
+// entity 178
+{
+"classname" "trigger_delay"
+"origin" "560.000000 -3856.000000 768.000000"
+"target" "coin_2"
+"targetname" "invisicoin2"
+"wait" "0.1"
+}
+// entity 179
+{
+"classname" "target_spawn"
+"count" "1"
+"origin" "560.000000 -3856.000000 720.000000"
+"angle" "-179.999985"
+"targetname" "coin_2"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+}
+// entity 180
+{
+"classname" "trigger_delay"
+"origin" "560.000000 -3888.000000 768.000000"
+"target" "invisiblock2"
+"targetname" "coin_2"
+"wait" "5"
+"antiwall_flag" "1"
+}
+// entity 181
+{
+"classname" "trigger_multiple"
+"spawnflags" "16384"
+"target" "invisiblock3"
+"wait" "10"
+"antiwall_flag" "2"
+"target2" "invisicoin3"
+// brush 0
+{
+brushDef
+{
+( 576 -3712 800 ) ( 544 -3712 800 ) ( 576 -3680 800 ) ( ( 0 0.03125 239 ) ( -0.03125 0 141 ) ) common/trigger 134217728 0 0
+( 572 -3712 831 ) ( 572 -3680 831 ) ( 572 -3712 799 ) ( ( 0.03125 0 116 ) ( 0 0.03125 25.96875 ) ) common/trigger 134217728 0 0
+( 576 -3708 831 ) ( 576 -3708 799 ) ( 544 -3708 831 ) ( ( 0.03125 0 239 ) ( 0 0.03125 25.96875 ) ) common/trigger 134217728 0 0
+( 544 -3680 797 ) ( 544 -3712 797 ) ( 576 -3680 797 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 116 ) ) common/trigger 134217728 0 0
+( 548 -3680 799 ) ( 548 -3680 831 ) ( 548 -3712 799 ) ( ( 0.03125 0 141 ) ( 0 0.03125 25.96875 ) ) common/trigger 134217728 0 0
+( 544 -3684 799 ) ( 576 -3684 799 ) ( 544 -3684 831 ) ( ( 0.03125 0 18 ) ( 0 0.03125 25.96875 ) ) common/trigger 134217728 0 0
+}
+}
+}
+// entity 182
+{
+"classname" "func_clientwall"
+"targetname" "invisiblock3"
+"antiwall_flag" "1"
+"solid" "1"
+"inactive" "1"
+// brush 0
+{
+brushDef
+{
+( 576 -3712 832 ) ( 544 -3712 832 ) ( 576 -3680 832 ) ( ( 0 0.03125 239 ) ( -0.03125 0 141 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 576 -3712 832 ) ( 576 -3680 832 ) ( 576 -3712 800 ) ( ( 0 0.03125 188 ) ( -0.03125 0 141 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 576 -3712 832 ) ( 576 -3712 800 ) ( 544 -3712 832 ) ( ( 0 0.03125 188 ) ( -0.03125 0 228 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 544 -3680 800 ) ( 544 -3712 800 ) ( 576 -3680 800 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 116 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 544 -3680 800 ) ( 544 -3680 832 ) ( 544 -3712 800 ) ( ( 0 0.03125 188 ) ( -0.03125 0 203 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 544 -3680 800 ) ( 576 -3680 800 ) ( 544 -3680 832 ) ( ( 0 0.03125 188 ) ( -0.03125 0 116 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+}
+}
+}
+// entity 183
+{
+"classname" "trigger_delay"
+"origin" "560.000000 -3696.000000 896.000000"
+"target" "coin_5"
+"targetname" "invisicoin3"
+"wait" "0.1"
+}
+// entity 184
+{
+"classname" "target_spawn"
+"count" "1"
+"origin" "560.000000 -3696.000000 848.000000"
+"angle" "-179.999985"
+"targetname" "coin_5"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+}
+// entity 185
+{
+"classname" "trigger_delay"
+"origin" "560.000000 -3728.000000 896.000000"
+"target" "invisiblock3"
+"targetname" "coin_5"
+"wait" "5"
+"antiwall_flag" "1"
+}
+// entity 186
+{
+"classname" "trigger_multiple"
+"spawnflags" "16384"
+"target" "invisiblock4"
+"wait" "10"
+"antiwall_flag" "2"
+"target2" "invisicoin4"
+// brush 0
+{
+brushDef
+{
+( 576 -3808 800 ) ( 544 -3808 800 ) ( 576 -3776 800 ) ( ( 0 0.03125 239 ) ( -0.03125 0 138 ) ) common/trigger 134217728 0 0
+( 572 -3808 831 ) ( 572 -3776 831 ) ( 572 -3808 799 ) ( ( 0.03125 0 119 ) ( 0 0.03125 25.96875 ) ) common/trigger 134217728 0 0
+( 576 -3804 831 ) ( 576 -3804 799 ) ( 544 -3804 831 ) ( ( 0.03125 0 239 ) ( 0 0.03125 25.96875 ) ) common/trigger 134217728 0 0
+( 544 -3776 797 ) ( 544 -3808 797 ) ( 576 -3776 797 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 119 ) ) common/trigger 134217728 0 0
+( 548 -3776 799 ) ( 548 -3776 831 ) ( 548 -3808 799 ) ( ( 0.03125 0 138 ) ( 0 0.03125 25.96875 ) ) common/trigger 134217728 0 0
+( 544 -3780 799 ) ( 576 -3780 799 ) ( 544 -3780 831 ) ( ( 0.03125 0 18 ) ( 0 0.03125 25.96875 ) ) common/trigger 134217728 0 0
+}
+}
+}
+// entity 187
+{
+"classname" "func_clientwall"
+"targetname" "invisiblock4"
+"antiwall_flag" "1"
+"solid" "1"
+"inactive" "1"
+// brush 0
+{
+brushDef
+{
+( 576 -3808 832 ) ( 544 -3808 832 ) ( 576 -3776 832 ) ( ( 0 0.03125 239 ) ( -0.03125 0 138 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 576 -3808 832 ) ( 576 -3776 832 ) ( 576 -3808 800 ) ( ( 0 0.03125 188 ) ( -0.03125 0 138 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 576 -3808 832 ) ( 576 -3808 800 ) ( 544 -3808 832 ) ( ( 0 0.03125 188 ) ( -0.03125 0 228 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 544 -3776 800 ) ( 544 -3808 800 ) ( 576 -3776 800 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 119 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 544 -3776 800 ) ( 544 -3776 832 ) ( 544 -3808 800 ) ( ( 0 0.03125 188 ) ( -0.03125 0 206 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 544 -3776 800 ) ( 576 -3776 800 ) ( 544 -3776 832 ) ( ( 0 0.03125 188 ) ( -0.03125 0 116 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+}
+}
+}
+// entity 188
+{
+"classname" "trigger_delay"
+"origin" "560.000000 -3792.000000 896.000000"
+"target" "coin_3"
+"targetname" "invisicoin4"
+"wait" "0.1"
+}
+// entity 189
+{
+"classname" "target_spawn"
+"count" "1"
+"origin" "560.000000 -3792.000000 848.000000"
+"angle" "-179.999985"
+"targetname" "coin_3"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+}
+// entity 190
+{
+"classname" "trigger_delay"
+"origin" "560.000000 -3824.000000 896.000000"
+"target" "invisiblock4"
+"targetname" "coin_3"
+"wait" "5"
+"antiwall_flag" "1"
+}
+// entity 191
+{
+"classname" "trigger_multiple"
+"spawnflags" "16384"
+"target" "invisiblock5"
+"wait" "10"
+"antiwall_flag" "2"
+"target2" "invisicoin5"
+// brush 0
+{
+brushDef
+{
+( 576 -3904 800 ) ( 544 -3904 800 ) ( 576 -3872 800 ) ( ( 0 0.03125 239 ) ( -0.03125 0 135 ) ) common/trigger 134217728 0 0
+( 572 -3904 831 ) ( 572 -3872 831 ) ( 572 -3904 799 ) ( ( 0.03125 0 122 ) ( 0 0.03125 25.96875 ) ) common/trigger 134217728 0 0
+( 576 -3900 831 ) ( 576 -3900 799 ) ( 544 -3900 831 ) ( ( 0.03125 0 239 ) ( 0 0.03125 25.96875 ) ) common/trigger 134217728 0 0
+( 544 -3872 797 ) ( 544 -3904 797 ) ( 576 -3872 797 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 122 ) ) common/trigger 134217728 0 0
+( 548 -3872 799 ) ( 548 -3872 831 ) ( 548 -3904 799 ) ( ( 0.03125 0 135 ) ( 0 0.03125 25.96875 ) ) common/trigger 134217728 0 0
+( 544 -3876 799 ) ( 576 -3876 799 ) ( 544 -3876 831 ) ( ( 0.03125 0 18 ) ( 0 0.03125 25.96875 ) ) common/trigger 134217728 0 0
+}
+}
+}
+// entity 192
+{
+"classname" "func_clientwall"
+"targetname" "invisiblock5"
+"antiwall_flag" "1"
+"solid" "1"
+"inactive" "1"
+// brush 0
+{
+brushDef
+{
+( 576 -3904 832 ) ( 544 -3904 832 ) ( 576 -3872 832 ) ( ( 0 0.03125 239 ) ( -0.03125 0 135 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 576 -3904 832 ) ( 576 -3872 832 ) ( 576 -3904 800 ) ( ( 0 0.03125 188 ) ( -0.03125 0 135 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 576 -3904 832 ) ( 576 -3904 800 ) ( 544 -3904 832 ) ( ( 0 0.03125 188 ) ( -0.03125 0 228 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 544 -3872 800 ) ( 544 -3904 800 ) ( 576 -3872 800 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 122 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 544 -3872 800 ) ( 544 -3872 832 ) ( 544 -3904 800 ) ( ( 0 0.03125 188 ) ( -0.03125 0 209 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 544 -3872 800 ) ( 576 -3872 800 ) ( 544 -3872 832 ) ( ( 0 0.03125 188 ) ( -0.03125 0 116 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+}
+}
+}
+// entity 193
+{
+"classname" "trigger_delay"
+"origin" "560.000000 -3888.000000 896.000000"
+"target" "coin_4"
+"targetname" "invisicoin5"
+"wait" "0.1"
+}
+// entity 194
+{
+"classname" "target_spawn"
+"count" "1"
+"origin" "560.000000 -3888.000000 848.000000"
+"angle" "-179.999985"
+"targetname" "coin_4"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+}
+// entity 195
+{
+"classname" "trigger_delay"
+"origin" "560.000000 -3920.000000 896.000000"
+"target" "invisiblock5"
+"targetname" "coin_4"
+"wait" "5"
+"antiwall_flag" "1"
+}
+// entity 196
+{
+"classname" "trigger_multiple"
+"spawnflags" "16384"
+"wait" "10"
+"delay" "0.2"
+"target" "block_1"
+// brush 0
+{
+brushDef
+{
+( 576 -992 736 ) ( 544 -992 736 ) ( 576 -960 736 ) ( ( 0 0.03125 239 ) ( -0.03125 0 226 ) ) common/trigger 134217728 0 0
+( 572 -992 767 ) ( 572 -960 767 ) ( 572 -992 735 ) ( ( 0.03125 0 31 ) ( 0 0.03125 23.96875 ) ) common/trigger 134217728 0 0
+( 576 -988 767 ) ( 576 -988 735 ) ( 544 -988 767 ) ( ( 0.03125 0 239 ) ( 0 0.03125 23.96875 ) ) common/trigger 134217728 0 0
+( 544 -960 735 ) ( 544 -992 735 ) ( 576 -960 735 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 31 ) ) common/trigger 134217728 0 0
+( 548 -960 735 ) ( 548 -960 767 ) ( 548 -992 735 ) ( ( 0.03125 0 226 ) ( 0 0.03125 23.96875 ) ) common/trigger 134217728 0 0
+( 544 -964 735 ) ( 576 -964 735 ) ( 544 -964 767 ) ( ( 0.03125 0 18 ) ( 0 0.03125 23.96875 ) ) common/trigger 134217728 0 0
+}
+}
+}
+// entity 197
+{
+"classname" "func_door"
+"angle" "-1"
+"spawnflags" "4"
+"wait" "0.1"
+"lip" "1"
+"targetname" "block_1"
+// brush 0
+{
+brushDef
+{
+( 576 -992 768 ) ( 544 -992 768 ) ( 576 -960 768 ) ( ( 0 0.03125 239 ) ( -0.03125 0 226 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 576 -992 768 ) ( 576 -960 768 ) ( 576 -992 736 ) ( ( 0.03125 0 31 ) ( 0 0.03125 24 ) ) sxb_v1_blocks/question_mark 134217728 0 0
+( 576 -992 768 ) ( 576 -992 736 ) ( 544 -992 768 ) ( ( 0.03125 0 239 ) ( 0 0.03125 24 ) ) sxb_v1_blocks/question_mark 134217728 0 0
+( 544 -960 736 ) ( 544 -992 736 ) ( 576 -960 736 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 31 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 544 -960 736 ) ( 544 -960 768 ) ( 544 -992 736 ) ( ( 0.03125 0 226 ) ( 0 0.03125 24 ) ) sxb_v1_blocks/question_mark 134217728 0 0
+( 544 -960 736 ) ( 576 -960 736 ) ( 544 -960 768 ) ( ( 0.03125 0 18 ) ( 0 0.03125 24 ) ) sxb_v1_blocks/question_mark 134217728 0 0
+}
+}
+}
+// entity 198
+{
+"classname" "trigger_delay"
+"origin" "560.000000 -976.000000 824.000000"
+"target" "coin_13"
+"targetname" "block_1"
+"wait" "0.3"
+}
+// entity 199
+{
+"classname" "target_spawn"
+"count" "1"
+"origin" "560.000000 -976.000000 784.000000"
+"angle" "-179.999985"
+"targetname" "coin_13"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/small_mushroom.md3 noalign -1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon"
+}
+// entity 200
+{
+"classname" "func_bobbing"
+"spawnflags" "2"
+"speed" "4"
+"height" "90"
+// brush 0
+{
+brushDef
+{
+( 616 -4672 800 ) ( 520 -4672 800 ) ( 616 -4576 800 ) ( ( 0.010416667 0 48.6666679382 ) ( 0 0.010416667 250.5833587646 ) ) common/nodraw 0 0 0
+( 600 -4672 816 ) ( 600 -4576 816 ) ( 600 -4672 784 ) ( ( 0.03125 0 92.6666870117 ) ( 0 0.0239257813 29.09375 ) ) common/nodraw 0 0 0
+( 616 -4672 816 ) ( 616 -4672 784 ) ( 520 -4672 816 ) ( ( 0.03125 0 65.4166870117 ) ( 0 0.0625 76 ) ) sxb_v1_platforms/orange_platform 0 0 0
+( 520 -4576 784 ) ( 520 -4672 784 ) ( 616 -4576 784 ) ( ( 0.010416667 0 48.6666679382 ) ( 0 0.010416667 6.4166693687 ) ) common/nodraw 0 0 0
+( 536 -4576 784 ) ( 536 -4576 816 ) ( 536 -4672 784 ) ( ( 0.03125 0 162.6666870117 ) ( 0 0.0239257813 29.09375 ) ) common/nodraw 0 0 0
+( 504 -4670 816 ) ( 600 -4670 784 ) ( 600 -4670 816 ) ( ( 0.03125 0 189.4166717529 ) ( 0 0.0239257813 29.09375 ) ) common/nodraw 0 0 0
+}
+}
+// brush 1
+{
+brushDef
+{
+( 616 -4704 800 ) ( 520 -4704 800 ) ( 616 -4608 800 ) ( ( 0.010416667 0 49.0000114441 ) ( 0 0.010416667 250.5833587646 ) ) common/nodraw 0 0 0
+( 600 -4704 816 ) ( 600 -4608 816 ) ( 600 -4704 784 ) ( ( 0.03125 0 93.6666870117 ) ( 0 0.0239257813 29.09375 ) ) common/nodraw 0 0 0
+( 520 -4608 784 ) ( 520 -4704 784 ) ( 616 -4608 784 ) ( ( 0.010416667 0 49.0000114441 ) ( 0 0.010416667 6.4166693687 ) ) common/nodraw 0 0 0
+( 536 -4608 784 ) ( 536 -4608 816 ) ( 536 -4704 784 ) ( ( 0.03125 0 161.6666870117 ) ( 0 0.0239257813 29.09375 ) ) common/nodraw 0 0 0
+( 520 -4608 784 ) ( 616 -4608 784 ) ( 520 -4608 816 ) ( ( 0.03125 0 189.9166717529 ) ( 0 0.0625 76 ) ) sxb_v1_platforms/orange_platform 0 0 0
+( 520 -4610 816 ) ( 616 -4610 784 ) ( 520 -4610 784 ) ( ( 0.03125 0 65.4166870117 ) ( 0 0.0239257813 29.09375 ) ) common/nodraw 0 0 0
+}
+}
+// brush 2
+{
+brushDef
+{
+( 616 -4688 800 ) ( 520 -4688 800 ) ( 616 -4592 800 ) ( ( 0.015625 0 73 ) ( 0 0.015625 247.625 ) ) sxb_v1_platforms/orange_platform_top 0 0 0
+( 600 -4688 816 ) ( 600 -4592 816 ) ( 600 -4688 784 ) ( ( 0.03125 0 93.1666870117 ) ( 0 0.0625 76 ) ) sxb_v1_platforms/orange_platform 0 0 0
+( 616 -4672 816 ) ( 616 -4672 784 ) ( 520 -4672 816 ) ( ( 0.03125 0 65.4166870117 ) ( 0 0.0625 76 ) ) sxb_v1_platforms/orange_platform 0 0 0
+( 536 -4592 784 ) ( 536 -4592 816 ) ( 536 -4688 784 ) ( ( 0.03125 0 162.1666870117 ) ( 0 0.0625 76 ) ) sxb_v1_platforms/orange_platform 0 0 0
+( 520 -4608 784 ) ( 616 -4608 784 ) ( 520 -4608 816 ) ( ( 0.03125 0 189.9166717529 ) ( 0 0.0625 76 ) ) sxb_v1_platforms/orange_platform 0 0 0
+( 616 -4592 798 ) ( 520 -4688 798 ) ( 616 -4688 798 ) ( ( 0.010416667 0 48.83335495 ) ( 0 0.010416667 6.4166636467 ) ) sxb_v1_platforms/orange_platform_top 0 0 0
+}
+}
+// brush 3
+{
+brushDef
+{
+( 632 -4688 800 ) ( 536 -4688 800 ) ( 632 -4592 800 ) ( ( 0.010416667 0 48.83335495 ) ( 0 0.010416667 250.4166870117 ) ) common/nodraw 0 0 0
+( 632 -4672 816 ) ( 632 -4672 784 ) ( 536 -4672 816 ) ( ( 0.03125 0 64.9166870117 ) ( 0 0.0239257813 29.09375 ) ) common/nodraw 0 0 0
+( 536 -4592 784 ) ( 536 -4688 784 ) ( 632 -4592 784 ) ( ( 0.010416667 0 48.83335495 ) ( 0 0.010416667 6.5833353996 ) ) common/nodraw 0 0 0
+( 536 -4592 784 ) ( 536 -4592 816 ) ( 536 -4688 784 ) ( ( 0.03125 0 162.1666870117 ) ( 0 0.0625 76 ) ) sxb_v1_platforms/orange_platform 0 0 0
+( 536 -4608 784 ) ( 632 -4608 784 ) ( 536 -4608 816 ) ( ( 0.03125 0 190.4166717529 ) ( 0 0.0239257813 29.09375 ) ) common/nodraw 0 0 0
+( 538 -4688 784 ) ( 538 -4592 816 ) ( 538 -4592 784 ) ( ( 0.03125 0 93.1666870117 ) ( 0 0.0239257813 29.09375 ) ) common/nodraw 0 0 0
+}
+}
+// brush 4
+{
+brushDef
+{
+( 600 -4688 800 ) ( 504 -4688 800 ) ( 600 -4592 800 ) ( ( 0.010416667 0 48.83335495 ) ( 0 0.010416667 250.7500305176 ) ) common/nodraw 0 0 0
+( 600 -4688 816 ) ( 600 -4592 816 ) ( 600 -4688 784 ) ( ( 0.03125 0 93.1666870117 ) ( 0 0.0625 76 ) ) sxb_v1_platforms/orange_platform 0 0 0
+( 600 -4672 816 ) ( 600 -4672 784 ) ( 504 -4672 816 ) ( ( 0.03125 0 65.9166870117 ) ( 0 0.0239257813 29.09375 ) ) common/nodraw 0 0 0
+( 504 -4592 784 ) ( 504 -4688 784 ) ( 600 -4592 784 ) ( ( 0.010416667 0 48.83335495 ) ( 0 0.010416667 6.2500033379 ) ) common/nodraw 0 0 0
+( 504 -4608 784 ) ( 600 -4608 784 ) ( 504 -4608 816 ) ( ( 0.03125 0 189.4166717529 ) ( 0 0.0239257813 29.09375 ) ) common/nodraw 0 0 0
+( 598 -4688 784 ) ( 598 -4592 816 ) ( 598 -4688 816 ) ( ( 0.03125 0 162.1666870117 ) ( 0 0.0239257813 29.09375 ) ) common/nodraw 0 0 0
+}
+}
+// brush 5
+{
+brushDef
+{
+( 600 -4688 816 ) ( 600 -4592 816 ) ( 600 -4688 784 ) ( ( 0.03125 0 93.1666870117 ) ( 0 0.0625 76 ) ) sxb_v1_platforms/orange_platform 0 0 0
+( 616 -4672 816 ) ( 616 -4672 784 ) ( 520 -4672 816 ) ( ( 0.03125 0 65.4166870117 ) ( 0 0.0625 76 ) ) sxb_v1_platforms/orange_platform 0 0 0
+( 520 -4592 784 ) ( 520 -4688 784 ) ( 616 -4592 784 ) ( ( 0.015625 0 73 ) ( 0 0.015625 9.375 ) ) sxb_v1_platforms/orange_platform_bottom 0 0 0
+( 536 -4592 784 ) ( 536 -4592 816 ) ( 536 -4688 784 ) ( ( 0.03125 0 162.1666870117 ) ( 0 0.0625 76 ) ) sxb_v1_platforms/orange_platform 0 0 0
+( 520 -4608 784 ) ( 616 -4608 784 ) ( 520 -4608 816 ) ( ( 0.03125 0 189.9166717529 ) ( 0 0.0625 76 ) ) sxb_v1_platforms/orange_platform 0 0 0
+( 616 -4592 786 ) ( 520 -4688 786 ) ( 520 -4592 786 ) ( ( 0.010416667 0 48.83335495 ) ( 0 0.010416667 250.5833587646 ) ) sxb_v1_platforms/orange_platform_bottom 0 0 0
 }
 }
 }
