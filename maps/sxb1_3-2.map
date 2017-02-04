@@ -1899,3 +1899,430 @@ brushDef
 }
 }
 }
+// entity 65
+{
+"classname" "misc_model"
+"origin" "592.000000 -560.000000 480.000000"
+"model" "models/map_sxb/fence.obj"
+"angle" "-90.000000"
+}
+// entity 66
+{
+"classname" "misc_model"
+"origin" "592.000000 -656.000000 480.000000"
+"model" "models/map_sxb/fence.obj"
+"angle" "-90.000000"
+}
+// entity 67
+{
+"classname" "misc_model"
+"origin" "592.000000 -592.000000 480.000000"
+"model" "models/map_sxb/fence.obj"
+"angle" "-90.000000"
+}
+// entity 68
+{
+"classname" "misc_model"
+"origin" "592.000000 -624.000000 480.000000"
+"model" "models/map_sxb/fence.obj"
+"angle" "-90.000000"
+}
+// entity 69
+{
+"classname" "misc_model"
+"origin" "592.000000 -2832.000000 480.000000"
+"model" "models/map_sxb/tree_short_night.obj"
+"angle" "90.000000"
+}
+// entity 70
+{
+"classname" "misc_model"
+"origin" "592.000000 -2928.000000 480.000000"
+"model" "models/map_sxb/tree_tall_night.obj"
+"angle" "90.000000"
+}
+// entity 71
+{
+"classname" "misc_model"
+"origin" "592.000000 -880.000000 480.000000"
+"model" "models/map_sxb/tree_short_night.obj"
+"angle" "90.000000"
+}
+// entity 72
+{
+"classname" "misc_model"
+"origin" "592.000000 -848.000000 480.000000"
+"model" "models/map_sxb/tree_short_night.obj"
+"angle" "90.000000"
+}
+// entity 73
+{
+"classname" "misc_model"
+"origin" "592.000000 -784.000000 480.000000"
+"model" "models/map_sxb/tree_tall_night.obj"
+"angle" "90.000000"
+}
+// entity 74
+{
+"classname" "misc_model"
+"origin" "592.000000 -464.000000 480.000000"
+"model" "models/map_sxb/tree_short_night.obj"
+"angle" "90.000000"
+}
+// entity 75
+{
+"classname" "misc_model"
+"origin" "592.000000 -528.000000 480.000000"
+"model" "models/map_sxb/tree_tall_night.obj"
+"angle" "90.000000"
+}
+// entity 76
+{
+"classname" "misc_model"
+"origin" "592.000000 -3536.000000 480.000000"
+"model" "models/map_sxb/fence.obj"
+"angle" "-90.000000"
+}
+// entity 77
+{
+"classname" "misc_model"
+"origin" "592.000000 -2768.000000 480.000000"
+"model" "models/map_sxb/fence.obj"
+"angle" "-90.000000"
+}
+// entity 78
+{
+"classname" "misc_model"
+"origin" "592.000000 -3568.000000 480.000000"
+"model" "models/map_sxb/fence.obj"
+"angle" "-90.000000"
+}
+// entity 79
+{
+"classname" "misc_model"
+"origin" "592.000000 -1296.000000 480.000000"
+"model" "models/map_sxb/tree_short_night.obj"
+"angle" "90.000000"
+}
+// entity 80
+{
+"classname" "misc_model"
+"origin" "592.000000 -1392.000000 480.000000"
+"model" "models/map_sxb/tree_tall_night.obj"
+"angle" "90.000000"
+}
+// entity 81
+{
+"classname" "misc_model"
+"origin" "592.000000 -1232.000000 480.000000"
+"model" "models/map_sxb/fence.obj"
+"angle" "-90.000000"
+}
+// entity 82
+{
+"classname" "misc_model"
+"origin" "592.000000 -1264.000000 480.000000"
+"model" "models/map_sxb/fence.obj"
+"angle" "-90.000000"
+}
+// entity 83
+{
+"classname" "misc_model"
+"origin" "592.000000 -1328.000000 480.000000"
+"model" "models/map_sxb/fence.obj"
+"angle" "-90.000000"
+}
+// entity 84
+{
+"classname" "misc_model"
+"origin" "592.000000 -2864.000000 480.000000"
+"model" "models/map_sxb/fence.obj"
+"angle" "-90.000000"
+}
+// entity 85
+{
+"classname" "misc_model"
+"origin" "592.000000 -3504.000000 480.000000"
+"model" "models/map_sxb/tree_tall_night.obj"
+"angle" "90.000000"
+}
+// entity 86
+{
+"classname" "misc_model"
+"origin" "592.000000 -3440.000000 480.000000"
+"model" "models/map_sxb/tree_short_night.obj"
+"angle" "90.000000"
+}
+// entity 87
+{
+"classname" "misc_model"
+"origin" "592.000000 -3824.000000 480.000000"
+"model" "models/map_sxb/tree_short_night.obj"
+"angle" "90.000000"
+}
+// entity 88
+{
+"classname" "misc_model"
+"origin" "592.000000 -3632.000000 480.000000"
+"model" "models/map_sxb/fence.obj"
+"angle" "-90.000000"
+}
+// entity 89
+{
+"classname" "misc_model"
+"origin" "592.000000 -3600.000000 480.000000"
+"model" "models/map_sxb/fence.obj"
+"angle" "-90.000000"
+}
+// entity 90
+{
+"classname" "misc_model"
+"origin" "592.000000 -3856.000000 480.000000"
+"model" "models/map_sxb/tree_short_night.obj"
+"angle" "90.000000"
+}
+// entity 91
+{
+"classname" "misc_model"
+"origin" "592.000000 -2800.000000 480.000000"
+"model" "models/map_sxb/fence.obj"
+"angle" "-90.000000"
+}
+// entity 92
+{
+"classname" "misc_model"
+"origin" "592.000000 -3760.000000 480.000000"
+"model" "models/map_sxb/tree_tall_night.obj"
+"angle" "90.000000"
+}
+// entity 93
+{
+"classname" "misc_model"
+"origin" "592.000000 -2288.000000 480.000000"
+"model" "models/map_sxb/tree_short_night.obj"
+"angle" "90.000000"
+}
+// entity 94
+{
+"classname" "misc_model"
+"origin" "592.000000 -1904.000000 480.000000"
+"model" "models/map_sxb/tree_short_night.obj"
+"angle" "90.000000"
+}
+// entity 95
+{
+"classname" "misc_model"
+"origin" "592.000000 -2096.000000 480.000000"
+"model" "models/map_sxb/fence.obj"
+"angle" "-90.000000"
+}
+// entity 96
+{
+"classname" "misc_model"
+"origin" "592.000000 -2000.000000 480.000000"
+"model" "models/map_sxb/fence.obj"
+"angle" "-90.000000"
+}
+// entity 97
+{
+"classname" "misc_model"
+"origin" "592.000000 -2064.000000 480.000000"
+"model" "models/map_sxb/fence.obj"
+"angle" "-90.000000"
+}
+// entity 98
+{
+"classname" "misc_model"
+"origin" "592.000000 -1968.000000 480.000000"
+"model" "models/map_sxb/tree_tall_night.obj"
+"angle" "90.000000"
+}
+// entity 99
+{
+"classname" "misc_model"
+"origin" "592.000000 -2032.000000 480.000000"
+"model" "models/map_sxb/fence.obj"
+"angle" "-90.000000"
+}
+// entity 100
+{
+"classname" "misc_model"
+"origin" "592.000000 -2320.000000 480.000000"
+"model" "models/map_sxb/tree_short_night.obj"
+"angle" "90.000000"
+}
+// entity 101
+{
+"classname" "misc_model"
+"origin" "592.000000 -2224.000000 480.000000"
+"model" "models/map_sxb/tree_tall_night.obj"
+"angle" "90.000000"
+}
+// entity 102
+{
+"classname" "misc_model"
+"origin" "592.000000 -4368.000000 480.000000"
+"model" "models/map_sxb/tree_short_night.obj"
+"angle" "90.000000"
+}
+// entity 103
+{
+"classname" "misc_model"
+"origin" "592.000000 -4464.000000 480.000000"
+"model" "models/map_sxb/tree_tall_night.obj"
+"angle" "90.000000"
+}
+// entity 104
+{
+"classname" "misc_model"
+"origin" "592.000000 -4304.000000 480.000000"
+"model" "models/map_sxb/fence.obj"
+"angle" "-90.000000"
+}
+// entity 105
+{
+"classname" "misc_model"
+"origin" "592.000000 -4336.000000 480.000000"
+"model" "models/map_sxb/fence.obj"
+"angle" "-90.000000"
+}
+// entity 106
+{
+"classname" "misc_model"
+"origin" "592.000000 -4400.000000 480.000000"
+"model" "models/map_sxb/fence.obj"
+"angle" "-90.000000"
+}
+// entity 107
+{
+"classname" "misc_model"
+"origin" "592.000000 -5360.000000 480.000000"
+"model" "models/map_sxb/tree_short_night.obj"
+"angle" "90.000000"
+}
+// entity 108
+{
+"classname" "misc_model"
+"origin" "592.000000 -4976.000000 480.000000"
+"model" "models/map_sxb/tree_short_night.obj"
+"angle" "90.000000"
+}
+// entity 109
+{
+"classname" "misc_model"
+"origin" "592.000000 -5168.000000 480.000000"
+"model" "models/map_sxb/fence.obj"
+"angle" "-90.000000"
+}
+// entity 110
+{
+"classname" "misc_model"
+"origin" "592.000000 -5072.000000 480.000000"
+"model" "models/map_sxb/fence.obj"
+"angle" "-90.000000"
+}
+// entity 111
+{
+"classname" "misc_model"
+"origin" "592.000000 -5136.000000 480.000000"
+"model" "models/map_sxb/fence.obj"
+"angle" "-90.000000"
+}
+// entity 112
+{
+"classname" "misc_model"
+"origin" "592.000000 -5040.000000 480.000000"
+"model" "models/map_sxb/tree_tall_night.obj"
+"angle" "90.000000"
+}
+// entity 113
+{
+"classname" "misc_model"
+"origin" "592.000000 -5104.000000 480.000000"
+"model" "models/map_sxb/fence.obj"
+"angle" "-90.000000"
+}
+// entity 114
+{
+"classname" "misc_model"
+"origin" "592.000000 -5392.000000 480.000000"
+"model" "models/map_sxb/tree_short_night.obj"
+"angle" "90.000000"
+}
+// entity 115
+{
+"classname" "misc_model"
+"origin" "592.000000 -5296.000000 480.000000"
+"model" "models/map_sxb/tree_tall_night.obj"
+"angle" "90.000000"
+}
+// entity 116
+{
+"classname" "misc_model"
+"origin" "592.000000 -5936.000000 480.000000"
+"model" "models/map_sxb/tree_short_night.obj"
+"angle" "90.000000"
+}
+// entity 117
+{
+"classname" "misc_model"
+"origin" "592.000000 -6032.000000 480.000000"
+"model" "models/map_sxb/tree_tall_night.obj"
+"angle" "90.000000"
+}
+// entity 118
+{
+"classname" "misc_model"
+"origin" "592.000000 -5872.000000 480.000000"
+"model" "models/map_sxb/fence.obj"
+"angle" "-90.000000"
+}
+// entity 119
+{
+"classname" "misc_model"
+"origin" "592.000000 -5904.000000 480.000000"
+"model" "models/map_sxb/fence.obj"
+"angle" "-90.000000"
+}
+// entity 120
+{
+"classname" "misc_model"
+"origin" "592.000000 -5968.000000 480.000000"
+"model" "models/map_sxb/fence.obj"
+"angle" "-90.000000"
+}
+// entity 121
+{
+"classname" "misc_model"
+"origin" "592.000000 -6544.000000 480.000000"
+"model" "models/map_sxb/tree_short_night.obj"
+"angle" "90.000000"
+}
+// entity 122
+{
+"classname" "misc_model"
+"origin" "592.000000 -6640.000000 480.000000"
+"model" "models/map_sxb/fence.obj"
+"angle" "-90.000000"
+}
+// entity 123
+{
+"classname" "misc_model"
+"origin" "592.000000 -6704.000000 480.000000"
+"model" "models/map_sxb/fence.obj"
+"angle" "-90.000000"
+}
+// entity 124
+{
+"classname" "misc_model"
+"origin" "592.000000 -6608.000000 480.000000"
+"model" "models/map_sxb/tree_tall_night.obj"
+"angle" "90.000000"
+}
+// entity 125
+{
+"classname" "misc_model"
+"origin" "592.000000 -6672.000000 480.000000"
+"model" "models/map_sxb/fence.obj"
+"angle" "-90.000000"
+}
