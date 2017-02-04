@@ -3077,333 +3077,6 @@ brushDef
 {
 "classname" "func_rotating"
 "spawnflags" "4"
-"targetname" "rot1"
-// brush 0
-{
-brushDef
-{
-( 608 -768 760 ) ( 512 -768 760 ) ( 608 -736 760 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239 ) ) common/origin 134217728 0 0
-( 568 -768 768 ) ( 568 -736 768 ) ( 568 -768 736 ) ( ( 0.03125 0 24 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
-( 608 -760 768 ) ( 608 -760 736 ) ( 512 -760 768 ) ( ( 0.03125 0 239 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
-( 512 -736 744 ) ( 512 -768 744 ) ( 608 -736 744 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 24 ) ) common/origin 134217728 0 0
-( 552 -736 736 ) ( 552 -736 768 ) ( 552 -768 736 ) ( ( 0.03125 0 233 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
-( 512 -744 736 ) ( 608 -744 736 ) ( 512 -744 768 ) ( ( 0.03125 0 18 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
-}
-}
-}
-// entity 72
-{
-"classname" "func_rotating"
-"spawnflags" "4"
-"targetname" "rot2"
-// brush 0
-{
-brushDef
-{
-( 608 -768 760 ) ( 512 -768 760 ) ( 608 -736 760 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239 ) ) common/origin 134217728 0 0
-( 568 -768 768 ) ( 568 -736 768 ) ( 568 -768 736 ) ( ( 0.03125 0 24 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
-( 608 -760 768 ) ( 608 -760 736 ) ( 512 -760 768 ) ( ( 0.03125 0 239 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
-( 512 -736 744 ) ( 512 -768 744 ) ( 608 -736 744 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 24 ) ) common/origin 134217728 0 0
-( 552 -736 736 ) ( 552 -736 768 ) ( 552 -768 736 ) ( ( 0.03125 0 233 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
-( 512 -744 736 ) ( 608 -744 736 ) ( 512 -744 768 ) ( ( 0.03125 0 18 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
-}
-}
-// brush 1
-{
-brushDef
-{
-( 606 -768 832 ) ( 510 -768 832 ) ( 606 -736 832 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239.0625 ) ) common/nodrawnonsolid 134217728 0 0
-( 564 -770 832 ) ( 564 -738 832 ) ( 564 -770 800 ) ( ( 0.03125 0 24.0625 ) ( 0 0.03125 26 ) ) common/nodrawnonsolid 134217728 0 0
-( 606 -768 832 ) ( 606 -768 800 ) ( 510 -768 832 ) ( ( 0.03125 0 239.0625 ) ( 0 0.03125 26 ) ) common/nodrawnonsolid 134217728 0 0
-( 510 -736 800 ) ( 510 -768 800 ) ( 606 -736 800 ) ( ( 0 -0.03125 239.0625 ) ( 0.03125 0 24 ) ) common/nodrawnonsolid 134217728 0 0
-( 560 -736 800 ) ( 560 -736 832 ) ( 560 -768 800 ) ( ( 0.0312500261 0 59 ) ( 0 0.0312499516 25.9999599457 ) ) sxb_v1_misc/fire 134217728 0 0
-( 510 -736 800 ) ( 606 -736 800 ) ( 510 -736 832 ) ( ( 0.03125 0 17.9375 ) ( 0 0.03125 26 ) ) common/nodrawnonsolid 134217728 0 0
-}
-}
-}
-// entity 73
-{
-"classname" "misc_follow"
-"origin" "560.000000 -696.000000 808.000000"
-"target" "brek1"
-"killtarget" "rot2"
-}
-// entity 74
-{
-"classname" "trigger_hurt"
-"targetname" "brek1"
-"dmg" "50"
-"message" "ran into a fire wall"
-"message2" "was pushed into the fire balls by"
-// brush 0
-{
-brushDef
-{
-( 608 -768 824 ) ( 512 -768 824 ) ( 608 -736 824 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239 ) ) common/origin 134217728 0 0
-( 568 -768 832 ) ( 568 -736 832 ) ( 568 -768 800 ) ( ( 0.03125 0 24 ) ( 0 0.03125 26 ) ) common/origin 134217728 0 0
-( 608 -760 832 ) ( 608 -760 800 ) ( 512 -760 832 ) ( ( 0.03125 0 239 ) ( 0 0.03125 26 ) ) common/origin 134217728 0 0
-( 512 -736 808 ) ( 512 -768 808 ) ( 608 -736 808 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 24 ) ) common/origin 134217728 0 0
-( 552 -736 800 ) ( 552 -736 832 ) ( 552 -768 800 ) ( ( 0.03125 0 233 ) ( 0 0.03125 26 ) ) common/origin 134217728 0 0
-( 512 -744 800 ) ( 608 -744 800 ) ( 512 -744 832 ) ( ( 0.03125 0 18 ) ( 0 0.03125 26 ) ) common/origin 134217728 0 0
-}
-}
-// brush 1
-{
-brushDef
-{
-( 608 -768 824 ) ( 512 -768 824 ) ( 608 -736 824 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239 ) ) common/trigger 134217728 0 0
-( 576 -768 832 ) ( 576 -736 832 ) ( 576 -768 800 ) ( ( 0.03125 0 24 ) ( 0 0.03125 26 ) ) common/trigger 134217728 0 0
-( 608 -760 832 ) ( 608 -760 800 ) ( 512 -760 832 ) ( ( 0.03125 0 239 ) ( 0 0.03125 26 ) ) common/trigger 134217728 0 0
-( 512 -736 808 ) ( 512 -768 808 ) ( 608 -736 808 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 24 ) ) common/trigger 134217728 0 0
-( 544 -736 800 ) ( 544 -736 832 ) ( 544 -768 800 ) ( ( 0.03125 0 233 ) ( 0 0.03125 26 ) ) common/trigger 134217728 0 0
-( 512 -744 800 ) ( 608 -744 800 ) ( 512 -744 832 ) ( ( 0.03125 0 18 ) ( 0 0.03125 26 ) ) common/trigger 134217728 0 0
-}
-}
-}
-// entity 75
-{
-"classname" "func_rotating"
-"spawnflags" "4"
-"targetname" "rot3"
-// brush 0
-{
-brushDef
-{
-( 608 -768 760 ) ( 512 -768 760 ) ( 608 -736 760 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239 ) ) common/origin 134217728 0 0
-( 568 -768 768 ) ( 568 -736 768 ) ( 568 -768 736 ) ( ( 0.03125 0 24 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
-( 608 -760 768 ) ( 608 -760 736 ) ( 512 -760 768 ) ( ( 0.03125 0 239 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
-( 512 -736 744 ) ( 512 -768 744 ) ( 608 -736 744 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 24 ) ) common/origin 134217728 0 0
-( 552 -736 736 ) ( 552 -736 768 ) ( 552 -768 736 ) ( ( 0.03125 0 233 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
-( 512 -744 736 ) ( 608 -744 736 ) ( 512 -744 768 ) ( ( 0.03125 0 18 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
-}
-}
-// brush 1
-{
-brushDef
-{
-( 606 -768 800 ) ( 510 -768 800 ) ( 606 -736 800 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239.0625 ) ) common/nodrawnonsolid 134217728 0 0
-( 564 -770 800 ) ( 564 -738 800 ) ( 564 -770 768 ) ( ( 0.03125 0 24.0625 ) ( 0 0.03125 25 ) ) common/nodrawnonsolid 134217728 0 0
-( 606 -768 800 ) ( 606 -768 768 ) ( 510 -768 800 ) ( ( 0.03125 0 239.0625 ) ( 0 0.03125 25 ) ) common/nodrawnonsolid 134217728 0 0
-( 510 -736 768 ) ( 510 -768 768 ) ( 606 -736 768 ) ( ( 0 -0.03125 239.0625 ) ( 0.03125 0 24 ) ) common/nodrawnonsolid 134217728 0 0
-( 560 -736 768 ) ( 560 -736 800 ) ( 560 -768 768 ) ( ( 0.0312500261 0 59 ) ( 0 0.0312499516 24.9999599457 ) ) sxb_v1_misc/fire 134217728 0 0
-( 510 -736 768 ) ( 606 -736 768 ) ( 510 -736 800 ) ( ( 0.03125 0 17.9375 ) ( 0 0.03125 25 ) ) common/nodrawnonsolid 134217728 0 0
-}
-}
-}
-// entity 76
-{
-"classname" "misc_follow"
-"origin" "560.000000 -728.000000 808.000000"
-"target" "brek2"
-"killtarget" "rot3"
-}
-// entity 77
-{
-"classname" "trigger_hurt"
-"targetname" "brek2"
-"dmg" "50"
-"message" "ran into a fire wall"
-"message2" "was pushed into the fire balls by"
-// brush 0
-{
-brushDef
-{
-( 608 -768 792 ) ( 512 -768 792 ) ( 608 -736 792 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239 ) ) common/origin 134217728 0 0
-( 568 -768 800 ) ( 568 -736 800 ) ( 568 -768 768 ) ( ( 0.03125 0 24 ) ( 0 0.03125 25 ) ) common/origin 134217728 0 0
-( 608 -760 800 ) ( 608 -760 768 ) ( 512 -760 800 ) ( ( 0.03125 0 239 ) ( 0 0.03125 25 ) ) common/origin 134217728 0 0
-( 512 -736 776 ) ( 512 -768 776 ) ( 608 -736 776 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 24 ) ) common/origin 134217728 0 0
-( 552 -736 768 ) ( 552 -736 800 ) ( 552 -768 768 ) ( ( 0.03125 0 233 ) ( 0 0.03125 25 ) ) common/origin 134217728 0 0
-( 512 -744 768 ) ( 608 -744 768 ) ( 512 -744 800 ) ( ( 0.03125 0 18 ) ( 0 0.03125 25 ) ) common/origin 134217728 0 0
-}
-}
-// brush 1
-{
-brushDef
-{
-( 608 -768 792 ) ( 512 -768 792 ) ( 608 -736 792 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239 ) ) common/trigger 134217728 0 0
-( 576 -768 800 ) ( 576 -736 800 ) ( 576 -768 768 ) ( ( 0.03125 0 24 ) ( 0 0.03125 25 ) ) common/trigger 134217728 0 0
-( 608 -760 800 ) ( 608 -760 768 ) ( 512 -760 800 ) ( ( 0.03125 0 239 ) ( 0 0.03125 25 ) ) common/trigger 134217728 0 0
-( 512 -736 776 ) ( 512 -768 776 ) ( 608 -736 776 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 24 ) ) common/trigger 134217728 0 0
-( 544 -736 768 ) ( 544 -736 800 ) ( 544 -768 768 ) ( ( 0.03125 0 233 ) ( 0 0.03125 25 ) ) common/trigger 134217728 0 0
-( 512 -744 768 ) ( 608 -744 768 ) ( 512 -744 800 ) ( ( 0.03125 0 18 ) ( 0 0.03125 25 ) ) common/trigger 134217728 0 0
-}
-}
-}
-// entity 78
-{
-"classname" "func_rotating"
-"spawnflags" "4"
-"targetname" "rot4"
-// brush 0
-{
-brushDef
-{
-( 606 -768 864 ) ( 510 -768 864 ) ( 606 -736 864 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239.0625 ) ) common/nodrawnonsolid 134217728 0 0
-( 564 -770 864 ) ( 564 -738 864 ) ( 564 -770 832 ) ( ( 0.03125 0 24.0625 ) ( 0 0.03125 27 ) ) common/nodrawnonsolid 134217728 0 0
-( 606 -768 864 ) ( 606 -768 832 ) ( 510 -768 864 ) ( ( 0.03125 0 239.0625 ) ( 0 0.03125 27 ) ) common/nodrawnonsolid 134217728 0 0
-( 510 -736 832 ) ( 510 -768 832 ) ( 606 -736 832 ) ( ( 0 -0.03125 239.0625 ) ( 0.03125 0 24 ) ) common/nodrawnonsolid 134217728 0 0
-( 560 -736 832 ) ( 560 -736 864 ) ( 560 -768 832 ) ( ( 0.0312500261 0 59 ) ( 0 0.0312499516 26.9999580383 ) ) sxb_v1_misc/fire 134217728 0 0
-( 510 -736 832 ) ( 606 -736 832 ) ( 510 -736 864 ) ( ( 0.03125 0 17.9375 ) ( 0 0.03125 27 ) ) common/nodrawnonsolid 134217728 0 0
-}
-}
-}
-// entity 79
-{
-"classname" "misc_follow"
-"origin" "560.000000 -696.000000 840.000000"
-"target" "brek3"
-"killtarget" "rot4"
-}
-// entity 80
-{
-"classname" "trigger_hurt"
-"targetname" "brek3"
-"dmg" "50"
-"message" "ran into a fire wall"
-"message2" "was pushed into the fire balls by"
-// brush 0
-{
-brushDef
-{
-( 608 -768 856 ) ( 512 -768 856 ) ( 608 -736 856 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239 ) ) common/origin 134217728 0 0
-( 568 -768 864 ) ( 568 -736 864 ) ( 568 -768 832 ) ( ( 0.03125 0 24 ) ( 0 0.03125 27 ) ) common/origin 134217728 0 0
-( 608 -760 864 ) ( 608 -760 832 ) ( 512 -760 864 ) ( ( 0.03125 0 239 ) ( 0 0.03125 27 ) ) common/origin 134217728 0 0
-( 512 -736 840 ) ( 512 -768 840 ) ( 608 -736 840 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 24 ) ) common/origin 134217728 0 0
-( 552 -736 832 ) ( 552 -736 864 ) ( 552 -768 832 ) ( ( 0.03125 0 233 ) ( 0 0.03125 27 ) ) common/origin 134217728 0 0
-( 512 -744 832 ) ( 608 -744 832 ) ( 512 -744 864 ) ( ( 0.03125 0 18 ) ( 0 0.03125 27 ) ) common/origin 134217728 0 0
-}
-}
-// brush 1
-{
-brushDef
-{
-( 608 -768 856 ) ( 512 -768 856 ) ( 608 -736 856 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239 ) ) common/trigger 134217728 0 0
-( 576 -768 864 ) ( 576 -736 864 ) ( 576 -768 832 ) ( ( 0.03125 0 24 ) ( 0 0.03125 27 ) ) common/trigger 134217728 0 0
-( 608 -760 864 ) ( 608 -760 832 ) ( 512 -760 864 ) ( ( 0.03125 0 239 ) ( 0 0.03125 27 ) ) common/trigger 134217728 0 0
-( 512 -736 840 ) ( 512 -768 840 ) ( 608 -736 840 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 24 ) ) common/trigger 134217728 0 0
-( 544 -736 832 ) ( 544 -736 864 ) ( 544 -768 832 ) ( ( 0.03125 0 233 ) ( 0 0.03125 27 ) ) common/trigger 134217728 0 0
-( 512 -744 832 ) ( 608 -744 832 ) ( 512 -744 864 ) ( ( 0.03125 0 18 ) ( 0 0.03125 27 ) ) common/trigger 134217728 0 0
-}
-}
-}
-// entity 81
-{
-"classname" "func_rotating"
-"spawnflags" "4"
-"targetname" "rot5"
-// brush 0
-{
-brushDef
-{
-( 606 -768 896 ) ( 510 -768 896 ) ( 606 -736 896 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239.0625 ) ) common/nodrawnonsolid 134217728 0 0
-( 564 -770 896 ) ( 564 -738 896 ) ( 564 -770 864 ) ( ( 0.03125 0 24.0625 ) ( 0 0.03125 28 ) ) common/nodrawnonsolid 134217728 0 0
-( 606 -768 896 ) ( 606 -768 864 ) ( 510 -768 896 ) ( ( 0.03125 0 239.0625 ) ( 0 0.03125 28 ) ) common/nodrawnonsolid 134217728 0 0
-( 510 -736 864 ) ( 510 -768 864 ) ( 606 -736 864 ) ( ( 0 -0.03125 239.0625 ) ( 0.03125 0 24 ) ) common/nodrawnonsolid 134217728 0 0
-( 560 -736 864 ) ( 560 -736 896 ) ( 560 -768 864 ) ( ( 0.0312500261 0 59 ) ( 0 0.0312499516 27.999956131 ) ) sxb_v1_misc/fire 134217728 0 0
-( 510 -736 864 ) ( 606 -736 864 ) ( 510 -736 896 ) ( ( 0.03125 0 17.9375 ) ( 0 0.03125 28 ) ) common/nodrawnonsolid 134217728 0 0
-}
-}
-}
-// entity 82
-{
-"classname" "misc_follow"
-"origin" "560.000000 -696.000000 872.000000"
-"target" "brek4"
-"killtarget" "rot5"
-}
-// entity 83
-{
-"classname" "trigger_hurt"
-"targetname" "brek4"
-"dmg" "50"
-"message" "ran into a fire wall"
-"message2" "was pushed into the fire balls by"
-// brush 0
-{
-brushDef
-{
-( 608 -768 888 ) ( 512 -768 888 ) ( 608 -736 888 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239 ) ) common/origin 134217728 0 0
-( 568 -768 896 ) ( 568 -736 896 ) ( 568 -768 864 ) ( ( 0.03125 0 24 ) ( 0 0.03125 28 ) ) common/origin 134217728 0 0
-( 608 -760 896 ) ( 608 -760 864 ) ( 512 -760 896 ) ( ( 0.03125 0 239 ) ( 0 0.03125 28 ) ) common/origin 134217728 0 0
-( 512 -736 872 ) ( 512 -768 872 ) ( 608 -736 872 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 24 ) ) common/origin 134217728 0 0
-( 552 -736 864 ) ( 552 -736 896 ) ( 552 -768 864 ) ( ( 0.03125 0 233 ) ( 0 0.03125 28 ) ) common/origin 134217728 0 0
-( 512 -744 864 ) ( 608 -744 864 ) ( 512 -744 896 ) ( ( 0.03125 0 18 ) ( 0 0.03125 28 ) ) common/origin 134217728 0 0
-}
-}
-// brush 1
-{
-brushDef
-{
-( 608 -768 888 ) ( 512 -768 888 ) ( 608 -736 888 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239 ) ) common/trigger 134217728 0 0
-( 576 -768 896 ) ( 576 -736 896 ) ( 576 -768 864 ) ( ( 0.03125 0 24 ) ( 0 0.03125 28 ) ) common/trigger 134217728 0 0
-( 608 -760 896 ) ( 608 -760 864 ) ( 512 -760 896 ) ( ( 0.03125 0 239 ) ( 0 0.03125 28 ) ) common/trigger 134217728 0 0
-( 512 -736 872 ) ( 512 -768 872 ) ( 608 -736 872 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 24 ) ) common/trigger 134217728 0 0
-( 544 -736 864 ) ( 544 -736 896 ) ( 544 -768 864 ) ( ( 0.03125 0 233 ) ( 0 0.03125 28 ) ) common/trigger 134217728 0 0
-( 512 -744 864 ) ( 608 -744 864 ) ( 512 -744 896 ) ( ( 0.03125 0 18 ) ( 0 0.03125 28 ) ) common/trigger 134217728 0 0
-}
-}
-}
-// entity 84
-{
-"classname" "func_rotating"
-"spawnflags" "4"
-"targetname" "rot6"
-// brush 0
-{
-brushDef
-{
-( 606 -768 928 ) ( 510 -768 928 ) ( 606 -736 928 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239.0625 ) ) common/nodrawnonsolid 134217728 0 0
-( 564 -770 928 ) ( 564 -738 928 ) ( 564 -770 896 ) ( ( 0.03125 0 24.0625 ) ( 0 0.03125 29 ) ) common/nodrawnonsolid 134217728 0 0
-( 606 -768 928 ) ( 606 -768 896 ) ( 510 -768 928 ) ( ( 0.03125 0 239.0625 ) ( 0 0.03125 29 ) ) common/nodrawnonsolid 134217728 0 0
-( 510 -736 896 ) ( 510 -768 896 ) ( 606 -736 896 ) ( ( 0 -0.03125 239.0625 ) ( 0.03125 0 24 ) ) common/nodrawnonsolid 134217728 0 0
-( 560 -736 896 ) ( 560 -736 928 ) ( 560 -768 896 ) ( ( 0.0312500261 0 59 ) ( 0 0.0312499516 28.9999542236 ) ) sxb_v1_misc/fire 134217728 0 0
-( 510 -736 896 ) ( 606 -736 896 ) ( 510 -736 928 ) ( ( 0.03125 0 17.9375 ) ( 0 0.03125 29 ) ) common/nodrawnonsolid 134217728 0 0
-}
-}
-}
-// entity 85
-{
-"classname" "misc_follow"
-"origin" "560.000000 -696.000000 904.000000"
-"target" "brek5"
-"killtarget" "rot6"
-}
-// entity 86
-{
-"classname" "trigger_hurt"
-"targetname" "brek5"
-"dmg" "50"
-"message" "ran into a fire wall"
-"message2" "was pushed into the fire balls by"
-// brush 0
-{
-brushDef
-{
-( 608 -768 920 ) ( 512 -768 920 ) ( 608 -736 920 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239 ) ) common/origin 134217728 0 0
-( 568 -768 928 ) ( 568 -736 928 ) ( 568 -768 896 ) ( ( 0.03125 0 24 ) ( 0 0.03125 29 ) ) common/origin 134217728 0 0
-( 608 -760 928 ) ( 608 -760 896 ) ( 512 -760 928 ) ( ( 0.03125 0 239 ) ( 0 0.03125 29 ) ) common/origin 134217728 0 0
-( 512 -736 904 ) ( 512 -768 904 ) ( 608 -736 904 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 24 ) ) common/origin 134217728 0 0
-( 552 -736 896 ) ( 552 -736 928 ) ( 552 -768 896 ) ( ( 0.03125 0 233 ) ( 0 0.03125 29 ) ) common/origin 134217728 0 0
-( 512 -744 896 ) ( 608 -744 896 ) ( 512 -744 928 ) ( ( 0.03125 0 18 ) ( 0 0.03125 29 ) ) common/origin 134217728 0 0
-}
-}
-// brush 1
-{
-brushDef
-{
-( 608 -768 920 ) ( 512 -768 920 ) ( 608 -736 920 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239 ) ) common/trigger 134217728 0 0
-( 576 -768 928 ) ( 576 -736 928 ) ( 576 -768 896 ) ( ( 0.03125 0 24 ) ( 0 0.03125 29 ) ) common/trigger 134217728 0 0
-( 608 -760 928 ) ( 608 -760 896 ) ( 512 -760 928 ) ( ( 0.03125 0 239 ) ( 0 0.03125 29 ) ) common/trigger 134217728 0 0
-( 512 -736 904 ) ( 512 -768 904 ) ( 608 -736 904 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 24 ) ) common/trigger 134217728 0 0
-( 544 -736 896 ) ( 544 -736 928 ) ( 544 -768 896 ) ( ( 0.03125 0 233 ) ( 0 0.03125 29 ) ) common/trigger 134217728 0 0
-( 512 -744 896 ) ( 608 -744 896 ) ( 512 -744 928 ) ( ( 0.03125 0 18 ) ( 0 0.03125 29 ) ) common/trigger 134217728 0 0
-}
-}
-}
-// entity 87
-{
-"classname" "func_rotating"
-"spawnflags" "4"
 "targetname" "rot7"
 // brush 0
 {
@@ -3418,7 +3091,7 @@ brushDef
 }
 }
 }
-// entity 88
+// entity 72
 {
 "classname" "func_rotating"
 "spawnflags" "4"
@@ -3448,14 +3121,14 @@ brushDef
 }
 }
 }
-// entity 89
+// entity 73
 {
 "classname" "misc_follow"
 "origin" "560.000000 -1528.000000 744.000000"
 "target" "brek6"
 "killtarget" "rot8"
 }
-// entity 90
+// entity 74
 {
 "classname" "trigger_hurt"
 "targetname" "brek6"
@@ -3487,7 +3160,7 @@ brushDef
 }
 }
 }
-// entity 91
+// entity 75
 {
 "classname" "func_rotating"
 "spawnflags" "4"
@@ -3517,14 +3190,14 @@ brushDef
 }
 }
 }
-// entity 92
+// entity 76
 {
 "classname" "misc_follow"
 "origin" "560.000000 -1560.000000 744.000000"
 "target" "brek9"
 "killtarget" "rot9"
 }
-// entity 93
+// entity 77
 {
 "classname" "trigger_hurt"
 "targetname" "brek9"
@@ -3556,7 +3229,7 @@ brushDef
 }
 }
 }
-// entity 94
+// entity 78
 {
 "classname" "func_rotating"
 "spawnflags" "4"
@@ -3574,7 +3247,7 @@ brushDef
 }
 }
 }
-// entity 95
+// entity 79
 {
 "classname" "func_rotating"
 "spawnflags" "4"
@@ -3604,14 +3277,14 @@ brushDef
 }
 }
 }
-// entity 96
+// entity 80
 {
 "classname" "misc_follow"
 "origin" "560.000000 -1720.000000 872.000000"
 "target" "brek10"
 "killtarget" "rot14"
 }
-// entity 97
+// entity 81
 {
 "classname" "trigger_hurt"
 "targetname" "brek10"
@@ -3643,7 +3316,7 @@ brushDef
 }
 }
 }
-// entity 98
+// entity 82
 {
 "classname" "func_rotating"
 "spawnflags" "4"
@@ -3673,14 +3346,14 @@ brushDef
 }
 }
 }
-// entity 99
+// entity 83
 {
 "classname" "misc_follow"
 "origin" "560.000000 -1752.000000 872.000000"
 "target" "brek11"
 "killtarget" "rot15"
 }
-// entity 100
+// entity 84
 {
 "classname" "trigger_hurt"
 "targetname" "brek11"
@@ -3712,7 +3385,7 @@ brushDef
 }
 }
 }
-// entity 101
+// entity 85
 {
 "classname" "func_rotating"
 "spawnflags" "4"
@@ -3730,7 +3403,7 @@ brushDef
 }
 }
 }
-// entity 102
+// entity 86
 {
 "classname" "func_rotating"
 "spawnflags" "4"
@@ -3760,14 +3433,14 @@ brushDef
 }
 }
 }
-// entity 103
+// entity 87
 {
 "classname" "misc_follow"
 "origin" "560.000000 -1912.000000 744.000000"
 "target" "brek12"
 "killtarget" "rot17"
 }
-// entity 104
+// entity 88
 {
 "classname" "trigger_hurt"
 "targetname" "brek12"
@@ -3799,7 +3472,7 @@ brushDef
 }
 }
 }
-// entity 105
+// entity 89
 {
 "classname" "func_rotating"
 "spawnflags" "4"
@@ -3829,14 +3502,14 @@ brushDef
 }
 }
 }
-// entity 106
+// entity 90
 {
 "classname" "misc_follow"
 "origin" "560.000000 -1944.000000 744.000000"
 "target" "brek13"
 "killtarget" "rot18"
 }
-// entity 107
+// entity 91
 {
 "classname" "trigger_hurt"
 "targetname" "brek13"
@@ -3868,7 +3541,7 @@ brushDef
 }
 }
 }
-// entity 108
+// entity 92
 {
 "classname" "func_rotating"
 "spawnflags" "4"
@@ -3886,7 +3559,7 @@ brushDef
 }
 }
 }
-// entity 109
+// entity 93
 {
 "classname" "func_rotating"
 "spawnflags" "4"
@@ -3916,14 +3589,14 @@ brushDef
 }
 }
 }
-// entity 110
+// entity 94
 {
 "classname" "misc_follow"
 "origin" "560.000000 -1720.000000 616.000000"
 "target" "brek14"
 "killtarget" "rot20"
 }
-// entity 111
+// entity 95
 {
 "classname" "trigger_hurt"
 "targetname" "brek14"
@@ -3955,7 +3628,7 @@ brushDef
 }
 }
 }
-// entity 112
+// entity 96
 {
 "classname" "func_rotating"
 "spawnflags" "4"
@@ -3985,14 +3658,14 @@ brushDef
 }
 }
 }
-// entity 113
+// entity 97
 {
 "classname" "misc_follow"
 "origin" "560.000000 -1752.000000 616.000000"
 "target" "brek15"
 "killtarget" "rot21"
 }
-// entity 114
+// entity 98
 {
 "classname" "trigger_hurt"
 "targetname" "brek15"
@@ -4024,7 +3697,7 @@ brushDef
 }
 }
 }
-// entity 115
+// entity 99
 {
 "classname" "func_rotating"
 "spawnflags" "4"
@@ -4042,7 +3715,7 @@ brushDef
 }
 }
 }
-// entity 116
+// entity 100
 {
 "classname" "func_rotating"
 "spawnflags" "4"
@@ -4072,14 +3745,14 @@ brushDef
 }
 }
 }
-// entity 117
+// entity 101
 {
 "classname" "misc_follow"
 "origin" "560.000000 -2104.000000 616.000000"
 "target" "brek16"
 "killtarget" "rot23"
 }
-// entity 118
+// entity 102
 {
 "classname" "trigger_hurt"
 "targetname" "brek16"
@@ -4111,7 +3784,7 @@ brushDef
 }
 }
 }
-// entity 119
+// entity 103
 {
 "classname" "func_rotating"
 "spawnflags" "4"
@@ -4141,14 +3814,14 @@ brushDef
 }
 }
 }
-// entity 120
+// entity 104
 {
 "classname" "misc_follow"
 "origin" "560.000000 -2136.000000 616.000000"
 "target" "brek17"
 "killtarget" "rot24"
 }
-// entity 121
+// entity 105
 {
 "classname" "trigger_hurt"
 "targetname" "brek17"
@@ -4180,7 +3853,7 @@ brushDef
 }
 }
 }
-// entity 122
+// entity 106
 {
 "classname" "func_rotating"
 "spawnflags" "4"
@@ -4198,7 +3871,7 @@ brushDef
 }
 }
 }
-// entity 123
+// entity 107
 {
 "classname" "func_rotating"
 "spawnflags" "4"
@@ -4228,14 +3901,14 @@ brushDef
 }
 }
 }
-// entity 124
+// entity 108
 {
 "classname" "misc_follow"
 "origin" "560.000000 -2296.000000 744.000000"
 "target" "brek18"
 "killtarget" "rot26"
 }
-// entity 125
+// entity 109
 {
 "classname" "trigger_hurt"
 "targetname" "brek18"
@@ -4267,7 +3940,7 @@ brushDef
 }
 }
 }
-// entity 126
+// entity 110
 {
 "classname" "func_rotating"
 "spawnflags" "4"
@@ -4297,14 +3970,14 @@ brushDef
 }
 }
 }
-// entity 127
+// entity 111
 {
 "classname" "misc_follow"
 "origin" "560.000000 -2328.000000 744.000000"
 "target" "brek19"
 "killtarget" "rot27"
 }
-// entity 128
+// entity 112
 {
 "classname" "trigger_hurt"
 "targetname" "brek19"
@@ -4336,7 +4009,7 @@ brushDef
 }
 }
 }
-// entity 129
+// entity 113
 {
 "classname" "func_rotating"
 "spawnflags" "4"
@@ -4354,7 +4027,7 @@ brushDef
 }
 }
 }
-// entity 130
+// entity 114
 {
 "classname" "func_rotating"
 "spawnflags" "4"
@@ -4384,14 +4057,14 @@ brushDef
 }
 }
 }
-// entity 131
+// entity 115
 {
 "classname" "misc_follow"
 "origin" "560.000000 -2584.000000 840.000000"
 "target" "brek20"
 "killtarget" "rot29"
 }
-// entity 132
+// entity 116
 {
 "classname" "trigger_hurt"
 "targetname" "brek20"
@@ -4423,7 +4096,7 @@ brushDef
 }
 }
 }
-// entity 133
+// entity 117
 {
 "classname" "func_rotating"
 "spawnflags" "4"
@@ -4453,14 +4126,14 @@ brushDef
 }
 }
 }
-// entity 134
+// entity 118
 {
 "classname" "misc_follow"
 "origin" "560.000000 -2616.000000 840.000000"
 "target" "brek21"
 "killtarget" "rot30"
 }
-// entity 135
+// entity 119
 {
 "classname" "trigger_hurt"
 "targetname" "brek21"
@@ -4492,7 +4165,7 @@ brushDef
 }
 }
 }
-// entity 136
+// entity 120
 {
 "classname" "func_rotating"
 "spawnflags" "4"
@@ -4510,7 +4183,7 @@ brushDef
 }
 }
 }
-// entity 137
+// entity 121
 {
 "classname" "func_rotating"
 "spawnflags" "4"
@@ -4540,14 +4213,14 @@ brushDef
 }
 }
 }
-// entity 138
+// entity 122
 {
 "classname" "misc_follow"
 "origin" "560.000000 -2904.000000 712.000000"
 "target" "brek22"
 "killtarget" "rot32"
 }
-// entity 139
+// entity 123
 {
 "classname" "trigger_hurt"
 "targetname" "brek22"
@@ -4579,7 +4252,7 @@ brushDef
 }
 }
 }
-// entity 140
+// entity 124
 {
 "classname" "func_rotating"
 "spawnflags" "4"
@@ -4609,14 +4282,14 @@ brushDef
 }
 }
 }
-// entity 141
+// entity 125
 {
 "classname" "misc_follow"
 "origin" "560.000000 -2936.000000 712.000000"
 "target" "brek23"
 "killtarget" "rot33"
 }
-// entity 142
+// entity 126
 {
 "classname" "trigger_hurt"
 "targetname" "brek23"
@@ -4648,7 +4321,7 @@ brushDef
 }
 }
 }
-// entity 143
+// entity 127
 {
 "classname" "func_rotating"
 "spawnflags" "4"
@@ -4666,7 +4339,7 @@ brushDef
 }
 }
 }
-// entity 144
+// entity 128
 {
 "classname" "func_rotating"
 "spawnflags" "4"
@@ -4696,14 +4369,14 @@ brushDef
 }
 }
 }
-// entity 145
+// entity 129
 {
 "classname" "misc_follow"
 "origin" "560.000000 -3256.000000 680.000000"
 "target" "brek24"
 "killtarget" "rot35"
 }
-// entity 146
+// entity 130
 {
 "classname" "trigger_hurt"
 "targetname" "brek24"
@@ -4735,7 +4408,7 @@ brushDef
 }
 }
 }
-// entity 147
+// entity 131
 {
 "classname" "func_rotating"
 "spawnflags" "4"
@@ -4765,14 +4438,14 @@ brushDef
 }
 }
 }
-// entity 148
+// entity 132
 {
 "classname" "misc_follow"
 "origin" "560.000000 -3288.000000 680.000000"
 "target" "brek25"
 "killtarget" "rot36"
 }
-// entity 149
+// entity 133
 {
 "classname" "trigger_hurt"
 "targetname" "brek25"
@@ -4804,14 +4477,14 @@ brushDef
 }
 }
 }
-// entity 150
+// entity 134
 {
 "classname" "misc_follow"
 "origin" "560.000000 -472.000000 648.000000"
 "target" "brek26"
 "killtarget" "rot37"
 }
-// entity 151
+// entity 135
 {
 "classname" "trigger_hurt"
 "targetname" "brek26"
@@ -4843,7 +4516,7 @@ brushDef
 }
 }
 }
-// entity 152
+// entity 136
 {
 "classname" "func_bobbing"
 "spawnflags" "4"
@@ -4863,14 +4536,14 @@ brushDef
 }
 }
 }
-// entity 153
+// entity 137
 {
 "classname" "misc_follow"
 "origin" "560.000000 -600.000000 648.000000"
 "target" "brek27"
 "killtarget" "rot38"
 }
-// entity 154
+// entity 138
 {
 "classname" "trigger_hurt"
 "targetname" "brek27"
@@ -4902,7 +4575,7 @@ brushDef
 }
 }
 }
-// entity 155
+// entity 139
 {
 "classname" "func_bobbing"
 "spawnflags" "4"
@@ -4922,14 +4595,14 @@ brushDef
 }
 }
 }
-// entity 156
+// entity 140
 {
 "classname" "misc_follow"
 "origin" "560.000000 -920.000000 648.000000"
 "target" "brek28"
 "killtarget" "rot39"
 }
-// entity 157
+// entity 141
 {
 "classname" "trigger_hurt"
 "targetname" "brek28"
@@ -4961,7 +4634,7 @@ brushDef
 }
 }
 }
-// entity 158
+// entity 142
 {
 "classname" "func_bobbing"
 "spawnflags" "4"
@@ -4981,14 +4654,14 @@ brushDef
 }
 }
 }
-// entity 159
+// entity 143
 {
 "classname" "misc_follow"
 "origin" "560.000000 -3448.000000 584.000000"
 "target" "brek29"
 "killtarget" "rot40"
 }
-// entity 160
+// entity 144
 {
 "classname" "trigger_hurt"
 "targetname" "brek29"
@@ -5020,7 +4693,7 @@ brushDef
 }
 }
 }
-// entity 161
+// entity 145
 {
 "classname" "func_bobbing"
 "spawnflags" "4"
@@ -5040,14 +4713,14 @@ brushDef
 }
 }
 }
-// entity 162
+// entity 146
 {
 "classname" "misc_follow"
 "origin" "560.000000 -3576.000000 584.000000"
 "target" "brek30"
 "killtarget" "rot41"
 }
-// entity 163
+// entity 147
 {
 "classname" "trigger_hurt"
 "targetname" "brek30"
@@ -5079,7 +4752,7 @@ brushDef
 }
 }
 }
-// entity 164
+// entity 148
 {
 "classname" "func_bobbing"
 "spawnflags" "4"
@@ -5099,14 +4772,14 @@ brushDef
 }
 }
 }
-// entity 165
+// entity 149
 {
 "classname" "misc_follow"
 "origin" "560.000000 -4152.000000 584.000000"
 "target" "brek31"
 "killtarget" "rot42"
 }
-// entity 166
+// entity 150
 {
 "classname" "trigger_hurt"
 "targetname" "brek31"
@@ -5138,7 +4811,7 @@ brushDef
 }
 }
 }
-// entity 167
+// entity 151
 {
 "classname" "func_bobbing"
 "spawnflags" "4"
@@ -5158,7 +4831,7 @@ brushDef
 }
 }
 }
-// entity 168
+// entity 152
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -5186,7 +4859,7 @@ brushDef
 }
 }
 }
-// entity 169
+// entity 153
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -5214,7 +4887,7 @@ brushDef
 }
 }
 }
-// entity 170
+// entity 154
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -5242,7 +4915,7 @@ brushDef
 }
 }
 }
-// entity 171
+// entity 155
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -5270,7 +4943,7 @@ brushDef
 }
 }
 }
-// entity 172
+// entity 156
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -5298,7 +4971,7 @@ brushDef
 }
 }
 }
-// entity 173
+// entity 157
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -5326,7 +4999,7 @@ brushDef
 }
 }
 }
-// entity 174
+// entity 158
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -5354,7 +5027,7 @@ brushDef
 }
 }
 }
-// entity 175
+// entity 159
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -5382,7 +5055,7 @@ brushDef
 }
 }
 }
-// entity 176
+// entity 160
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -5410,7 +5083,7 @@ brushDef
 }
 }
 }
-// entity 177
+// entity 161
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -5438,7 +5111,7 @@ brushDef
 }
 }
 }
-// entity 178
+// entity 162
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -5466,7 +5139,7 @@ brushDef
 }
 }
 }
-// entity 179
+// entity 163
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -5494,7 +5167,7 @@ brushDef
 }
 }
 }
-// entity 180
+// entity 164
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -5522,7 +5195,7 @@ brushDef
 }
 }
 }
-// entity 181
+// entity 165
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -5550,7 +5223,7 @@ brushDef
 }
 }
 }
-// entity 182
+// entity 166
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -5578,7 +5251,7 @@ brushDef
 }
 }
 }
-// entity 183
+// entity 167
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -5606,7 +5279,7 @@ brushDef
 }
 }
 }
-// entity 184
+// entity 168
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -5634,7 +5307,7 @@ brushDef
 }
 }
 }
-// entity 185
+// entity 169
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -5662,7 +5335,7 @@ brushDef
 }
 }
 }
-// entity 186
+// entity 170
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -5690,7 +5363,7 @@ brushDef
 }
 }
 }
-// entity 187
+// entity 171
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -5718,7 +5391,7 @@ brushDef
 }
 }
 }
-// entity 188
+// entity 172
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -5746,7 +5419,7 @@ brushDef
 }
 }
 }
-// entity 189
+// entity 173
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -5774,7 +5447,7 @@ brushDef
 }
 }
 }
-// entity 190
+// entity 174
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -5802,7 +5475,7 @@ brushDef
 }
 }
 }
-// entity 191
+// entity 175
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -5830,7 +5503,7 @@ brushDef
 }
 }
 }
-// entity 192
+// entity 176
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -5858,7 +5531,7 @@ brushDef
 }
 }
 }
-// entity 193
+// entity 177
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -5886,7 +5559,7 @@ brushDef
 }
 }
 }
-// entity 194
+// entity 178
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -5914,7 +5587,7 @@ brushDef
 }
 }
 }
-// entity 195
+// entity 179
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -5942,7 +5615,7 @@ brushDef
 }
 }
 }
-// entity 196
+// entity 180
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -5970,7 +5643,7 @@ brushDef
 }
 }
 }
-// entity 197
+// entity 181
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -5998,7 +5671,7 @@ brushDef
 }
 }
 }
-// entity 198
+// entity 182
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -6018,7 +5691,7 @@ brushDef
 }
 }
 }
-// entity 199
+// entity 183
 {
 "classname" "func_door"
 "angle" "-1"
@@ -6039,7 +5712,7 @@ brushDef
 }
 }
 }
-// entity 200
+// entity 184
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -752.000000 952.000000"
@@ -6047,7 +5720,7 @@ brushDef
 "targetname" "block_3"
 "wait" "0.3"
 }
-// entity 201
+// entity 185
 {
 "classname" "target_spawn"
 "count" "1"
@@ -6056,7 +5729,7 @@ brushDef
 "targetname" "coin_13"
 "message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/small_mushroom.md3 noalign -1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon"
 }
-// entity 202
+// entity 186
 {
 "classname" "path_corner"
 "origin" "520.000000 -2880.000000 1008.000000"
@@ -6066,7 +5739,7 @@ brushDef
 "targetname" "p1_1"
 "target" "p1_2"
 }
-// entity 203
+// entity 187
 {
 "classname" "path_corner"
 "origin" "872.000000 -2880.000000 1008.000000"
@@ -6076,7 +5749,7 @@ brushDef
 "targetname" "p1_0"
 "target" "p1_1"
 }
-// entity 204
+// entity 188
 {
 "classname" "path_corner"
 "origin" "520.000000 -2880.000000 664.000000"
@@ -6086,7 +5759,7 @@ brushDef
 "targetname" "p1_2"
 "target" "p1_3"
 }
-// entity 205
+// entity 189
 {
 "classname" "path_corner"
 "origin" "520.000000 -2880.000000 312.000000"
@@ -6096,7 +5769,7 @@ brushDef
 "targetname" "p1_3"
 "target" "p1_4"
 }
-// entity 206
+// entity 190
 {
 "classname" "path_corner"
 "origin" "872.000000 -2880.000000 312.000000"
@@ -6106,7 +5779,7 @@ brushDef
 "targetname" "p1_4"
 "target" "p1_0"
 }
-// entity 207
+// entity 191
 {
 "classname" "path_corner"
 "origin" "872.000000 -2880.000000 664.000000"
@@ -6116,7 +5789,7 @@ brushDef
 "targetname" "p1_22"
 "target" "p1_19"
 }
-// entity 208
+// entity 192
 {
 "classname" "func_train"
 "speed" "100"
@@ -6198,7 +5871,7 @@ brushDef
 }
 }
 }
-// entity 209
+// entity 193
 {
 "classname" "func_train"
 "speed" "100"
@@ -6280,7 +5953,7 @@ brushDef
 }
 }
 }
-// entity 210
+// entity 194
 {
 "classname" "func_train"
 "speed" "100"
@@ -6362,7 +6035,7 @@ brushDef
 }
 }
 }
-// entity 211
+// entity 195
 {
 "classname" "func_train"
 "speed" "100"
@@ -6443,7 +6116,7 @@ brushDef
 }
 }
 }
-// entity 212
+// entity 196
 {
 "classname" "path_corner"
 "origin" "520.000000 -2784.000000 1008.000000"
@@ -6453,7 +6126,7 @@ brushDef
 "targetname" "p1_13"
 "target" "p1_17"
 }
-// entity 213
+// entity 197
 {
 "classname" "path_corner"
 "origin" "872.000000 -2784.000000 1008.000000"
@@ -6463,7 +6136,7 @@ brushDef
 "targetname" "p1_12"
 "target" "p1_13"
 }
-// entity 214
+// entity 198
 {
 "classname" "path_corner"
 "origin" "520.000000 -2784.000000 664.000000"
@@ -6473,7 +6146,7 @@ brushDef
 "targetname" "p1_17"
 "target" "p1_20"
 }
-// entity 215
+// entity 199
 {
 "classname" "path_corner"
 "origin" "520.000000 -2784.000000 312.000000"
@@ -6483,7 +6156,7 @@ brushDef
 "targetname" "p1_20"
 "target" "p1_21"
 }
-// entity 216
+// entity 200
 {
 "classname" "path_corner"
 "origin" "872.000000 -2784.000000 312.000000"
@@ -6493,7 +6166,7 @@ brushDef
 "targetname" "p1_21"
 "target" "p1_12"
 }
-// entity 217
+// entity 201
 {
 "classname" "path_corner"
 "origin" "872.000000 -2784.000000 664.000000"
@@ -6503,7 +6176,7 @@ brushDef
 "targetname" "p1_18"
 "target" "p1_16"
 }
-// entity 218
+// entity 202
 {
 "classname" "func_train"
 "speed" "100"
@@ -6584,7 +6257,7 @@ brushDef
 }
 }
 }
-// entity 219
+// entity 203
 {
 "classname" "func_train"
 "speed" "100"
@@ -6665,7 +6338,7 @@ brushDef
 }
 }
 }
-// entity 220
+// entity 204
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -6681,7 +6354,7 @@ brushDef
 }
 }
 }
-// entity 221
+// entity 205
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -6697,7 +6370,7 @@ brushDef
 }
 }
 }
-// entity 222
+// entity 206
 {
 "classname" "func_bobbing"
 "spawnflags" "2"
@@ -6773,6 +6446,369 @@ brushDef
 ( 536 -4368 784 ) ( 536 -4368 816 ) ( 536 -4464 784 ) ( ( 0.03125 0 169.1666870117 ) ( 0 0.0625 76 ) ) sxb_v1_platforms/orange_platform 0 0 0
 ( 520 -4384 784 ) ( 616 -4384 784 ) ( 520 -4384 816 ) ( ( 0.03125 0 189.9166717529 ) ( 0 0.0625 76 ) ) sxb_v1_platforms/orange_platform 0 0 0
 ( 616 -4368 786 ) ( 520 -4464 786 ) ( 520 -4368 786 ) ( ( 0.010416667 0 46.5000228882 ) ( 0 0.010416667 250.5833587646 ) ) sxb_v1_platforms/orange_platform_bottom 0 0 0
+}
+}
+}
+// entity 207
+{
+"classname" "func_rotating"
+"spawnflags" "4"
+"targetname" "rot43"
+// brush 0
+{
+brushDef
+{
+( 608 -768 760 ) ( 512 -768 760 ) ( 608 -736 760 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239 ) ) common/origin 134217728 0 0
+( 568 -768 768 ) ( 568 -736 768 ) ( 568 -768 736 ) ( ( 0.03125 0 24 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
+( 608 -760 768 ) ( 608 -760 736 ) ( 512 -760 768 ) ( ( 0.03125 0 239 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
+( 512 -736 744 ) ( 512 -768 744 ) ( 608 -736 744 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 24 ) ) common/origin 134217728 0 0
+( 552 -736 736 ) ( 552 -736 768 ) ( 552 -768 736 ) ( ( 0.03125 0 233 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
+( 512 -744 736 ) ( 608 -744 736 ) ( 512 -744 768 ) ( ( 0.03125 0 18 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
+}
+}
+}
+// entity 208
+{
+"classname" "func_rotating"
+"spawnflags" "4"
+"targetname" "rot44"
+// brush 0
+{
+brushDef
+{
+( 608 -768 760 ) ( 512 -768 760 ) ( 608 -736 760 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239 ) ) common/origin 134217728 0 0
+( 568 -768 768 ) ( 568 -736 768 ) ( 568 -768 736 ) ( ( 0.03125 0 24 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
+( 608 -760 768 ) ( 608 -760 736 ) ( 512 -760 768 ) ( ( 0.03125 0 239 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
+( 512 -736 744 ) ( 512 -768 744 ) ( 608 -736 744 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 24 ) ) common/origin 134217728 0 0
+( 552 -736 736 ) ( 552 -736 768 ) ( 552 -768 736 ) ( ( 0.03125 0 233 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
+( 512 -744 736 ) ( 608 -744 736 ) ( 512 -744 768 ) ( ( 0.03125 0 18 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
+}
+}
+// brush 1
+{
+brushDef
+{
+( 606 -768 832 ) ( 510 -768 832 ) ( 606 -736 832 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239.0625 ) ) common/nodrawnonsolid 134217728 0 0
+( 564 -770 832 ) ( 564 -738 832 ) ( 564 -770 800 ) ( ( 0.03125 0 24.0625 ) ( 0 0.03125 26 ) ) common/nodrawnonsolid 134217728 0 0
+( 606 -768 832 ) ( 606 -768 800 ) ( 510 -768 832 ) ( ( 0.03125 0 239.0625 ) ( 0 0.03125 26 ) ) common/nodrawnonsolid 134217728 0 0
+( 510 -736 800 ) ( 510 -768 800 ) ( 606 -736 800 ) ( ( 0 -0.03125 239.0625 ) ( 0.03125 0 24 ) ) common/nodrawnonsolid 134217728 0 0
+( 560 -736 800 ) ( 560 -736 832 ) ( 560 -768 800 ) ( ( 0.0312500261 0 59.0000038147 ) ( 0 0.0312499516 25.9999599457 ) ) sxb_v1_misc/fire 134217728 0 0
+( 510 -736 800 ) ( 606 -736 800 ) ( 510 -736 832 ) ( ( 0.03125 0 17.9375 ) ( 0 0.03125 26 ) ) common/nodrawnonsolid 134217728 0 0
+}
+}
+}
+// entity 209
+{
+"classname" "misc_follow"
+"origin" "560.000000 -696.000000 808.000000"
+"target" "brek32"
+"killtarget" "rot44"
+}
+// entity 210
+{
+"classname" "trigger_hurt"
+"targetname" "brek32"
+"dmg" "50"
+"message" "ran into a fire wall"
+"message2" "was pushed into the fire balls by"
+// brush 0
+{
+brushDef
+{
+( 608 -768 824 ) ( 512 -768 824 ) ( 608 -736 824 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239 ) ) common/origin 134217728 0 0
+( 568 -768 832 ) ( 568 -736 832 ) ( 568 -768 800 ) ( ( 0.03125 0 24 ) ( 0 0.03125 26 ) ) common/origin 134217728 0 0
+( 608 -760 832 ) ( 608 -760 800 ) ( 512 -760 832 ) ( ( 0.03125 0 239 ) ( 0 0.03125 26 ) ) common/origin 134217728 0 0
+( 512 -736 808 ) ( 512 -768 808 ) ( 608 -736 808 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 24 ) ) common/origin 134217728 0 0
+( 552 -736 800 ) ( 552 -736 832 ) ( 552 -768 800 ) ( ( 0.03125 0 233 ) ( 0 0.03125 26 ) ) common/origin 134217728 0 0
+( 512 -744 800 ) ( 608 -744 800 ) ( 512 -744 832 ) ( ( 0.03125 0 18 ) ( 0 0.03125 26 ) ) common/origin 134217728 0 0
+}
+}
+// brush 1
+{
+brushDef
+{
+( 608 -768 824 ) ( 512 -768 824 ) ( 608 -736 824 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239 ) ) common/trigger 134217728 0 0
+( 576 -768 832 ) ( 576 -736 832 ) ( 576 -768 800 ) ( ( 0.03125 0 24 ) ( 0 0.03125 26 ) ) common/trigger 134217728 0 0
+( 608 -760 832 ) ( 608 -760 800 ) ( 512 -760 832 ) ( ( 0.03125 0 239 ) ( 0 0.03125 26 ) ) common/trigger 134217728 0 0
+( 512 -736 808 ) ( 512 -768 808 ) ( 608 -736 808 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 24 ) ) common/trigger 134217728 0 0
+( 544 -736 800 ) ( 544 -736 832 ) ( 544 -768 800 ) ( ( 0.03125 0 233 ) ( 0 0.03125 26 ) ) common/trigger 134217728 0 0
+( 512 -744 800 ) ( 608 -744 800 ) ( 512 -744 832 ) ( ( 0.03125 0 18 ) ( 0 0.03125 26 ) ) common/trigger 134217728 0 0
+}
+}
+}
+// entity 211
+{
+"classname" "func_rotating"
+"spawnflags" "4"
+"targetname" "rot45"
+// brush 0
+{
+brushDef
+{
+( 608 -768 760 ) ( 512 -768 760 ) ( 608 -736 760 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239 ) ) common/origin 134217728 0 0
+( 568 -768 768 ) ( 568 -736 768 ) ( 568 -768 736 ) ( ( 0.03125 0 24 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
+( 608 -760 768 ) ( 608 -760 736 ) ( 512 -760 768 ) ( ( 0.03125 0 239 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
+( 512 -736 744 ) ( 512 -768 744 ) ( 608 -736 744 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 24 ) ) common/origin 134217728 0 0
+( 552 -736 736 ) ( 552 -736 768 ) ( 552 -768 736 ) ( ( 0.03125 0 233 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
+( 512 -744 736 ) ( 608 -744 736 ) ( 512 -744 768 ) ( ( 0.03125 0 18 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
+}
+}
+// brush 1
+{
+brushDef
+{
+( 606 -768 800 ) ( 510 -768 800 ) ( 606 -736 800 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239.0625 ) ) common/nodrawnonsolid 134217728 0 0
+( 564 -770 800 ) ( 564 -738 800 ) ( 564 -770 768 ) ( ( 0.03125 0 24.0625 ) ( 0 0.03125 25 ) ) common/nodrawnonsolid 134217728 0 0
+( 606 -768 800 ) ( 606 -768 768 ) ( 510 -768 800 ) ( ( 0.03125 0 239.0625 ) ( 0 0.03125 25 ) ) common/nodrawnonsolid 134217728 0 0
+( 510 -736 768 ) ( 510 -768 768 ) ( 606 -736 768 ) ( ( 0 -0.03125 239.0625 ) ( 0.03125 0 24 ) ) common/nodrawnonsolid 134217728 0 0
+( 560 -736 768 ) ( 560 -736 800 ) ( 560 -768 768 ) ( ( 0.0312500261 0 59.0000038147 ) ( 0 0.0312499516 24.9999599457 ) ) sxb_v1_misc/fire 134217728 0 0
+( 510 -736 768 ) ( 606 -736 768 ) ( 510 -736 800 ) ( ( 0.03125 0 17.9375 ) ( 0 0.03125 25 ) ) common/nodrawnonsolid 134217728 0 0
+}
+}
+}
+// entity 212
+{
+"classname" "misc_follow"
+"origin" "560.000000 -696.000000 776.000000"
+"target" "brek33"
+"killtarget" "rot45"
+}
+// entity 213
+{
+"classname" "trigger_hurt"
+"targetname" "brek33"
+"dmg" "50"
+"message" "ran into a fire wall"
+"message2" "was pushed into the fire balls by"
+// brush 0
+{
+brushDef
+{
+( 608 -768 792 ) ( 512 -768 792 ) ( 608 -736 792 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239 ) ) common/origin 134217728 0 0
+( 568 -768 800 ) ( 568 -736 800 ) ( 568 -768 768 ) ( ( 0.03125 0 24 ) ( 0 0.03125 25 ) ) common/origin 134217728 0 0
+( 608 -760 800 ) ( 608 -760 768 ) ( 512 -760 800 ) ( ( 0.03125 0 239 ) ( 0 0.03125 25 ) ) common/origin 134217728 0 0
+( 512 -736 776 ) ( 512 -768 776 ) ( 608 -736 776 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 24 ) ) common/origin 134217728 0 0
+( 552 -736 768 ) ( 552 -736 800 ) ( 552 -768 768 ) ( ( 0.03125 0 233 ) ( 0 0.03125 25 ) ) common/origin 134217728 0 0
+( 512 -744 768 ) ( 608 -744 768 ) ( 512 -744 800 ) ( ( 0.03125 0 18 ) ( 0 0.03125 25 ) ) common/origin 134217728 0 0
+}
+}
+// brush 1
+{
+brushDef
+{
+( 608 -768 792 ) ( 512 -768 792 ) ( 608 -736 792 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239 ) ) common/trigger 134217728 0 0
+( 576 -768 800 ) ( 576 -736 800 ) ( 576 -768 768 ) ( ( 0.03125 0 24 ) ( 0 0.03125 25 ) ) common/trigger 134217728 0 0
+( 608 -760 800 ) ( 608 -760 768 ) ( 512 -760 800 ) ( ( 0.03125 0 239 ) ( 0 0.03125 25 ) ) common/trigger 134217728 0 0
+( 512 -736 776 ) ( 512 -768 776 ) ( 608 -736 776 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 24 ) ) common/trigger 134217728 0 0
+( 544 -736 768 ) ( 544 -736 800 ) ( 544 -768 768 ) ( ( 0.03125 0 233 ) ( 0 0.03125 25 ) ) common/trigger 134217728 0 0
+( 512 -744 768 ) ( 608 -744 768 ) ( 512 -744 800 ) ( ( 0.03125 0 18 ) ( 0 0.03125 25 ) ) common/trigger 134217728 0 0
+}
+}
+}
+// entity 214
+{
+"classname" "func_rotating"
+"spawnflags" "4"
+"targetname" "rot46"
+// brush 0
+{
+brushDef
+{
+( 608 -768 760 ) ( 512 -768 760 ) ( 608 -736 760 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239 ) ) common/origin 134217728 0 0
+( 568 -768 768 ) ( 568 -736 768 ) ( 568 -768 736 ) ( ( 0.03125 0 24 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
+( 608 -760 768 ) ( 608 -760 736 ) ( 512 -760 768 ) ( ( 0.03125 0 239 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
+( 512 -736 744 ) ( 512 -768 744 ) ( 608 -736 744 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 24 ) ) common/origin 134217728 0 0
+( 552 -736 736 ) ( 552 -736 768 ) ( 552 -768 736 ) ( ( 0.03125 0 233 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
+( 512 -744 736 ) ( 608 -744 736 ) ( 512 -744 768 ) ( ( 0.03125 0 18 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
+}
+}
+// brush 1
+{
+brushDef
+{
+( 606 -768 864 ) ( 510 -768 864 ) ( 606 -736 864 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239.0625 ) ) common/nodrawnonsolid 134217728 0 0
+( 564 -770 864 ) ( 564 -738 864 ) ( 564 -770 832 ) ( ( 0.03125 0 24.0625 ) ( 0 0.03125 27 ) ) common/nodrawnonsolid 134217728 0 0
+( 606 -768 864 ) ( 606 -768 832 ) ( 510 -768 864 ) ( ( 0.03125 0 239.0625 ) ( 0 0.03125 27 ) ) common/nodrawnonsolid 134217728 0 0
+( 510 -736 832 ) ( 510 -768 832 ) ( 606 -736 832 ) ( ( 0 -0.03125 239.0625 ) ( 0.03125 0 24 ) ) common/nodrawnonsolid 134217728 0 0
+( 560 -736 832 ) ( 560 -736 864 ) ( 560 -768 832 ) ( ( 0.0312500261 0 59.0000038147 ) ( 0 0.0312499516 26.9999580383 ) ) sxb_v1_misc/fire 134217728 0 0
+( 510 -736 832 ) ( 606 -736 832 ) ( 510 -736 864 ) ( ( 0.03125 0 17.9375 ) ( 0 0.03125 27 ) ) common/nodrawnonsolid 134217728 0 0
+}
+}
+}
+// entity 215
+{
+"classname" "misc_follow"
+"origin" "560.000000 -696.000000 840.000000"
+"target" "brek34"
+"killtarget" "rot46"
+}
+// entity 216
+{
+"classname" "trigger_hurt"
+"targetname" "brek34"
+"dmg" "50"
+"message" "ran into a fire wall"
+"message2" "was pushed into the fire balls by"
+// brush 0
+{
+brushDef
+{
+( 608 -768 856 ) ( 512 -768 856 ) ( 608 -736 856 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239 ) ) common/origin 134217728 0 0
+( 568 -768 864 ) ( 568 -736 864 ) ( 568 -768 832 ) ( ( 0.03125 0 24 ) ( 0 0.03125 27 ) ) common/origin 134217728 0 0
+( 608 -760 864 ) ( 608 -760 832 ) ( 512 -760 864 ) ( ( 0.03125 0 239 ) ( 0 0.03125 27 ) ) common/origin 134217728 0 0
+( 512 -736 840 ) ( 512 -768 840 ) ( 608 -736 840 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 24 ) ) common/origin 134217728 0 0
+( 552 -736 832 ) ( 552 -736 864 ) ( 552 -768 832 ) ( ( 0.03125 0 233 ) ( 0 0.03125 27 ) ) common/origin 134217728 0 0
+( 512 -744 832 ) ( 608 -744 832 ) ( 512 -744 864 ) ( ( 0.03125 0 18 ) ( 0 0.03125 27 ) ) common/origin 134217728 0 0
+}
+}
+// brush 1
+{
+brushDef
+{
+( 608 -768 856 ) ( 512 -768 856 ) ( 608 -736 856 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239 ) ) common/trigger 134217728 0 0
+( 576 -768 864 ) ( 576 -736 864 ) ( 576 -768 832 ) ( ( 0.03125 0 24 ) ( 0 0.03125 27 ) ) common/trigger 134217728 0 0
+( 608 -760 864 ) ( 608 -760 832 ) ( 512 -760 864 ) ( ( 0.03125 0 239 ) ( 0 0.03125 27 ) ) common/trigger 134217728 0 0
+( 512 -736 840 ) ( 512 -768 840 ) ( 608 -736 840 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 24 ) ) common/trigger 134217728 0 0
+( 544 -736 832 ) ( 544 -736 864 ) ( 544 -768 832 ) ( ( 0.03125 0 233 ) ( 0 0.03125 27 ) ) common/trigger 134217728 0 0
+( 512 -744 832 ) ( 608 -744 832 ) ( 512 -744 864 ) ( ( 0.03125 0 18 ) ( 0 0.03125 27 ) ) common/trigger 134217728 0 0
+}
+}
+}
+// entity 217
+{
+"classname" "func_rotating"
+"spawnflags" "4"
+"targetname" "rot47"
+// brush 0
+{
+brushDef
+{
+( 608 -768 760 ) ( 512 -768 760 ) ( 608 -736 760 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239 ) ) common/origin 134217728 0 0
+( 568 -768 768 ) ( 568 -736 768 ) ( 568 -768 736 ) ( ( 0.03125 0 24 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
+( 608 -760 768 ) ( 608 -760 736 ) ( 512 -760 768 ) ( ( 0.03125 0 239 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
+( 512 -736 744 ) ( 512 -768 744 ) ( 608 -736 744 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 24 ) ) common/origin 134217728 0 0
+( 552 -736 736 ) ( 552 -736 768 ) ( 552 -768 736 ) ( ( 0.03125 0 233 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
+( 512 -744 736 ) ( 608 -744 736 ) ( 512 -744 768 ) ( ( 0.03125 0 18 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
+}
+}
+// brush 1
+{
+brushDef
+{
+( 606 -768 896 ) ( 510 -768 896 ) ( 606 -736 896 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239.0625 ) ) common/nodrawnonsolid 134217728 0 0
+( 564 -770 896 ) ( 564 -738 896 ) ( 564 -770 864 ) ( ( 0.03125 0 24.0625 ) ( 0 0.03125 28 ) ) common/nodrawnonsolid 134217728 0 0
+( 606 -768 896 ) ( 606 -768 864 ) ( 510 -768 896 ) ( ( 0.03125 0 239.0625 ) ( 0 0.03125 28 ) ) common/nodrawnonsolid 134217728 0 0
+( 510 -736 864 ) ( 510 -768 864 ) ( 606 -736 864 ) ( ( 0 -0.03125 239.0625 ) ( 0.03125 0 24 ) ) common/nodrawnonsolid 134217728 0 0
+( 560 -736 864 ) ( 560 -736 896 ) ( 560 -768 864 ) ( ( 0.0312500261 0 59.0000038147 ) ( 0 0.0312499516 27.999956131 ) ) sxb_v1_misc/fire 134217728 0 0
+( 510 -736 864 ) ( 606 -736 864 ) ( 510 -736 896 ) ( ( 0.03125 0 17.9375 ) ( 0 0.03125 28 ) ) common/nodrawnonsolid 134217728 0 0
+}
+}
+}
+// entity 218
+{
+"classname" "misc_follow"
+"origin" "560.000000 -696.000000 872.000000"
+"target" "brek35"
+"killtarget" "rot47"
+}
+// entity 219
+{
+"classname" "trigger_hurt"
+"targetname" "brek35"
+"dmg" "50"
+"message" "ran into a fire wall"
+"message2" "was pushed into the fire balls by"
+// brush 0
+{
+brushDef
+{
+( 608 -768 888 ) ( 512 -768 888 ) ( 608 -736 888 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239 ) ) common/origin 134217728 0 0
+( 568 -768 896 ) ( 568 -736 896 ) ( 568 -768 864 ) ( ( 0.03125 0 24 ) ( 0 0.03125 28 ) ) common/origin 134217728 0 0
+( 608 -760 896 ) ( 608 -760 864 ) ( 512 -760 896 ) ( ( 0.03125 0 239 ) ( 0 0.03125 28 ) ) common/origin 134217728 0 0
+( 512 -736 872 ) ( 512 -768 872 ) ( 608 -736 872 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 24 ) ) common/origin 134217728 0 0
+( 552 -736 864 ) ( 552 -736 896 ) ( 552 -768 864 ) ( ( 0.03125 0 233 ) ( 0 0.03125 28 ) ) common/origin 134217728 0 0
+( 512 -744 864 ) ( 608 -744 864 ) ( 512 -744 896 ) ( ( 0.03125 0 18 ) ( 0 0.03125 28 ) ) common/origin 134217728 0 0
+}
+}
+// brush 1
+{
+brushDef
+{
+( 608 -768 888 ) ( 512 -768 888 ) ( 608 -736 888 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239 ) ) common/trigger 134217728 0 0
+( 576 -768 896 ) ( 576 -736 896 ) ( 576 -768 864 ) ( ( 0.03125 0 24 ) ( 0 0.03125 28 ) ) common/trigger 134217728 0 0
+( 608 -760 896 ) ( 608 -760 864 ) ( 512 -760 896 ) ( ( 0.03125 0 239 ) ( 0 0.03125 28 ) ) common/trigger 134217728 0 0
+( 512 -736 872 ) ( 512 -768 872 ) ( 608 -736 872 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 24 ) ) common/trigger 134217728 0 0
+( 544 -736 864 ) ( 544 -736 896 ) ( 544 -768 864 ) ( ( 0.03125 0 233 ) ( 0 0.03125 28 ) ) common/trigger 134217728 0 0
+( 512 -744 864 ) ( 608 -744 864 ) ( 512 -744 896 ) ( ( 0.03125 0 18 ) ( 0 0.03125 28 ) ) common/trigger 134217728 0 0
+}
+}
+}
+// entity 220
+{
+"classname" "func_rotating"
+"spawnflags" "4"
+"targetname" "rot48"
+// brush 0
+{
+brushDef
+{
+( 608 -768 760 ) ( 512 -768 760 ) ( 608 -736 760 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239 ) ) common/origin 134217728 0 0
+( 568 -768 768 ) ( 568 -736 768 ) ( 568 -768 736 ) ( ( 0.03125 0 24 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
+( 608 -760 768 ) ( 608 -760 736 ) ( 512 -760 768 ) ( ( 0.03125 0 239 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
+( 512 -736 744 ) ( 512 -768 744 ) ( 608 -736 744 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 24 ) ) common/origin 134217728 0 0
+( 552 -736 736 ) ( 552 -736 768 ) ( 552 -768 736 ) ( ( 0.03125 0 233 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
+( 512 -744 736 ) ( 608 -744 736 ) ( 512 -744 768 ) ( ( 0.03125 0 18 ) ( 0 0.03125 24 ) ) common/origin 134217728 0 0
+}
+}
+// brush 1
+{
+brushDef
+{
+( 606 -768 928 ) ( 510 -768 928 ) ( 606 -736 928 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239.0625 ) ) common/nodrawnonsolid 134217728 0 0
+( 564 -770 928 ) ( 564 -738 928 ) ( 564 -770 896 ) ( ( 0.03125 0 24.0625 ) ( 0 0.03125 29 ) ) common/nodrawnonsolid 134217728 0 0
+( 606 -768 928 ) ( 606 -768 896 ) ( 510 -768 928 ) ( ( 0.03125 0 239.0625 ) ( 0 0.03125 29 ) ) common/nodrawnonsolid 134217728 0 0
+( 510 -736 896 ) ( 510 -768 896 ) ( 606 -736 896 ) ( ( 0 -0.03125 239.0625 ) ( 0.03125 0 24 ) ) common/nodrawnonsolid 134217728 0 0
+( 560 -736 896 ) ( 560 -736 928 ) ( 560 -768 896 ) ( ( 0.0312500261 0 59.0000038147 ) ( 0 0.0312499516 28.9999542236 ) ) sxb_v1_misc/fire 134217728 0 0
+( 510 -736 896 ) ( 606 -736 896 ) ( 510 -736 928 ) ( ( 0.03125 0 17.9375 ) ( 0 0.03125 29 ) ) common/nodrawnonsolid 134217728 0 0
+}
+}
+}
+// entity 221
+{
+"classname" "misc_follow"
+"origin" "560.000000 -696.000000 904.000000"
+"target" "brek36"
+"killtarget" "rot48"
+}
+// entity 222
+{
+"classname" "trigger_hurt"
+"targetname" "brek36"
+"dmg" "50"
+"message" "ran into a fire wall"
+"message2" "was pushed into the fire balls by"
+// brush 0
+{
+brushDef
+{
+( 608 -768 920 ) ( 512 -768 920 ) ( 608 -736 920 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239 ) ) common/origin 134217728 0 0
+( 568 -768 928 ) ( 568 -736 928 ) ( 568 -768 896 ) ( ( 0.03125 0 24 ) ( 0 0.03125 29 ) ) common/origin 134217728 0 0
+( 608 -760 928 ) ( 608 -760 896 ) ( 512 -760 928 ) ( ( 0.03125 0 239 ) ( 0 0.03125 29 ) ) common/origin 134217728 0 0
+( 512 -736 904 ) ( 512 -768 904 ) ( 608 -736 904 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 24 ) ) common/origin 134217728 0 0
+( 552 -736 896 ) ( 552 -736 928 ) ( 552 -768 896 ) ( ( 0.03125 0 233 ) ( 0 0.03125 29 ) ) common/origin 134217728 0 0
+( 512 -744 896 ) ( 608 -744 896 ) ( 512 -744 928 ) ( ( 0.03125 0 18 ) ( 0 0.03125 29 ) ) common/origin 134217728 0 0
+}
+}
+// brush 1
+{
+brushDef
+{
+( 608 -768 920 ) ( 512 -768 920 ) ( 608 -736 920 ) ( ( 0.03125 0 24 ) ( 0 0.03125 239 ) ) common/trigger 134217728 0 0
+( 576 -768 928 ) ( 576 -736 928 ) ( 576 -768 896 ) ( ( 0.03125 0 24 ) ( 0 0.03125 29 ) ) common/trigger 134217728 0 0
+( 608 -760 928 ) ( 608 -760 896 ) ( 512 -760 928 ) ( ( 0.03125 0 239 ) ( 0 0.03125 29 ) ) common/trigger 134217728 0 0
+( 512 -736 904 ) ( 512 -768 904 ) ( 608 -736 904 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 24 ) ) common/trigger 134217728 0 0
+( 544 -736 896 ) ( 544 -736 928 ) ( 544 -768 896 ) ( ( 0.03125 0 233 ) ( 0 0.03125 29 ) ) common/trigger 134217728 0 0
+( 512 -744 896 ) ( 608 -744 896 ) ( 512 -744 928 ) ( ( 0.03125 0 18 ) ( 0 0.03125 29 ) ) common/trigger 134217728 0 0
 }
 }
 }

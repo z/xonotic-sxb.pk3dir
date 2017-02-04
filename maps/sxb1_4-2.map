@@ -66,11 +66,11 @@ brushDef
 {
 brushDef
 {
-( 3296 4544 -4448 ) ( 3200 4544 -4448 ) ( 3296 4608 -4448 ) ( ( 0 0.015625 206 ) ( -0.015625 0 123 ) ) common/caulk 0 0 0
+( 3296 4544 -4448 ) ( 3200 4544 -4448 ) ( 3296 4608 -4448 ) ( ( 0.03125 0 25 ) ( 0 0.03125 3 ) ) sxb_v1_floors/brick_underground_ground 0 0 0
 ( 3328 4544 -4448 ) ( 3328 4608 -4448 ) ( 3328 4544 -4512 ) ( ( 0.03125 0 25 ) ( 0 0.03125 132 ) ) sxb_v1_floors/brick_underground_ground 0 0 0
 ( 3296 4544 -4928 ) ( 3296 4544 -4992 ) ( 3200 4544 -4928 ) ( ( 0.03125 0 155 ) ( 0 0.03125 117 ) ) sxb_v1_floors/brick_underground_ground 0 0 0
 ( 3200 4608 -4992 ) ( 3200 4544 -4992 ) ( 3296 4608 -4992 ) ( ( 0.03125 0 25 ) ( 0 0.03125 3 ) ) sxb_v1_floors/brick_underground_ground 0 0 0
-( 3168 4608 -4512 ) ( 3168 4608 -4448 ) ( 3168 4544 -4512 ) ( ( 0.03125 0 29 ) ( 0 0.03125 132 ) ) sxb_v1_floors/brick_underground_ground 0 0 0
+( 3168 4608 -4512 ) ( 3168 4608 -4448 ) ( 3168 4544 -4512 ) ( ( 0.03125 0 25 ) ( 0 0.03125 3 ) ) sxb_v1_floors/brick_underground_ground 0 0 0
 ( 3200 4608 -4512 ) ( 3296 4608 -4512 ) ( 3200 4608 -4448 ) ( ( 0.03125 0 155 ) ( 0 0.03125 132 ) ) sxb_v1_floors/brick_underground_ground 0 0 0
 }
 }
@@ -535,10 +535,10 @@ brushDef
 brushDef
 {
 ( 3296 1152 -4096 ) ( 3200 1152 -4096 ) ( 3296 2048 -4096 ) ( ( 0.03125 0 25 ) ( 0 0.03125 3 ) ) sxb_v1_bricks/underground_bricks 134217728 0 0
-( 3296 1152 -4096 ) ( 3296 2048 -4096 ) ( 3296 1152 -4128 ) ( ( 0.03125 0 25 ) ( 0 0.03125 388 ) ) sxb_v1_bricks/underground_bricks 134217728 0 0
+( 3328 1152 -4096 ) ( 3328 2048 -4096 ) ( 3328 1152 -4128 ) ( ( 0.03125 0 25 ) ( 0 0.03125 388 ) ) sxb_v1_bricks/underground_bricks 134217728 0 0
 ( 3296 1472 -4096 ) ( 3296 1472 -4128 ) ( 3200 1472 -4096 ) ( ( 0.03125 0 155 ) ( 0 0.03125 388 ) ) sxb_v1_bricks/underground_bricks 134217728 0 0
 ( 3200 2048 -4128 ) ( 3200 1152 -4128 ) ( 3296 2048 -4128 ) ( ( 0.03125 0 25 ) ( 0 0.03125 3 ) ) sxb_v1_bricks/underground_bricks 134217728 0 0
-( 3200 2048 -4128 ) ( 3200 2048 -4096 ) ( 3200 1152 -4128 ) ( ( 0.03125 0 285 ) ( 0 0.03125 388 ) ) sxb_v1_bricks/underground_bricks 134217728 0 0
+( 3168 2048 -4128 ) ( 3168 2048 -4096 ) ( 3168 1152 -4128 ) ( ( 0.03125 0 285 ) ( 0 0.03125 388 ) ) sxb_v1_bricks/underground_bricks 134217728 0 0
 ( 3200 2048 -4128 ) ( 3296 2048 -4128 ) ( 3200 2048 -4096 ) ( ( 0.03125 0 155 ) ( 0 0.03125 388 ) ) sxb_v1_bricks/underground_bricks 134217728 0 0
 }
 }
@@ -29921,7 +29921,7 @@ brushDef
 "origin" "3248.000000 4304.000000 -4136.000000"
 "target" "coin_10"
 "targetname" "block_11"
-"wait" "0.3"
+"wait" "0.7"
 }
 // entity 1160
 {
@@ -29930,7 +29930,7 @@ brushDef
 "origin" "3248.000000 4304.000000 -4176.000000"
 "angle" "-179.999985"
 "targetname" "coin_10"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/small_mushroom.md3 noalign -1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/small_mushroom.md3 noalign -1 $ spawnfunc_item_health_medium velocity_z 30 noalign -1 classname droppedweapon"
 }
 // entity 1161
 {
