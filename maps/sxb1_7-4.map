@@ -2769,7 +2769,7 @@ brushDef
 "classname" "func_bobbing"
 "spawnflags" "4"
 "targetname" "rot38"
-"height" "300"
+"height" "270"
 "speed" "3"
 // brush 0
 {
