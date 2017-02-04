@@ -3718,6 +3718,18 @@ brushDef
 ( 704 -3456 664 ) ( 704 -3296 664 ) ( 704 -3456 696 ) ( ( 0.0101562496 0 622.5250244141 ) ( 0 0.020833334 14.83335495 ) ) sxb_v1_earth/cloud_1 0 0 0
 }
 }
+// brush 303
+{
+brushDef
+{
+( 616 -2192 544 ) ( 520 -2192 544 ) ( 616 -2184 544 ) ( ( 0 0.015625 247.875 ) ( -0.015625 0 251.5625 ) ) sxb_v1_earth/land_tower_top 0 0 0
+( 584 -2196 236 ) ( 584 -2188 236 ) ( 584 -2196 224 ) ( ( 0.015625 0 4.5 ) ( 0 0.015625 5.5 ) ) sxb_v1_earth/land_tower_top 0 0 0
+( 616 -2196 388 ) ( 616 -2196 376 ) ( 520 -2196 388 ) ( ( 0.015625 0 247.875 ) ( 0 0.015625 7.875 ) ) sxb_v1_earth/land_tower_top 0 0 0
+( 520 -2188 40 ) ( 520 -2196 40 ) ( 616 -2188 40 ) ( ( 0 -0.015625 247.875 ) ( 0.015625 0 4.5 ) ) sxb_v1_earth/land_tower_top 0 0 0
+( 576 -2188 224 ) ( 576 -2188 236 ) ( 576 -2196 224 ) ( ( 0.015625 0 251.5 ) ( 0 0.015625 5.5 ) ) sxb_v1_earth/land_tower_top 0 0 0
+( 520 -2188 224 ) ( 616 -2188 224 ) ( 520 -2188 236 ) ( ( 0.015625 0 8.125 ) ( 0 0.015625 5.5 ) ) sxb_v1_earth/land_tower_top 0 0 0
+}
+}
 }
 // entity 1
 {
@@ -6377,9 +6389,10 @@ brushDef
 "classname" "func_door"
 "spawnflags" "4"
 "wait" "7"
-"speed" "200"
+"speed" "300"
 "angle" "-2"
 "lip" "-1000"
+"targetname" "platform_1"
 // brush 0
 {
 brushDef
@@ -17841,7 +17854,7 @@ brushDef
 {
 "classname" "func_breakable"
 "respawntime" "20"
-"targetname" "brick_227"
+"targetname" "brick_425"
 "spawnflags" "4"
 "debris" "models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3 models/map_sxb/brickpiece.md3"
 "debrismovetype" "6"
@@ -27025,12 +27038,12 @@ brushDef
 {
 brushDef
 {
-( 3264 5920 -4192 ) ( 3232 5920 -4192 ) ( 3264 6112 -4192 ) ( ( 0 0.03125 155 ) ( -0.03125 0 191 ) ) sxb_v1_bricks/underground_bricks 134217728 0 0
-( 3264 5920 -4192 ) ( 3264 6112 -4192 ) ( 3264 5920 -4224 ) ( ( 0.03125 0 66 ) ( 0 0.03125 125 ) ) sxb_v1_bricks/underground_bricks 134217728 0 0
-( 3264 6080 -4192 ) ( 3264 6080 -4224 ) ( 3232 6080 -4192 ) ( ( 0.03125 0 155 ) ( 0 0.03125 125 ) ) sxb_v1_bricks/underground_bricks 134217728 0 0
-( 3232 6112 -4224 ) ( 3232 5920 -4224 ) ( 3264 6112 -4224 ) ( ( 0 -0.03125 155 ) ( 0.03125 0 66 ) ) sxb_v1_bricks/underground_bricks 134217728 0 0
-( 3232 6112 -4224 ) ( 3232 6112 -4192 ) ( 3232 5920 -4224 ) ( ( 0.03125 0 191 ) ( 0 0.03125 125 ) ) sxb_v1_bricks/underground_bricks 134217728 0 0
-( 3232 6112 -4224 ) ( 3264 6112 -4224 ) ( 3232 6112 -4192 ) ( ( 0.03125 0 102 ) ( 0 0.03125 125 ) ) sxb_v1_bricks/underground_bricks 134217728 0 0
+( 3264 5920 -4192 ) ( 3232 5920 -4192 ) ( 3264 6112 -4192 ) ( ( 0 0.03125 155 ) ( -0.03125 0 191 ) ) sxb_v1_blocks/questionless_mark_underground 134217728 0 0
+( 3264 5920 -4192 ) ( 3264 6112 -4192 ) ( 3264 5920 -4224 ) ( ( 0.03125 0 66 ) ( 0 0.03125 125 ) ) sxb_v1_blocks/questionless_mark_underground 134217728 0 0
+( 3264 6080 -4192 ) ( 3264 6080 -4224 ) ( 3232 6080 -4192 ) ( ( 0.03125 0 155 ) ( 0 0.03125 125 ) ) sxb_v1_blocks/questionless_mark_underground 134217728 0 0
+( 3232 6112 -4224 ) ( 3232 5920 -4224 ) ( 3264 6112 -4224 ) ( ( 0 -0.03125 155 ) ( 0.03125 0 66 ) ) sxb_v1_blocks/questionless_mark_underground 134217728 0 0
+( 3232 6112 -4224 ) ( 3232 6112 -4192 ) ( 3232 5920 -4224 ) ( ( 0.03125 0 191 ) ( 0 0.03125 125 ) ) sxb_v1_blocks/questionless_mark_underground 134217728 0 0
+( 3232 6112 -4224 ) ( 3264 6112 -4224 ) ( 3232 6112 -4192 ) ( ( 0.03125 0 102 ) ( 0 0.03125 125 ) ) sxb_v1_blocks/questionless_mark_underground 134217728 0 0
 }
 }
 }
@@ -28590,7 +28603,7 @@ brushDef
 "origin" "3248.000000 6544.000000 -4152.000000"
 "target" "coin_6"
 "targetname" "block_7"
-"wait" "0.3"
+"wait" "0.7"
 }
 // entity 1087
 {
@@ -28599,7 +28612,7 @@ brushDef
 "origin" "3248.000000 6544.000000 -4176.000000"
 "angle" "-179.999985"
 "targetname" "coin_6"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 30 noalign -1 classname droppedweapon"
 }
 // entity 1088
 {
@@ -28648,7 +28661,7 @@ brushDef
 "origin" "3248.000000 6512.000000 -4152.000000"
 "target" "coin_7"
 "targetname" "block_6"
-"wait" "0.3"
+"wait" "0.7"
 }
 // entity 1091
 {
@@ -28657,7 +28670,7 @@ brushDef
 "origin" "3248.000000 6512.000000 -4176.000000"
 "angle" "-179.999985"
 "targetname" "coin_7"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 30 noalign -1 classname droppedweapon"
 }
 // entity 1092
 {
@@ -30091,7 +30104,7 @@ brushDef
 "origin" "3248.000000 6096.000000 -4240.000000"
 "angle" "-179.999985"
 "targetname" "coin_14"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/1up.wav model models/sxb-models/small_green_mushroom.md3 noalign -1 $ spawnfunc_item_health_mega velocity_z 300 noalign -1 classname droppedweapon"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 30 noalign -1 classname droppedweapon"
 }
 // entity 1173
 {
@@ -30146,7 +30159,7 @@ brushDef
 // entity 1176
 {
 "classname" "trigger_delay"
-"origin" "3248.000000 6128.000000 -4224.000000"
+"origin" "3248.000000 6128.000000 -4240.000000"
 "target" "coin_15"
 "targetname" "invisicoin1"
 "wait" "0.1"
@@ -30158,12 +30171,12 @@ brushDef
 "origin" "3248.000000 6128.000000 -4272.000000"
 "angle" "-179.999985"
 "targetname" "coin_15"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/1up.wav model models/sxb-models/small_green_mushroom.md3 noalign -1 $ spawnfunc_item_health_mega velocity_z 300 noalign -1 classname droppedweapon"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 30 noalign -1 classname droppedweapon"
 }
 // entity 1178
 {
 "classname" "trigger_delay"
-"origin" "3248.000000 6096.000000 -4224.000000"
+"origin" "3248.000000 6104.000000 -4240.000000"
 "target" "invisiblock1"
 "targetname" "coin_15"
 "wait" "5"
@@ -30213,7 +30226,7 @@ brushDef
 // entity 1181
 {
 "classname" "trigger_delay"
-"origin" "3248.000000 6064.000000 -4224.000000"
+"origin" "3248.000000 6064.000000 -4240.000000"
 "target" "coin_17"
 "targetname" "invisicoin2"
 "wait" "0.1"
@@ -30225,12 +30238,12 @@ brushDef
 "origin" "3248.000000 6064.000000 -4272.000000"
 "angle" "-179.999985"
 "targetname" "coin_17"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/1up.wav model models/sxb-models/small_green_mushroom.md3 noalign -1 $ spawnfunc_item_health_mega velocity_z 300 noalign -1 classname droppedweapon"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 30 noalign -1 classname droppedweapon"
 }
 // entity 1183
 {
 "classname" "trigger_delay"
-"origin" "3248.000000 6032.000000 -4224.000000"
+"origin" "3248.000000 6032.000000 -4240.000000"
 "target" "invisiblock2"
 "targetname" "coin_17"
 "wait" "5"
@@ -30280,7 +30293,7 @@ brushDef
 // entity 1186
 {
 "classname" "trigger_delay"
-"origin" "3248.000000 6032.000000 -4256.000000"
+"origin" "3248.000000 6032.000000 -4272.000000"
 "target" "coin_18"
 "targetname" "invisicoin3"
 "wait" "0.1"
@@ -30292,14 +30305,90 @@ brushDef
 "origin" "3248.000000 6032.000000 -4304.000000"
 "angle" "-179.999985"
 "targetname" "coin_18"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/1up.wav model models/sxb-models/small_green_mushroom.md3 noalign -1 $ spawnfunc_item_health_mega velocity_z 300 noalign -1 classname droppedweapon"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 30 noalign -1 classname droppedweapon"
 }
 // entity 1188
 {
 "classname" "trigger_delay"
-"origin" "3248.000000 6000.000000 -4256.000000"
+"origin" "3248.000000 6000.000000 -4272.000000"
 "target" "invisiblock3"
 "targetname" "coin_18"
 "wait" "5"
 "antiwall_flag" "1"
+}
+// entity 1189
+{
+"classname" "func_ladder"
+// brush 0
+{
+brushDef
+{
+( 3264 6112 -3872 ) ( 3264 6080 -3872 ) ( 3232 6112 -3872 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0.5 ) ) common/trigger 0 0 0
+( 3264 6104 -3872 ) ( 3232 6104 -3872 ) ( 3264 6104 -4160 ) ( ( 0.015625 0 255.5 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 3264 6112 -3872 ) ( 3264 6112 -4160 ) ( 3264 6080 -3872 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 3232 6080 -4192 ) ( 3264 6080 -4192 ) ( 3232 6112 -4192 ) ( ( 0.015625 0 0 ) ( 0 0.015625 255.5 ) ) common/trigger 0 0 0
+( 3232 6088 -4160 ) ( 3232 6088 -3872 ) ( 3264 6088 -4160 ) ( ( 0.015625 0 0.5 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 3232 6080 -4160 ) ( 3232 6112 -4160 ) ( 3232 6080 -3872 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+}
+}
+}
+// entity 1190
+{
+"classname" "trigger_multiple"
+"target" "platform_1"
+"wait" "9"
+"delay" "0.6"
+// brush 0
+{
+brushDef
+{
+( 3296 6272 -4286 ) ( 3296 6184 -4286 ) ( 3200 6272 -4286 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 3296 6271 -4280 ) ( 3200 6271 -4280 ) ( 3296 6271 -4288 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 3296 6272 -4280 ) ( 3296 6272 -4288 ) ( 3296 6184 -4280 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/trigger 0 0 0
+( 3200 6184 -4288 ) ( 3296 6184 -4288 ) ( 3200 6272 -4288 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/trigger 0 0 0
+( 3200 6177 -4288 ) ( 3200 6177 -4280 ) ( 3296 6177 -4288 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 3200 6184 -4288 ) ( 3200 6272 -4288 ) ( 3200 6184 -4280 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/trigger 0 0 0
+}
+}
+}
+// entity 1191
+{
+"classname" "func_ladder"
+// brush 0
+{
+brushDef
+{
+( 576 -2176 544 ) ( 576 -2208 544 ) ( 544 -2176 544 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/trigger 0 0 0
+( 576 -2184 544 ) ( 544 -2184 544 ) ( 576 -2184 32 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 576 -2176 544 ) ( 576 -2176 32 ) ( 576 -2208 544 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/trigger 0 0 0
+( 544 -2208 32 ) ( 576 -2208 32 ) ( 544 -2176 32 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/trigger 0 0 0
+( 544 -2200 32 ) ( 544 -2200 544 ) ( 576 -2200 32 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 544 -2208 32 ) ( 544 -2176 32 ) ( 544 -2208 544 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/trigger 0 0 0
+}
+}
+}
+// entity 1192
+{
+"classname" "trigger_teleport"
+"target" "backdown"
+// brush 0
+{
+brushDef
+{
+( 576 -2176 320 ) ( 576 -2208 320 ) ( 544 -2176 320 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 576 -2176 512 ) ( 544 -2176 512 ) ( 576 -2176 0 ) ( ( 0.015625 0 0 ) ( 0 0.015625 255.5 ) ) common/trigger 0 0 0
+( 576 -2176 512 ) ( 576 -2176 0 ) ( 576 -2208 512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 255.5 ) ) common/trigger 0 0 0
+( 544 -2208 256 ) ( 576 -2208 256 ) ( 544 -2176 256 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 544 -2208 0 ) ( 544 -2208 512 ) ( 576 -2208 0 ) ( ( 0.015625 0 0 ) ( 0 0.015625 255.5 ) ) common/trigger 0 0 0
+( 544 -2208 0 ) ( 544 -2176 0 ) ( 544 -2208 512 ) ( ( 0.015625 0 0 ) ( 0 0.015625 255.5 ) ) common/trigger 0 0 0
+}
+}
+}
+// entity 1193
+{
+"classname" "misc_teleporter_dest"
+"origin" "3264.000000 6064.000000 -4160.000000"
+"angle" "-90.000000"
+"targetname" "backdown"
+"speed" "0"
 }
