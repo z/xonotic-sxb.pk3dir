@@ -30387,7 +30387,7 @@ brushDef
 // entity 1193
 {
 "classname" "misc_teleporter_dest"
-"origin" "3264.000000 6064.000000 -4160.000000"
+"origin" "3248.000000 6064.000000 -4160.000000"
 "angle" "-90.000000"
 "targetname" "backdown"
 "speed" "0"
