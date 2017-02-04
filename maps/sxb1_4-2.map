@@ -28587,7 +28587,7 @@ brushDef
 // entity 1086
 {
 "classname" "trigger_delay"
-"origin" "3248.000000 6544.000000 -4136.000000"
+"origin" "3248.000000 6544.000000 -4152.000000"
 "target" "coin_6"
 "targetname" "block_7"
 "wait" "0.3"
@@ -28645,7 +28645,7 @@ brushDef
 // entity 1090
 {
 "classname" "trigger_delay"
-"origin" "3248.000000 6512.000000 -4136.000000"
+"origin" "3248.000000 6512.000000 -4152.000000"
 "target" "coin_7"
 "targetname" "block_6"
 "wait" "0.3"
