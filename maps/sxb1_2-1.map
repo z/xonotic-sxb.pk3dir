@@ -4580,12 +4580,12 @@ brushDef
 {
 brushDef
 {
-( 576 -960 640 ) ( 544 -960 640 ) ( 576 -928 640 ) ( ( 0 0.03125 239 ) ( -0.03125 0 227 ) ) common/trigger 134217728 0 0
-( 572 -960 671 ) ( 572 -928 671 ) ( 572 -960 639 ) ( ( 0.03125 0 30 ) ( 0 0.03125 20.96875 ) ) common/trigger 134217728 0 0
-( 576 -956 671 ) ( 576 -956 639 ) ( 544 -956 671 ) ( ( 0.03125 0 239 ) ( 0 0.03125 20.96875 ) ) common/trigger 134217728 0 0
-( 544 -928 637 ) ( 544 -960 637 ) ( 576 -928 637 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 30 ) ) common/trigger 134217728 0 0
-( 548 -928 639 ) ( 548 -928 671 ) ( 548 -960 639 ) ( ( 0.03125 0 227 ) ( 0 0.03125 20.96875 ) ) common/trigger 134217728 0 0
-( 544 -932 639 ) ( 576 -932 639 ) ( 544 -932 671 ) ( ( 0.03125 0 18 ) ( 0 0.03125 20.96875 ) ) common/trigger 134217728 0 0
+( 576 -928 640 ) ( 544 -928 640 ) ( 576 -896 640 ) ( ( 0 0.03125 239 ) ( -0.03125 0 228 ) ) common/trigger 134217728 0 0
+( 572 -928 671 ) ( 572 -896 671 ) ( 572 -928 639 ) ( ( 0.03125 0 29 ) ( 0 0.03125 20.96875 ) ) common/trigger 134217728 0 0
+( 576 -924 671 ) ( 576 -924 639 ) ( 544 -924 671 ) ( ( 0.03125 0 239 ) ( 0 0.03125 20.96875 ) ) common/trigger 134217728 0 0
+( 544 -896 637 ) ( 544 -928 637 ) ( 576 -896 637 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 29 ) ) common/trigger 134217728 0 0
+( 548 -896 639 ) ( 548 -896 671 ) ( 548 -928 639 ) ( ( 0.03125 0 228 ) ( 0 0.03125 20.96875 ) ) common/trigger 134217728 0 0
+( 544 -900 639 ) ( 576 -900 639 ) ( 544 -900 671 ) ( ( 0.03125 0 18 ) ( 0 0.03125 20.96875 ) ) common/trigger 134217728 0 0
 }
 }
 }
@@ -4600,19 +4600,19 @@ brushDef
 {
 brushDef
 {
-( 576 -960 672 ) ( 544 -960 672 ) ( 576 -928 672 ) ( ( 0 0.03125 239 ) ( -0.03125 0 227 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
-( 576 -960 672 ) ( 576 -928 672 ) ( 576 -960 640 ) ( ( 0 0.03125 183 ) ( -0.03125 0 227 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
-( 576 -960 672 ) ( 576 -960 640 ) ( 544 -960 672 ) ( ( 0 0.03125 183 ) ( -0.03125 0 228 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
-( 544 -928 640 ) ( 544 -960 640 ) ( 576 -928 640 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 30 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
-( 544 -928 640 ) ( 544 -928 672 ) ( 544 -960 640 ) ( ( 0 0.03125 183 ) ( -0.03125 0 117 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
-( 544 -928 640 ) ( 576 -928 640 ) ( 544 -928 672 ) ( ( 0 0.03125 183 ) ( -0.03125 0 116 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
+( 576 -928 672 ) ( 544 -928 672 ) ( 576 -896 672 ) ( ( 0 0.03125 239 ) ( -0.03125 0 228 ) ) sxb_v1_blocks/empty_block 134217728 0 0
+( 576 -928 672 ) ( 576 -896 672 ) ( 576 -928 640 ) ( ( 0 0.03125 183 ) ( -0.03125 0 228 ) ) sxb_v1_blocks/empty_block 134217728 0 0
+( 576 -928 672 ) ( 576 -928 640 ) ( 544 -928 672 ) ( ( 0 0.03125 183 ) ( -0.03125 0 228 ) ) sxb_v1_blocks/empty_block 134217728 0 0
+( 544 -896 640 ) ( 544 -928 640 ) ( 576 -896 640 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 29 ) ) sxb_v1_blocks/empty_block 134217728 0 0
+( 544 -896 640 ) ( 544 -896 672 ) ( 544 -928 640 ) ( ( 0 0.03125 183 ) ( -0.03125 0 116 ) ) sxb_v1_blocks/empty_block 134217728 0 0
+( 544 -896 640 ) ( 576 -896 640 ) ( 544 -896 672 ) ( ( 0 0.03125 183 ) ( -0.03125 0 116 ) ) sxb_v1_blocks/empty_block 134217728 0 0
 }
 }
 }
 // entity 229
 {
 "classname" "trigger_delay"
-"origin" "560.000000 -944.000000 736.000000"
+"origin" "560.000000 -912.000000 736.000000"
 "target" "coin_1"
 "targetname" "invisicoin1"
 "wait" "0.1"
@@ -4621,7 +4621,7 @@ brushDef
 {
 "classname" "target_spawn"
 "count" "1"
-"origin" "560.000000 -944.000000 688.000000"
+"origin" "560.000000 -912.000000 688.000000"
 "angle" "-179.999985"
 "targetname" "coin_1"
 "message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
@@ -4629,7 +4629,7 @@ brushDef
 // entity 231
 {
 "classname" "trigger_delay"
-"origin" "560.000000 -976.000000 736.000000"
+"origin" "560.000000 -944.000000 736.000000"
 "target" "invisiblock1"
 "targetname" "coin_1"
 "wait" "5"
@@ -7034,4 +7034,71 @@ brushDef
 "angle" "-179.999985"
 "targetname" "coin_24"
 "message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/small_mushroom.md3 noalign -1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon"
+}
+// entity 400
+{
+"classname" "trigger_multiple"
+"spawnflags" "16384"
+"target" "invisiblock2"
+"wait" "10"
+"antiwall_flag" "2"
+"target2" "invisicoin2"
+// brush 0
+{
+brushDef
+{
+( 576 -928 768 ) ( 544 -928 768 ) ( 576 -896 768 ) ( ( 0 0.03125 239 ) ( -0.03125 0 228 ) ) common/trigger 134217728 0 0
+( 572 -928 799 ) ( 572 -896 799 ) ( 572 -928 767 ) ( ( 0.03125 0 29 ) ( 0 0.03125 24.96875 ) ) common/trigger 134217728 0 0
+( 576 -924 799 ) ( 576 -924 767 ) ( 544 -924 799 ) ( ( 0.03125 0 239 ) ( 0 0.03125 24.96875 ) ) common/trigger 134217728 0 0
+( 544 -896 765 ) ( 544 -928 765 ) ( 576 -896 765 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 29 ) ) common/trigger 134217728 0 0
+( 548 -896 767 ) ( 548 -896 799 ) ( 548 -928 767 ) ( ( 0.03125 0 228 ) ( 0 0.03125 24.96875 ) ) common/trigger 134217728 0 0
+( 544 -900 767 ) ( 576 -900 767 ) ( 544 -900 799 ) ( ( 0.03125 0 18 ) ( 0 0.03125 24.96875 ) ) common/trigger 134217728 0 0
+}
+}
+}
+// entity 401
+{
+"classname" "func_clientwall"
+"targetname" "invisiblock2"
+"antiwall_flag" "1"
+"solid" "1"
+"inactive" "1"
+// brush 0
+{
+brushDef
+{
+( 576 -928 800 ) ( 544 -928 800 ) ( 576 -896 800 ) ( ( 0 0.03125 239 ) ( -0.03125 0 228 ) ) sxb_v1_blocks/empty_block 134217728 0 0
+( 576 -928 800 ) ( 576 -896 800 ) ( 576 -928 768 ) ( ( 0 0.03125 187 ) ( -0.03125 0 228 ) ) sxb_v1_blocks/empty_block 134217728 0 0
+( 576 -928 800 ) ( 576 -928 768 ) ( 544 -928 800 ) ( ( 0 0.03125 187 ) ( -0.03125 0 228 ) ) sxb_v1_blocks/empty_block 134217728 0 0
+( 544 -896 768 ) ( 544 -928 768 ) ( 576 -896 768 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 29 ) ) sxb_v1_blocks/empty_block 134217728 0 0
+( 544 -896 768 ) ( 544 -896 800 ) ( 544 -928 768 ) ( ( 0 0.03125 187 ) ( -0.03125 0 116 ) ) sxb_v1_blocks/empty_block 134217728 0 0
+( 544 -896 768 ) ( 576 -896 768 ) ( 544 -896 800 ) ( ( 0 0.03125 187 ) ( -0.03125 0 116 ) ) sxb_v1_blocks/empty_block 134217728 0 0
+}
+}
+}
+// entity 402
+{
+"classname" "trigger_delay"
+"origin" "560.000000 -912.000000 864.000000"
+"target" "coin_25"
+"targetname" "invisicoin2"
+"wait" "0.1"
+}
+// entity 403
+{
+"classname" "target_spawn"
+"count" "1"
+"origin" "560.000000 -912.000000 816.000000"
+"angle" "-179.999985"
+"targetname" "coin_25"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/1up.wav model models/sxb-models/small_green_mushroom.md3 noalign -1 $ spawnfunc_item_health_mega velocity_z 300 noalign -1 classname droppedweapon"
+}
+// entity 404
+{
+"classname" "trigger_delay"
+"origin" "560.000000 -944.000000 864.000000"
+"target" "invisiblock2"
+"targetname" "coin_25"
+"wait" "5"
+"antiwall_flag" "1"
 }
