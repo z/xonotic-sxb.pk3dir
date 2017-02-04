@@ -6373,16 +6373,22 @@ brushDef
 }
 // entity 316
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "592.000000 -1296.000000 544.000000"
 "model" "models/map_sxb/tree_short.obj"
+"loddistance1" "2000"
+"lodmodel1" "null"
+"lodmodel2" "null"
 "angle" "-90.000000"
 }
 // entity 317
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "592.000000 -1392.000000 544.000000"
 "model" "models/map_sxb/tree_tall.obj"
+"loddistance1" "2000"
+"lodmodel1" "null"
+"lodmodel2" "null"
 "angle" "-90.000000"
 }
 // entity 318
@@ -6415,37 +6421,52 @@ brushDef
 }
 // entity 322
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "592.000000 -3856.000000 544.000000"
 "model" "models/map_sxb/tree_short.obj"
+"loddistance1" "2000"
+"lodmodel1" "null"
+"lodmodel2" "null"
 "angle" "-90.000000"
 }
 // entity 323
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "592.000000 -3760.000000 544.000000"
 "model" "models/map_sxb/tree_tall.obj"
+"loddistance1" "2000"
+"lodmodel1" "null"
+"lodmodel2" "null"
 "angle" "-90.000000"
 }
 // entity 324
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "592.000000 -1904.000000 544.000000"
 "model" "models/map_sxb/tree_short.obj"
+"loddistance1" "2000"
+"lodmodel1" "null"
+"lodmodel2" "null"
 "angle" "-90.000000"
 }
 // entity 325
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "592.000000 -1968.000000 544.000000"
 "model" "models/map_sxb/tree_tall.obj"
+"loddistance1" "2000"
+"lodmodel1" "null"
+"lodmodel2" "null"
 "angle" "-90.000000"
 }
 // entity 326
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "592.000000 -3824.000000 544.000000"
 "model" "models/map_sxb/tree_short.obj"
+"loddistance1" "2000"
+"lodmodel1" "null"
+"lodmodel2" "null"
 "angle" "-90.000000"
 }
 // entity 327
@@ -6471,23 +6492,32 @@ brushDef
 }
 // entity 330
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "592.000000 -2832.000000 544.000000"
 "model" "models/map_sxb/tree_short.obj"
+"loddistance1" "2000"
+"lodmodel1" "null"
+"lodmodel2" "null"
 "angle" "-90.000000"
 }
 // entity 331
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "592.000000 -2928.000000 544.000000"
 "model" "models/map_sxb/tree_tall.obj"
+"loddistance1" "2000"
+"lodmodel1" "null"
+"lodmodel2" "null"
 "angle" "-90.000000"
 }
 // entity 332
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "592.000000 -3504.000000 544.000000"
 "model" "models/map_sxb/tree_tall.obj"
+"loddistance1" "2000"
+"lodmodel1" "null"
+"lodmodel2" "null"
 "angle" "-90.000000"
 }
 // entity 333
@@ -6541,16 +6571,22 @@ brushDef
 }
 // entity 340
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "592.000000 -4368.000000 544.000000"
 "model" "models/map_sxb/tree_short.obj"
+"loddistance1" "2000"
+"lodmodel1" "null"
+"lodmodel2" "null"
 "angle" "-90.000000"
 }
 // entity 341
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "592.000000 -5040.000000 544.000000"
 "model" "models/map_sxb/tree_tall.obj"
+"loddistance1" "2000"
+"lodmodel1" "null"
+"lodmodel2" "null"
 "angle" "-90.000000"
 }
 // entity 342
@@ -6583,30 +6619,42 @@ brushDef
 }
 // entity 346
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "592.000000 -4976.000000 544.000000"
 "model" "models/map_sxb/tree_short.obj"
+"loddistance1" "2000"
+"lodmodel1" "null"
+"lodmodel2" "null"
 "angle" "-90.000000"
 }
 // entity 347
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "592.000000 -5392.000000 544.000000"
 "model" "models/map_sxb/tree_short.obj"
+"loddistance1" "2000"
+"lodmodel1" "null"
+"lodmodel2" "null"
 "angle" "-90.000000"
 }
 // entity 348
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "592.000000 -6832.000000 544.000000"
 "model" "models/map_sxb/tree_tall.obj"
+"loddistance1" "2000"
+"lodmodel1" "null"
+"lodmodel2" "null"
 "angle" "-90.000000"
 }
 // entity 349
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "592.000000 -5360.000000 544.000000"
 "model" "models/map_sxb/tree_short.obj"
+"loddistance1" "2000"
+"lodmodel1" "null"
+"lodmodel2" "null"
 "angle" "-90.000000"
 }
 // entity 350
@@ -6632,23 +6680,32 @@ brushDef
 }
 // entity 353
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "816.000000 -6496.000000 544.000000"
 "model" "models/map_sxb/tree_short.obj"
+"loddistance1" "2000"
+"lodmodel1" "null"
+"lodmodel2" "null"
 "angle" "-90.000000"
 }
 // entity 354
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "592.000000 -5296.000000 544.000000"
 "model" "models/map_sxb/tree_tall.obj"
+"loddistance1" "2000"
+"lodmodel1" "null"
+"lodmodel2" "null"
 "angle" "-90.000000"
 }
 // entity 355
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "592.000000 -5904.000000 544.000000"
 "model" "models/map_sxb/tree_short.obj"
+"loddistance1" "2000"
+"lodmodel1" "null"
+"lodmodel2" "null"
 "angle" "-90.000000"
 }
 // entity 356
@@ -6660,8 +6717,11 @@ brushDef
 }
 // entity 357
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "592.000000 -6000.000000 544.000000"
 "model" "models/map_sxb/tree_tall.obj"
+"loddistance1" "2000"
+"lodmodel1" "null"
+"lodmodel2" "null"
 "angle" "-90.000000"
 }
