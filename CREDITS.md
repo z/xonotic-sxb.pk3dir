@@ -1,3 +1,21 @@
+# Super Xonotic Brothers
+
+A Super Mario themed collection of assets and maps for Xonotic!
+
+Created by -z- and Mario SMB
+
+Thanks:
+
+- JulianaStein for an amazing song, and sounds
+- divVerent for the continued help, advice and ability to keep netradiant working :-P
+- tZork for the goomba code
+- theShadow_ for the goomba model
+- MooKow for his mapping expertise, ability to discuss changes and support
+- Grasshopper and Lt_Bacon, Peace Brothers and many others for inspiration
+- The great people in #xonotic for the continued support
+- Mario and Nintendo, for their inspiration and continued ability to provide me with enjoyment
+
+
 Listed music is under the following license as specified by Newgrounds: https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode
 Note: None of the music has been modified, but it was converted to the OGG format for better compatibility with Xonotic.
 Also, music_death is a copied segment of megawolf77's overworld music.
