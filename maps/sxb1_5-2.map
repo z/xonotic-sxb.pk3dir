@@ -8830,13 +8830,13 @@ brushDef
 // entity 181
 {
 "classname" "target_viewlocation_start"
-"origin" "672.000000 3136.000000 1896.000000"
+"origin" "800.000000 3136.000000 1896.000000"
 "targetname" "sky1"
 }
 // entity 182
 {
 "classname" "target_viewlocation_end"
-"origin" "672.000000 1024.000000 2024.000000"
+"origin" "800.000000 1024.000000 2024.000000"
 "targetname" "sky2"
 }
 // entity 183
