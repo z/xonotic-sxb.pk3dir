@@ -8883,7 +8883,7 @@ brushDef
 {
 "classname" "target_music"
 "origin" "120.000000 -216.000000 576.000000"
-"noise" "map_sxb/music_overworld.wav"
+"noise" "map_sxb/music_start.wav"
 }
 // entity 187
 {
