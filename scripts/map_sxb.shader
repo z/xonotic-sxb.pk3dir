@@ -203,6 +203,29 @@ models/sxb-models/coin
 }
 
 // background objects
+textures/sxb_v1_earth/green_mountain
+{
+	qer_editorimage textures/sxb_v1_earth/green_mountain
+	surfaceparm metalsteps
+	surfaceparm trans
+	surfaceparm alphashadow
+	q3map_bouncescale 1.75
+	cull none
+	nopicmip
+	nomipmaps
+
+	{
+		map textures/sxb_v1_earth/green_mountain
+		blendfunc blend
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
 textures/sxb_v1_earth/hill_1
 {
 	qer_editorimage textures/sxb_v1_earth/hill_1
