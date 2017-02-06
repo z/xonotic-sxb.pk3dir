@@ -1,12 +1,21 @@
 #!/bin/bash
-# build-map.sh
+set -e
+
+# Tyler "-z-" Mulligan 2017 MIT
+
+RELEASE_PREFIX="sxb"
+MAP_COUNT=35
+
+# build-maps.sh
 if [[ ! -f "build-maps.conf" ]]; then
     echo "[ ERROR ] build-maps.conf does not exist. Please create one with a XONDIR variable that points to your Xonotic directory with netradiant."
-    exit 0
+    exit 1
+else
+    . build-maps.conf
 fi
-. build-maps.conf
+
 compile_map() {
-    $RADIANTDIR/q3map2 -game xonotic -fs_basepath $XONDIR -fs_game xonotic -fs_homepath ~/.xonotic -meta -keepLights -vis -fast -v $1
+    ${RADIANTDIR}/q3map2 -game xonotic -fs_basepath ${XONDIR} -fs_game xonotic -fs_homepath ~/.xonotic -meta -keepLights -vis -fast -v $1
 }
 build_single() {
     echo "[ COMPILING ] Single map: $2"
@@ -15,20 +24,56 @@ build_single() {
 build_all() {
     echo "[ COMPILING ] All maps";
     for m in $(ls maps/*.map | grep -v ".autosave"); do
-        compile_map $m
+        compile_map ${m}
     done
+    local count=$(ls maps/*bsp |grep -v auto |wc -l)
+    if [[ ! ${count} -eq ${MAP_COUNT} ]]; then
+        echo "[ ERROR ] Number of generated bsp files doesn't match MAP_COUNT: ${count} is not ${MAP_COUNT}"
+        exit 1
+    fi
+}
+build_release() {
+    echo "[ PACKAGING ] Release";
+    if [[ ! $1 ]]; then
+        echo "[ ERROR ] Tag required"
+        exit 1
+    else
+        local TAG=$1
+    fi
+    local PACKAGE_NAME="${RELEASE_PREFIX}_${TAG}.pk3"
+    if [[ -f ${PACKAGE_NAME} ]]; then
+        rm ${PACKAGE_NAME}
+    fi
+    #delete_bsps
+    #build_all
+    map_files=$(find maps -not \( -path "*.autosave*" -or -path "*.bak" -or -path "*.srf" -or -path "*.prt" -or -path "*.lin" \) -type f)
+    model_files=$(find models -not \( -path "*.autosave*" -or -path "*.bak" -or -path "*.srf" -or -path "*.xcf" -or -path "*.blend" -or -path "*.max" \) -type f)
+    script_files=$(find scripts -not -path "*.bak" -type f)
+    sound_files=$(find sound -not -path "*.bak" -type f)
+    texture_files=$(find textures -not \( -path "*.autosave*" -or -path "*.bak" -or -path "*.svg" -or -path "*.xcf" -or -path "*.lin" \) -type f)
+
+    cp README.md README.md.bak
+    sed -i 's/# xonotic-sxb/# xonotic-sxb '"${TAG}"'/' README.md
+    zip -r ${PACKAGE_NAME} -p ${map_files} ${model_files} ${sound_files} ${texture_files} CREDITS.md README.md
+    mv README.md.bak README.md
 }
 delete_bsps() {
     echo "[ REMOVING ] Deleting old BSP files"
     find maps -name *.bsp -exec rm -vf {} \;
 }
-help() {
-    echo "Please check the README or try building all maps with: ./build-maps.sh -a"
+_help() {
+    echo "./build-maps.sh
+
+  --single|-s  build single map [world-level] (ex: ./build-maps.sh -s 1-2)
+  --all|-a     build all maps
+  --delete|-d  delete bsps (clean)
+  --release    release [tag] (ex: ./build-maps.sh -r v1r1)"
 }
 
 case $1 in
   --single|-s) build_single $2;;
   --all|-a)    build_all;;
   --delete|-d) delete_bsps;;
-  *)           help;;
+  --release)   build_release $2;;
+  *)           _help;;
 esac
