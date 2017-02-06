@@ -6,5 +6,5 @@
 *.bsp
 *.lin
 *.autosave.lin
-sxb_.*.pk3
+sxb_*.pk3
 build-maps.conf

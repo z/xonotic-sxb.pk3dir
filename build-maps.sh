@@ -44,13 +44,13 @@ build_release() {
     if [[ -f ${PACKAGE_NAME} ]]; then
         rm ${PACKAGE_NAME}
     fi
-    #delete_bsps
-    #build_all
-    map_files=$(find maps -not \( -path "*.autosave*" -or -path "*.bak" -or -path "*.srf" -or -path "*.prt" -or -path "*.lin" \) -type f)
-    model_files=$(find models -not \( -path "*.autosave*" -or -path "*.bak" -or -path "*.srf" -or -path "*.xcf" -or -path "*.blend" -or -path "*.max" \) -type f)
-    script_files=$(find scripts -not -path "*.bak" -type f)
-    sound_files=$(find sound -not -path "*.bak" -type f)
-    texture_files=$(find textures -not \( -path "*.autosave*" -or -path "*.bak" -or -path "*.svg" -or -path "*.xcf" -or -path "*.lin" \) -type f)
+    delete_bsps
+    build_all
+    map_files=$(find maps -type f | grep -vEf .gitignore)
+    model_files=$(find models -not \( -path "*.xcf" -or -path "*.blend" -or -path "*.max" \) -type f | grep -vEf .gitignore)
+    script_files=$(find scripts -type f | grep -vEf .gitignore)
+    sound_files=$(find sound -type f | grep -vEf .gitignore)
+    texture_files=$(find textures -not \( -path "*.xcf" -or -path "*.svg" \) -type f | grep -vEf .gitignore)
 
     cp README.md README.md.bak
     sed -i 's/# xonotic-sxb/# xonotic-sxb '"${TAG}"'/' README.md
