@@ -7,4 +7,5 @@
 *.lin
 *.autosave.lin
 sxb_*.pk3
+build.conf
 build-maps.conf

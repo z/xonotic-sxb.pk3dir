@@ -6,12 +6,12 @@ set -e
 RELEASE_PREFIX="sxb"
 MAP_COUNT=35
 
-# build-maps.sh
-if [[ ! -f "build-maps.conf" ]]; then
-    echo "[ ERROR ] build-maps.conf does not exist. Please create one with a XONDIR variable that points to your Xonotic directory with netradiant."
+# build.sh
+if [[ ! -f "build.conf" ]]; then
+    echo "[ ERROR ] build.conf does not exist. Please create one with a XONDIR variable that points to your Xonotic directory with netradiant."
     exit 1
 else
-    . build-maps.conf
+    . build.conf
 fi
 
 compile_map() {
@@ -62,12 +62,15 @@ delete_bsps() {
     find maps -name *.bsp -exec rm -vf {} \;
 }
 _help() {
-    echo "./build-maps.sh
+    echo "./build.sh
 
-  --single|-s  build single map [world-level] (ex: ./build-maps.sh -s 1-2)
-  --all|-a     build all maps
-  --delete|-d  delete bsps (clean)
-  --release    release [tag] (ex: ./build-maps.sh -r v1r1)"
+flags:
+
+    --single|-s [world]-[level] build single map (ex: ./build.sh -s 1-2)
+    --all|-a                    build all maps
+    --delete|-d                 delete all bsps (clean)
+    --release [tag]             build a release pk3 (ex: ./build.sh --release v1r1)
+"
 }
 
 case $1 in
