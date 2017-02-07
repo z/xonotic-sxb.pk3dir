@@ -46,16 +46,18 @@ build_release() {
     fi
     delete_bsps
     build_all
-    map_files=$(find maps -type f | grep -vEf .gitignore)
-    model_files=$(find models -not \( -path "*.xcf" -or -path "*.blend" -or -path "*.max" \) -type f | grep -vEf .gitignore)
+    cp .gitignore .mapsignore.bak && sed '/\*\.bsp/d' -i .mapsignore.bak
+    map_files=$(find maps -type f | grep -vEf .mapsignore.bak)
+    model_files=$(find models -not \( -path "*.xcf" -or -path "*.blend" -or -path "*.max" -or -path "*.psd" \) -type f | grep -vEf .gitignore)
     script_files=$(find scripts -type f | grep -vEf .gitignore)
     sound_files=$(find sound -type f | grep -vEf .gitignore)
-    texture_files=$(find textures -not \( -path "*.xcf" -or -path "*.svg" \) -type f | grep -vEf .gitignore)
+    texture_files=$(find textures -not \( -path "*.xcf" -or -path "*.svg" -or -path "*.psd" \) -type f | grep -vEf .gitignore)
 
     cp README.md README.md.bak
     sed -i 's/# xonotic-sxb/# xonotic-sxb '"${TAG}"'/' README.md
     zip -r ${PACKAGE_NAME} -p ${map_files} ${model_files} ${sound_files} ${texture_files} CREDITS.md README.md
     mv README.md.bak README.md
+    rm .mapsignore.bak
 }
 delete_bsps() {
     echo "[ REMOVING ] Deleting old BSP files"
