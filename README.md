@@ -5,10 +5,10 @@ A Super Mario themed collection of assets and maps for Xonotic!
 
 ![SXB 1-1](resources/sxb1_1-1_start.png)
 
-[source](https://github.com/z/xonotic-sxb.pk3dir)
+[source on github](https://github.com/z/xonotic-sxb.pk3dir)
 
 
-#### Building
+## Building
 
 Requirements to build: Netradiant (for q3map2)
 
@@ -35,14 +35,14 @@ Other options:
 ```
 
 
-#### Playing
+## Playing
 
 As of Xonotic 0.8.1, the side-scrolling mod is a part of the game, no client modifications required to play these levels!
 
 Play maps by typing `map mapname` e.g. `map sxb1_1-1`
 
 
-#### Contributing
+## Contributing
 
 Pull requests are welcome, but we'd really like to hear from you first, find us in #xonotic on irc.quakenet.org
 
