@@ -55,7 +55,7 @@ build_release() {
 
     cp README.md README.md.bak
     sed -i 's/# xonotic-sxb/# xonotic-sxb '"${TAG}"'/' README.md
-    zip -r ${PACKAGE_NAME} -p ${map_files} ${model_files} ${sound_files} ${texture_files} CREDITS.md README.md
+    zip -r ${PACKAGE_NAME} -p ${map_files} ${model_files} ${script_files} ${sound_files} ${texture_files} CREDITS.md README.md
     mv README.md.bak README.md
     rm .mapsignore.bak
 }
