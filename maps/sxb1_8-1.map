@@ -6878,7 +6878,7 @@ brushDef
 "origin" "560.000000 -5264.000000 816.000000"
 "angle" "-179.999985"
 "targetname" "coin_15"
-"message" "origin $self.origin noalign -1 model models/sxb-models/star_small.md3 $ spawnfunc_weapon_blaster velocity_z 300 noalign -1 classname droppedweapon"
+"message" "origin $self.origin noalign -1 model models/sxb-models/small_star.md3 $ spawnfunc_weapon_blaster velocity_z 300 noalign -1 classname droppedweapon"
 }
 // entity 282
 {
@@ -6936,7 +6936,7 @@ brushDef
 "origin" "560.000000 -6160.000000 688.000000"
 "angle" "-179.999985"
 "targetname" "coin_2"
-"message" "origin $self.origin noalign -1 model models/sxb-models/star_small.md3 $ spawnfunc_weapon_blaster velocity_z 300 noalign -1 classname droppedweapon"
+"message" "origin $self.origin noalign -1 model models/sxb-models/small_star.md3 $ spawnfunc_weapon_blaster velocity_z 300 noalign -1 classname droppedweapon"
 }
 // entity 286
 {
@@ -6994,7 +6994,7 @@ brushDef
 "origin" "-2768.000000 -944.000000 -1776.000000"
 "angle" "-179.999985"
 "targetname" "coin_3"
-"message" "origin $self.origin noalign -1 model models/sxb-models/star_small.md3 $ spawnfunc_weapon_blaster velocity_z 300 noalign -1 classname droppedweapon"
+"message" "origin $self.origin noalign -1 model models/sxb-models/small_star.md3 $ spawnfunc_weapon_blaster velocity_z 300 noalign -1 classname droppedweapon"
 }
 // entity 290
 {
