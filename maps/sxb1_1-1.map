@@ -1876,7 +1876,6 @@ brushDef
 "model" "models/sxb-models/coin.md3"
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
-"message" "origin $self.origin owner $activator noalign 1 model models/map_sxb/coin.md3 colormap $activator.colormap classname droppedweapon $ spawnfunc_item_health_small think thrown_wep_think nextthink $time+0.5 velocity_z 512 movetype 3"
 }
 // entity 58
 {
