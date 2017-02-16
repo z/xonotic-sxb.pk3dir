@@ -112,6 +112,25 @@ textures/sxb_v1_blocks/exclamation_mark
 	}
 }
 
+textures/sxb_v1_blocks/play
+{
+	qer_editorimage textures/sxb_v1_blocks/play
+	nopicmip
+	nomipmaps
+
+	{
+		map textures/sxb_v1_blocks/play
+		//animmap 10 textures/sxb_v1_blocks/play textures/sxb_v1_blocks/play textures/sxb_v1_blocks/play textures/sxb_v1_blocks/play textures/sxb_v1_blocks/play textures/sxb_v1_blocks/play_1 textures/sxb_v1_blocks/play_2 textures/sxb_v1_blocks/play_2 textures/sxb_v1_blocks/play_2 textures/sxb_v1_blocks/play_1
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
 // misc
 textures/sxb_v1_misc/wire
 {
