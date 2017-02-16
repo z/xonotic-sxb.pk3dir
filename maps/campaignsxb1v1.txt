@@ -1,0 +1,6 @@
+//campaign:Super Xonotic Bros 1 (by Mario and -z-)
+//"game","mapname","bots","skill","fraglimit","timelimit","mutator-sets","description","long description"
+"dm","sxb1_1-1","0","2","10",,,"World 1: Level 1","Welcome to Super Xonotic Bros!\nThis is a side-scrolling adventure based on the original Super Mario Bros for NES.\nVersion 1 lacks enemies, but you will still find challenge along your journey!"
+"dm","sxb1_1-2","0","2","10",,,"World 1: Level 2","It's time to take down into the caverns!\nBeware the gaps below the moving platforms."
+"dm","sxb1_1-3","0","2","10",,,"World 1: Level 3","Hip hop your way across the tall bushes!\nDeath awaits every gap."
+"dm","sxb1_1-4","0","2","10",,,"World 1: Castle","Try not to burn in the menacing lava pits!\nYour journey is nearing its end... Or so it seems."

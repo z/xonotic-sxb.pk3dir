@@ -2709,6 +2709,7 @@ brushDef
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
+"wait" "-2"
 "target" "music_death0"
 // brush 0
 {
@@ -2727,6 +2728,7 @@ brushDef
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
+"wait" "-2"
 "target" "music_overworld"
 // brush 0
 {
@@ -2896,6 +2898,7 @@ brushDef
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
+"wait" "-2"
 "target" "music_start"
 // brush 0
 {
@@ -3261,6 +3264,7 @@ brushDef
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
+"wait" "-2"
 "target" "music_death0"
 // brush 0
 {
@@ -3320,6 +3324,7 @@ brushDef
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
+"wait" "-2"
 "target" "music_underwater"
 // brush 0
 {
