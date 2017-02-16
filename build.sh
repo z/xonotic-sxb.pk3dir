@@ -6,9 +6,12 @@ set -e
 RELEASE_PREFIX="sxb"
 MAP_COUNT=35
 
-MAPSHOTS_RAW=./resources/mapshots/raw/
-MAPSHOTS_THUMB=./resources/mapshots/thumb/
-MAPSHOTS_OUTPUT=./resources/mapshots/
+MAP_DIR=./maps/
+MAPSHOTS_DIR=./resources/mapshots/
+MAPSHOTS_RAW=${MAPSHOTS_DIR}raw/
+MAPSHOTS_THUMB=${MAPSHOTS_DIR}thumb/
+MAPSHOTS_WORK=${MAPSHOTS_DIR}work/
+MAPSHOTS_NUMERS=./textures/sxb_numbers/
 
 # build.sh
 if [[ ! -f "build.conf" ]]; then
@@ -18,7 +21,7 @@ else
     . build.conf
 fi
 
-compile_map() {
+_compile_map() {
     ${RADIANTDIR}/q3map2 -game xonotic -fs_basepath ${XONDIR} -fs_game xonotic -fs_homepath ~/.xonotic -meta -keepLights -vis -fast -v $1
 }
 
@@ -30,7 +33,7 @@ build_all() {
 build_map_all() {
     echo "[ INFO ] Building all maps"
     for m in $(ls maps/*.map | grep -v ".autosave"); do
-        compile_map ${m}
+        _compile_map ${m}
     done
     local count=$(ls maps/*bsp |grep -v auto |wc -l)
     if [[ ! ${count} -eq ${MAP_COUNT} ]]; then
@@ -41,7 +44,7 @@ build_map_all() {
 
 build_map_single() {
     echo "[ INFO ] Building single map: $2"
-    compile_map "maps/sxb1_"$1".map"
+    _compile_map "maps/sxb1_"$1".map"
 }
 
 build_mapshots() {
@@ -54,11 +57,49 @@ build_mapshots() {
     # Create thumbs
     mogrify -resize 25% -quality 100 -path ${MAPSHOTS_THUMB} $(find ${MAPSHOTS_RAW} -iname "*.jpg" |grep -Ev "(backup|0-)" |sort)
     # Tight
-    montage -size 512x512 $(find ${MAPSHOTS_THUMB} -iname "*.jpg" |grep -Ev "(backup|zzz-)" |sort) -tile 4x8 -geometry +0+0 ${MAPSHOTS_OUTPUT}tight.png
+    montage -size 512x512 $(find ${MAPSHOTS_THUMB} -iname "*.jpg" |grep -Ev "(backup|zzz-)" |sort) -tile 4x8 -geometry +0+0 ${MAPSHOTS_DIR}tight.png
     # Labeled
-    montage -label %t -size 512x512 $(find ${MAPSHOTS_THUMB} -iname "*.jpg" |grep -Ev "(backup|zzz-)" |sort) -tile 4x9 -geometry +2+2 -background black -fill white -pointsize 24 ${MAPSHOTS_OUTPUT}labeled.png
+    montage -label %t -size 512x512 $(find ${MAPSHOTS_THUMB} -iname "*.jpg" |grep -Ev "(backup|zzz-)" |sort) -tile 4x9 -geometry +2+2 -background black -fill white -pointsize 24 ${MAPSHOTS_DIR}labeled.png
+    # Individual
+    mogrify -resize 50% -quality 100 -path ${MAPSHOTS_THUMB} $(find ${MAPSHOTS_RAW} -iname "*.jpg" |grep -Ev "(backup|0-)" |sort)
+    build_level_numbers
+    for f in $(find ${MAPSHOTS_THUMB} -iname "*.jpg" |grep -Ev "(backup|zzz-)" |sort); do
+        local map_id=$(basename ${f} ".jpg")
+        convert ${f} -gravity center -crop 512x512+0+0 ${f}
+        composite -geometry 218x128+147+120 ${MAPSHOTS_WORK}${map_id}_ln.png ${f} ${MAP_DIR}sxb1_${map_id}.jpg
+    done
 }
 
+build_level_numbers() {
+    echo "[ INFO ] Building level numbers"
+    mkdir -p ${MAPSHOTS_WORK}
+    local NUMBERS=(zero one two three four five six seven eight nine)
+    for w in {1..8}; do
+        local W=${NUMBERS[${w}]}
+        for l in {1..4}; do
+            local L=${NUMBERS[${l}]}
+            convert ${MAPSHOTS_NUMERS}${W}.tga ${MAPSHOTS_NUMERS}hyphen.tga ${MAPSHOTS_NUMERS}${L}.tga -background none +smush 35 ${MAPSHOTS_WORK}${w}-${l}_ln.png
+        done
+    done
+    # mogrify -resize 75% -quality 100 -path ${MAPSHOTS_WORK} $(find ${MAPSHOTS_WORK} -iname "*.png" |grep -Ev "(backup|0-)" |sort)
+}
+
+clean() {
+    delete_bsps
+    delete_thumbs
+}
+
+delete_bsps() {
+    echo "[ INFO ] Deleting BSP files"
+    find maps -name *.bsp -exec rm -vf {} \;
+}
+
+delete_thumbs() {
+    if [[ -d ${MAPSHOTS_THUMB} ]]; then
+        echo "[ INFO ] Deleting mapshot thumbnails"
+        rm -r ${MAPSHOTS_THUMB}
+    fi
+}
 
 release() {
     if [[ ! $1 ]]; then echo "[ ERROR ] Release type required"; exit 1; fi
@@ -110,23 +151,6 @@ release_package() {
     # cleanup
     mv README.md.bak README.md
     rm .mapsignore.bak
-}
-
-clean() {
-    delete_bsps
-    delete_thumbs
-}
-
-delete_bsps() {
-    echo "[ INFO ] Deleting BSP files"
-    find maps -name *.bsp -exec rm -vf {} \;
-}
-
-delete_thumbs() {
-    if [[ -d ${MAPSHOTS_THUMB} ]]; then
-        echo "[ INFO ] Deleting mapshot thumbnails"
-        rm -r ${MAPSHOTS_THUMB}
-    fi
 }
 
 _help() {
