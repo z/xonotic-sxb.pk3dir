@@ -87,6 +87,7 @@ build_level_numbers() {
 clean() {
     delete_bsps
     delete_thumbs
+    rm -r ${MAPSHOTS_WORK}
 }
 
 delete_bsps() {
@@ -109,6 +110,7 @@ release() {
     local TAG=$2
 
     if [[ ${TYPE} == "build" ]]; then
+        clean
         build_all
     elif [[ ${TYPE} != "package" ]]; then
         echo "[ ERROR ] Invalid release type, ./build.sh --release [build|package] [TAG]"
@@ -125,12 +127,7 @@ release_package() {
     local TAG=$1
     local PACKAGE_NAME="${RELEASE_PREFIX}_${TAG}.pk3"
 
-    if [[ -f ${PACKAGE_NAME} ]]; then
-        rm ${PACKAGE_NAME}
-    fi
-
-    # clean
-    clean
+    if [[ -f ${PACKAGE_NAME} ]]; then rm ${PACKAGE_NAME}; fi
 
     # setup patterns
     cp .gitignore .mapsignore.bak && sed '/\*\.bsp/d' -i .mapsignore.bak
@@ -170,14 +167,14 @@ flags:
 }
 
 case $1 in
-  --all|-a)           build_all;;
-  --clean)            clean;;
-  --delete-bsps)      delete_bsps;;
-  --maps-all)         build_map_all;;
-  --maps-single|-s)   build_map_single $2;;
-  --mapshots)         build_mapshots;;
-  --release)          release $2 $3;;
-  *)                  _help; exit 0;;
+    --all|-a)           build_all;;
+    --clean)            clean;;
+    --delete-bsps)      delete_bsps;;
+    --maps-all)         build_map_all;;
+    --maps-single|-s)   build_map_single $2;;
+    --mapshots)         build_mapshots;;
+    --release)          release $2 $3;;
+    *)                  _help; exit 0;;
 esac
 
 echo "Done."
