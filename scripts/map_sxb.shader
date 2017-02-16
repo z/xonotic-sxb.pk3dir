@@ -93,6 +93,25 @@ textures/sxb_v1_blocks/questionless_mark
 	}
 }
 
+textures/sxb_v1_blocks/exclamation_mark
+{
+	qer_editorimage textures/sxb_v1_blocks/exclamation_mark
+	nopicmip
+	nomipmaps
+
+	{
+		map textures/sxb_v1_blocks/exclamation_mark
+		//animmap 10 textures/sxb_v1_blocks/exclamation_mark textures/sxb_v1_blocks/exclamation_mark textures/sxb_v1_blocks/exclamation_mark textures/sxb_v1_blocks/exclamation_mark textures/sxb_v1_blocks/exclamation_mark textures/sxb_v1_blocks/exclamation_mark_1 textures/sxb_v1_blocks/exclamation_mark_2 textures/sxb_v1_blocks/exclamation_mark_2 textures/sxb_v1_blocks/exclamation_mark_2 textures/sxb_v1_blocks/exclamation_mark_1
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
 // misc
 textures/sxb_v1_misc/wire
 {
