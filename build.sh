@@ -1,10 +1,14 @@
 #!/bin/bash
-set -e
-
 # Tyler "-z-" Mulligan 2017 MIT
+
+set -e
 
 RELEASE_PREFIX="sxb"
 MAP_COUNT=35
+
+MAPSHOTS_RAW=./resources/mapshots/raw/
+MAPSHOTS_THUMB=./resources/mapshots/thumb/
+MAPSHOTS_OUTPUT=./resources/mapshots/
 
 # build.sh
 if [[ ! -f "build.conf" ]]; then
@@ -17,12 +21,14 @@ fi
 compile_map() {
     ${RADIANTDIR}/q3map2 -game xonotic -fs_basepath ${XONDIR} -fs_game xonotic -fs_homepath ~/.xonotic -meta -keepLights -vis -fast -v $1
 }
-build_single() {
-    echo "[ COMPILING ] Single map: $2"
-    compile_map "maps/sxb1_"$1".map"
-}
+
 build_all() {
-    echo "[ COMPILING ] All maps";
+    build_map_all
+    build_mapshots
+}
+
+build_map_all() {
+    echo "[ INFO ] Building all maps"
     for m in $(ls maps/*.map | grep -v ".autosave"); do
         compile_map ${m}
     done
@@ -32,20 +38,60 @@ build_all() {
         exit 1
     fi
 }
-build_release() {
-    echo "[ PACKAGING ] Release";
-    if [[ ! $1 ]]; then
-        echo "[ ERROR ] Tag required"
+
+build_map_single() {
+    echo "[ INFO ] Building single map: $2"
+    compile_map "maps/sxb1_"$1".map"
+}
+
+build_mapshots() {
+    echo "[ INFO ] Building Mapshots"
+    if [[ ! -d ${MAPSHOTS_RAW} ]]; then
+        echo "[ ERROR ] No raw mapshots directory"
         exit 1
-    else
-        local TAG=$1
     fi
+    mkdir -p ${MAPSHOTS_THUMB}
+    # Create thumbs
+    mogrify -resize 25% -quality 100 -path ${MAPSHOTS_THUMB} $(find ${MAPSHOTS_RAW} -iname "*.jpg" |grep -Ev "(backup|0-)" |sort)
+    # Tight
+    montage -size 512x512 $(find ${MAPSHOTS_THUMB} -iname "*.jpg" |grep -Ev "(backup|zzz-)" |sort) -tile 4x8 -geometry +0+0 ${MAPSHOTS_OUTPUT}tight.png
+    # Labeled
+    montage -label %t -size 512x512 $(find ${MAPSHOTS_THUMB} -iname "*.jpg" |grep -Ev "(backup|zzz-)" |sort) -tile 4x9 -geometry +2+2 -background black -fill white -pointsize 24 ${MAPSHOTS_OUTPUT}labeled.png
+}
+
+
+release() {
+    if [[ ! $1 ]]; then echo "[ ERROR ] Release type required"; exit 1; fi
+    if [[ ! $2 ]]; then echo "[ ERROR ] Tag required"; exit 1; fi
+
+    local TYPE=$1
+    local TAG=$2
+
+    if [[ ${TYPE} == "build" ]]; then
+        build_all
+    elif [[ ${TYPE} != "package" ]]; then
+        echo "[ ERROR ] Invalid release type, ./build.sh --release [build|package] [TAG]"
+        exit 1
+    fi
+
+    release_package ${TAG}
+}
+
+release_package() {
+    echo "[ INFO ] Packaging Release"
+    if [[ ! $1 ]]; then echo "[ ERROR ] Tag required"; exit 1; fi
+
+    local TAG=$1
     local PACKAGE_NAME="${RELEASE_PREFIX}_${TAG}.pk3"
+
     if [[ -f ${PACKAGE_NAME} ]]; then
         rm ${PACKAGE_NAME}
     fi
-    delete_bsps
-    build_all
+
+    # clean
+    clean
+
+    # setup patterns
     cp .gitignore .mapsignore.bak && sed '/\*\.bsp/d' -i .mapsignore.bak
     map_files=$(find maps -type f | grep -vEf .mapsignore.bak)
     model_files=$(find models -not \( -path "*.xcf" -or -path "*.blend" -or -path "*.max" -or -path "*.psd" \) -type f | grep -vEf .gitignore)
@@ -53,32 +99,61 @@ build_release() {
     sound_files=$(find sound -type f | grep -vEf .gitignore)
     texture_files=$(find textures -not \( -path "*.xcf" -or -path "*.svg" -or -path "*.psd" \) -type f | grep -vEf .gitignore)
 
+    # build README
     cp README.md README.md.bak
     sed -i 's/# xonotic-sxb/# xonotic-sxb '"${TAG}"'/' README.md
     zip -r ${PACKAGE_NAME} -p ${map_files} ${model_files} ${script_files} ${sound_files} ${texture_files} CREDITS.md README.md
+
+    echo "---"
+    echo "Packaged as: ${PACKAGE_NAME}"
+
+    # cleanup
     mv README.md.bak README.md
     rm .mapsignore.bak
 }
+
+clean() {
+    delete_bsps
+    delete_thumbs
+}
+
 delete_bsps() {
-    echo "[ REMOVING ] Deleting old BSP files"
+    echo "[ INFO ] Deleting BSP files"
     find maps -name *.bsp -exec rm -vf {} \;
 }
+
+delete_thumbs() {
+    if [[ -d ${MAPSHOTS_THUMB} ]]; then
+        echo "[ INFO ] Deleting mapshot thumbnails"
+        rm -r ${MAPSHOTS_THUMB}
+    fi
+}
+
 _help() {
     echo "./build.sh
 
 flags:
 
-    --single|-s [world]-[level] build single map (ex: ./build.sh -s 1-2)
-    --all|-a                    build all maps
-    --delete|-d                 delete all bsps (clean)
-    --release [tag]             build a release pk3 (ex: ./build.sh --release v1r1)
+    --all|-a                         build all maps, etc.
+    --clean                          clean up bsps and thumbnails
+    --delete-bsps                    delete all bsps
+    --maps-all                       build all maps
+    --maps-single|-s [world]-[level] build single map (ex: ./build.sh -s 1-2)
+    --mapshots                       build mapshots montages from a directory of 1920x1080 screenshots
+    --release [package|build] [tag]  build and/or package a release pk3, build implies package.
+                                     (ex: ./build.sh --release build v1r1)
 "
 }
 
 case $1 in
-  --single|-s) build_single $2;;
-  --all|-a)    build_all;;
-  --delete|-d) delete_bsps;;
-  --release)   build_release $2;;
-  *)           _help;;
+  --all|-a)           build_all;;
+  --clean)            clean;;
+  --delete-bsps)      delete_bsps;;
+  --maps-all)         build_map_all;;
+  --maps-single|-s)   build_map_single $2;;
+  --mapshots)         build_mapshots;;
+  --release)          release $2 $3;;
+  *)                  _help; exit 0;;
 esac
+
+echo "Done."

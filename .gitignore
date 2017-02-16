@@ -1,4 +1,6 @@
+*.idea
 *.swp
+*.swo
 *.bak
 *.autosave.map
 *.prt
@@ -9,3 +11,5 @@
 sxb_*.pk3
 build.conf
 build-maps.conf
+/resources/mapshots/thumb/
+/resources/mapshots/raw/
