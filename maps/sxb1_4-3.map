@@ -5322,7 +5322,7 @@ brushDef
 ( 0 -96 8 ) ( 0 -832 8 ) ( 1024 -96 8 ) ( ( 0 -0.015625 248 ) ( 0.015625 0 9.5 ) ) common/trigger 0 0 0
 ( 0 -32 856 ) ( 0 -32 920 ) ( 0 -768 856 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 8.375 ) ) common/trigger 0 0 0
 ( 0 0 856 ) ( 1024 0 856 ) ( 0 0 920 ) ( ( 0.015625 0 8 ) ( 0 0.015625 8.375 ) ) common/trigger 0 0 0
-( 992 -96 224 ) ( -32 -832 224 ) ( -32 -96 224 ) ( ( 0 0.015625 248.5 ) ( -0.015625 0 248.5 ) ) common/trigger 0 0 0
+( 992 -96 288 ) ( -32 -832 288 ) ( -32 -96 288 ) ( ( 0 0.015625 248.5 ) ( -0.015625 0 248.5 ) ) common/trigger 0 0 0
 }
 }
 }
@@ -6545,7 +6545,7 @@ brushDef
 {
 "classname" "func_bobbing"
 "speed" "5"
-"height" "500"
+"height" "350"
 // brush 0
 {
 brushDef
@@ -7554,38 +7554,37 @@ brushDef
 }
 }
 }
-
-// entity 1
+// entity 94
 {
 "classname" "item_health_medium"
 "origin" "-12232.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_mushroom.md3"
 }
-// entity 2
+// entity 95
 {
 "classname" "item_health_small"
 "origin" "-12144.000000 128.000000 3856.000000"
 "model" "models/sxb-models/coin.md3"
 }
-// entity 3
+// entity 96
 {
 "classname" "weapon_laser"
 "origin" "-12072.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_star.md3"
 }
-// entity 4
+// entity 97
 {
 "classname" "item_health_mega"
 "origin" "-12000.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_green_mushroom.md3"
 }
-// entity 5
+// entity 98
 {
 "classname" "weapon_uzi"
 "origin" "-11928.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_flower.md3"
 }
-// entity 6
+// entity 99
 {
 "classname" "func_group"
 // brush 0
