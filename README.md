@@ -1,16 +1,14 @@
 # xonotic-sxb
-Super Xonotic Brothers
 
 A Super Mario themed collection of assets and maps for Xonotic!
 
+![sxb-logo](resources/sxb-logo.png)
+
 ![SXB 1-1](resources/mapshots/sxb1_1-1_start.png)
 
-[source on github](https://github.com/z/xonotic-sxb.pk3dir)
+## Development
 
-
-## Building
-
-### Maps
+### Building
 
 Requirements to build: Netradiant (for q3map2)
 
@@ -36,7 +34,7 @@ Other options:
 ./build.sh --single 1-3  # compile single map with [world]-[level] 
 ```
 
-### Help
+Also try:
 
 ```
 ./build.sh --help
@@ -52,5 +50,7 @@ Play maps by typing `map mapname` e.g. `map sxb1_1-1`
 
 ## Contributing
 
-Pull requests are welcome, but we'd really like to hear from you first, find us in #xonotic on irc.quakenet.org
+Pull requests are welcome, but we'd really like to hear from you first, find us in #xonotic on irc.quakenet.org.
+
+[source on github](https://github.com/z/xonotic-sxb.pk3dir)
 
