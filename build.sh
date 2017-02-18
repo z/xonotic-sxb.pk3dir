@@ -4,7 +4,7 @@
 set -e
 
 RELEASE_PREFIX="sxb"
-MAP_COUNT=35
+MAP_COUNT=36
 
 MAP_DIR=./maps/
 MAPSHOTS_DIR=./resources/mapshots/
@@ -28,6 +28,7 @@ _compile_map() {
 build_all() {
     build_map_all
     build_mapshots
+    build_mapshot_montages
 }
 
 build_map_all() {
@@ -48,18 +49,12 @@ build_map_single() {
 }
 
 build_mapshots() {
-    echo "[ INFO ] Building Mapshots"
+    echo "[ INFO ] Building mapshots"
     if [[ ! -d ${MAPSHOTS_RAW} ]]; then
         echo "[ ERROR ] No raw mapshots directory"
         exit 1
     fi
     mkdir -p ${MAPSHOTS_THUMB}
-    # Create thumbs
-    mogrify -resize 25% -quality 100 -path ${MAPSHOTS_THUMB} $(find ${MAPSHOTS_RAW} -iname "*.jpg" |grep -Ev "(backup|0-)" |sort)
-    # Tight
-    montage -size 512x512 $(find ${MAPSHOTS_THUMB} -iname "*.jpg" |grep -Ev "(backup|zzz-)" |sort) -tile 4x8 -geometry +0+0 ${MAPSHOTS_DIR}tight.png
-    # Labeled
-    montage -label %t -size 512x512 $(find ${MAPSHOTS_THUMB} -iname "*.jpg" |grep -Ev "(backup|zzz-)" |sort) -tile 4x9 -geometry +2+2 -background black -fill white -pointsize 24 ${MAPSHOTS_DIR}labeled.png
     # Individual
     mogrify -resize 50% -quality 100 -path ${MAPSHOTS_THUMB} $(find ${MAPSHOTS_RAW} -iname "*.jpg" |grep -Ev "(backup|0-)" |sort)
     build_level_numbers
@@ -82,6 +77,21 @@ build_level_numbers() {
         done
     done
     # mogrify -resize 75% -quality 100 -path ${MAPSHOTS_WORK} $(find ${MAPSHOTS_WORK} -iname "*.png" |grep -Ev "(backup|0-)" |sort)
+}
+
+build_mapshot_montages() {
+    echo "[ INFO ] Building mapshot montages"
+    if [[ ! -d ${MAPSHOTS_RAW} ]]; then
+        echo "[ ERROR ] No raw mapshots directory"
+        exit 1
+    fi
+    mkdir -p ${MAPSHOTS_THUMB}
+    # Create thumbs
+    mogrify -resize 25% -quality 100 -path ${MAPSHOTS_THUMB} $(find ${MAPSHOTS_RAW} -iname "*.jpg" |grep -Ev "(backup|0-)" |sort)
+    # Tight
+    montage -size 512x512 $(find ${MAPSHOTS_THUMB} -iname "*.jpg" |grep -Ev "(backup|zzz-)" |sort) -tile 4x8 -geometry +0+0 ${MAPSHOTS_DIR}tight.png
+    # Labeled
+    montage -label %t -size 512x512 $(find ${MAPSHOTS_THUMB} -iname "*.jpg" |grep -Ev "(backup|zzz-)" |sort) -tile 4x9 -geometry +2+2 -background black -fill white -pointsize 24 ${MAPSHOTS_DIR}labeled.png
 }
 
 clean() {
@@ -160,7 +170,8 @@ flags:
     --delete-bsps                    delete all bsps
     --maps-all                       build all maps
     --maps-single|-s [world]-[level] build single map (ex: ./build.sh -s 1-2)
-    --mapshots                       build mapshots montages from a directory of 1920x1080 screenshots
+    --mapshots                       build mapshots from a directory of 1920x1080 screenshots
+    --montages                       build mapshot montages from a directory of 1920x1080 screenshots
     --release [package|build] [tag]  build and/or package a release pk3, build implies package.
                                      (ex: ./build.sh --release build v1r1)
 "
@@ -173,6 +184,7 @@ case $1 in
     --maps-all)         build_map_all;;
     --maps-single|-s)   build_map_single $2;;
     --mapshots)         build_mapshots;;
+    --montages)         build_mapshot_montages;;
     --release)          release $2 $3;;
     *)                  _help; exit 0;;
 esac
