@@ -1,17 +1,15 @@
 title Super Xonotic Bros
-description World 5, level 1
+description Super Xonotic Bros. is a fan remake of the legendary Super Mario Bros for SNES!
 author -z-, Mario
 // not setting cdtrack here, as we do it via entities
 //cdtrack map_sxb/music_overworld
 has weapons
 gametype dm
-hidden // singleplayer
 
 settemp_for_type all sv_player_mins "-15 -15 -24"
 settemp_for_type all sv_player_maxs "15 15 31"
 settemp_for_type all sv_player_crouch_mins "-15 -15 -24"
 settemp_for_type all sv_player_crouch_maxs "15 15 6"
-
 clientsettemp_for_type all sv_player_mins "-15 -15 -24"
 clientsettemp_for_type all sv_player_maxs "15 15 31"
 clientsettemp_for_type all sv_player_crouch_mins "-15 -15 -24"

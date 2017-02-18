@@ -123,3 +123,4 @@ settemp_for_type all g_balance_selfdamagepercent 0
 
 settemp_for_type all g_balance_contents_drowndelay 99999
 settemp_for_type all g_balance_contents_playerdamage_drowning 0
+settemp_for_type all g_balance_falldamage_maxdamage 0
