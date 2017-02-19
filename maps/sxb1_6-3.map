@@ -6949,8 +6949,8 @@ brushDef
 // entity 76
 {
 "classname" "func_bobbing"
-"height" "500"
-"speed" "4"
+"height" "200"
+"speed" "7"
 // brush 0
 {
 brushDef
@@ -7029,7 +7029,8 @@ brushDef
 "classname" "func_bobbing"
 "height" "120"
 "spawnflags" "2"
-"speed" "3"
+"speed" "5"
+"phase" "0.4"
 // brush 0
 {
 brushDef
@@ -7108,7 +7109,7 @@ brushDef
 "classname" "func_bobbing"
 "spawnflags" "2"
 "height" "120"
-"speed" "3"
+"speed" "5"
 // brush 0
 {
 brushDef
@@ -7187,7 +7188,8 @@ brushDef
 "classname" "func_bobbing"
 "height" "120"
 "spawnflags" "2"
-"speed" "3"
+"speed" "5"
+"phase" "0.6"
 // brush 0
 {
 brushDef
@@ -7264,7 +7266,8 @@ brushDef
 // entity 80
 {
 "classname" "func_bobbing"
-"height" "500"
+"height" "200"
+"speed" "7"
 // brush 0
 {
 brushDef
@@ -7346,7 +7349,7 @@ brushDef
 "targetname" "platform1"
 "wait" "7"
 "angle" "-2"
-"speed" "400"
+"speed" "200"
 // brush 0
 {
 brushDef
@@ -7448,7 +7451,7 @@ brushDef
 "targetname" "platform2"
 "wait" "7"
 "angle" "-2"
-"speed" "400"
+"speed" "200"
 // brush 0
 {
 brushDef
@@ -7550,7 +7553,7 @@ brushDef
 "targetname" "platform3"
 "wait" "7"
 "angle" "-2"
-"speed" "400"
+"speed" "200"
 // brush 0
 {
 brushDef
@@ -7652,7 +7655,7 @@ brushDef
 "targetname" "platform4"
 "wait" "7"
 "angle" "-2"
-"speed" "400"
+"speed" "200"
 // brush 0
 {
 brushDef
@@ -7750,7 +7753,7 @@ brushDef
 {
 "classname" "func_bobbing"
 "spawnflags" "2"
-"speed" "3"
+"speed" "5"
 "height" "120"
 // brush 0
 {
@@ -7833,7 +7836,7 @@ brushDef
 "targetname" "platform5"
 "wait" "7"
 "angle" "-2"
-"speed" "400"
+"speed" "200"
 // brush 0
 {
 brushDef
@@ -7935,7 +7938,7 @@ brushDef
 "targetname" "platform6"
 "wait" "7"
 "angle" "-2"
-"speed" "400"
+"speed" "200"
 // brush 0
 {
 brushDef
@@ -8037,7 +8040,7 @@ brushDef
 "targetname" "platform7"
 "wait" "3"
 "angle" "-2"
-"speed" "600"
+"speed" "300"
 // brush 0
 {
 brushDef
@@ -8139,7 +8142,7 @@ brushDef
 "targetname" "platform8"
 "wait" "3"
 "angle" "-2"
-"speed" "600"
+"speed" "300"
 // brush 0
 {
 brushDef
@@ -8241,7 +8244,7 @@ brushDef
 "targetname" "platform9"
 "wait" "3"
 "angle" "-2"
-"speed" "600"
+"speed" "300"
 // brush 0
 {
 brushDef
@@ -8343,7 +8346,7 @@ brushDef
 "targetname" "platform10"
 "wait" "3"
 "angle" "-2"
-"speed" "600"
+"speed" "300"
 // brush 0
 {
 brushDef
@@ -8437,38 +8440,37 @@ brushDef
 }
 }
 }
-
-// entity 1
+// entity 102
 {
 "classname" "item_health_medium"
 "origin" "-12232.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_mushroom.md3"
 }
-// entity 2
+// entity 103
 {
 "classname" "item_health_small"
 "origin" "-12144.000000 128.000000 3856.000000"
 "model" "models/sxb-models/coin.md3"
 }
-// entity 3
+// entity 104
 {
 "classname" "weapon_laser"
 "origin" "-12072.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_star.md3"
 }
-// entity 4
+// entity 105
 {
 "classname" "item_health_mega"
 "origin" "-12000.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_green_mushroom.md3"
 }
-// entity 5
+// entity 106
 {
 "classname" "weapon_uzi"
 "origin" "-11928.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_flower.md3"
 }
-// entity 6
+// entity 107
 {
 "classname" "func_group"
 // brush 0
