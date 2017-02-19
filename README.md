@@ -6,6 +6,20 @@ A Super Mario themed collection of assets and maps for Xonotic!
 
 ![SXB 1-1](resources/mapshots/sxb1_1-1_start.png)
 
+## Download
+
+Download the [latest release pk3](https://github.com/z/xonotic-sxb.pk3dir/releases), and place it in your *userdir* data directory.
+
+Depending on your system:
+
+|OS|Path|
+|:---|:---|
+|Windows|C:\Users\yourusername\Saved Games\xonotic\data|
+|Linux|~/.xonotic/data|
+|Mac|~/Library/Application Support/xonotic/data|
+
+Nothing should *ever* be added to the main installation folder of Xonotic, use these paths!
+
 ## Development
 
 ### Building
@@ -42,11 +56,13 @@ Also try:
 
 ## Playing
 
-As of Xonotic 0.8.1, the side-scrolling mod is a part of the game, no client modifications required to play these levels!
+Create a Deathmatch game through the menu system, and select "sxb1: Super Xonotic Bros."
 
-Play maps by typing `map mapname` e.g. `map sxb1_1-1`
+Or call maps directly by typing `map mapname` e.g. `map sxb1_1-1`
 
 ![SXB tight](resources/mapshots/labeled.png)
+
+*Note: As of Xonotic 0.8.1, the side-scrolling mod is a part of the game, no client modifications required to play these levels!*
 
 ## Contributing
 
