@@ -11677,7 +11677,6 @@ brushDef
 {
 "classname" "func_bobbing"
 "height" "50"
-"spawnflags" "2"
 "speed" "3"
 "phase" "0.5"
 // brush 0
@@ -11757,7 +11756,6 @@ brushDef
 {
 "classname" "func_bobbing"
 "height" "50"
-"spawnflags" "2"
 "speed" "3"
 "phase" "0.5"
 // brush 0

@@ -3546,7 +3546,7 @@ brushDef
 {
 "classname" "func_door"
 "spawnflags" "4"
-"lip" "-300"
+"lip" "-450"
 "targetname" "platform7"
 "wait" "3"
 "angle" "-2"
@@ -3648,7 +3648,7 @@ brushDef
 {
 "classname" "func_door"
 "spawnflags" "4"
-"lip" "-300"
+"lip" "-450"
 "targetname" "platform1"
 "wait" "3"
 "angle" "-2"

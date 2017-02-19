@@ -6544,8 +6544,8 @@ brushDef
 // entity 56
 {
 "classname" "func_bobbing"
-"speed" "5"
-"height" "350"
+"speed" "7"
+"height" "200"
 // brush 0
 {
 brushDef
