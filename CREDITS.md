@@ -10,6 +10,7 @@ Thanks:
 - divVerent for the continued help, advice and ability to keep netradiant working :-P
 - tZork for the goomba code
 - theShadow_ for the goomba model
+- FireClaw for the pipe Model
 - MooKow for his mapping expertise, ability to discuss changes and support
 - Grasshopper and Lt_Bacon, Peace Brothers and many others for inspiration
 - The great people in #xonotic for the continued support
