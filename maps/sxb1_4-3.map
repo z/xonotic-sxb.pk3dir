@@ -7401,8 +7401,8 @@ brushDef
 // entity 92
 {
 "classname" "func_bobbing"
-"speed" "5"
-"height" "250"
+"speed" "7"
+"height" "170"
 // brush 0
 {
 brushDef
@@ -7479,8 +7479,8 @@ brushDef
 // entity 93
 {
 "classname" "func_bobbing"
-"speed" "5"
-"height" "250"
+"speed" "7"
+"height" "170"
 // brush 0
 {
 brushDef
