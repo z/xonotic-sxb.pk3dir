@@ -5823,7 +5823,7 @@ brushDef
 "origin" "560.000000 -5712.000000 816.000000"
 "angle" "-179.999985"
 "targetname" "coin_3"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/small_mushroom.md3 noalign -1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/flower.wav model models/sxb-models/small_mushroom.md3 noalign -1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon"
 }
 // entity 316
 {
@@ -5997,7 +5997,7 @@ brushDef
 "origin" "560.000000 -4208.000000 816.000000"
 "angle" "-179.999985"
 "targetname" "coin_5"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/small_mushroom.md3 noalign -1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/flower.wav model models/sxb-models/small_mushroom.md3 noalign -1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon"
 }
 // entity 328
 {
@@ -6693,7 +6693,7 @@ brushDef
 "origin" "560.000000 -1904.000000 688.000000"
 "angle" "-179.999985"
 "targetname" "coin_18"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/small_mushroom.md3 noalign -1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/flower.wav model models/sxb-models/small_mushroom.md3 noalign -1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon"
 }
 // entity 376
 {
@@ -7041,7 +7041,7 @@ brushDef
 "origin" "560.000000 -720.000000 688.000000"
 "angle" "-179.999985"
 "targetname" "coin_24"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/small_mushroom.md3 noalign -1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/flower.wav model models/sxb-models/small_mushroom.md3 noalign -1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon"
 }
 // entity 400
 {
