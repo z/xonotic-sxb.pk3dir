@@ -3,7 +3,7 @@
 
 set -e
 
-RELEASE_PREFIX="sxb"
+RELEASE_PREFIX="sxb1"
 MAP_COUNT=36
 
 MAP_DIR=./maps/
