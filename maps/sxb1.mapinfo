@@ -14,6 +14,10 @@ clientsettemp_for_type all sv_player_mins "-15 -15 -24"
 clientsettemp_for_type all sv_player_maxs "15 15 31"
 clientsettemp_for_type all sv_player_crouch_mins "-15 -15 -24"
 clientsettemp_for_type all sv_player_crouch_maxs "15 15 6"
+settemp_for_type all sv_player_viewoffset "0 0 27"
+settemp_for_type all sv_player_crouch_viewoffset "0 0 18"
+clientsettemp_for_type all sv_player_viewoffset "0 0 27"
+clientsettemp_for_type all sv_player_crouch_viewoffset "0 0 18"
 
 clientsettemp_for_type all cl_spawn_point_particles 0
 
