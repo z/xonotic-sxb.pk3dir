@@ -1117,12 +1117,12 @@ brushDef
 {
 brushDef
 {
-( 576 -1480 640 ) ( 544 -1480 640 ) ( 576 -1448 640 ) ( ( 0 0.03125 239 ) ( -0.03125 0 210.75 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
-( 576 -1480 640 ) ( 576 -1448 640 ) ( 576 -1480 608 ) ( ( 0.03125 0 46.25 ) ( 0 0.03125 20 ) ) sxb_v1_blocks/question_mark 134217728 0 0
-( 576 -1480 640 ) ( 576 -1480 608 ) ( 544 -1480 640 ) ( ( 0.03125 0 239 ) ( 0 0.03125 20 ) ) sxb_v1_blocks/question_mark 134217728 0 0
-( 544 -1448 608 ) ( 544 -1480 608 ) ( 576 -1448 608 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 46.25 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
-( 544 -1448 608 ) ( 544 -1448 640 ) ( 544 -1480 608 ) ( ( 0.03125 0 210.75 ) ( 0 0.03125 20 ) ) sxb_v1_blocks/question_mark 134217728 0 0
-( 544 -1448 608 ) ( 576 -1448 608 ) ( 544 -1448 640 ) ( ( 0.03125 0 18 ) ( 0 0.03125 20 ) ) sxb_v1_blocks/question_mark 134217728 0 0
+( 576 -1480 640 ) ( 544 -1480 640 ) ( 576 -1448 640 ) ( ( 0 0.03125 239 ) ( -0.03125 0 210.75 ) ) sxb_v1_blocks/questionless_mark_blue 134217728 0 0
+( 576 -1480 640 ) ( 576 -1448 640 ) ( 576 -1480 608 ) ( ( 0.03125 0 46.25 ) ( 0 0.03125 20 ) ) sxb_v1_blocks/question_mark_blue 134217728 0 0
+( 576 -1480 640 ) ( 576 -1480 608 ) ( 544 -1480 640 ) ( ( 0.03125 0 239 ) ( 0 0.03125 20 ) ) sxb_v1_blocks/question_mark_blue 134217728 0 0
+( 544 -1448 608 ) ( 544 -1480 608 ) ( 576 -1448 608 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 46.25 ) ) sxb_v1_blocks/questionless_mark_blue 134217728 0 0
+( 544 -1448 608 ) ( 544 -1448 640 ) ( 544 -1480 608 ) ( ( 0.03125 0 210.75 ) ( 0 0.03125 20 ) ) sxb_v1_blocks/question_mark_blue 134217728 0 0
+( 544 -1448 608 ) ( 576 -1448 608 ) ( 544 -1448 640 ) ( ( 0.03125 0 18 ) ( 0 0.03125 20 ) ) sxb_v1_blocks/question_mark_blue 134217728 0 0
 }
 }
 }
@@ -1141,7 +1141,7 @@ brushDef
 "origin" "560.000000 -1464.000000 656.000000"
 "angle" "-179.999985"
 "targetname" "coin_1"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
 }
 // entity 17
 {
@@ -1175,12 +1175,12 @@ brushDef
 {
 brushDef
 {
-( 576 -1448 640 ) ( 544 -1448 640 ) ( 576 -1416 640 ) ( ( 0 0.03125 239 ) ( -0.03125 0 211.75 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
-( 576 -1448 640 ) ( 576 -1416 640 ) ( 576 -1448 608 ) ( ( 0.03125 0 45.25 ) ( 0 0.03125 20 ) ) sxb_v1_blocks/question_mark 134217728 0 0
-( 576 -1448 640 ) ( 576 -1448 608 ) ( 544 -1448 640 ) ( ( 0.03125 0 239 ) ( 0 0.03125 20 ) ) sxb_v1_blocks/question_mark 134217728 0 0
-( 544 -1416 608 ) ( 544 -1448 608 ) ( 576 -1416 608 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 45.25 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
-( 544 -1416 608 ) ( 544 -1416 640 ) ( 544 -1448 608 ) ( ( 0.03125 0 211.75 ) ( 0 0.03125 20 ) ) sxb_v1_blocks/question_mark 134217728 0 0
-( 544 -1416 608 ) ( 576 -1416 608 ) ( 544 -1416 640 ) ( ( 0.03125 0 18 ) ( 0 0.03125 20 ) ) sxb_v1_blocks/question_mark 134217728 0 0
+( 576 -1448 640 ) ( 544 -1448 640 ) ( 576 -1416 640 ) ( ( 0 0.03125 239 ) ( -0.03125 0 211.75 ) ) sxb_v1_blocks/questionless_mark_blue 134217728 0 0
+( 576 -1448 640 ) ( 576 -1416 640 ) ( 576 -1448 608 ) ( ( 0.03125 0 45.25 ) ( 0 0.03125 20 ) ) sxb_v1_blocks/question_mark_blue 134217728 0 0
+( 576 -1448 640 ) ( 576 -1448 608 ) ( 544 -1448 640 ) ( ( 0.03125 0 239 ) ( 0 0.03125 20 ) ) sxb_v1_blocks/question_mark_blue 134217728 0 0
+( 544 -1416 608 ) ( 544 -1448 608 ) ( 576 -1416 608 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 45.25 ) ) sxb_v1_blocks/questionless_mark_blue 134217728 0 0
+( 544 -1416 608 ) ( 544 -1416 640 ) ( 544 -1448 608 ) ( ( 0.03125 0 211.75 ) ( 0 0.03125 20 ) ) sxb_v1_blocks/question_mark_blue 134217728 0 0
+( 544 -1416 608 ) ( 576 -1416 608 ) ( 544 -1416 640 ) ( ( 0.03125 0 18 ) ( 0 0.03125 20 ) ) sxb_v1_blocks/question_mark_blue 134217728 0 0
 }
 }
 }
@@ -1199,7 +1199,7 @@ brushDef
 "origin" "560.000000 -1432.000000 656.000000"
 "angle" "-179.999985"
 "targetname" "coin_2"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
 }
 // entity 21
 {
@@ -1233,12 +1233,12 @@ brushDef
 {
 brushDef
 {
-( 576 -1416 640 ) ( 544 -1416 640 ) ( 576 -1384 640 ) ( ( 0 0.03125 239 ) ( -0.03125 0 212.75 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
-( 576 -1416 640 ) ( 576 -1384 640 ) ( 576 -1416 608 ) ( ( 0.03125 0 44.25 ) ( 0 0.03125 20 ) ) sxb_v1_blocks/question_mark 134217728 0 0
-( 576 -1416 640 ) ( 576 -1416 608 ) ( 544 -1416 640 ) ( ( 0.03125 0 239 ) ( 0 0.03125 20 ) ) sxb_v1_blocks/question_mark 134217728 0 0
-( 544 -1384 608 ) ( 544 -1416 608 ) ( 576 -1384 608 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 44.25 ) ) sxb_v1_blocks/questionless_mark 134217728 0 0
-( 544 -1384 608 ) ( 544 -1384 640 ) ( 544 -1416 608 ) ( ( 0.03125 0 212.75 ) ( 0 0.03125 20 ) ) sxb_v1_blocks/question_mark 134217728 0 0
-( 544 -1384 608 ) ( 576 -1384 608 ) ( 544 -1384 640 ) ( ( 0.03125 0 18 ) ( 0 0.03125 20 ) ) sxb_v1_blocks/question_mark 134217728 0 0
+( 576 -1416 640 ) ( 544 -1416 640 ) ( 576 -1384 640 ) ( ( 0 0.03125 239 ) ( -0.03125 0 212.75 ) ) sxb_v1_blocks/questionless_mark_blue 134217728 0 0
+( 576 -1416 640 ) ( 576 -1384 640 ) ( 576 -1416 608 ) ( ( 0.03125 0 44.25 ) ( 0 0.03125 20 ) ) sxb_v1_blocks/question_mark_blue 134217728 0 0
+( 576 -1416 640 ) ( 576 -1416 608 ) ( 544 -1416 640 ) ( ( 0.03125 0 239 ) ( 0 0.03125 20 ) ) sxb_v1_blocks/question_mark_blue 134217728 0 0
+( 544 -1384 608 ) ( 544 -1416 608 ) ( 576 -1384 608 ) ( ( 0 -0.03125 239 ) ( 0.03125 0 44.25 ) ) sxb_v1_blocks/questionless_mark_blue 134217728 0 0
+( 544 -1384 608 ) ( 544 -1384 640 ) ( 544 -1416 608 ) ( ( 0.03125 0 212.75 ) ( 0 0.03125 20 ) ) sxb_v1_blocks/question_mark_blue 134217728 0 0
+( 544 -1384 608 ) ( 576 -1384 608 ) ( 544 -1384 640 ) ( ( 0.03125 0 18 ) ( 0 0.03125 20 ) ) sxb_v1_blocks/question_mark_blue 134217728 0 0
 }
 }
 }
@@ -1257,7 +1257,7 @@ brushDef
 "origin" "560.000000 -1400.000000 656.000000"
 "angle" "-179.999985"
 "targetname" "coin_3"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
 }
 // entity 25
 {
@@ -1994,38 +1994,37 @@ brushDef
 "spawnflags" "2"
 "chmap" "sxb1_2-1"
 }
-
-// entity 1
+// entity 58
 {
 "classname" "item_health_medium"
 "origin" "-12232.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_mushroom.md3"
 }
-// entity 2
+// entity 59
 {
 "classname" "item_health_small"
 "origin" "-12144.000000 128.000000 3856.000000"
 "model" "models/sxb-models/coin.md3"
 }
-// entity 3
+// entity 60
 {
 "classname" "weapon_laser"
 "origin" "-12072.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_star.md3"
 }
-// entity 4
+// entity 61
 {
 "classname" "item_health_mega"
 "origin" "-12000.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_green_mushroom.md3"
 }
-// entity 5
+// entity 62
 {
 "classname" "weapon_uzi"
 "origin" "-11928.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_flower.md3"
 }
-// entity 6
+// entity 63
 {
 "classname" "func_group"
 // brush 0

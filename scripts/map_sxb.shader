@@ -131,6 +131,46 @@ textures/sxb_v1_blocks/play
 	}
 }
 
+// blue variation
+
+textures/sxb_v1_blocks/question_mark_blue
+{
+	qer_editorimage textures/sxb_v1_blocks/question_mark_blue
+	nopicmip
+	nomipmaps
+
+	{
+		map textures/sxb_v1_blocks/question_mark_blue
+		//animmap 10 textures/sxb_v1_blocks/question_mark_blue textures/sxb_v1_blocks/question_mark_blue textures/sxb_v1_blocks/question_mark_blue textures/sxb_v1_blocks/question_mark_blue textures/sxb_v1_blocks/question_mark_blue textures/sxb_v1_blocks/question_mark_blue_1 textures/sxb_v1_blocks/question_mark_blue_2 textures/sxb_v1_blocks/question_mark_blue_2 textures/sxb_v1_blocks/question_mark_blue_2 textures/sxb_v1_blocks/question_mark_blue_1
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
+textures/sxb_v1_blocks/questionless_mark_blue
+{
+	qer_editorimage textures/sxb_v1_blocks/questionless_mark_blue
+	nopicmip
+	nomipmaps
+
+	{
+		map textures/sxb_v1_blocks/questionless_mark_blue
+		//animmap 10 textures/sxb_v1_blocks/questionless_mark_blue textures/sxb_v1_blocks/questionless_mark_blue textures/sxb_v1_blocks/questionless_mark_blue textures/sxb_v1_blocks/questionless_mark_blue textures/sxb_v1_blocks/questionless_mark_blue textures/sxb_v1_blocks/questionless_mark_blue_1 textures/sxb_v1_blocks/questionless_mark_blue_2 textures/sxb_v1_blocks/questionless_mark_blue_2 textures/sxb_v1_blocks/questionless_mark_blue_2 textures/sxb_v1_blocks/questionless_mark_blue_1
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
 // misc
 textures/sxb_v1_misc/wire
 {
@@ -225,6 +265,24 @@ textures/sxb_v1_misc/blaster_bolt
 		rgbGen identity
 		tcGen lightmap
 		depthFunc equal
+	}
+}
+textures/sxb_v1_misc/vine
+{
+	qer_editorimage textures/sxb_v1_misc/vine
+	nopicmip
+	nomipmaps
+	surfaceparm nonsolid
+
+	{
+		map textures/sxb_v1_misc/vine
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
 	}
 }
 
@@ -835,6 +893,54 @@ textures/sxb_v1_platforms/castle_bridge
 
 	{
 		map textures/sxb_v1_platforms/castle_bridge
+		blendfunc blend
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
+textures/sxb_v1_platforms/castle_bridge_top
+{
+	qer_editorimage textures/sxb_v1_platforms/castle_bridge_top
+	surfaceparm metalsteps
+	surfaceparm trans
+	surfaceparm alphashadow
+	q3map_bouncescale 1.75
+	cull none
+	nopicmip
+	nomipmaps
+
+	{
+		map textures/sxb_v1_platforms/castle_bridge_top
+		blendfunc blend
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
+textures/sxb_v1_platforms/castle_bridge_bottom
+{
+	qer_editorimage textures/sxb_v1_platforms/castle_bridge_bottom
+	surfaceparm metalsteps
+	surfaceparm trans
+	surfaceparm alphashadow
+	q3map_bouncescale 1.75
+	cull none
+	nopicmip
+	nomipmaps
+
+	{
+		map textures/sxb_v1_platforms/castle_bridge_bottom
 		blendfunc blend
 	}
 
