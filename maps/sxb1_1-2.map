@@ -2498,32 +2498,26 @@ brushDef
 }
 // entity 46
 {
-"classname" "misc_teleporter_dest"
-"origin" "560.000000 -3184.000000 -1600.000000"
-"angle" "-90.000000"
-}
-// entity 47
-{
 "classname" "target_music"
 "origin" "120.000000 -176.000000 -448.000000"
 "noise" "map_sxb/music_start.wav"
 "targetname" "music_start"
 }
-// entity 48
+// entity 47
 {
 "classname" "target_music"
 "origin" "120.000000 -200.000000 -448.000000"
 "noise" "map_sxb/music_overworld.wav"
 "targetname" "music_overworld"
 }
-// entity 49
+// entity 48
 {
 "classname" "target_music"
 "origin" "120.000000 -224.000000 -448.000000"
 "noise" "map_sxb/music_death.wav"
 "targetname" "music_death"
 }
-// entity 50
+// entity 49
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -2542,7 +2536,7 @@ brushDef
 }
 }
 }
-// entity 51
+// entity 50
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -2561,7 +2555,7 @@ brushDef
 }
 }
 }
-// entity 52
+// entity 51
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -2580,7 +2574,7 @@ brushDef
 }
 }
 }
-// entity 53
+// entity 52
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -2599,7 +2593,7 @@ brushDef
 }
 }
 }
-// entity 54
+// entity 53
 {
 "classname" "trigger_viewlocation"
 "target" "overworld_5"
@@ -2617,7 +2611,7 @@ brushDef
 }
 }
 }
-// entity 55
+// entity 54
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -2636,7 +2630,7 @@ brushDef
 }
 }
 }
-// entity 56
+// entity 55
 {
 "classname" "func_door"
 "spawnflags" "260"
@@ -2657,7 +2651,7 @@ brushDef
 }
 }
 }
-// entity 57
+// entity 56
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -2675,7 +2669,7 @@ brushDef
 }
 }
 }
-// entity 58
+// entity 57
 {
 "classname" "trigger_teleport"
 "target" "warp_6"
@@ -2692,14 +2686,14 @@ brushDef
 }
 }
 }
-// entity 59
+// entity 58
 {
 "classname" "target_music"
 "origin" "120.000000 -248.000000 -448.000000"
 "noise" "map_sxb/music_bonus.wav"
 "targetname" "music_bonus"
 }
-// entity 60
+// entity 59
 {
 "classname" "func_door"
 "angle" "-1"
@@ -2720,7 +2714,7 @@ brushDef
 }
 }
 }
-// entity 61
+// entity 60
 {
 "classname" "misc_teleporter_dest"
 "origin" "560.000000 -5800.000000 576.000000"
@@ -2729,7 +2723,7 @@ brushDef
 "target" "pipe_5"
 "speed" "-1"
 }
-// entity 62
+// entity 61
 {
 "classname" "func_door"
 "spawnflags" "260"
@@ -2750,7 +2744,7 @@ brushDef
 }
 }
 }
-// entity 63
+// entity 62
 {
 "classname" "trigger_teleport"
 "target" "warp_10"
@@ -2767,7 +2761,7 @@ brushDef
 }
 }
 }
-// entity 64
+// entity 63
 {
 "classname" "misc_teleporter_dest"
 "origin" "560.000000 -112.000000 -520.000000"
@@ -2775,7 +2769,7 @@ brushDef
 "targetname" "warp_10"
 "speed" "-1"
 }
-// entity 65
+// entity 64
 {
 "classname" "misc_teleporter_dest"
 "targetname" "spoint"
@@ -2783,7 +2777,7 @@ brushDef
 "origin" "560.000000 -120.000000 576.000000"
 "angle" "-90.000000"
 }
-// entity 66
+// entity 65
 {
 "classname" "func_door"
 "angle" "-1"
@@ -2804,7 +2798,7 @@ brushDef
 }
 }
 }
-// entity 67
+// entity 66
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -2823,7 +2817,7 @@ brushDef
 }
 }
 }
-// entity 68
+// entity 67
 {
 "classname" "trigger_teleport"
 "target" "warp_10"
@@ -2840,7 +2834,7 @@ brushDef
 }
 }
 }
-// entity 69
+// entity 68
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -2858,20 +2852,20 @@ brushDef
 }
 }
 }
-// entity 70
+// entity 69
 {
 "classname" "target_music"
 "origin" "120.000000 -272.000000 -448.000000"
 "noise" "map_sxb/music_underground.wav"
 "targetname" "music_underground"
 }
-// entity 71
+// entity 70
 {
 "classname" "target_music"
 "origin" "120.000000 -152.000000 -448.000000"
 "noise" "map_sxb/music_start.wav"
 }
-// entity 72
+// entity 71
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -2890,7 +2884,7 @@ brushDef
 }
 }
 }
-// entity 73
+// entity 72
 {
 "classname" "func_train"
 "target" "p1_1"
@@ -2971,7 +2965,7 @@ brushDef
 }
 }
 }
-// entity 74
+// entity 73
 {
 "classname" "func_train"
 "speed" "100"
@@ -3052,7 +3046,7 @@ brushDef
 }
 }
 }
-// entity 75
+// entity 74
 {
 "classname" "func_train"
 "target" "p1_11"
@@ -3133,7 +3127,7 @@ brushDef
 }
 }
 }
-// entity 76
+// entity 75
 {
 "classname" "func_train"
 "speed" "100"
@@ -3214,7 +3208,7 @@ brushDef
 }
 }
 }
-// entity 77
+// entity 76
 {
 "classname" "path_corner"
 "origin" "520.000000 -4600.000000 -304.000000"
@@ -3224,7 +3218,7 @@ brushDef
 "targetname" "p1_1"
 "target" "p1_2"
 }
-// entity 78
+// entity 77
 {
 "classname" "path_corner"
 "origin" "872.000000 -4600.000000 -304.000000"
@@ -3234,7 +3228,7 @@ brushDef
 "targetname" "p1_0"
 "target" "p1_1"
 }
-// entity 79
+// entity 78
 {
 "classname" "path_corner"
 "origin" "520.000000 -4600.000000 -648.000000"
@@ -3244,7 +3238,7 @@ brushDef
 "targetname" "p1_2"
 "target" "p1_3"
 }
-// entity 80
+// entity 79
 {
 "classname" "path_corner"
 "origin" "520.000000 -4600.000000 -1256.000000"
@@ -3254,7 +3248,7 @@ brushDef
 "targetname" "p1_3"
 "target" "p1_4"
 }
-// entity 81
+// entity 80
 {
 "classname" "path_corner"
 "origin" "872.000000 -4600.000000 -1256.000000"
@@ -3264,7 +3258,7 @@ brushDef
 "targetname" "p1_4"
 "target" "p1_0"
 }
-// entity 82
+// entity 81
 {
 "classname" "path_corner"
 "origin" "520.000000 -5080.000000 -304.000000"
@@ -3274,7 +3268,7 @@ brushDef
 "targetname" "p1_11"
 "target" "p1_10"
 }
-// entity 83
+// entity 82
 {
 "classname" "path_corner"
 "origin" "872.000000 -5080.000000 -304.000000"
@@ -3284,7 +3278,7 @@ brushDef
 "targetname" "p1_10"
 "target" "p1_21"
 }
-// entity 84
+// entity 83
 {
 "classname" "path_corner"
 "origin" "520.000000 -5080.000000 -648.000000"
@@ -3294,7 +3288,7 @@ brushDef
 "targetname" "p1_12"
 "target" "p1_11"
 }
-// entity 85
+// entity 84
 {
 "classname" "path_corner"
 "origin" "520.000000 -5080.000000 -1256.000000"
@@ -3304,7 +3298,7 @@ brushDef
 "targetname" "p1_13"
 "target" "p1_12"
 }
-// entity 86
+// entity 85
 {
 "classname" "path_corner"
 "origin" "872.000000 -5080.000000 -1256.000000"
@@ -3314,7 +3308,7 @@ brushDef
 "targetname" "p1_14"
 "target" "p1_13"
 }
-// entity 87
+// entity 86
 {
 "classname" "func_train"
 "target" "p1_0"
@@ -3395,7 +3389,7 @@ brushDef
 }
 }
 }
-// entity 88
+// entity 87
 {
 "classname" "func_train"
 "target" "p1_22"
@@ -3476,7 +3470,7 @@ brushDef
 }
 }
 }
-// entity 89
+// entity 88
 {
 "classname" "func_train"
 "target" "p1_10"
@@ -3557,7 +3551,7 @@ brushDef
 }
 }
 }
-// entity 90
+// entity 89
 {
 "classname" "func_train"
 "target" "p1_21"
@@ -3638,7 +3632,7 @@ brushDef
 }
 }
 }
-// entity 91
+// entity 90
 {
 "classname" "func_train"
 "target" "p1_3"
@@ -3719,7 +3713,7 @@ brushDef
 }
 }
 }
-// entity 92
+// entity 91
 {
 "classname" "func_train"
 "target" "p1_13"
@@ -3800,7 +3794,7 @@ brushDef
 }
 }
 }
-// entity 93
+// entity 92
 {
 "classname" "func_train"
 "target" "p1_14"
@@ -3881,7 +3875,7 @@ brushDef
 }
 }
 }
-// entity 94
+// entity 93
 {
 "classname" "func_train"
 "target" "p1_4"
@@ -3962,7 +3956,7 @@ brushDef
 }
 }
 }
-// entity 95
+// entity 94
 {
 "classname" "path_corner"
 "origin" "872.000000 -4600.000000 -648.000000"
@@ -3972,7 +3966,7 @@ brushDef
 "targetname" "p1_22"
 "target" "p1_19"
 }
-// entity 96
+// entity 95
 {
 "classname" "path_corner"
 "origin" "872.000000 -5080.000000 -648.000000"
@@ -3982,7 +3976,7 @@ brushDef
 "targetname" "p1_21"
 "target" "p1_14"
 }
-// entity 97
+// entity 96
 {
 "classname" "trigger_warpzone"
 "warpzone_fadestart" "-1"
@@ -4002,7 +3996,7 @@ brushDef
 }
 }
 }
-// entity 98
+// entity 97
 {
 "classname" "misc_model"
 "origin" "560.000000 -7840.000000 -704.000000"
@@ -4011,7 +4005,7 @@ brushDef
 "modelscale" "16.100000"
 "spawnflags" "32"
 }
-// entity 99
+// entity 98
 {
 "classname" "misc_model"
 "origin" "560.000000 -7832.000000 -672.000000"
@@ -4020,7 +4014,7 @@ brushDef
 "modelscale" "16.100000"
 "spawnflags" "32"
 }
-// entity 100
+// entity 99
 {
 "classname" "misc_model"
 "origin" "560.000000 -7840.000000 -640.000000"
@@ -4029,7 +4023,7 @@ brushDef
 "modelscale" "16.100000"
 "spawnflags" "32"
 }
-// entity 101
+// entity 100
 {
 "classname" "misc_model"
 "origin" "560.000000 -7840.000000 -576.000000"
@@ -4038,7 +4032,7 @@ brushDef
 "modelscale" "16.100000"
 "spawnflags" "32"
 }
-// entity 102
+// entity 101
 {
 "classname" "misc_model"
 "origin" "560.000000 -7840.000000 -512.000000"
@@ -4047,7 +4041,7 @@ brushDef
 "modelscale" "16.100000"
 "spawnflags" "32"
 }
-// entity 103
+// entity 102
 {
 "classname" "misc_model"
 "origin" "560.000000 -8160.000000 -800.000000"
@@ -4056,7 +4050,7 @@ brushDef
 "modelscale" "16.100000"
 "spawnflags" "32"
 }
-// entity 104
+// entity 103
 {
 "classname" "misc_model"
 "origin" "560.000000 -8160.000000 -768.000000"
@@ -4065,7 +4059,7 @@ brushDef
 "modelscale" "16.100000"
 "spawnflags" "32"
 }
-// entity 105
+// entity 104
 {
 "classname" "misc_model"
 "origin" "560.000000 -8288.000000 -800.000000"
@@ -4074,7 +4068,7 @@ brushDef
 "modelscale" "16.100000"
 "spawnflags" "32"
 }
-// entity 106
+// entity 105
 {
 "classname" "misc_model"
 "origin" "560.000000 -8288.000000 -768.000000"
@@ -4083,7 +4077,7 @@ brushDef
 "modelscale" "16.100000"
 "spawnflags" "32"
 }
-// entity 107
+// entity 106
 {
 "classname" "misc_model"
 "origin" "560.000000 -8416.000000 -800.000000"
@@ -4092,7 +4086,7 @@ brushDef
 "modelscale" "16.100000"
 "spawnflags" "32"
 }
-// entity 108
+// entity 107
 {
 "classname" "misc_model"
 "origin" "560.000000 -8416.000000 -768.000000"
@@ -4101,7 +4095,7 @@ brushDef
 "modelscale" "16.100000"
 "spawnflags" "32"
 }
-// entity 109
+// entity 108
 {
 "classname" "trigger_warpzone"
 "warpzone_fadestart" "-1"
@@ -4121,7 +4115,7 @@ brushDef
 }
 }
 }
-// entity 110
+// entity 109
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -4140,7 +4134,7 @@ brushDef
 }
 }
 }
-// entity 111
+// entity 110
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -4158,7 +4152,7 @@ brushDef
 }
 }
 }
-// entity 112
+// entity 111
 {
 "classname" "func_door"
 "angle" "-1"
@@ -4179,7 +4173,7 @@ brushDef
 }
 }
 }
-// entity 113
+// entity 112
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -4198,7 +4192,7 @@ brushDef
 }
 }
 }
-// entity 114
+// entity 113
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -4216,7 +4210,7 @@ brushDef
 }
 }
 }
-// entity 115
+// entity 114
 {
 "classname" "func_door"
 "angle" "-1"
@@ -4237,7 +4231,7 @@ brushDef
 }
 }
 }
-// entity 116
+// entity 115
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -4256,7 +4250,7 @@ brushDef
 }
 }
 }
-// entity 117
+// entity 116
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -4274,7 +4268,7 @@ brushDef
 }
 }
 }
-// entity 118
+// entity 117
 {
 "classname" "func_door"
 "angle" "-1"
@@ -4295,28 +4289,28 @@ brushDef
 }
 }
 }
-// entity 119
+// entity 118
 {
 "classname" "target_changelevel"
 "origin" "128.000000 -256.000000 -576.000000"
 "targetname" "level_-1"
 "chmap" "sxb1_-1"
 }
-// entity 120
+// entity 119
 {
 "classname" "target_changelevel"
 "origin" "128.000000 -280.000000 -576.000000"
 "targetname" "level_-2"
 "chmap" "sxb1_-2"
 }
-// entity 121
+// entity 120
 {
 "classname" "target_changelevel"
 "origin" "128.000000 -304.000000 -576.000000"
 "targetname" "level_-3"
 "chmap" "sxb1_-3"
 }
-// entity 122
+// entity 121
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -4335,7 +4329,7 @@ brushDef
 }
 }
 }
-// entity 123
+// entity 122
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -4353,7 +4347,7 @@ brushDef
 }
 }
 }
-// entity 124
+// entity 123
 {
 "classname" "func_door"
 "angle" "-1"
@@ -4374,7 +4368,7 @@ brushDef
 }
 }
 }
-// entity 125
+// entity 124
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -4393,7 +4387,7 @@ brushDef
 }
 }
 }
-// entity 126
+// entity 125
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -4411,7 +4405,7 @@ brushDef
 }
 }
 }
-// entity 127
+// entity 126
 {
 "classname" "func_door"
 "angle" "-1"
@@ -4432,7 +4426,7 @@ brushDef
 }
 }
 }
-// entity 128
+// entity 127
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -4451,7 +4445,7 @@ brushDef
 }
 }
 }
-// entity 129
+// entity 128
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -4469,7 +4463,7 @@ brushDef
 }
 }
 }
-// entity 130
+// entity 129
 {
 "classname" "func_door"
 "angle" "-1"
@@ -4490,28 +4484,28 @@ brushDef
 }
 }
 }
-// entity 131
+// entity 130
 {
 "classname" "target_changelevel"
 "origin" "128.000000 -304.000000 -600.000000"
 "targetname" "level_4-1"
 "chmap" "sxb1_4-1"
 }
-// entity 132
+// entity 131
 {
 "classname" "target_changelevel"
 "origin" "128.000000 -280.000000 -600.000000"
 "targetname" "level_3-1"
 "chmap" "sxb1_3-1"
 }
-// entity 133
+// entity 132
 {
 "classname" "target_changelevel"
 "origin" "128.000000 -248.000000 -600.000000"
 "targetname" "level_2-1"
 "chmap" "sxb1_2-1"
 }
-// entity 134
+// entity 133
 {
 "classname" "misc_teleporter_dest"
 "targetname" "spoint"
@@ -4519,7 +4513,7 @@ brushDef
 "origin" "560.000000 -56.000000 576.000000"
 "angle" "-90.000000"
 }
-// entity 135
+// entity 134
 {
 "classname" "misc_teleporter_dest"
 "targetname" "spoint"
@@ -4527,7 +4521,7 @@ brushDef
 "origin" "560.000000 -184.000000 576.000000"
 "angle" "-90.000000"
 }
-// entity 136
+// entity 135
 {
 "classname" "misc_teleporter_dest"
 "targetname" "spoint"
@@ -4535,7 +4529,7 @@ brushDef
 "origin" "560.000000 -248.000000 576.000000"
 "angle" "-90.000000"
 }
-// entity 137
+// entity 136
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -4554,7 +4548,7 @@ brushDef
 }
 }
 }
-// entity 138
+// entity 137
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -4583,7 +4577,7 @@ brushDef
 }
 }
 }
-// entity 139
+// entity 138
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -4602,7 +4596,7 @@ brushDef
 }
 }
 }
-// entity 140
+// entity 139
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -4631,7 +4625,7 @@ brushDef
 }
 }
 }
-// entity 141
+// entity 140
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -4650,7 +4644,7 @@ brushDef
 }
 }
 }
-// entity 142
+// entity 141
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -4679,7 +4673,7 @@ brushDef
 }
 }
 }
-// entity 143
+// entity 142
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -4698,7 +4692,7 @@ brushDef
 }
 }
 }
-// entity 144
+// entity 143
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -4727,7 +4721,7 @@ brushDef
 }
 }
 }
-// entity 145
+// entity 144
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -4746,7 +4740,7 @@ brushDef
 }
 }
 }
-// entity 146
+// entity 145
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -4775,7 +4769,7 @@ brushDef
 }
 }
 }
-// entity 147
+// entity 146
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -4794,7 +4788,7 @@ brushDef
 }
 }
 }
-// entity 148
+// entity 147
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -4823,7 +4817,7 @@ brushDef
 }
 }
 }
-// entity 149
+// entity 148
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -4842,7 +4836,7 @@ brushDef
 }
 }
 }
-// entity 150
+// entity 149
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -4871,7 +4865,7 @@ brushDef
 }
 }
 }
-// entity 151
+// entity 150
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -4890,7 +4884,7 @@ brushDef
 }
 }
 }
-// entity 152
+// entity 151
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -4919,7 +4913,7 @@ brushDef
 }
 }
 }
-// entity 153
+// entity 152
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -4938,7 +4932,7 @@ brushDef
 }
 }
 }
-// entity 154
+// entity 153
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -4967,7 +4961,7 @@ brushDef
 }
 }
 }
-// entity 155
+// entity 154
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -4986,7 +4980,7 @@ brushDef
 }
 }
 }
-// entity 156
+// entity 155
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -5015,7 +5009,7 @@ brushDef
 }
 }
 }
-// entity 157
+// entity 156
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -5034,7 +5028,7 @@ brushDef
 }
 }
 }
-// entity 158
+// entity 157
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -5063,7 +5057,7 @@ brushDef
 }
 }
 }
-// entity 159
+// entity 158
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -5082,7 +5076,7 @@ brushDef
 }
 }
 }
-// entity 160
+// entity 159
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -5111,7 +5105,7 @@ brushDef
 }
 }
 }
-// entity 161
+// entity 160
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -5130,7 +5124,7 @@ brushDef
 }
 }
 }
-// entity 162
+// entity 161
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -5159,7 +5153,7 @@ brushDef
 }
 }
 }
-// entity 163
+// entity 162
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -5178,7 +5172,7 @@ brushDef
 }
 }
 }
-// entity 164
+// entity 163
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -5207,7 +5201,7 @@ brushDef
 }
 }
 }
-// entity 165
+// entity 164
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -5226,7 +5220,7 @@ brushDef
 }
 }
 }
-// entity 166
+// entity 165
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -5255,7 +5249,7 @@ brushDef
 }
 }
 }
-// entity 167
+// entity 166
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -5274,7 +5268,7 @@ brushDef
 }
 }
 }
-// entity 168
+// entity 167
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -5303,7 +5297,7 @@ brushDef
 }
 }
 }
-// entity 169
+// entity 168
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -5322,7 +5316,7 @@ brushDef
 }
 }
 }
-// entity 170
+// entity 169
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -5351,7 +5345,7 @@ brushDef
 }
 }
 }
-// entity 171
+// entity 170
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -5370,7 +5364,7 @@ brushDef
 }
 }
 }
-// entity 172
+// entity 171
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -5399,7 +5393,7 @@ brushDef
 }
 }
 }
-// entity 173
+// entity 172
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -5418,7 +5412,7 @@ brushDef
 }
 }
 }
-// entity 174
+// entity 173
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -5447,7 +5441,7 @@ brushDef
 }
 }
 }
-// entity 175
+// entity 174
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -5466,7 +5460,7 @@ brushDef
 }
 }
 }
-// entity 176
+// entity 175
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -5495,7 +5489,7 @@ brushDef
 }
 }
 }
-// entity 177
+// entity 176
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -5514,7 +5508,7 @@ brushDef
 }
 }
 }
-// entity 178
+// entity 177
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -5543,7 +5537,7 @@ brushDef
 }
 }
 }
-// entity 179
+// entity 178
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -5562,7 +5556,7 @@ brushDef
 }
 }
 }
-// entity 180
+// entity 179
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -5591,7 +5585,7 @@ brushDef
 }
 }
 }
-// entity 181
+// entity 180
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -5610,7 +5604,7 @@ brushDef
 }
 }
 }
-// entity 182
+// entity 181
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -5639,7 +5633,7 @@ brushDef
 }
 }
 }
-// entity 183
+// entity 182
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -5658,7 +5652,7 @@ brushDef
 }
 }
 }
-// entity 184
+// entity 183
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -5687,7 +5681,7 @@ brushDef
 }
 }
 }
-// entity 185
+// entity 184
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -5706,7 +5700,7 @@ brushDef
 }
 }
 }
-// entity 186
+// entity 185
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -5735,7 +5729,7 @@ brushDef
 }
 }
 }
-// entity 187
+// entity 186
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -5754,7 +5748,7 @@ brushDef
 }
 }
 }
-// entity 188
+// entity 187
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -5783,7 +5777,7 @@ brushDef
 }
 }
 }
-// entity 189
+// entity 188
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -5802,7 +5796,7 @@ brushDef
 }
 }
 }
-// entity 190
+// entity 189
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -5831,7 +5825,7 @@ brushDef
 }
 }
 }
-// entity 191
+// entity 190
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -5850,7 +5844,7 @@ brushDef
 }
 }
 }
-// entity 192
+// entity 191
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -5879,7 +5873,7 @@ brushDef
 }
 }
 }
-// entity 193
+// entity 192
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -5898,7 +5892,7 @@ brushDef
 }
 }
 }
-// entity 194
+// entity 193
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -5927,7 +5921,7 @@ brushDef
 }
 }
 }
-// entity 195
+// entity 194
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -5946,7 +5940,7 @@ brushDef
 }
 }
 }
-// entity 196
+// entity 195
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -5975,7 +5969,7 @@ brushDef
 }
 }
 }
-// entity 197
+// entity 196
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -5994,7 +5988,7 @@ brushDef
 }
 }
 }
-// entity 198
+// entity 197
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -6023,7 +6017,7 @@ brushDef
 }
 }
 }
-// entity 199
+// entity 198
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -6042,7 +6036,7 @@ brushDef
 }
 }
 }
-// entity 200
+// entity 199
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -6071,7 +6065,7 @@ brushDef
 }
 }
 }
-// entity 201
+// entity 200
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -6090,7 +6084,7 @@ brushDef
 }
 }
 }
-// entity 202
+// entity 201
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -6119,7 +6113,7 @@ brushDef
 }
 }
 }
-// entity 203
+// entity 202
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -6138,7 +6132,7 @@ brushDef
 }
 }
 }
-// entity 204
+// entity 203
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -6167,7 +6161,7 @@ brushDef
 }
 }
 }
-// entity 205
+// entity 204
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -6186,7 +6180,7 @@ brushDef
 }
 }
 }
-// entity 206
+// entity 205
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -6215,7 +6209,7 @@ brushDef
 }
 }
 }
-// entity 207
+// entity 206
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -6234,7 +6228,7 @@ brushDef
 }
 }
 }
-// entity 208
+// entity 207
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -6263,7 +6257,7 @@ brushDef
 }
 }
 }
-// entity 209
+// entity 208
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -6282,7 +6276,7 @@ brushDef
 }
 }
 }
-// entity 210
+// entity 209
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -6311,7 +6305,7 @@ brushDef
 }
 }
 }
-// entity 211
+// entity 210
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -6330,7 +6324,7 @@ brushDef
 }
 }
 }
-// entity 212
+// entity 211
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -6359,7 +6353,7 @@ brushDef
 }
 }
 }
-// entity 213
+// entity 212
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -6378,7 +6372,7 @@ brushDef
 }
 }
 }
-// entity 214
+// entity 213
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -6407,7 +6401,7 @@ brushDef
 }
 }
 }
-// entity 215
+// entity 214
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -6426,7 +6420,7 @@ brushDef
 }
 }
 }
-// entity 216
+// entity 215
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -6455,7 +6449,7 @@ brushDef
 }
 }
 }
-// entity 217
+// entity 216
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -6474,7 +6468,7 @@ brushDef
 }
 }
 }
-// entity 218
+// entity 217
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -6503,7 +6497,7 @@ brushDef
 }
 }
 }
-// entity 219
+// entity 218
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -6522,7 +6516,7 @@ brushDef
 }
 }
 }
-// entity 220
+// entity 219
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -6551,7 +6545,7 @@ brushDef
 }
 }
 }
-// entity 221
+// entity 220
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -6570,7 +6564,7 @@ brushDef
 }
 }
 }
-// entity 222
+// entity 221
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -6599,7 +6593,7 @@ brushDef
 }
 }
 }
-// entity 223
+// entity 222
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -6618,7 +6612,7 @@ brushDef
 }
 }
 }
-// entity 224
+// entity 223
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -6647,7 +6641,7 @@ brushDef
 }
 }
 }
-// entity 225
+// entity 224
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -6666,7 +6660,7 @@ brushDef
 }
 }
 }
-// entity 226
+// entity 225
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -6695,7 +6689,7 @@ brushDef
 }
 }
 }
-// entity 227
+// entity 226
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -6714,7 +6708,7 @@ brushDef
 }
 }
 }
-// entity 228
+// entity 227
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -6743,7 +6737,7 @@ brushDef
 }
 }
 }
-// entity 229
+// entity 228
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -6762,7 +6756,7 @@ brushDef
 }
 }
 }
-// entity 230
+// entity 229
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -6791,7 +6785,7 @@ brushDef
 }
 }
 }
-// entity 231
+// entity 230
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -6810,7 +6804,7 @@ brushDef
 }
 }
 }
-// entity 232
+// entity 231
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -6839,7 +6833,7 @@ brushDef
 }
 }
 }
-// entity 233
+// entity 232
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -6858,7 +6852,7 @@ brushDef
 }
 }
 }
-// entity 234
+// entity 233
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -6887,7 +6881,7 @@ brushDef
 }
 }
 }
-// entity 235
+// entity 234
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -6906,7 +6900,7 @@ brushDef
 }
 }
 }
-// entity 236
+// entity 235
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -6935,7 +6929,7 @@ brushDef
 }
 }
 }
-// entity 237
+// entity 236
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -6954,7 +6948,7 @@ brushDef
 }
 }
 }
-// entity 238
+// entity 237
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -6983,7 +6977,7 @@ brushDef
 }
 }
 }
-// entity 239
+// entity 238
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -7002,7 +6996,7 @@ brushDef
 }
 }
 }
-// entity 240
+// entity 239
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -7031,7 +7025,7 @@ brushDef
 }
 }
 }
-// entity 241
+// entity 240
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -7050,7 +7044,7 @@ brushDef
 }
 }
 }
-// entity 242
+// entity 241
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -7079,7 +7073,7 @@ brushDef
 }
 }
 }
-// entity 243
+// entity 242
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -7098,7 +7092,7 @@ brushDef
 }
 }
 }
-// entity 244
+// entity 243
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -7127,7 +7121,7 @@ brushDef
 }
 }
 }
-// entity 245
+// entity 244
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -7146,7 +7140,7 @@ brushDef
 }
 }
 }
-// entity 246
+// entity 245
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -7175,7 +7169,7 @@ brushDef
 }
 }
 }
-// entity 247
+// entity 246
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -7194,7 +7188,7 @@ brushDef
 }
 }
 }
-// entity 248
+// entity 247
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -7223,7 +7217,7 @@ brushDef
 }
 }
 }
-// entity 249
+// entity 248
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -7242,7 +7236,7 @@ brushDef
 }
 }
 }
-// entity 250
+// entity 249
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -7271,7 +7265,7 @@ brushDef
 }
 }
 }
-// entity 251
+// entity 250
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -7290,7 +7284,7 @@ brushDef
 }
 }
 }
-// entity 252
+// entity 251
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -7319,7 +7313,7 @@ brushDef
 }
 }
 }
-// entity 253
+// entity 252
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -7338,7 +7332,7 @@ brushDef
 }
 }
 }
-// entity 254
+// entity 253
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -7367,7 +7361,7 @@ brushDef
 }
 }
 }
-// entity 255
+// entity 254
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -7386,7 +7380,7 @@ brushDef
 }
 }
 }
-// entity 256
+// entity 255
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -7415,7 +7409,7 @@ brushDef
 }
 }
 }
-// entity 257
+// entity 256
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -7434,7 +7428,7 @@ brushDef
 }
 }
 }
-// entity 258
+// entity 257
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -7463,7 +7457,7 @@ brushDef
 }
 }
 }
-// entity 259
+// entity 258
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -7482,7 +7476,7 @@ brushDef
 }
 }
 }
-// entity 260
+// entity 259
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -7511,7 +7505,7 @@ brushDef
 }
 }
 }
-// entity 261
+// entity 260
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -7530,7 +7524,7 @@ brushDef
 }
 }
 }
-// entity 262
+// entity 261
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -7559,7 +7553,7 @@ brushDef
 }
 }
 }
-// entity 263
+// entity 262
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -7578,7 +7572,7 @@ brushDef
 }
 }
 }
-// entity 264
+// entity 263
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -7607,7 +7601,7 @@ brushDef
 }
 }
 }
-// entity 265
+// entity 264
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -7626,7 +7620,7 @@ brushDef
 }
 }
 }
-// entity 266
+// entity 265
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -7655,7 +7649,7 @@ brushDef
 }
 }
 }
-// entity 267
+// entity 266
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -7674,7 +7668,7 @@ brushDef
 }
 }
 }
-// entity 268
+// entity 267
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -7703,7 +7697,7 @@ brushDef
 }
 }
 }
-// entity 269
+// entity 268
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -7722,7 +7716,7 @@ brushDef
 }
 }
 }
-// entity 270
+// entity 269
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -7751,7 +7745,7 @@ brushDef
 }
 }
 }
-// entity 271
+// entity 270
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -7770,7 +7764,7 @@ brushDef
 }
 }
 }
-// entity 272
+// entity 271
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -7799,7 +7793,7 @@ brushDef
 }
 }
 }
-// entity 273
+// entity 272
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -7818,7 +7812,7 @@ brushDef
 }
 }
 }
-// entity 274
+// entity 273
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -7847,7 +7841,7 @@ brushDef
 }
 }
 }
-// entity 275
+// entity 274
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -7866,7 +7860,7 @@ brushDef
 }
 }
 }
-// entity 276
+// entity 275
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -7895,7 +7889,7 @@ brushDef
 }
 }
 }
-// entity 277
+// entity 276
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -7914,7 +7908,7 @@ brushDef
 }
 }
 }
-// entity 278
+// entity 277
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -7943,7 +7937,7 @@ brushDef
 }
 }
 }
-// entity 279
+// entity 278
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -7962,7 +7956,7 @@ brushDef
 }
 }
 }
-// entity 280
+// entity 279
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -7991,7 +7985,7 @@ brushDef
 }
 }
 }
-// entity 281
+// entity 280
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -8010,7 +8004,7 @@ brushDef
 }
 }
 }
-// entity 282
+// entity 281
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -8039,7 +8033,7 @@ brushDef
 }
 }
 }
-// entity 283
+// entity 282
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -8058,7 +8052,7 @@ brushDef
 }
 }
 }
-// entity 284
+// entity 283
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -8087,7 +8081,7 @@ brushDef
 }
 }
 }
-// entity 285
+// entity 284
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -8106,7 +8100,7 @@ brushDef
 }
 }
 }
-// entity 286
+// entity 285
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -8135,7 +8129,7 @@ brushDef
 }
 }
 }
-// entity 287
+// entity 286
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -8154,7 +8148,7 @@ brushDef
 }
 }
 }
-// entity 288
+// entity 287
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -8183,7 +8177,7 @@ brushDef
 }
 }
 }
-// entity 289
+// entity 288
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -8202,7 +8196,7 @@ brushDef
 }
 }
 }
-// entity 290
+// entity 289
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -8231,7 +8225,7 @@ brushDef
 }
 }
 }
-// entity 291
+// entity 290
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -8250,7 +8244,7 @@ brushDef
 }
 }
 }
-// entity 292
+// entity 291
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -8279,7 +8273,7 @@ brushDef
 }
 }
 }
-// entity 293
+// entity 292
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -8298,7 +8292,7 @@ brushDef
 }
 }
 }
-// entity 294
+// entity 293
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -8327,7 +8321,7 @@ brushDef
 }
 }
 }
-// entity 295
+// entity 294
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -8346,7 +8340,7 @@ brushDef
 }
 }
 }
-// entity 296
+// entity 295
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -8375,7 +8369,7 @@ brushDef
 }
 }
 }
-// entity 297
+// entity 296
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -8394,7 +8388,7 @@ brushDef
 }
 }
 }
-// entity 298
+// entity 297
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -8423,7 +8417,7 @@ brushDef
 }
 }
 }
-// entity 299
+// entity 298
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -8442,7 +8436,7 @@ brushDef
 }
 }
 }
-// entity 300
+// entity 299
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -8471,7 +8465,7 @@ brushDef
 }
 }
 }
-// entity 301
+// entity 300
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -8490,7 +8484,7 @@ brushDef
 }
 }
 }
-// entity 302
+// entity 301
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -8519,7 +8513,7 @@ brushDef
 }
 }
 }
-// entity 303
+// entity 302
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -8538,7 +8532,7 @@ brushDef
 }
 }
 }
-// entity 304
+// entity 303
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -8567,7 +8561,7 @@ brushDef
 }
 }
 }
-// entity 305
+// entity 304
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -8586,7 +8580,7 @@ brushDef
 }
 }
 }
-// entity 306
+// entity 305
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -8615,7 +8609,7 @@ brushDef
 }
 }
 }
-// entity 307
+// entity 306
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -8634,7 +8628,7 @@ brushDef
 }
 }
 }
-// entity 308
+// entity 307
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -8663,7 +8657,7 @@ brushDef
 }
 }
 }
-// entity 309
+// entity 308
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -8682,7 +8676,7 @@ brushDef
 }
 }
 }
-// entity 310
+// entity 309
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -8711,7 +8705,7 @@ brushDef
 }
 }
 }
-// entity 311
+// entity 310
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -8730,7 +8724,7 @@ brushDef
 }
 }
 }
-// entity 312
+// entity 311
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -8759,7 +8753,7 @@ brushDef
 }
 }
 }
-// entity 313
+// entity 312
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -8778,7 +8772,7 @@ brushDef
 }
 }
 }
-// entity 314
+// entity 313
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -8807,7 +8801,7 @@ brushDef
 }
 }
 }
-// entity 315
+// entity 314
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -8826,7 +8820,7 @@ brushDef
 }
 }
 }
-// entity 316
+// entity 315
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -8855,7 +8849,7 @@ brushDef
 }
 }
 }
-// entity 317
+// entity 316
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -8874,7 +8868,7 @@ brushDef
 }
 }
 }
-// entity 318
+// entity 317
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -8903,7 +8897,7 @@ brushDef
 }
 }
 }
-// entity 319
+// entity 318
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -8922,7 +8916,7 @@ brushDef
 }
 }
 }
-// entity 320
+// entity 319
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -8951,7 +8945,7 @@ brushDef
 }
 }
 }
-// entity 321
+// entity 320
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -8970,7 +8964,7 @@ brushDef
 }
 }
 }
-// entity 322
+// entity 321
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -8999,7 +8993,7 @@ brushDef
 }
 }
 }
-// entity 323
+// entity 322
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -9018,7 +9012,7 @@ brushDef
 }
 }
 }
-// entity 324
+// entity 323
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -9047,7 +9041,7 @@ brushDef
 }
 }
 }
-// entity 325
+// entity 324
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -9066,7 +9060,7 @@ brushDef
 }
 }
 }
-// entity 326
+// entity 325
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -9095,7 +9089,7 @@ brushDef
 }
 }
 }
-// entity 327
+// entity 326
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -9114,7 +9108,7 @@ brushDef
 }
 }
 }
-// entity 328
+// entity 327
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -9143,7 +9137,7 @@ brushDef
 }
 }
 }
-// entity 329
+// entity 328
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -9162,7 +9156,7 @@ brushDef
 }
 }
 }
-// entity 330
+// entity 329
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -9191,7 +9185,7 @@ brushDef
 }
 }
 }
-// entity 331
+// entity 330
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -9210,7 +9204,7 @@ brushDef
 }
 }
 }
-// entity 332
+// entity 331
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -9239,7 +9233,7 @@ brushDef
 }
 }
 }
-// entity 333
+// entity 332
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -9258,7 +9252,7 @@ brushDef
 }
 }
 }
-// entity 334
+// entity 333
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -9287,7 +9281,7 @@ brushDef
 }
 }
 }
-// entity 335
+// entity 334
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -9306,7 +9300,7 @@ brushDef
 }
 }
 }
-// entity 336
+// entity 335
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -9335,7 +9329,7 @@ brushDef
 }
 }
 }
-// entity 337
+// entity 336
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -9354,7 +9348,7 @@ brushDef
 }
 }
 }
-// entity 338
+// entity 337
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -9383,7 +9377,7 @@ brushDef
 }
 }
 }
-// entity 339
+// entity 338
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -9402,7 +9396,7 @@ brushDef
 }
 }
 }
-// entity 340
+// entity 339
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -9431,7 +9425,7 @@ brushDef
 }
 }
 }
-// entity 341
+// entity 340
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -9450,7 +9444,7 @@ brushDef
 }
 }
 }
-// entity 342
+// entity 341
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -9479,7 +9473,7 @@ brushDef
 }
 }
 }
-// entity 343
+// entity 342
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -9498,7 +9492,7 @@ brushDef
 }
 }
 }
-// entity 344
+// entity 343
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -9527,7 +9521,7 @@ brushDef
 }
 }
 }
-// entity 345
+// entity 344
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -9546,7 +9540,7 @@ brushDef
 }
 }
 }
-// entity 346
+// entity 345
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -9575,7 +9569,7 @@ brushDef
 }
 }
 }
-// entity 347
+// entity 346
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -9594,7 +9588,7 @@ brushDef
 }
 }
 }
-// entity 348
+// entity 347
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -9623,7 +9617,7 @@ brushDef
 }
 }
 }
-// entity 349
+// entity 348
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -9642,7 +9636,7 @@ brushDef
 }
 }
 }
-// entity 350
+// entity 349
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -9671,7 +9665,7 @@ brushDef
 }
 }
 }
-// entity 351
+// entity 350
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -9690,7 +9684,7 @@ brushDef
 }
 }
 }
-// entity 352
+// entity 351
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -9719,7 +9713,7 @@ brushDef
 }
 }
 }
-// entity 353
+// entity 352
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -9738,7 +9732,7 @@ brushDef
 }
 }
 }
-// entity 354
+// entity 353
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -9767,7 +9761,7 @@ brushDef
 }
 }
 }
-// entity 355
+// entity 354
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -9786,7 +9780,7 @@ brushDef
 }
 }
 }
-// entity 356
+// entity 355
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -9815,7 +9809,7 @@ brushDef
 }
 }
 }
-// entity 357
+// entity 356
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -9834,7 +9828,7 @@ brushDef
 }
 }
 }
-// entity 358
+// entity 357
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -9863,7 +9857,7 @@ brushDef
 }
 }
 }
-// entity 359
+// entity 358
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -9882,7 +9876,7 @@ brushDef
 }
 }
 }
-// entity 360
+// entity 359
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -9911,7 +9905,7 @@ brushDef
 }
 }
 }
-// entity 361
+// entity 360
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -9930,7 +9924,7 @@ brushDef
 }
 }
 }
-// entity 362
+// entity 361
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -9959,7 +9953,7 @@ brushDef
 }
 }
 }
-// entity 363
+// entity 362
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -9978,7 +9972,7 @@ brushDef
 }
 }
 }
-// entity 364
+// entity 363
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -10007,7 +10001,7 @@ brushDef
 }
 }
 }
-// entity 365
+// entity 364
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -10026,7 +10020,7 @@ brushDef
 }
 }
 }
-// entity 366
+// entity 365
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -10055,7 +10049,7 @@ brushDef
 }
 }
 }
-// entity 367
+// entity 366
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -10074,7 +10068,7 @@ brushDef
 }
 }
 }
-// entity 368
+// entity 367
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -10103,7 +10097,7 @@ brushDef
 }
 }
 }
-// entity 369
+// entity 368
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -10122,7 +10116,7 @@ brushDef
 }
 }
 }
-// entity 370
+// entity 369
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -10151,7 +10145,7 @@ brushDef
 }
 }
 }
-// entity 371
+// entity 370
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -10170,7 +10164,7 @@ brushDef
 }
 }
 }
-// entity 372
+// entity 371
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -10199,7 +10193,7 @@ brushDef
 }
 }
 }
-// entity 373
+// entity 372
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -10218,7 +10212,7 @@ brushDef
 }
 }
 }
-// entity 374
+// entity 373
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -10247,7 +10241,7 @@ brushDef
 }
 }
 }
-// entity 375
+// entity 374
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -10266,7 +10260,7 @@ brushDef
 }
 }
 }
-// entity 376
+// entity 375
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -10295,7 +10289,7 @@ brushDef
 }
 }
 }
-// entity 377
+// entity 376
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -10314,7 +10308,7 @@ brushDef
 }
 }
 }
-// entity 378
+// entity 377
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -10343,7 +10337,7 @@ brushDef
 }
 }
 }
-// entity 379
+// entity 378
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -10362,7 +10356,7 @@ brushDef
 }
 }
 }
-// entity 380
+// entity 379
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -10391,7 +10385,7 @@ brushDef
 }
 }
 }
-// entity 381
+// entity 380
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -10410,7 +10404,7 @@ brushDef
 }
 }
 }
-// entity 382
+// entity 381
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -10439,7 +10433,7 @@ brushDef
 }
 }
 }
-// entity 383
+// entity 382
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -10458,7 +10452,7 @@ brushDef
 }
 }
 }
-// entity 384
+// entity 383
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -10487,7 +10481,7 @@ brushDef
 }
 }
 }
-// entity 385
+// entity 384
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -10506,7 +10500,7 @@ brushDef
 }
 }
 }
-// entity 386
+// entity 385
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -10535,7 +10529,7 @@ brushDef
 }
 }
 }
-// entity 387
+// entity 386
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -10554,7 +10548,7 @@ brushDef
 }
 }
 }
-// entity 388
+// entity 387
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -10583,7 +10577,7 @@ brushDef
 }
 }
 }
-// entity 389
+// entity 388
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -10602,7 +10596,7 @@ brushDef
 }
 }
 }
-// entity 390
+// entity 389
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -10631,7 +10625,7 @@ brushDef
 }
 }
 }
-// entity 391
+// entity 390
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -10650,7 +10644,7 @@ brushDef
 }
 }
 }
-// entity 392
+// entity 391
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -10679,7 +10673,7 @@ brushDef
 }
 }
 }
-// entity 393
+// entity 392
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -10698,7 +10692,7 @@ brushDef
 }
 }
 }
-// entity 394
+// entity 393
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -10727,7 +10721,7 @@ brushDef
 }
 }
 }
-// entity 395
+// entity 394
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -10746,7 +10740,7 @@ brushDef
 }
 }
 }
-// entity 396
+// entity 395
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -10775,7 +10769,7 @@ brushDef
 }
 }
 }
-// entity 397
+// entity 396
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -10794,7 +10788,7 @@ brushDef
 }
 }
 }
-// entity 398
+// entity 397
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -10823,7 +10817,7 @@ brushDef
 }
 }
 }
-// entity 399
+// entity 398
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -10842,7 +10836,7 @@ brushDef
 }
 }
 }
-// entity 400
+// entity 399
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -10871,7 +10865,7 @@ brushDef
 }
 }
 }
-// entity 401
+// entity 400
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -10890,7 +10884,7 @@ brushDef
 }
 }
 }
-// entity 402
+// entity 401
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -10919,7 +10913,7 @@ brushDef
 }
 }
 }
-// entity 403
+// entity 402
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -10938,7 +10932,7 @@ brushDef
 }
 }
 }
-// entity 404
+// entity 403
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -10967,7 +10961,7 @@ brushDef
 }
 }
 }
-// entity 405
+// entity 404
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -10986,7 +10980,7 @@ brushDef
 }
 }
 }
-// entity 406
+// entity 405
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -11015,7 +11009,7 @@ brushDef
 }
 }
 }
-// entity 407
+// entity 406
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -11034,7 +11028,7 @@ brushDef
 }
 }
 }
-// entity 408
+// entity 407
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -11063,7 +11057,7 @@ brushDef
 }
 }
 }
-// entity 409
+// entity 408
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -11082,7 +11076,7 @@ brushDef
 }
 }
 }
-// entity 410
+// entity 409
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -11111,7 +11105,7 @@ brushDef
 }
 }
 }
-// entity 411
+// entity 410
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -11130,7 +11124,7 @@ brushDef
 }
 }
 }
-// entity 412
+// entity 411
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -11159,7 +11153,7 @@ brushDef
 }
 }
 }
-// entity 413
+// entity 412
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -11178,7 +11172,7 @@ brushDef
 }
 }
 }
-// entity 414
+// entity 413
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -11207,7 +11201,7 @@ brushDef
 }
 }
 }
-// entity 415
+// entity 414
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -11226,7 +11220,7 @@ brushDef
 }
 }
 }
-// entity 416
+// entity 415
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -11255,7 +11249,7 @@ brushDef
 }
 }
 }
-// entity 417
+// entity 416
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -11274,7 +11268,7 @@ brushDef
 }
 }
 }
-// entity 418
+// entity 417
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -11303,7 +11297,7 @@ brushDef
 }
 }
 }
-// entity 419
+// entity 418
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -11322,7 +11316,7 @@ brushDef
 }
 }
 }
-// entity 420
+// entity 419
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -11351,7 +11345,7 @@ brushDef
 }
 }
 }
-// entity 421
+// entity 420
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -11370,7 +11364,7 @@ brushDef
 }
 }
 }
-// entity 422
+// entity 421
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -11399,7 +11393,7 @@ brushDef
 }
 }
 }
-// entity 423
+// entity 422
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -11418,7 +11412,7 @@ brushDef
 }
 }
 }
-// entity 424
+// entity 423
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -11447,7 +11441,7 @@ brushDef
 }
 }
 }
-// entity 425
+// entity 424
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -11466,7 +11460,7 @@ brushDef
 }
 }
 }
-// entity 426
+// entity 425
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -11495,7 +11489,7 @@ brushDef
 }
 }
 }
-// entity 427
+// entity 426
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -11514,7 +11508,7 @@ brushDef
 }
 }
 }
-// entity 428
+// entity 427
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -11543,7 +11537,7 @@ brushDef
 }
 }
 }
-// entity 429
+// entity 428
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -11562,7 +11556,7 @@ brushDef
 }
 }
 }
-// entity 430
+// entity 429
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -11591,7 +11585,7 @@ brushDef
 }
 }
 }
-// entity 431
+// entity 430
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -11610,7 +11604,7 @@ brushDef
 }
 }
 }
-// entity 432
+// entity 431
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -11639,7 +11633,7 @@ brushDef
 }
 }
 }
-// entity 433
+// entity 432
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -11658,7 +11652,7 @@ brushDef
 }
 }
 }
-// entity 434
+// entity 433
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -11687,7 +11681,7 @@ brushDef
 }
 }
 }
-// entity 435
+// entity 434
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -11706,7 +11700,7 @@ brushDef
 }
 }
 }
-// entity 436
+// entity 435
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -11735,7 +11729,7 @@ brushDef
 }
 }
 }
-// entity 437
+// entity 436
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -11754,7 +11748,7 @@ brushDef
 }
 }
 }
-// entity 438
+// entity 437
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -11783,7 +11777,7 @@ brushDef
 }
 }
 }
-// entity 439
+// entity 438
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -11802,7 +11796,7 @@ brushDef
 }
 }
 }
-// entity 440
+// entity 439
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -11831,7 +11825,7 @@ brushDef
 }
 }
 }
-// entity 441
+// entity 440
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -11850,7 +11844,7 @@ brushDef
 }
 }
 }
-// entity 442
+// entity 441
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -11879,7 +11873,7 @@ brushDef
 }
 }
 }
-// entity 443
+// entity 442
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -11898,7 +11892,7 @@ brushDef
 }
 }
 }
-// entity 444
+// entity 443
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -11927,7 +11921,7 @@ brushDef
 }
 }
 }
-// entity 445
+// entity 444
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -11946,7 +11940,7 @@ brushDef
 }
 }
 }
-// entity 446
+// entity 445
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -11975,7 +11969,7 @@ brushDef
 }
 }
 }
-// entity 447
+// entity 446
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -11994,7 +11988,7 @@ brushDef
 }
 }
 }
-// entity 448
+// entity 447
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -12023,7 +12017,7 @@ brushDef
 }
 }
 }
-// entity 449
+// entity 448
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -12042,7 +12036,7 @@ brushDef
 }
 }
 }
-// entity 450
+// entity 449
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -12071,7 +12065,7 @@ brushDef
 }
 }
 }
-// entity 451
+// entity 450
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -12090,7 +12084,7 @@ brushDef
 }
 }
 }
-// entity 452
+// entity 451
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -12119,7 +12113,7 @@ brushDef
 }
 }
 }
-// entity 453
+// entity 452
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -12138,7 +12132,7 @@ brushDef
 }
 }
 }
-// entity 454
+// entity 453
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -12167,7 +12161,7 @@ brushDef
 }
 }
 }
-// entity 455
+// entity 454
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -12186,7 +12180,7 @@ brushDef
 }
 }
 }
-// entity 456
+// entity 455
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -12215,7 +12209,7 @@ brushDef
 }
 }
 }
-// entity 457
+// entity 456
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -12234,7 +12228,7 @@ brushDef
 }
 }
 }
-// entity 458
+// entity 457
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -12263,7 +12257,7 @@ brushDef
 }
 }
 }
-// entity 459
+// entity 458
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -12282,7 +12276,7 @@ brushDef
 }
 }
 }
-// entity 460
+// entity 459
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -12311,7 +12305,7 @@ brushDef
 }
 }
 }
-// entity 461
+// entity 460
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -12330,7 +12324,7 @@ brushDef
 }
 }
 }
-// entity 462
+// entity 461
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -12359,7 +12353,7 @@ brushDef
 }
 }
 }
-// entity 463
+// entity 462
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -12378,7 +12372,7 @@ brushDef
 }
 }
 }
-// entity 464
+// entity 463
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -12407,7 +12401,7 @@ brushDef
 }
 }
 }
-// entity 465
+// entity 464
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -12426,7 +12420,7 @@ brushDef
 }
 }
 }
-// entity 466
+// entity 465
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -12455,7 +12449,7 @@ brushDef
 }
 }
 }
-// entity 467
+// entity 466
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -12474,7 +12468,7 @@ brushDef
 }
 }
 }
-// entity 468
+// entity 467
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -12503,7 +12497,7 @@ brushDef
 }
 }
 }
-// entity 469
+// entity 468
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -12522,7 +12516,7 @@ brushDef
 }
 }
 }
-// entity 470
+// entity 469
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -12551,7 +12545,7 @@ brushDef
 }
 }
 }
-// entity 471
+// entity 470
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -12570,7 +12564,7 @@ brushDef
 }
 }
 }
-// entity 472
+// entity 471
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -12599,7 +12593,7 @@ brushDef
 }
 }
 }
-// entity 473
+// entity 472
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -12618,7 +12612,7 @@ brushDef
 }
 }
 }
-// entity 474
+// entity 473
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -12647,7 +12641,7 @@ brushDef
 }
 }
 }
-// entity 475
+// entity 474
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -12666,7 +12660,7 @@ brushDef
 }
 }
 }
-// entity 476
+// entity 475
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -12695,7 +12689,7 @@ brushDef
 }
 }
 }
-// entity 477
+// entity 476
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -12714,7 +12708,7 @@ brushDef
 }
 }
 }
-// entity 478
+// entity 477
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -12743,7 +12737,7 @@ brushDef
 }
 }
 }
-// entity 479
+// entity 478
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -12762,7 +12756,7 @@ brushDef
 }
 }
 }
-// entity 480
+// entity 479
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -12791,7 +12785,7 @@ brushDef
 }
 }
 }
-// entity 481
+// entity 480
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -12810,7 +12804,7 @@ brushDef
 }
 }
 }
-// entity 482
+// entity 481
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -12839,7 +12833,7 @@ brushDef
 }
 }
 }
-// entity 483
+// entity 482
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -12858,7 +12852,7 @@ brushDef
 }
 }
 }
-// entity 484
+// entity 483
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -12887,7 +12881,7 @@ brushDef
 }
 }
 }
-// entity 485
+// entity 484
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -12906,7 +12900,7 @@ brushDef
 }
 }
 }
-// entity 486
+// entity 485
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -12935,7 +12929,7 @@ brushDef
 }
 }
 }
-// entity 487
+// entity 486
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -12954,7 +12948,7 @@ brushDef
 }
 }
 }
-// entity 488
+// entity 487
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -12983,7 +12977,7 @@ brushDef
 }
 }
 }
-// entity 489
+// entity 488
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -13002,7 +12996,7 @@ brushDef
 }
 }
 }
-// entity 490
+// entity 489
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -13031,7 +13025,7 @@ brushDef
 }
 }
 }
-// entity 491
+// entity 490
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -13050,7 +13044,7 @@ brushDef
 }
 }
 }
-// entity 492
+// entity 491
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -13079,7 +13073,7 @@ brushDef
 }
 }
 }
-// entity 493
+// entity 492
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -13098,7 +13092,7 @@ brushDef
 }
 }
 }
-// entity 494
+// entity 493
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -13127,7 +13121,7 @@ brushDef
 }
 }
 }
-// entity 495
+// entity 494
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -13146,7 +13140,7 @@ brushDef
 }
 }
 }
-// entity 496
+// entity 495
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -13175,7 +13169,7 @@ brushDef
 }
 }
 }
-// entity 497
+// entity 496
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -13194,7 +13188,7 @@ brushDef
 }
 }
 }
-// entity 498
+// entity 497
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -13223,7 +13217,7 @@ brushDef
 }
 }
 }
-// entity 499
+// entity 498
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -13242,7 +13236,7 @@ brushDef
 }
 }
 }
-// entity 500
+// entity 499
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -13271,7 +13265,7 @@ brushDef
 }
 }
 }
-// entity 501
+// entity 500
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -13290,7 +13284,7 @@ brushDef
 }
 }
 }
-// entity 502
+// entity 501
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -13319,7 +13313,7 @@ brushDef
 }
 }
 }
-// entity 503
+// entity 502
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -13338,7 +13332,7 @@ brushDef
 }
 }
 }
-// entity 504
+// entity 503
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -13367,7 +13361,7 @@ brushDef
 }
 }
 }
-// entity 505
+// entity 504
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -13386,7 +13380,7 @@ brushDef
 }
 }
 }
-// entity 506
+// entity 505
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -13415,7 +13409,7 @@ brushDef
 }
 }
 }
-// entity 507
+// entity 506
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -13434,7 +13428,7 @@ brushDef
 }
 }
 }
-// entity 508
+// entity 507
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -13463,7 +13457,7 @@ brushDef
 }
 }
 }
-// entity 509
+// entity 508
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -13482,7 +13476,7 @@ brushDef
 }
 }
 }
-// entity 510
+// entity 509
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -13511,7 +13505,7 @@ brushDef
 }
 }
 }
-// entity 511
+// entity 510
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -13530,7 +13524,7 @@ brushDef
 }
 }
 }
-// entity 512
+// entity 511
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -13559,7 +13553,7 @@ brushDef
 }
 }
 }
-// entity 513
+// entity 512
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -13578,7 +13572,7 @@ brushDef
 }
 }
 }
-// entity 514
+// entity 513
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -13607,7 +13601,7 @@ brushDef
 }
 }
 }
-// entity 515
+// entity 514
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -13626,7 +13620,7 @@ brushDef
 }
 }
 }
-// entity 516
+// entity 515
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -13655,7 +13649,7 @@ brushDef
 }
 }
 }
-// entity 517
+// entity 516
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -13674,7 +13668,7 @@ brushDef
 }
 }
 }
-// entity 518
+// entity 517
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -13703,7 +13697,7 @@ brushDef
 }
 }
 }
-// entity 519
+// entity 518
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -13722,7 +13716,7 @@ brushDef
 }
 }
 }
-// entity 520
+// entity 519
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -13751,7 +13745,7 @@ brushDef
 }
 }
 }
-// entity 521
+// entity 520
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -13770,7 +13764,7 @@ brushDef
 }
 }
 }
-// entity 522
+// entity 521
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -13799,7 +13793,7 @@ brushDef
 }
 }
 }
-// entity 523
+// entity 522
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -13818,7 +13812,7 @@ brushDef
 }
 }
 }
-// entity 524
+// entity 523
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -13847,7 +13841,7 @@ brushDef
 }
 }
 }
-// entity 525
+// entity 524
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -13866,7 +13860,7 @@ brushDef
 }
 }
 }
-// entity 526
+// entity 525
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -13895,7 +13889,7 @@ brushDef
 }
 }
 }
-// entity 527
+// entity 526
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -13914,7 +13908,7 @@ brushDef
 }
 }
 }
-// entity 528
+// entity 527
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -13943,7 +13937,7 @@ brushDef
 }
 }
 }
-// entity 529
+// entity 528
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -13962,7 +13956,7 @@ brushDef
 }
 }
 }
-// entity 530
+// entity 529
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -13991,7 +13985,7 @@ brushDef
 }
 }
 }
-// entity 531
+// entity 530
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -14010,7 +14004,7 @@ brushDef
 }
 }
 }
-// entity 532
+// entity 531
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -14039,7 +14033,7 @@ brushDef
 }
 }
 }
-// entity 533
+// entity 532
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -14058,7 +14052,7 @@ brushDef
 }
 }
 }
-// entity 534
+// entity 533
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -14087,7 +14081,7 @@ brushDef
 }
 }
 }
-// entity 535
+// entity 534
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -14106,7 +14100,7 @@ brushDef
 }
 }
 }
-// entity 536
+// entity 535
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -14135,7 +14129,7 @@ brushDef
 }
 }
 }
-// entity 537
+// entity 536
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -14154,7 +14148,7 @@ brushDef
 }
 }
 }
-// entity 538
+// entity 537
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -14183,7 +14177,7 @@ brushDef
 }
 }
 }
-// entity 539
+// entity 538
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -14202,7 +14196,7 @@ brushDef
 }
 }
 }
-// entity 540
+// entity 539
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -14231,7 +14225,7 @@ brushDef
 }
 }
 }
-// entity 541
+// entity 540
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -14250,7 +14244,7 @@ brushDef
 }
 }
 }
-// entity 542
+// entity 541
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -14279,7 +14273,7 @@ brushDef
 }
 }
 }
-// entity 543
+// entity 542
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -14298,7 +14292,7 @@ brushDef
 }
 }
 }
-// entity 544
+// entity 543
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -14327,7 +14321,7 @@ brushDef
 }
 }
 }
-// entity 545
+// entity 544
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -14346,7 +14340,7 @@ brushDef
 }
 }
 }
-// entity 546
+// entity 545
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -14375,7 +14369,7 @@ brushDef
 }
 }
 }
-// entity 547
+// entity 546
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -14394,7 +14388,7 @@ brushDef
 }
 }
 }
-// entity 548
+// entity 547
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -14423,7 +14417,7 @@ brushDef
 }
 }
 }
-// entity 549
+// entity 548
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -14442,7 +14436,7 @@ brushDef
 }
 }
 }
-// entity 550
+// entity 549
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -14471,7 +14465,7 @@ brushDef
 }
 }
 }
-// entity 551
+// entity 550
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -14490,7 +14484,7 @@ brushDef
 }
 }
 }
-// entity 552
+// entity 551
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -14519,7 +14513,7 @@ brushDef
 }
 }
 }
-// entity 553
+// entity 552
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -14538,7 +14532,7 @@ brushDef
 }
 }
 }
-// entity 554
+// entity 553
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -14567,7 +14561,7 @@ brushDef
 }
 }
 }
-// entity 555
+// entity 554
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -14586,7 +14580,7 @@ brushDef
 }
 }
 }
-// entity 556
+// entity 555
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -14615,7 +14609,7 @@ brushDef
 }
 }
 }
-// entity 557
+// entity 556
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -14634,7 +14628,7 @@ brushDef
 }
 }
 }
-// entity 558
+// entity 557
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -14663,11 +14657,11 @@ brushDef
 }
 }
 }
-// entity 559
+// entity 558
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
-"target" "brick_214_counter"
+"target" "brick_214"
 "delay" "0.2"
 // brush 0
 {
@@ -14682,7 +14676,7 @@ brushDef
 }
 }
 }
-// entity 560
+// entity 559
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -14711,7 +14705,7 @@ brushDef
 }
 }
 }
-// entity 561
+// entity 560
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -14730,7 +14724,7 @@ brushDef
 }
 }
 }
-// entity 562
+// entity 561
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -14759,7 +14753,7 @@ brushDef
 }
 }
 }
-// entity 563
+// entity 562
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -14778,7 +14772,7 @@ brushDef
 }
 }
 }
-// entity 564
+// entity 563
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -14807,7 +14801,7 @@ brushDef
 }
 }
 }
-// entity 565
+// entity 564
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -14826,7 +14820,7 @@ brushDef
 }
 }
 }
-// entity 566
+// entity 565
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -14855,7 +14849,7 @@ brushDef
 }
 }
 }
-// entity 567
+// entity 566
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -14874,7 +14868,7 @@ brushDef
 }
 }
 }
-// entity 568
+// entity 567
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -14903,7 +14897,7 @@ brushDef
 }
 }
 }
-// entity 569
+// entity 568
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -14922,7 +14916,7 @@ brushDef
 }
 }
 }
-// entity 570
+// entity 569
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -14951,7 +14945,7 @@ brushDef
 }
 }
 }
-// entity 571
+// entity 570
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -14970,7 +14964,7 @@ brushDef
 }
 }
 }
-// entity 572
+// entity 571
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -14999,7 +14993,7 @@ brushDef
 }
 }
 }
-// entity 573
+// entity 572
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -15018,7 +15012,7 @@ brushDef
 }
 }
 }
-// entity 574
+// entity 573
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -15047,7 +15041,7 @@ brushDef
 }
 }
 }
-// entity 575
+// entity 574
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -15066,7 +15060,7 @@ brushDef
 }
 }
 }
-// entity 576
+// entity 575
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -15095,7 +15089,7 @@ brushDef
 }
 }
 }
-// entity 577
+// entity 576
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -15114,7 +15108,7 @@ brushDef
 }
 }
 }
-// entity 578
+// entity 577
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -15143,7 +15137,7 @@ brushDef
 }
 }
 }
-// entity 579
+// entity 578
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -15162,7 +15156,7 @@ brushDef
 }
 }
 }
-// entity 580
+// entity 579
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -15191,7 +15185,7 @@ brushDef
 }
 }
 }
-// entity 581
+// entity 580
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -15210,7 +15204,7 @@ brushDef
 }
 }
 }
-// entity 582
+// entity 581
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -15239,7 +15233,7 @@ brushDef
 }
 }
 }
-// entity 583
+// entity 582
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -15258,7 +15252,7 @@ brushDef
 }
 }
 }
-// entity 584
+// entity 583
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -15287,7 +15281,7 @@ brushDef
 }
 }
 }
-// entity 585
+// entity 584
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -15306,7 +15300,7 @@ brushDef
 }
 }
 }
-// entity 586
+// entity 585
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -15335,7 +15329,7 @@ brushDef
 }
 }
 }
-// entity 587
+// entity 586
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -15354,7 +15348,7 @@ brushDef
 }
 }
 }
-// entity 588
+// entity 587
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -15383,7 +15377,7 @@ brushDef
 }
 }
 }
-// entity 589
+// entity 588
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -15402,7 +15396,7 @@ brushDef
 }
 }
 }
-// entity 590
+// entity 589
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -15431,7 +15425,7 @@ brushDef
 }
 }
 }
-// entity 591
+// entity 590
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -15450,7 +15444,7 @@ brushDef
 }
 }
 }
-// entity 592
+// entity 591
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -15479,7 +15473,7 @@ brushDef
 }
 }
 }
-// entity 593
+// entity 592
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -15498,7 +15492,7 @@ brushDef
 }
 }
 }
-// entity 594
+// entity 593
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -15527,7 +15521,7 @@ brushDef
 }
 }
 }
-// entity 595
+// entity 594
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -15546,7 +15540,7 @@ brushDef
 }
 }
 }
-// entity 596
+// entity 595
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -15575,7 +15569,7 @@ brushDef
 }
 }
 }
-// entity 597
+// entity 596
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -15594,7 +15588,7 @@ brushDef
 }
 }
 }
-// entity 598
+// entity 597
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -15623,7 +15617,7 @@ brushDef
 }
 }
 }
-// entity 599
+// entity 598
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -15642,7 +15636,7 @@ brushDef
 }
 }
 }
-// entity 600
+// entity 599
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -15671,7 +15665,7 @@ brushDef
 }
 }
 }
-// entity 601
+// entity 600
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -15690,7 +15684,7 @@ brushDef
 }
 }
 }
-// entity 602
+// entity 601
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -15719,7 +15713,7 @@ brushDef
 }
 }
 }
-// entity 603
+// entity 602
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -15738,7 +15732,7 @@ brushDef
 }
 }
 }
-// entity 604
+// entity 603
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -15767,7 +15761,7 @@ brushDef
 }
 }
 }
-// entity 605
+// entity 604
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -15786,7 +15780,7 @@ brushDef
 }
 }
 }
-// entity 606
+// entity 605
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -15815,7 +15809,7 @@ brushDef
 }
 }
 }
-// entity 607
+// entity 606
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -15834,7 +15828,7 @@ brushDef
 }
 }
 }
-// entity 608
+// entity 607
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -15863,7 +15857,7 @@ brushDef
 }
 }
 }
-// entity 609
+// entity 608
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -15882,7 +15876,7 @@ brushDef
 }
 }
 }
-// entity 610
+// entity 609
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -15911,7 +15905,7 @@ brushDef
 }
 }
 }
-// entity 611
+// entity 610
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -15930,7 +15924,7 @@ brushDef
 }
 }
 }
-// entity 612
+// entity 611
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -15959,7 +15953,7 @@ brushDef
 }
 }
 }
-// entity 613
+// entity 612
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -15978,7 +15972,7 @@ brushDef
 }
 }
 }
-// entity 614
+// entity 613
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -16007,7 +16001,7 @@ brushDef
 }
 }
 }
-// entity 615
+// entity 614
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -16026,7 +16020,7 @@ brushDef
 }
 }
 }
-// entity 616
+// entity 615
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -16055,7 +16049,7 @@ brushDef
 }
 }
 }
-// entity 617
+// entity 616
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -16074,7 +16068,7 @@ brushDef
 }
 }
 }
-// entity 618
+// entity 617
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -16103,7 +16097,7 @@ brushDef
 }
 }
 }
-// entity 619
+// entity 618
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -16122,7 +16116,7 @@ brushDef
 }
 }
 }
-// entity 620
+// entity 619
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -16151,7 +16145,7 @@ brushDef
 }
 }
 }
-// entity 621
+// entity 620
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -16170,7 +16164,7 @@ brushDef
 }
 }
 }
-// entity 622
+// entity 621
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -16199,7 +16193,7 @@ brushDef
 }
 }
 }
-// entity 623
+// entity 622
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -16218,7 +16212,7 @@ brushDef
 }
 }
 }
-// entity 624
+// entity 623
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -16247,7 +16241,7 @@ brushDef
 }
 }
 }
-// entity 625
+// entity 624
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -16266,7 +16260,7 @@ brushDef
 }
 }
 }
-// entity 626
+// entity 625
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -16295,7 +16289,7 @@ brushDef
 }
 }
 }
-// entity 627
+// entity 626
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -16314,7 +16308,7 @@ brushDef
 }
 }
 }
-// entity 628
+// entity 627
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -16343,7 +16337,7 @@ brushDef
 }
 }
 }
-// entity 629
+// entity 628
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -16362,7 +16356,7 @@ brushDef
 }
 }
 }
-// entity 630
+// entity 629
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -16391,7 +16385,7 @@ brushDef
 }
 }
 }
-// entity 631
+// entity 630
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -16410,7 +16404,7 @@ brushDef
 }
 }
 }
-// entity 632
+// entity 631
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -16439,7 +16433,7 @@ brushDef
 }
 }
 }
-// entity 633
+// entity 632
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -16458,7 +16452,7 @@ brushDef
 }
 }
 }
-// entity 634
+// entity 633
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -16487,7 +16481,7 @@ brushDef
 }
 }
 }
-// entity 635
+// entity 634
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -16506,7 +16500,7 @@ brushDef
 }
 }
 }
-// entity 636
+// entity 635
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -16535,7 +16529,7 @@ brushDef
 }
 }
 }
-// entity 637
+// entity 636
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -16554,7 +16548,7 @@ brushDef
 }
 }
 }
-// entity 638
+// entity 637
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -16583,7 +16577,7 @@ brushDef
 }
 }
 }
-// entity 639
+// entity 638
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -16602,7 +16596,7 @@ brushDef
 }
 }
 }
-// entity 640
+// entity 639
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -16631,7 +16625,7 @@ brushDef
 }
 }
 }
-// entity 641
+// entity 640
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -16650,7 +16644,7 @@ brushDef
 }
 }
 }
-// entity 642
+// entity 641
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -16679,7 +16673,7 @@ brushDef
 }
 }
 }
-// entity 643
+// entity 642
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -16698,7 +16692,7 @@ brushDef
 }
 }
 }
-// entity 644
+// entity 643
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -16727,7 +16721,7 @@ brushDef
 }
 }
 }
-// entity 645
+// entity 644
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -16746,7 +16740,7 @@ brushDef
 }
 }
 }
-// entity 646
+// entity 645
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -16775,7 +16769,7 @@ brushDef
 }
 }
 }
-// entity 647
+// entity 646
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -16794,7 +16788,7 @@ brushDef
 }
 }
 }
-// entity 648
+// entity 647
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -16823,7 +16817,7 @@ brushDef
 }
 }
 }
-// entity 649
+// entity 648
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -16842,7 +16836,7 @@ brushDef
 }
 }
 }
-// entity 650
+// entity 649
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -16871,7 +16865,7 @@ brushDef
 }
 }
 }
-// entity 651
+// entity 650
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -16890,7 +16884,7 @@ brushDef
 }
 }
 }
-// entity 652
+// entity 651
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -16919,7 +16913,7 @@ brushDef
 }
 }
 }
-// entity 653
+// entity 652
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -16938,7 +16932,7 @@ brushDef
 }
 }
 }
-// entity 654
+// entity 653
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -16967,7 +16961,7 @@ brushDef
 }
 }
 }
-// entity 655
+// entity 654
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -16986,7 +16980,7 @@ brushDef
 }
 }
 }
-// entity 656
+// entity 655
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -17015,7 +17009,7 @@ brushDef
 }
 }
 }
-// entity 657
+// entity 656
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -17034,7 +17028,7 @@ brushDef
 }
 }
 }
-// entity 658
+// entity 657
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -17063,7 +17057,7 @@ brushDef
 }
 }
 }
-// entity 659
+// entity 658
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -17082,7 +17076,7 @@ brushDef
 }
 }
 }
-// entity 660
+// entity 659
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -17111,7 +17105,7 @@ brushDef
 }
 }
 }
-// entity 661
+// entity 660
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -17130,7 +17124,7 @@ brushDef
 }
 }
 }
-// entity 662
+// entity 661
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -17159,7 +17153,7 @@ brushDef
 }
 }
 }
-// entity 663
+// entity 662
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -17178,7 +17172,7 @@ brushDef
 }
 }
 }
-// entity 664
+// entity 663
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -17207,7 +17201,7 @@ brushDef
 }
 }
 }
-// entity 665
+// entity 664
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -17226,7 +17220,7 @@ brushDef
 }
 }
 }
-// entity 666
+// entity 665
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -17255,7 +17249,7 @@ brushDef
 }
 }
 }
-// entity 667
+// entity 666
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -17274,7 +17268,7 @@ brushDef
 }
 }
 }
-// entity 668
+// entity 667
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -17303,7 +17297,7 @@ brushDef
 }
 }
 }
-// entity 669
+// entity 668
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -17322,7 +17316,7 @@ brushDef
 }
 }
 }
-// entity 670
+// entity 669
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -17351,7 +17345,7 @@ brushDef
 }
 }
 }
-// entity 671
+// entity 670
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -17370,7 +17364,7 @@ brushDef
 }
 }
 }
-// entity 672
+// entity 671
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -17399,7 +17393,7 @@ brushDef
 }
 }
 }
-// entity 673
+// entity 672
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -17418,7 +17412,7 @@ brushDef
 }
 }
 }
-// entity 674
+// entity 673
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -17447,7 +17441,7 @@ brushDef
 }
 }
 }
-// entity 675
+// entity 674
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -17466,7 +17460,7 @@ brushDef
 }
 }
 }
-// entity 676
+// entity 675
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -17495,7 +17489,7 @@ brushDef
 }
 }
 }
-// entity 677
+// entity 676
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -17514,7 +17508,7 @@ brushDef
 }
 }
 }
-// entity 678
+// entity 677
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -17543,7 +17537,7 @@ brushDef
 }
 }
 }
-// entity 679
+// entity 678
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -17562,7 +17556,7 @@ brushDef
 }
 }
 }
-// entity 680
+// entity 679
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -17591,7 +17585,7 @@ brushDef
 }
 }
 }
-// entity 681
+// entity 680
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -17610,7 +17604,7 @@ brushDef
 }
 }
 }
-// entity 682
+// entity 681
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -17639,7 +17633,7 @@ brushDef
 }
 }
 }
-// entity 683
+// entity 682
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -17658,7 +17652,7 @@ brushDef
 }
 }
 }
-// entity 684
+// entity 683
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -17687,7 +17681,7 @@ brushDef
 }
 }
 }
-// entity 685
+// entity 684
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -17706,7 +17700,7 @@ brushDef
 }
 }
 }
-// entity 686
+// entity 685
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -17735,7 +17729,7 @@ brushDef
 }
 }
 }
-// entity 687
+// entity 686
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -17754,7 +17748,7 @@ brushDef
 }
 }
 }
-// entity 688
+// entity 687
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -17783,7 +17777,7 @@ brushDef
 }
 }
 }
-// entity 689
+// entity 688
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -17802,7 +17796,7 @@ brushDef
 }
 }
 }
-// entity 690
+// entity 689
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -17831,7 +17825,7 @@ brushDef
 }
 }
 }
-// entity 691
+// entity 690
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -17850,7 +17844,7 @@ brushDef
 }
 }
 }
-// entity 692
+// entity 691
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -17879,7 +17873,7 @@ brushDef
 }
 }
 }
-// entity 693
+// entity 692
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -17898,7 +17892,7 @@ brushDef
 }
 }
 }
-// entity 694
+// entity 693
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -17927,7 +17921,7 @@ brushDef
 }
 }
 }
-// entity 695
+// entity 694
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -17946,7 +17940,7 @@ brushDef
 }
 }
 }
-// entity 696
+// entity 695
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -17975,7 +17969,7 @@ brushDef
 }
 }
 }
-// entity 697
+// entity 696
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -17994,7 +17988,7 @@ brushDef
 }
 }
 }
-// entity 698
+// entity 697
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -18023,7 +18017,7 @@ brushDef
 }
 }
 }
-// entity 699
+// entity 698
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -18042,7 +18036,7 @@ brushDef
 }
 }
 }
-// entity 700
+// entity 699
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -18071,7 +18065,7 @@ brushDef
 }
 }
 }
-// entity 701
+// entity 700
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -18090,7 +18084,7 @@ brushDef
 }
 }
 }
-// entity 702
+// entity 701
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -18119,7 +18113,7 @@ brushDef
 }
 }
 }
-// entity 703
+// entity 702
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -18138,7 +18132,7 @@ brushDef
 }
 }
 }
-// entity 704
+// entity 703
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -18167,7 +18161,7 @@ brushDef
 }
 }
 }
-// entity 705
+// entity 704
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -18186,7 +18180,7 @@ brushDef
 }
 }
 }
-// entity 706
+// entity 705
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -18215,7 +18209,7 @@ brushDef
 }
 }
 }
-// entity 707
+// entity 706
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -18234,7 +18228,7 @@ brushDef
 }
 }
 }
-// entity 708
+// entity 707
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -18263,7 +18257,7 @@ brushDef
 }
 }
 }
-// entity 709
+// entity 708
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -18282,7 +18276,7 @@ brushDef
 }
 }
 }
-// entity 710
+// entity 709
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -18311,7 +18305,7 @@ brushDef
 }
 }
 }
-// entity 711
+// entity 710
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -18330,7 +18324,7 @@ brushDef
 }
 }
 }
-// entity 712
+// entity 711
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -18359,7 +18353,7 @@ brushDef
 }
 }
 }
-// entity 713
+// entity 712
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -18378,7 +18372,7 @@ brushDef
 }
 }
 }
-// entity 714
+// entity 713
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -18407,7 +18401,7 @@ brushDef
 }
 }
 }
-// entity 715
+// entity 714
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -18426,7 +18420,7 @@ brushDef
 }
 }
 }
-// entity 716
+// entity 715
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -18455,7 +18449,7 @@ brushDef
 }
 }
 }
-// entity 717
+// entity 716
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -18474,7 +18468,7 @@ brushDef
 }
 }
 }
-// entity 718
+// entity 717
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -18503,7 +18497,7 @@ brushDef
 }
 }
 }
-// entity 719
+// entity 718
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -18522,7 +18516,7 @@ brushDef
 }
 }
 }
-// entity 720
+// entity 719
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -18551,7 +18545,7 @@ brushDef
 }
 }
 }
-// entity 721
+// entity 720
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -18570,7 +18564,7 @@ brushDef
 }
 }
 }
-// entity 722
+// entity 721
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -18599,7 +18593,7 @@ brushDef
 }
 }
 }
-// entity 723
+// entity 722
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -18618,7 +18612,7 @@ brushDef
 }
 }
 }
-// entity 724
+// entity 723
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -18647,7 +18641,7 @@ brushDef
 }
 }
 }
-// entity 725
+// entity 724
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -18666,7 +18660,7 @@ brushDef
 }
 }
 }
-// entity 726
+// entity 725
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -18695,7 +18689,7 @@ brushDef
 }
 }
 }
-// entity 727
+// entity 726
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -18714,7 +18708,7 @@ brushDef
 }
 }
 }
-// entity 728
+// entity 727
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -18743,7 +18737,7 @@ brushDef
 }
 }
 }
-// entity 729
+// entity 728
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -18762,7 +18756,7 @@ brushDef
 }
 }
 }
-// entity 730
+// entity 729
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -18791,7 +18785,7 @@ brushDef
 }
 }
 }
-// entity 731
+// entity 730
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -18810,7 +18804,7 @@ brushDef
 }
 }
 }
-// entity 732
+// entity 731
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -18839,7 +18833,7 @@ brushDef
 }
 }
 }
-// entity 733
+// entity 732
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -18858,7 +18852,7 @@ brushDef
 }
 }
 }
-// entity 734
+// entity 733
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -18887,7 +18881,7 @@ brushDef
 }
 }
 }
-// entity 735
+// entity 734
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -18906,7 +18900,7 @@ brushDef
 }
 }
 }
-// entity 736
+// entity 735
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -18935,7 +18929,7 @@ brushDef
 }
 }
 }
-// entity 737
+// entity 736
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -18954,7 +18948,7 @@ brushDef
 }
 }
 }
-// entity 738
+// entity 737
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -18983,7 +18977,7 @@ brushDef
 }
 }
 }
-// entity 739
+// entity 738
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -19002,7 +18996,7 @@ brushDef
 }
 }
 }
-// entity 740
+// entity 739
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -19031,7 +19025,7 @@ brushDef
 }
 }
 }
-// entity 741
+// entity 740
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -19050,7 +19044,7 @@ brushDef
 }
 }
 }
-// entity 742
+// entity 741
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -19079,7 +19073,7 @@ brushDef
 }
 }
 }
-// entity 743
+// entity 742
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -19098,7 +19092,7 @@ brushDef
 }
 }
 }
-// entity 744
+// entity 743
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -19127,7 +19121,7 @@ brushDef
 }
 }
 }
-// entity 745
+// entity 744
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -19146,7 +19140,7 @@ brushDef
 }
 }
 }
-// entity 746
+// entity 745
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -19175,7 +19169,7 @@ brushDef
 }
 }
 }
-// entity 747
+// entity 746
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -19194,7 +19188,7 @@ brushDef
 }
 }
 }
-// entity 748
+// entity 747
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -19223,7 +19217,7 @@ brushDef
 }
 }
 }
-// entity 749
+// entity 748
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -19242,7 +19236,7 @@ brushDef
 }
 }
 }
-// entity 750
+// entity 749
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -19271,7 +19265,7 @@ brushDef
 }
 }
 }
-// entity 751
+// entity 750
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -19290,7 +19284,7 @@ brushDef
 }
 }
 }
-// entity 752
+// entity 751
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -19319,7 +19313,7 @@ brushDef
 }
 }
 }
-// entity 753
+// entity 752
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -19338,7 +19332,7 @@ brushDef
 }
 }
 }
-// entity 754
+// entity 753
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -19367,7 +19361,7 @@ brushDef
 }
 }
 }
-// entity 755
+// entity 754
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -19386,7 +19380,7 @@ brushDef
 }
 }
 }
-// entity 756
+// entity 755
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -19415,7 +19409,7 @@ brushDef
 }
 }
 }
-// entity 757
+// entity 756
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -19434,7 +19428,7 @@ brushDef
 }
 }
 }
-// entity 758
+// entity 757
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -19463,7 +19457,7 @@ brushDef
 }
 }
 }
-// entity 759
+// entity 758
 {
 "classname" "item_health_small"
 "origin" "560.000000 -1296.000000 -672.000000"
@@ -19471,7 +19465,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 760
+// entity 759
 {
 "classname" "item_health_small"
 "origin" "560.000000 -1328.000000 -576.000000"
@@ -19479,7 +19473,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 761
+// entity 760
 {
 "classname" "item_health_small"
 "origin" "560.000000 -1360.000000 -576.000000"
@@ -19487,7 +19481,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 762
+// entity 761
 {
 "classname" "item_health_small"
 "origin" "560.000000 -1392.000000 -576.000000"
@@ -19495,7 +19489,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 763
+// entity 762
 {
 "classname" "item_health_small"
 "origin" "560.000000 -1424.000000 -576.000000"
@@ -19503,7 +19497,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 764
+// entity 763
 {
 "classname" "item_health_small"
 "origin" "560.000000 -1456.000000 -672.000000"
@@ -19511,7 +19505,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 765
+// entity 764
 {
 "classname" "item_health_small"
 "origin" "560.000000 -1872.000000 -672.000000"
@@ -19519,7 +19513,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 766
+// entity 765
 {
 "classname" "item_health_small"
 "origin" "560.000000 -1904.000000 -672.000000"
@@ -19527,7 +19521,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 767
+// entity 766
 {
 "classname" "item_health_small"
 "origin" "560.000000 -1936.000000 -672.000000"
@@ -19535,7 +19529,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 768
+// entity 767
 {
 "classname" "item_health_small"
 "origin" "560.000000 -1968.000000 -672.000000"
@@ -19543,7 +19537,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 769
+// entity 768
 {
 "classname" "item_health_small"
 "origin" "560.000000 -2192.000000 -672.000000"
@@ -19551,7 +19545,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 770
+// entity 769
 {
 "classname" "item_health_small"
 "origin" "560.000000 -2672.000000 -576.000000"
@@ -19559,7 +19553,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 771
+// entity 770
 {
 "classname" "item_health_small"
 "origin" "560.000000 -2704.000000 -576.000000"
@@ -19567,7 +19561,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 772
+// entity 771
 {
 "classname" "item_health_small"
 "origin" "560.000000 -2736.000000 -576.000000"
@@ -19575,7 +19569,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 773
+// entity 772
 {
 "classname" "item_health_small"
 "origin" "560.000000 -2768.000000 -576.000000"
@@ -19583,7 +19577,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 774
+// entity 773
 {
 "classname" "item_health_small"
 "origin" "560.000000 -2800.000000 -576.000000"
@@ -19591,7 +19585,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 775
+// entity 774
 {
 "classname" "item_health_small"
 "origin" "560.000000 -2832.000000 -576.000000"
@@ -19599,7 +19593,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 776
+// entity 775
 {
 "classname" "item_health_small"
 "origin" "560.000000 -3280.000000 -1792.000000"
@@ -19607,7 +19601,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 777
+// entity 776
 {
 "classname" "item_health_small"
 "origin" "560.000000 -3312.000000 -1792.000000"
@@ -19615,7 +19609,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 778
+// entity 777
 {
 "classname" "item_health_small"
 "origin" "560.000000 -3344.000000 -1792.000000"
@@ -19623,7 +19617,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 779
+// entity 778
 {
 "classname" "item_health_small"
 "origin" "560.000000 -3376.000000 -1792.000000"
@@ -19631,7 +19625,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 780
+// entity 779
 {
 "classname" "item_health_small"
 "origin" "560.000000 -3408.000000 -1792.000000"
@@ -19639,7 +19633,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 781
+// entity 780
 {
 "classname" "item_health_small"
 "origin" "560.000000 -3440.000000 -1792.000000"
@@ -19647,7 +19641,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 782
+// entity 781
 {
 "classname" "item_health_small"
 "origin" "560.000000 -3248.000000 -1912.000000"
@@ -19655,7 +19649,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 783
+// entity 782
 {
 "classname" "item_health_small"
 "origin" "560.000000 -3280.000000 -1912.000000"
@@ -19663,7 +19657,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 784
+// entity 783
 {
 "classname" "item_health_small"
 "origin" "560.000000 -3312.000000 -1912.000000"
@@ -19671,7 +19665,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 785
+// entity 784
 {
 "classname" "item_health_small"
 "origin" "560.000000 -3344.000000 -1912.000000"
@@ -19679,7 +19673,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 786
+// entity 785
 {
 "classname" "item_health_small"
 "origin" "560.000000 -3376.000000 -1912.000000"
@@ -19687,7 +19681,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 787
+// entity 786
 {
 "classname" "item_health_small"
 "origin" "560.000000 -3408.000000 -1912.000000"
@@ -19695,7 +19689,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 788
+// entity 787
 {
 "classname" "item_health_small"
 "origin" "560.000000 -3440.000000 -1912.000000"
@@ -19703,7 +19697,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 789
+// entity 788
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -19722,7 +19716,7 @@ brushDef
 }
 }
 }
-// entity 790
+// entity 789
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -19751,7 +19745,7 @@ brushDef
 }
 }
 }
-// entity 791
+// entity 790
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -19770,7 +19764,7 @@ brushDef
 }
 }
 }
-// entity 792
+// entity 791
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -19799,7 +19793,7 @@ brushDef
 }
 }
 }
-// entity 793
+// entity 792
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -19818,7 +19812,7 @@ brushDef
 }
 }
 }
-// entity 794
+// entity 793
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -19847,7 +19841,7 @@ brushDef
 }
 }
 }
-// entity 795
+// entity 794
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -19866,7 +19860,7 @@ brushDef
 }
 }
 }
-// entity 796
+// entity 795
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -19895,7 +19889,7 @@ brushDef
 }
 }
 }
-// entity 797
+// entity 796
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -19914,7 +19908,7 @@ brushDef
 }
 }
 }
-// entity 798
+// entity 797
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -19943,7 +19937,7 @@ brushDef
 }
 }
 }
-// entity 799
+// entity 798
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -19962,7 +19956,7 @@ brushDef
 }
 }
 }
-// entity 800
+// entity 799
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -19991,7 +19985,7 @@ brushDef
 }
 }
 }
-// entity 801
+// entity 800
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -20010,7 +20004,7 @@ brushDef
 }
 }
 }
-// entity 802
+// entity 801
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -20039,7 +20033,7 @@ brushDef
 }
 }
 }
-// entity 803
+// entity 802
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -20058,7 +20052,7 @@ brushDef
 }
 }
 }
-// entity 804
+// entity 803
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -20087,7 +20081,7 @@ brushDef
 }
 }
 }
-// entity 805
+// entity 804
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -20177,7 +20171,7 @@ brushDef
 }
 }
 }
-// entity 806
+// entity 805
 {
 "classname" "trigger_impulse"
 "strength" "0.03"
@@ -20194,7 +20188,7 @@ brushDef
 }
 }
 }
-// entity 807
+// entity 806
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -20212,7 +20206,7 @@ brushDef
 }
 }
 }
-// entity 808
+// entity 807
 {
 "classname" "func_door"
 "spawnflags" "1028"
@@ -20234,7 +20228,7 @@ brushDef
 }
 }
 }
-// entity 809
+// entity 808
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -20252,7 +20246,7 @@ brushDef
 }
 }
 }
-// entity 810
+// entity 809
 {
 "classname" "target_changelevel"
 "origin" "192.000000 -6664.000000 608.000000"
@@ -20260,7 +20254,7 @@ brushDef
 "spawnflags" "2"
 "chmap" "sxb1_1-3"
 }
-// entity 811
+// entity 810
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -20289,7 +20283,7 @@ brushDef
 }
 }
 }
-// entity 812
+// entity 811
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -20318,7 +20312,7 @@ brushDef
 }
 }
 }
-// entity 813
+// entity 812
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -20347,7 +20341,7 @@ brushDef
 }
 }
 }
-// entity 814
+// entity 813
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -20376,7 +20370,7 @@ brushDef
 }
 }
 }
-// entity 815
+// entity 814
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -20405,7 +20399,7 @@ brushDef
 }
 }
 }
-// entity 816
+// entity 815
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -20434,7 +20428,7 @@ brushDef
 }
 }
 }
-// entity 817
+// entity 816
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -20463,7 +20457,7 @@ brushDef
 }
 }
 }
-// entity 818
+// entity 817
 {
 "classname" "func_breakable"
 "respawntime" "20"
@@ -20492,7 +20486,7 @@ brushDef
 }
 }
 }
-// entity 819
+// entity 818
 {
 "classname" "trigger_viewlocation"
 "target" "inter_1"
@@ -20510,27 +20504,27 @@ brushDef
 }
 }
 }
-// entity 820
+// entity 819
 {
 "classname" "target_viewlocation_end"
 "origin" "-4920.000000 -888.000000 7680.000000"
 "angle" "0.000003"
 "targetname" "inter_2"
 }
-// entity 821
+// entity 820
 {
 "classname" "target_viewlocation_start"
 "origin" "-4920.000000 -776.000000 7680.000000"
 "angle" "0.000003"
 "targetname" "inter_1"
 }
-// entity 822
+// entity 821
 {
 "classname" "info_player_deathmatch"
 "origin" "-4688.000000 -672.000000 7648.000000"
 "angle" "-90.000000"
 }
-// entity 823
+// entity 822
 {
 "classname" "trigger_teleport"
 "target" "spoint"
@@ -20547,7 +20541,7 @@ brushDef
 }
 }
 }
-// entity 824
+// entity 823
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -20567,7 +20561,7 @@ brushDef
 }
 }
 }
-// entity 825
+// entity 824
 {
 "classname" "func_door"
 "targetname" "player1_drop"
@@ -20587,13 +20581,13 @@ brushDef
 }
 }
 }
-// entity 826
+// entity 825
 {
 "classname" "info_player_deathmatch"
 "origin" "-4688.000000 -800.000000 7648.000000"
 "angle" "-90.000000"
 }
-// entity 827
+// entity 826
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -20613,7 +20607,7 @@ brushDef
 }
 }
 }
-// entity 828
+// entity 827
 {
 "classname" "func_door"
 "targetname" "player1_drop1"
@@ -20633,13 +20627,13 @@ brushDef
 }
 }
 }
-// entity 829
+// entity 828
 {
 "classname" "info_player_deathmatch"
 "origin" "-4688.000000 -928.000000 7648.000000"
 "angle" "-90.000000"
 }
-// entity 830
+// entity 829
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -20659,7 +20653,7 @@ brushDef
 }
 }
 }
-// entity 831
+// entity 830
 {
 "classname" "func_door"
 "targetname" "player1_drop2"
@@ -20679,13 +20673,13 @@ brushDef
 }
 }
 }
-// entity 832
+// entity 831
 {
 "classname" "info_player_deathmatch"
 "origin" "-4688.000000 -1056.000000 7648.000000"
 "angle" "-90.000000"
 }
-// entity 833
+// entity 832
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -20705,7 +20699,7 @@ brushDef
 }
 }
 }
-// entity 834
+// entity 833
 {
 "classname" "func_door"
 "targetname" "player1_drop3"
@@ -20725,13 +20719,13 @@ brushDef
 }
 }
 }
-// entity 835
+// entity 834
 {
 "classname" "info_player_deathmatch"
 "origin" "-4688.000000 -1184.000000 7648.000000"
 "angle" "-90.000000"
 }
-// entity 836
+// entity 835
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -20751,7 +20745,7 @@ brushDef
 }
 }
 }
-// entity 837
+// entity 836
 {
 "classname" "func_door"
 "targetname" "player1_drop4"
@@ -20771,13 +20765,13 @@ brushDef
 }
 }
 }
-// entity 838
+// entity 837
 {
 "classname" "info_player_deathmatch"
 "origin" "-4688.000000 -544.000000 7648.000000"
 "angle" "-90.000000"
 }
-// entity 839
+// entity 838
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -20797,7 +20791,7 @@ brushDef
 }
 }
 }
-// entity 840
+// entity 839
 {
 "classname" "func_door"
 "targetname" "player1_drop5"
@@ -20817,7 +20811,7 @@ brushDef
 }
 }
 }
-// entity 841
+// entity 840
 {
 "classname" "func_group"
 // brush 0
@@ -20845,7 +20839,7 @@ brushDef
 }
 }
 }
-// entity 842
+// entity 841
 {
 "classname" "func_group"
 // brush 0
@@ -20897,7 +20891,7 @@ brushDef
 }
 }
 }
-// entity 843
+// entity 842
 {
 "classname" "func_group"
 // brush 0
@@ -20937,7 +20931,7 @@ brushDef
 }
 }
 }
-// entity 844
+// entity 843
 {
 "classname" "func_group"
 // brush 0
@@ -20977,7 +20971,7 @@ brushDef
 }
 }
 }
-// entity 845
+// entity 844
 {
 "classname" "func_group"
 // brush 0
@@ -21017,7 +21011,7 @@ brushDef
 }
 }
 }
-// entity 846
+// entity 845
 {
 "classname" "func_group"
 // brush 0
@@ -21057,7 +21051,7 @@ brushDef
 }
 }
 }
-// entity 847
+// entity 846
 {
 "classname" "func_group"
 // brush 0
@@ -21097,7 +21091,7 @@ brushDef
 }
 }
 }
-// entity 848
+// entity 847
 {
 "classname" "func_group"
 // brush 0
@@ -21137,7 +21131,7 @@ brushDef
 }
 }
 }
-// entity 849
+// entity 848
 {
 "classname" "func_group"
 // brush 0
@@ -21213,7 +21207,7 @@ brushDef
 }
 }
 }
-// entity 850
+// entity 849
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -21233,7 +21227,7 @@ brushDef
 }
 }
 }
-// entity 851
+// entity 850
 {
 "classname" "func_door"
 "angle" "-1"
@@ -21254,7 +21248,7 @@ brushDef
 }
 }
 }
-// entity 852
+// entity 851
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -336.000000 -616.000000"
@@ -21262,7 +21256,7 @@ brushDef
 "targetname" "block_7"
 "wait" "0.3"
 }
-// entity 853
+// entity 852
 {
 "classname" "target_spawn"
 "count" "1"
@@ -21271,7 +21265,7 @@ brushDef
 "targetname" "coin_2"
 "message" "origin $self.origin item_pickupsound sound/map_sxb/flower.wav model models/sxb-models/small_mushroom.md3 noalign -1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
 }
-// entity 854
+// entity 853
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -21291,7 +21285,7 @@ brushDef
 }
 }
 }
-// entity 855
+// entity 854
 {
 "classname" "func_door"
 "angle" "-1"
@@ -21312,7 +21306,7 @@ brushDef
 }
 }
 }
-// entity 856
+// entity 855
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -368.000000 -616.000000"
@@ -21320,7 +21314,7 @@ brushDef
 "targetname" "block_8"
 "wait" "0.3"
 }
-// entity 857
+// entity 856
 {
 "classname" "misc_breakablemodel"
 "spawnflags" "4"
@@ -21337,7 +21331,7 @@ brushDef
 "debrisvelocityjitter" "0 0 0.05"
 "effects" "16"
 }
-// entity 858
+// entity 857
 {
 "classname" "target_heal"
 "delay" "-1"
@@ -21348,7 +21342,7 @@ brushDef
 "health" "10"
 "max_health" "50"
 }
-// entity 859
+// entity 858
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -21368,7 +21362,7 @@ brushDef
 }
 }
 }
-// entity 860
+// entity 859
 {
 "classname" "func_door"
 "angle" "-1"
@@ -21389,7 +21383,7 @@ brushDef
 }
 }
 }
-// entity 861
+// entity 860
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -400.000000 -616.000000"
@@ -21397,7 +21391,7 @@ brushDef
 "targetname" "block_9"
 "wait" "0.3"
 }
-// entity 862
+// entity 861
 {
 "classname" "misc_breakablemodel"
 "spawnflags" "4"
@@ -21414,7 +21408,7 @@ brushDef
 "debrisvelocityjitter" "0 0 0.05"
 "effects" "16"
 }
-// entity 863
+// entity 862
 {
 "classname" "target_heal"
 "delay" "-1"
@@ -21425,7 +21419,7 @@ brushDef
 "health" "10"
 "max_health" "50"
 }
-// entity 864
+// entity 863
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -21445,7 +21439,7 @@ brushDef
 }
 }
 }
-// entity 865
+// entity 864
 {
 "classname" "func_door"
 "angle" "-1"
@@ -21466,7 +21460,7 @@ brushDef
 }
 }
 }
-// entity 866
+// entity 865
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -432.000000 -616.000000"
@@ -21474,7 +21468,7 @@ brushDef
 "targetname" "block_10"
 "wait" "0.3"
 }
-// entity 867
+// entity 866
 {
 "classname" "misc_breakablemodel"
 "spawnflags" "4"
@@ -21491,7 +21485,7 @@ brushDef
 "debrisvelocityjitter" "0 0 0.05"
 "effects" "16"
 }
-// entity 868
+// entity 867
 {
 "classname" "target_heal"
 "delay" "-1"
@@ -21502,7 +21496,7 @@ brushDef
 "health" "10"
 "max_health" "50"
 }
-// entity 869
+// entity 868
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -21522,7 +21516,7 @@ brushDef
 }
 }
 }
-// entity 870
+// entity 869
 {
 "classname" "func_door"
 "angle" "-1"
@@ -21543,7 +21537,7 @@ brushDef
 }
 }
 }
-// entity 871
+// entity 870
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -464.000000 -616.000000"
@@ -21551,7 +21545,7 @@ brushDef
 "targetname" "block_11"
 "wait" "0.3"
 }
-// entity 872
+// entity 871
 {
 "classname" "misc_breakablemodel"
 "spawnflags" "4"
@@ -21568,7 +21562,7 @@ brushDef
 "debrisvelocityjitter" "0 0 0.05"
 "effects" "16"
 }
-// entity 873
+// entity 872
 {
 "classname" "target_heal"
 "delay" "-1"
@@ -21579,7 +21573,7 @@ brushDef
 "health" "10"
 "max_health" "50"
 }
-// entity 874
+// entity 873
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -21599,7 +21593,7 @@ brushDef
 }
 }
 }
-// entity 875
+// entity 874
 {
 "classname" "func_door"
 "angle" "-1"
@@ -21620,7 +21614,7 @@ brushDef
 }
 }
 }
-// entity 876
+// entity 875
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -944.000000 -640.000000"
@@ -21628,7 +21622,7 @@ brushDef
 "targetname" "block_15"
 "wait" "0.3"
 }
-// entity 877
+// entity 876
 {
 "classname" "misc_breakablemodel"
 "spawnflags" "4"
@@ -21645,7 +21639,7 @@ brushDef
 "debrisvelocityjitter" "0 0 0.05"
 "effects" "16"
 }
-// entity 878
+// entity 877
 {
 "classname" "target_heal"
 "delay" "-1"
@@ -21656,7 +21650,7 @@ brushDef
 "health" "10"
 "max_health" "50"
 }
-// entity 879
+// entity 878
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -21676,7 +21670,7 @@ brushDef
 }
 }
 }
-// entity 880
+// entity 879
 {
 "classname" "func_door"
 "angle" "-1"
@@ -21697,7 +21691,7 @@ brushDef
 }
 }
 }
-// entity 881
+// entity 880
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -1488.000000 -552.000000"
@@ -21705,7 +21699,7 @@ brushDef
 "targetname" "block_1"
 "wait" "0.3"
 }
-// entity 882
+// entity 881
 {
 "classname" "target_spawn"
 "count" "1"
@@ -21714,7 +21708,7 @@ brushDef
 "targetname" "coin_6"
 "message" "origin $self.origin item_pickupsound sound/map_sxb/star.wav noalign -1 model models/sxb-models/small_star.md3 $ spawnfunc_weapon_blaster velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
 }
-// entity 883
+// entity 882
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -21734,7 +21728,7 @@ brushDef
 }
 }
 }
-// entity 884
+// entity 883
 {
 "classname" "func_door"
 "angle" "-1"
@@ -21755,7 +21749,7 @@ brushDef
 }
 }
 }
-// entity 885
+// entity 884
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -2224.000000 -584.000000"
@@ -21763,7 +21757,7 @@ brushDef
 "targetname" "block_2"
 "wait" "0.3"
 }
-// entity 886
+// entity 885
 {
 "classname" "target_spawn"
 "count" "1"
@@ -21772,13 +21766,13 @@ brushDef
 "targetname" "coin_7"
 "message" "origin $self.origin item_pickupsound sound/map_sxb/flower.wav model models/sxb-models/small_mushroom.md3 noalign -1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
 }
-// entity 887
+// entity 886
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
 "wait" "0.75"
 "delay" "0.2"
-"target" "block_3"
+"target" "block_3_counter"
 // brush 0
 {
 brushDef
@@ -21792,7 +21786,7 @@ brushDef
 }
 }
 }
-// entity 888
+// entity 887
 {
 "classname" "func_door"
 "angle" "-1"
@@ -21813,7 +21807,7 @@ brushDef
 }
 }
 }
-// entity 889
+// entity 888
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -2352.000000 -640.000000"
@@ -21821,7 +21815,7 @@ brushDef
 "targetname" "block_3"
 "wait" "0.3"
 }
-// entity 890
+// entity 889
 {
 "classname" "misc_breakablemodel"
 "spawnflags" "4"
@@ -21838,7 +21832,7 @@ brushDef
 "debrisvelocityjitter" "0 0 0.05"
 "effects" "16"
 }
-// entity 891
+// entity 890
 {
 "classname" "target_heal"
 "delay" "-1"
@@ -21849,7 +21843,7 @@ brushDef
 "health" "10"
 "max_health" "50"
 }
-// entity 892
+// entity 891
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -21869,7 +21863,7 @@ brushDef
 }
 }
 }
-// entity 893
+// entity 892
 {
 "classname" "func_door"
 "angle" "-1"
@@ -21890,7 +21884,7 @@ brushDef
 }
 }
 }
-// entity 894
+// entity 893
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -2832.000000 -392.000000"
@@ -21898,7 +21892,7 @@ brushDef
 "targetname" "block_4"
 "wait" "0.3"
 }
-// entity 895
+// entity 894
 {
 "classname" "target_spawn"
 "count" "1"
@@ -21907,7 +21901,7 @@ brushDef
 "targetname" "coin_9"
 "message" "origin $self.origin item_pickupsound sound/map_sxb/1up.wav model models/sxb-models/small_green_mushroom.md3 noalign -1 $ spawnfunc_item_health_mega velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
 }
-// entity 896
+// entity 895
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -21927,7 +21921,7 @@ brushDef
 }
 }
 }
-// entity 897
+// entity 896
 {
 "classname" "func_door"
 "angle" "-1"
@@ -21948,7 +21942,7 @@ brushDef
 }
 }
 }
-// entity 898
+// entity 897
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -4848.000000 -584.000000"
@@ -21956,7 +21950,7 @@ brushDef
 "targetname" "block_5"
 "wait" "0.3"
 }
-// entity 899
+// entity 898
 {
 "classname" "target_spawn"
 "count" "1"
@@ -21965,7 +21959,7 @@ brushDef
 "targetname" "coin_10"
 "message" "origin $self.origin item_pickupsound sound/map_sxb/flower.wav model models/sxb-models/small_mushroom.md3 noalign -1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
 }
-// entity 900
+// entity 899
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -21985,7 +21979,7 @@ brushDef
 }
 }
 }
-// entity 901
+// entity 900
 {
 "classname" "func_door"
 "angle" "-1"
@@ -22006,7 +22000,7 @@ brushDef
 }
 }
 }
-// entity 902
+// entity 901
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -3472.000000 -1736.000000"
@@ -22014,7 +22008,7 @@ brushDef
 "targetname" "block_12"
 "wait" "0.3"
 }
-// entity 903
+// entity 902
 {
 "classname" "misc_breakablemodel"
 "spawnflags" "4"
@@ -22031,7 +22025,7 @@ brushDef
 "debrisvelocityjitter" "0 0 0.05"
 "effects" "16"
 }
-// entity 904
+// entity 903
 {
 "classname" "target_heal"
 "delay" "-1"
@@ -22042,37 +22036,37 @@ brushDef
 "health" "10"
 "max_health" "50"
 }
-// entity 905
+// entity 904
 {
 "classname" "item_health_medium"
 "origin" "-12232.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_mushroom.md3"
 }
-// entity 906
+// entity 905
 {
 "classname" "item_health_small"
 "origin" "-12144.000000 128.000000 3856.000000"
 "model" "models/sxb-models/coin.md3"
 }
-// entity 907
+// entity 906
 {
 "classname" "weapon_laser"
 "origin" "-12072.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_star.md3"
 }
-// entity 908
+// entity 907
 {
 "classname" "item_health_mega"
 "origin" "-12000.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_green_mushroom.md3"
 }
-// entity 909
+// entity 908
 {
 "classname" "weapon_uzi"
 "origin" "-11928.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_flower.md3"
 }
-// entity 910
+// entity 909
 {
 "classname" "func_group"
 // brush 0
@@ -22148,7 +22142,7 @@ brushDef
 }
 }
 }
-// entity 911
+// entity 910
 {
 "classname" "misc_model"
 "origin" "560.000000 -424.000000 480.000000"
@@ -22157,7 +22151,7 @@ brushDef
 "modelscale" "16.100000"
 "spawnflags" "32"
 }
-// entity 912
+// entity 911
 {
 "classname" "misc_model"
 "origin" "560.000000 -424.000000 416.000000"
@@ -22166,7 +22160,7 @@ brushDef
 "modelscale" "16.100000"
 "spawnflags" "32"
 }
-// entity 913
+// entity 912
 {
 "classname" "misc_model"
 "origin" "560.000000 -424.000000 352.000000"
@@ -22175,7 +22169,7 @@ brushDef
 "modelscale" "16.100000"
 "spawnflags" "32"
 }
-// entity 914
+// entity 913
 {
 "classname" "misc_model"
 "origin" "560.000000 -5800.000000 480.000000"
@@ -22184,7 +22178,7 @@ brushDef
 "modelscale" "16.100000"
 "spawnflags" "32"
 }
-// entity 915
+// entity 914
 {
 "classname" "misc_model"
 "origin" "560.000000 -5800.000000 416.000000"
@@ -22193,7 +22187,7 @@ brushDef
 "modelscale" "16.100000"
 "spawnflags" "32"
 }
-// entity 916
+// entity 915
 {
 "classname" "misc_model"
 "origin" "560.000000 -5800.000000 352.000000"
@@ -22202,7 +22196,7 @@ brushDef
 "modelscale" "16.100000"
 "spawnflags" "32"
 }
-// entity 917
+// entity 916
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -22222,7 +22216,7 @@ brushDef
 }
 }
 }
-// entity 918
+// entity 917
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -22242,7 +22236,7 @@ brushDef
 }
 }
 }
-// entity 919
+// entity 918
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -22262,7 +22256,7 @@ brushDef
 }
 }
 }
-// entity 920
+// entity 919
 {
 "classname" "misc_gamemodel"
 "origin" "656.000000 -176.000000 544.000000"
@@ -22271,7 +22265,7 @@ brushDef
 "lodmodel1" "null"
 "lodmodel2" "null"
 }
-// entity 921
+// entity 920
 {
 "classname" "misc_gamemodel"
 "origin" "656.000000 -6576.000000 544.000000"
@@ -22280,28 +22274,28 @@ brushDef
 "lodmodel1" "null"
 "lodmodel2" "null"
 }
-// entity 922
+// entity 921
 {
 "classname" "trigger_counter"
 "respawntime" "10"
-"targetname" "brick_214_counter"
-"target" "brick_214"
+"targetname" "block_3_counter"
+"target" "block_3"
 "count" "10"
 "spawnflags" "5"
 // brush 0
 {
 brushDef
 {
-( 568 -2368 -688 ) ( 568 -2376 -688 ) ( 536 -2368 -688 ) ( ( 0.015625 0 246.375 ) ( 0 0.015625 0.125 ) ) common/trigger 0 0 0
-( 568 -2368 -688 ) ( 536 -2368 -688 ) ( 568 -2368 -696 ) ( ( 0.015625 0 15.875 ) ( 0 0.015625 234.875 ) ) common/trigger 0 0 0
-( 560 -2368 -688 ) ( 560 -2368 -696 ) ( 560 -2376 -688 ) ( ( 0.015625 0 246.375 ) ( 0 0.015625 234.875 ) ) common/trigger 0 0 0
-( 536 -2376 -696 ) ( 568 -2376 -696 ) ( 536 -2368 -696 ) ( ( 0.015625 0 246.375 ) ( 0 0.015625 15.875 ) ) common/trigger 0 0 0
-( 536 -2376 -696 ) ( 536 -2376 -688 ) ( 568 -2376 -696 ) ( ( 0.015625 0 0.125 ) ( 0 0.015625 234.875 ) ) common/trigger 0 0 0
-( 552 -2384 -696 ) ( 552 -2376 -696 ) ( 552 -2384 -688 ) ( ( 0.015625 0 25.5 ) ( 0 0.015625 234.875 ) ) common/trigger 0 0 0
+( 568 -2368 -656 ) ( 568 -2376 -656 ) ( 536 -2368 -656 ) ( ( 0.015625 0 246.375 ) ( 0 0.015625 0.125 ) ) common/trigger 0 0 0
+( 568 -2368 -656 ) ( 536 -2368 -656 ) ( 568 -2368 -664 ) ( ( 0.015625 0 15.875 ) ( 0 0.015625 235.375 ) ) common/trigger 0 0 0
+( 560 -2368 -656 ) ( 560 -2368 -664 ) ( 560 -2376 -656 ) ( ( 0.015625 0 246.375 ) ( 0 0.015625 235.375 ) ) common/trigger 0 0 0
+( 536 -2376 -664 ) ( 568 -2376 -664 ) ( 536 -2368 -664 ) ( ( 0.015625 0 246.375 ) ( 0 0.015625 15.875 ) ) common/trigger 0 0 0
+( 536 -2376 -664 ) ( 536 -2376 -656 ) ( 568 -2376 -664 ) ( ( 0.015625 0 0.125 ) ( 0 0.015625 235.375 ) ) common/trigger 0 0 0
+( 552 -2384 -664 ) ( 552 -2376 -664 ) ( 552 -2384 -656 ) ( ( 0.015625 0 25.5 ) ( 0 0.015625 235.375 ) ) common/trigger 0 0 0
 }
 }
 }
-// entity 923
+// entity 922
 {
 "classname" "trigger_counter"
 "respawntime" "10"
