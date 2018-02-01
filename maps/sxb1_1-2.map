@@ -3256,7 +3256,7 @@ brushDef
 "speed" "100"
 "wait" "-1"
 "targetname" "p1_4"
-"target" "p1_0"
+"target" "p1_22"
 }
 // entity 81
 {
@@ -3964,7 +3964,7 @@ brushDef
 "speed" "100"
 "wait" "-1"
 "targetname" "p1_22"
-"target" "p1_19"
+"target" "p1_0"
 }
 // entity 95
 {
