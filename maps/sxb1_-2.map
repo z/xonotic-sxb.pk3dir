@@ -1151,6 +1151,7 @@ brushDef
 "debrisvelocityjitter" "0 0 0.05"
 "effects" "16"
 }
+// entity 17
 {
 "classname" "target_heal"
 "delay" "-1"
@@ -1161,7 +1162,7 @@ brushDef
 "health" "10"
 "max_health" "50"
 }
-// entity 17
+// entity 18
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -1181,7 +1182,7 @@ brushDef
 }
 }
 }
-// entity 18
+// entity 19
 {
 "classname" "func_door"
 "angle" "-1"
@@ -1202,7 +1203,7 @@ brushDef
 }
 }
 }
-// entity 19
+// entity 20
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -1432.000000 696.000000"
@@ -1210,7 +1211,7 @@ brushDef
 "targetname" "block_1"
 "wait" "0.3"
 }
-// entity 20
+// entity 21
 {
 "classname" "misc_breakablemodel"
 "spawnflags" "4"
@@ -1227,6 +1228,7 @@ brushDef
 "debrisvelocityjitter" "0 0 0.05"
 "effects" "16"
 }
+// entity 22
 {
 "classname" "target_heal"
 "delay" "-1"
@@ -1237,7 +1239,7 @@ brushDef
 "health" "10"
 "max_health" "50"
 }
-// entity 21
+// entity 23
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -1257,7 +1259,7 @@ brushDef
 }
 }
 }
-// entity 22
+// entity 24
 {
 "classname" "func_door"
 "angle" "-1"
@@ -1278,7 +1280,7 @@ brushDef
 }
 }
 }
-// entity 23
+// entity 25
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -1400.000000 696.000000"
@@ -1286,7 +1288,7 @@ brushDef
 "targetname" "block_2"
 "wait" "0.3"
 }
-// entity 24
+// entity 26
 {
 "classname" "misc_breakablemodel"
 "spawnflags" "4"
@@ -1303,6 +1305,7 @@ brushDef
 "debrisvelocityjitter" "0 0 0.05"
 "effects" "16"
 }
+// entity 27
 {
 "classname" "target_heal"
 "delay" "-1"
@@ -1313,7 +1316,7 @@ brushDef
 "health" "10"
 "max_health" "50"
 }
-// entity 25
+// entity 28
 {
 "classname" "trigger_viewlocation"
 "target" "inter_1"
@@ -1331,27 +1334,27 @@ brushDef
 }
 }
 }
-// entity 26
+// entity 29
 {
 "classname" "target_viewlocation_end"
 "origin" "-4920.000000 -888.000000 7680.000000"
 "angle" "0.000003"
 "targetname" "inter_2"
 }
-// entity 27
+// entity 30
 {
 "classname" "target_viewlocation_start"
 "origin" "-4920.000000 -776.000000 7680.000000"
 "angle" "0.000003"
 "targetname" "inter_1"
 }
-// entity 28
+// entity 31
 {
 "classname" "info_player_deathmatch"
 "origin" "-4688.000000 -672.000000 7648.000000"
 "angle" "-90.000000"
 }
-// entity 29
+// entity 32
 {
 "classname" "trigger_teleport"
 "target" "spoint"
@@ -1368,7 +1371,7 @@ brushDef
 }
 }
 }
-// entity 30
+// entity 33
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -1388,7 +1391,7 @@ brushDef
 }
 }
 }
-// entity 31
+// entity 34
 {
 "classname" "func_door"
 "targetname" "player1_drop"
@@ -1408,13 +1411,13 @@ brushDef
 }
 }
 }
-// entity 32
+// entity 35
 {
 "classname" "info_player_deathmatch"
 "origin" "-4688.000000 -800.000000 7648.000000"
 "angle" "-90.000000"
 }
-// entity 33
+// entity 36
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -1434,7 +1437,7 @@ brushDef
 }
 }
 }
-// entity 34
+// entity 37
 {
 "classname" "func_door"
 "targetname" "player1_drop1"
@@ -1454,13 +1457,13 @@ brushDef
 }
 }
 }
-// entity 35
+// entity 38
 {
 "classname" "info_player_deathmatch"
 "origin" "-4688.000000 -928.000000 7648.000000"
 "angle" "-90.000000"
 }
-// entity 36
+// entity 39
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -1480,7 +1483,7 @@ brushDef
 }
 }
 }
-// entity 37
+// entity 40
 {
 "classname" "func_door"
 "targetname" "player1_drop2"
@@ -1500,13 +1503,13 @@ brushDef
 }
 }
 }
-// entity 38
+// entity 41
 {
 "classname" "info_player_deathmatch"
 "origin" "-4688.000000 -1056.000000 7648.000000"
 "angle" "-90.000000"
 }
-// entity 39
+// entity 42
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -1526,7 +1529,7 @@ brushDef
 }
 }
 }
-// entity 40
+// entity 43
 {
 "classname" "func_door"
 "targetname" "player1_drop3"
@@ -1546,13 +1549,13 @@ brushDef
 }
 }
 }
-// entity 41
+// entity 44
 {
 "classname" "info_player_deathmatch"
 "origin" "-4688.000000 -1184.000000 7648.000000"
 "angle" "-90.000000"
 }
-// entity 42
+// entity 45
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -1572,7 +1575,7 @@ brushDef
 }
 }
 }
-// entity 43
+// entity 46
 {
 "classname" "func_door"
 "targetname" "player1_drop4"
@@ -1592,13 +1595,13 @@ brushDef
 }
 }
 }
-// entity 44
+// entity 47
 {
 "classname" "info_player_deathmatch"
 "origin" "-4688.000000 -544.000000 7648.000000"
 "angle" "-90.000000"
 }
-// entity 45
+// entity 48
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -1618,7 +1621,7 @@ brushDef
 }
 }
 }
-// entity 46
+// entity 49
 {
 "classname" "func_door"
 "targetname" "player1_drop5"
@@ -1638,7 +1641,7 @@ brushDef
 }
 }
 }
-// entity 47
+// entity 50
 {
 "classname" "func_group"
 // brush 0
@@ -1666,34 +1669,10 @@ brushDef
 }
 }
 }
-// entity 48
+// entity 51
 {
 "classname" "func_group"
 // brush 0
-{
-brushDef
-{
-( -4544 -656 7840 ) ( -4656 -656 7840 ) ( -4544 -544 7840 ) ( ( 0 0.00390625 34.15625 ) ( -0.00390625 0 11.875 ) ) common/nodrawnonsolid 0 0 0
-( -4544 -688 8264 ) ( -4544 -576 8264 ) ( -4544 -688 8256 ) ( ( 0.00390625 0 4.25 ) ( 0 0.00390625 30.25 ) ) common/nodrawnonsolid 0 0 0
-( -4416 -992 8232 ) ( -4416 -992 8224 ) ( -4528 -992 8232 ) ( ( 0.00390625 0 33.65625 ) ( 0 0.00390625 30.125 ) ) common/nodrawnonsolid 0 0 0
-( -4656 -560 7744 ) ( -4656 -672 7744 ) ( -4544 -560 7744 ) ( ( 0 -0.00390625 34.15625 ) ( 0.00390625 0 4.1875 ) ) common/nodrawnonsolid 0 0 0
-( -4656 -928 8208 ) ( -4544 -928 8208 ) ( -4656 -928 8216 ) ( ( 0.00390625 0 237.84375 ) ( 0 0.00390625 30.0625 ) ) common/nodrawnonsolid 0 0 0
-( -4552 -688 8256 ) ( -4552 -576 8264 ) ( -4552 -688 8264 ) ( ( 0.015625 0 241.5 ) ( 0 0.010416667 81.6666717529 ) ) sxb_numbers/two 0 0 0
-}
-}
-// brush 1
-{
-brushDef
-{
-( -4544 -592 7840 ) ( -4656 -592 7840 ) ( -4544 -480 7840 ) ( ( 0 0.00390625 34.15625 ) ( -0.00390625 0 12.125 ) ) common/nodrawnonsolid 0 0 0
-( -4544 -624 8264 ) ( -4544 -512 8264 ) ( -4544 -624 8256 ) ( ( 0.00390625 0 4 ) ( 0 0.00390625 30.25 ) ) common/nodrawnonsolid 0 0 0
-( -4416 -928 8232 ) ( -4416 -928 8224 ) ( -4528 -928 8232 ) ( ( 0.00390625 0 33.65625 ) ( 0 0.00390625 30.125 ) ) common/nodrawnonsolid 0 0 0
-( -4656 -496 7744 ) ( -4656 -608 7744 ) ( -4544 -496 7744 ) ( ( 0 -0.00390625 34.15625 ) ( 0.00390625 0 3.9375 ) ) common/nodrawnonsolid 0 0 0
-( -4656 -896 8208 ) ( -4544 -896 8208 ) ( -4656 -896 8216 ) ( ( 0.00390625 0 237.84375 ) ( 0 0.00390625 30.0625 ) ) common/nodrawnonsolid 0 0 0
-( -4552 -624 8256 ) ( -4552 -512 8264 ) ( -4552 -624 8264 ) ( ( 0.0104165077 0 247.0001678467 ) ( 0 0.010416667 81.6666717529 ) ) sxb_numbers/hyphen 0 0 0
-}
-}
-// brush 2
 {
 brushDef
 {
@@ -1706,7 +1685,7 @@ brushDef
 }
 }
 }
-// entity 49
+// entity 52
 {
 "classname" "func_group"
 // brush 0
@@ -1746,7 +1725,7 @@ brushDef
 }
 }
 }
-// entity 50
+// entity 53
 {
 "classname" "func_group"
 // brush 0
@@ -1786,7 +1765,7 @@ brushDef
 }
 }
 }
-// entity 51
+// entity 54
 {
 "classname" "func_group"
 // brush 0
@@ -1826,7 +1805,7 @@ brushDef
 }
 }
 }
-// entity 52
+// entity 55
 {
 "classname" "func_group"
 // brush 0
@@ -1866,7 +1845,7 @@ brushDef
 }
 }
 }
-// entity 53
+// entity 56
 {
 "classname" "func_group"
 // brush 0
@@ -1906,7 +1885,7 @@ brushDef
 }
 }
 }
-// entity 54
+// entity 57
 {
 "classname" "func_group"
 // brush 0
@@ -1946,7 +1925,7 @@ brushDef
 }
 }
 }
-// entity 55
+// entity 58
 {
 "classname" "func_group"
 // brush 0
@@ -2022,7 +2001,7 @@ brushDef
 }
 }
 }
-// entity 56
+// entity 59
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -2040,7 +2019,7 @@ brushDef
 }
 }
 }
-// entity 57
+// entity 60
 {
 "classname" "target_changelevel"
 "origin" "256.000000 -5184.000000 512.000000"
@@ -2048,37 +2027,37 @@ brushDef
 "spawnflags" "2"
 "chmap" "sxb1_2-1"
 }
-// entity 58
+// entity 61
 {
 "classname" "item_health_medium"
 "origin" "-12232.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_mushroom.md3"
 }
-// entity 59
+// entity 62
 {
 "classname" "item_health_small"
 "origin" "-12144.000000 128.000000 3856.000000"
 "model" "models/sxb-models/coin.md3"
 }
-// entity 60
+// entity 63
 {
 "classname" "weapon_laser"
 "origin" "-12072.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_star.md3"
 }
-// entity 61
+// entity 64
 {
 "classname" "item_health_mega"
 "origin" "-12000.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_green_mushroom.md3"
 }
-// entity 62
+// entity 65
 {
 "classname" "weapon_uzi"
 "origin" "-11928.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_flower.md3"
 }
-// entity 63
+// entity 66
 {
 "classname" "func_group"
 // brush 0
@@ -2151,6 +2130,46 @@ brushDef
 ( -12288 0 3840 ) ( -12288 0 4096 ) ( -11776 0 3840 ) ( ( 0.015625 0 224 ) ( 0 0.015625 60 ) ) common/caulk 0 0 0
 ( -12288 0 3840 ) ( -12288 512 3840 ) ( -12288 0 4096 ) ( ( 0.015625 0 0 ) ( 0 0.015625 60 ) ) common/caulk 0 0 0
 ( -12280 0 4096 ) ( -12280 512 3840 ) ( -12280 0 3840 ) ( ( 0.015625 0 0 ) ( 0 0.015625 60 ) ) common/caulk 0 0 0
+}
+}
+}
+// entity 67
+{
+"classname" "func_group"
+// brush 0
+{
+brushDef
+{
+( -4544 -704 7840 ) ( -4656 -704 7840 ) ( -4544 -592 7840 ) ( ( 0 0.00390625 34.15625 ) ( -0.00390625 0 11.6875 ) ) common/nodrawnonsolid 0 0 0
+( -4544 -736 8264 ) ( -4544 -624 8264 ) ( -4544 -736 8256 ) ( ( 0.00390625 0 4.4375 ) ( 0 0.00390625 30.25 ) ) common/nodrawnonsolid 0 0 0
+( -4416 -1040 8232 ) ( -4416 -1040 8224 ) ( -4528 -1040 8232 ) ( ( 0.00390625 0 33.65625 ) ( 0 0.00390625 30.125 ) ) common/nodrawnonsolid 0 0 0
+( -4656 -608 7744 ) ( -4656 -720 7744 ) ( -4544 -608 7744 ) ( ( 0 -0.00390625 34.15625 ) ( 0.00390625 0 4.375 ) ) common/nodrawnonsolid 0 0 0
+( -4656 -992 8208 ) ( -4544 -992 8208 ) ( -4656 -992 8216 ) ( ( 0.00390625 0 237.84375 ) ( 0 0.00390625 30.0625 ) ) common/nodrawnonsolid 0 0 0
+( -4552 -736 8256 ) ( -4552 -624 8264 ) ( -4552 -736 8264 ) ( ( 0.015625 0 240.75 ) ( 0 0.010416667 81.6666717529 ) ) sxb_numbers/two 0 0 0
+}
+}
+// brush 1
+{
+brushDef
+{
+( -4544 -656 7840 ) ( -4656 -656 7840 ) ( -4544 -544 7840 ) ( ( 0 0.00390625 34.15625 ) ( -0.00390625 0 11.875 ) ) common/nodrawnonsolid 0 0 0
+( -4544 -688 8264 ) ( -4544 -576 8264 ) ( -4544 -688 8256 ) ( ( 0.00390625 0 4.25 ) ( 0 0.00390625 30.25 ) ) common/nodrawnonsolid 0 0 0
+( -4416 -992 8232 ) ( -4416 -992 8224 ) ( -4528 -992 8232 ) ( ( 0.00390625 0 33.65625 ) ( 0 0.00390625 30.125 ) ) common/nodrawnonsolid 0 0 0
+( -4656 -560 7744 ) ( -4656 -672 7744 ) ( -4544 -560 7744 ) ( ( 0 -0.00390625 34.15625 ) ( 0.00390625 0 4.1875 ) ) common/nodrawnonsolid 0 0 0
+( -4656 -960 8208 ) ( -4544 -960 8208 ) ( -4656 -960 8216 ) ( ( 0.00390625 0 237.84375 ) ( 0 0.00390625 30.0625 ) ) common/nodrawnonsolid 0 0 0
+( -4552 -688 8256 ) ( -4552 -576 8264 ) ( -4552 -688 8264 ) ( ( 0.0104165077 0 246.3335113525 ) ( 0 0.010416667 81.6666717529 ) ) sxb_numbers/hyphen 0 0 0
+}
+}
+// brush 2
+{
+brushDef
+{
+( -4544 -624 7840 ) ( -4656 -624 7840 ) ( -4544 -512 7840 ) ( ( 0 0.00390625 34.15625 ) ( -0.00390625 0 12 ) ) common/nodrawnonsolid 0 0 0
+( -4544 -656 8264 ) ( -4544 -544 8264 ) ( -4544 -656 8256 ) ( ( 0.00390625 0 4.125 ) ( 0 0.00390625 30.25 ) ) common/nodrawnonsolid 0 0 0
+( -4416 -960 8232 ) ( -4416 -960 8224 ) ( -4528 -960 8232 ) ( ( 0.00390625 0 33.65625 ) ( 0 0.00390625 30.125 ) ) common/nodrawnonsolid 0 0 0
+( -4656 -528 7744 ) ( -4656 -640 7744 ) ( -4544 -528 7744 ) ( ( 0 -0.00390625 34.15625 ) ( 0.00390625 0 4.0625 ) ) common/nodrawnonsolid 0 0 0
+( -4656 -896 8208 ) ( -4544 -896 8208 ) ( -4656 -896 8216 ) ( ( 0.00390625 0 237.84375 ) ( 0 0.00390625 30.0625 ) ) common/nodrawnonsolid 0 0 0
+( -4552 -656 8256 ) ( -4552 -544 8264 ) ( -4552 -656 8264 ) ( ( 0.015625 0 242 ) ( 0 0.010416667 81.6666717529 ) ) sxb_numbers/thirtysix 0 0 0
 }
 }
 }

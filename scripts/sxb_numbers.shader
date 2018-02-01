@@ -338,3 +338,30 @@ textures/sxb_numbers/hyphen
 		depthFunc equal
 	}
 }
+
+textures/sxb_numbers/thirtysix
+{
+	qer_editorimage textures/sxb_numbers/thirtysix
+	surfaceparm alphashadow
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nomarks
+	surfaceparm noimpact
+	surfaceparm nolightmap
+	cull disable
+	nopicmip
+	nomipmaps
+	{
+		map textures/sxb_numbers/thirtysix
+		rgbGen identity
+		depthWrite
+		alphaFunc GE128
+	}
+	{
+		map $lightmap
+		blendfunc filter
+		rgbGen identity
+		tcGen lightmap
+		depthFunc equal
+	}
+}
