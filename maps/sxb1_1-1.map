@@ -4257,29 +4257,39 @@ brushDef
 }
 // entity 162
 {
-"classname" "target_spawn"
-"count" "1"
-"origin" "560.000000 -528.000000 688.000000"
-"angle" "-179.999985"
-"targetname" "coin_1"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
-}
-// entity 163
-{
 "classname" "trigger_delay"
 "origin" "560.000000 -688.000000 728.000000"
 "target" "coin_2"
 "targetname" "block_3"
 "wait" "0.3"
 }
+// entity 163
+{
+"classname" "misc_breakablemodel"
+"spawnflags" "4"
+"targetname" "coin_2"
+"debrisvelocity" "0 0 300"
+"debristime" "0.05"
+"debrisfadetime" "0.3"
+"debristimejitter" "0.05"
+"respawntime" "10"
+"debris" "models/sxb-models/coin.md3"
+"model" "models/map_sxb/alignment.obj"
+"origin" "560.000000 -688.000000 688.000000"
+"debrisavelocityjitter" "0 0 0.05"
+"debrisvelocityjitter" "0 0 0.05"
+"effects" "16"
+}
 // entity 164
 {
-"classname" "target_spawn"
-"count" "1"
+"classname" "target_heal"
+"delay" "-1"
+"noise" "map_sxb/coin.wav"
+"spawnflags" "4"
 "origin" "560.000000 -688.000000 688.000000"
-"angle" "-179.999985"
 "targetname" "coin_2"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
+"health" "10"
+"max_health" "50"
 }
 // entity 165
 {
@@ -4291,14 +4301,33 @@ brushDef
 }
 // entity 166
 {
-"classname" "target_spawn"
-"count" "1"
-"origin" "560.000000 -720.000000 816.000000"
-"angle" "-179.999985"
+"classname" "misc_breakablemodel"
+"spawnflags" "4"
 "targetname" "coin_3"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
+"debrisvelocity" "0 0 300"
+"debristime" "0.05"
+"debrisfadetime" "0.3"
+"debristimejitter" "0.05"
+"respawntime" "10"
+"debris" "models/sxb-models/coin.md3"
+"model" "models/map_sxb/alignment.obj"
+"origin" "560.000000 -720.000000 816.000000"
+"debrisavelocityjitter" "0 0 0.05"
+"debrisvelocityjitter" "0 0 0.05"
+"effects" "16"
 }
 // entity 167
+{
+"classname" "target_heal"
+"delay" "-1"
+"noise" "map_sxb/coin.wav"
+"spawnflags" "4"
+"origin" "560.000000 -720.000000 816.000000"
+"targetname" "coin_3"
+"health" "10"
+"max_health" "50"
+}
+// entity 168
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -3024.000000 864.000000"
@@ -4306,16 +4335,35 @@ brushDef
 "targetname" "block_6"
 "wait" "0.3"
 }
-// entity 168
-{
-"classname" "target_spawn"
-"count" "1"
-"origin" "560.000000 -3024.000000 816.000000"
-"angle" "-179.999985"
-"targetname" "coin_4"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
-}
 // entity 169
+{
+"classname" "misc_breakablemodel"
+"spawnflags" "4"
+"targetname" "coin_4"
+"debrisvelocity" "0 0 300"
+"debristime" "0.05"
+"debrisfadetime" "0.3"
+"debristimejitter" "0.05"
+"respawntime" "10"
+"debris" "models/sxb-models/coin.md3"
+"model" "models/map_sxb/alignment.obj"
+"origin" "560.000000 -3024.000000 816.000000"
+"debrisavelocityjitter" "0 0 0.05"
+"debrisvelocityjitter" "0 0 0.05"
+"effects" "16"
+}
+// entity 170
+{
+"classname" "target_heal"
+"delay" "-1"
+"noise" "map_sxb/coin.wav"
+"spawnflags" "4"
+"origin" "560.000000 -3024.000000 816.000000"
+"targetname" "coin_4"
+"health" "10"
+"max_health" "50"
+}
+// entity 171
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -3408.000000 736.000000"
@@ -4323,16 +4371,35 @@ brushDef
 "targetname" "block_7"
 "wait" "0.3"
 }
-// entity 170
+// entity 172
 {
-"classname" "target_spawn"
-"count" "1"
-"origin" "560.000000 -3408.000000 688.000000"
-"angle" "-179.999985"
+"classname" "misc_breakablemodel"
+"spawnflags" "4"
 "targetname" "coin_5"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
+"debrisvelocity" "0 0 300"
+"debristime" "0.05"
+"debrisfadetime" "0.3"
+"debristimejitter" "0.05"
+"respawntime" "10"
+"debris" "models/sxb-models/coin.md3"
+"model" "models/map_sxb/alignment.obj"
+"origin" "560.000000 -3408.000000 688.000000"
+"debrisavelocityjitter" "0 0 0.05"
+"debrisvelocityjitter" "0 0 0.05"
+"effects" "16"
 }
-// entity 171
+// entity 173
+{
+"classname" "target_heal"
+"delay" "-1"
+"noise" "map_sxb/coin.wav"
+"spawnflags" "4"
+"origin" "560.000000 -3408.000000 688.000000"
+"targetname" "coin_5"
+"health" "10"
+"max_health" "50"
+}
+// entity 174
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -3504.000000 736.000000"
@@ -4340,16 +4407,35 @@ brushDef
 "targetname" "block_8"
 "wait" "0.3"
 }
-// entity 172
+// entity 175
 {
-"classname" "target_spawn"
-"count" "1"
-"origin" "560.000000 -3504.000000 688.000000"
-"angle" "-179.999985"
+"classname" "misc_breakablemodel"
+"spawnflags" "4"
 "targetname" "coin_6"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
+"debrisvelocity" "0 0 300"
+"debristime" "0.05"
+"debrisfadetime" "0.3"
+"debristimejitter" "0.05"
+"respawntime" "10"
+"debris" "models/sxb-models/coin.md3"
+"model" "models/map_sxb/alignment.obj"
+"origin" "560.000000 -3504.000000 688.000000"
+"debrisavelocityjitter" "0 0 0.05"
+"debrisvelocityjitter" "0 0 0.05"
+"effects" "16"
 }
-// entity 173
+// entity 176
+{
+"classname" "target_heal"
+"delay" "-1"
+"noise" "map_sxb/coin.wav"
+"spawnflags" "4"
+"origin" "560.000000 -3504.000000 688.000000"
+"targetname" "coin_6"
+"health" "10"
+"max_health" "50"
+}
+// entity 177
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -3600.000000 728.000000"
@@ -4357,16 +4443,35 @@ brushDef
 "targetname" "block_9"
 "wait" "0.3"
 }
-// entity 174
+// entity 178
 {
-"classname" "target_spawn"
-"count" "1"
-"origin" "560.000000 -3600.000000 688.000000"
-"angle" "-179.999985"
+"classname" "misc_breakablemodel"
+"spawnflags" "4"
 "targetname" "coin_7"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
+"debrisvelocity" "0 0 300"
+"debristime" "0.05"
+"debrisfadetime" "0.3"
+"debristimejitter" "0.05"
+"respawntime" "10"
+"debris" "models/sxb-models/coin.md3"
+"model" "models/map_sxb/alignment.obj"
+"origin" "560.000000 -3600.000000 688.000000"
+"debrisavelocityjitter" "0 0 0.05"
+"debrisvelocityjitter" "0 0 0.05"
+"effects" "16"
 }
-// entity 175
+// entity 179
+{
+"classname" "target_heal"
+"delay" "-1"
+"noise" "map_sxb/coin.wav"
+"spawnflags" "4"
+"origin" "560.000000 -3600.000000 688.000000"
+"targetname" "coin_7"
+"health" "10"
+"max_health" "50"
+}
+// entity 180
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -4144.000000 856.000000"
@@ -4374,16 +4479,35 @@ brushDef
 "targetname" "block_11"
 "wait" "0.3"
 }
-// entity 176
+// entity 181
 {
-"classname" "target_spawn"
-"count" "1"
-"origin" "560.000000 -4144.000000 816.000000"
-"angle" "-179.999985"
+"classname" "misc_breakablemodel"
+"spawnflags" "4"
 "targetname" "coin_9"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
+"debrisvelocity" "0 0 300"
+"debristime" "0.05"
+"debrisfadetime" "0.3"
+"debristimejitter" "0.05"
+"respawntime" "10"
+"debris" "models/sxb-models/coin.md3"
+"model" "models/map_sxb/alignment.obj"
+"origin" "560.000000 -4144.000000 816.000000"
+"debrisavelocityjitter" "0 0 0.05"
+"debrisvelocityjitter" "0 0 0.05"
+"effects" "16"
 }
-// entity 177
+// entity 182
+{
+"classname" "target_heal"
+"delay" "-1"
+"noise" "map_sxb/coin.wav"
+"spawnflags" "4"
+"origin" "560.000000 -4144.000000 816.000000"
+"targetname" "coin_9"
+"health" "10"
+"max_health" "50"
+}
+// entity 183
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -4176.000000 856.000000"
@@ -4391,16 +4515,35 @@ brushDef
 "targetname" "block_12"
 "wait" "0.3"
 }
-// entity 178
+// entity 184
 {
-"classname" "target_spawn"
-"count" "1"
-"origin" "560.000000 -4176.000000 816.000000"
-"angle" "-179.999985"
+"classname" "misc_breakablemodel"
+"spawnflags" "4"
 "targetname" "coin_10"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
+"debrisvelocity" "0 0 300"
+"debristime" "0.05"
+"debrisfadetime" "0.3"
+"debristimejitter" "0.05"
+"respawntime" "10"
+"debris" "models/sxb-models/coin.md3"
+"model" "models/map_sxb/alignment.obj"
+"origin" "560.000000 -4176.000000 816.000000"
+"debrisavelocityjitter" "0 0 0.05"
+"debrisvelocityjitter" "0 0 0.05"
+"effects" "16"
 }
-// entity 179
+// entity 185
+{
+"classname" "target_heal"
+"delay" "-1"
+"noise" "map_sxb/coin.wav"
+"spawnflags" "4"
+"origin" "560.000000 -4176.000000 816.000000"
+"targetname" "coin_10"
+"health" "10"
+"max_health" "50"
+}
+// entity 186
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -5488.000000 720.000000"
@@ -4408,16 +4551,35 @@ brushDef
 "targetname" "block_13"
 "wait" "0.3"
 }
-// entity 180
+// entity 187
 {
-"classname" "target_spawn"
-"count" "1"
-"origin" "560.000000 -5488.000000 688.000000"
-"angle" "-179.999985"
+"classname" "misc_breakablemodel"
+"spawnflags" "4"
 "targetname" "coin_11"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
+"debrisvelocity" "0 0 300"
+"debristime" "0.05"
+"debrisfadetime" "0.3"
+"debristimejitter" "0.05"
+"respawntime" "10"
+"debris" "models/sxb-models/coin.md3"
+"model" "models/map_sxb/alignment.obj"
+"origin" "560.000000 -5488.000000 688.000000"
+"debrisavelocityjitter" "0 0 0.05"
+"debrisvelocityjitter" "0 0 0.05"
+"effects" "16"
 }
-// entity 181
+// entity 188
+{
+"classname" "target_heal"
+"delay" "-1"
+"noise" "map_sxb/coin.wav"
+"spawnflags" "4"
+"origin" "560.000000 -5488.000000 688.000000"
+"targetname" "coin_11"
+"health" "10"
+"max_health" "50"
+}
+// entity 189
 {
 "classname" "misc_teleporter_dest"
 "targetname" "spoint"
@@ -4425,7 +4587,7 @@ brushDef
 "origin" "560.000000 -208.000000 576.000000"
 "angle" "-90.000000"
 }
-// entity 182
+// entity 190
 {
 "classname" "misc_teleporter_dest"
 "targetname" "spoint"
@@ -4433,7 +4595,7 @@ brushDef
 "origin" "560.000000 -272.000000 576.000000"
 "angle" "-90.000000"
 }
-// entity 183
+// entity 191
 {
 "classname" "misc_teleporter_dest"
 "targetname" "spoint"
@@ -4441,7 +4603,7 @@ brushDef
 "origin" "560.000000 -80.000000 576.000000"
 "angle" "-90.000000"
 }
-// entity 184
+// entity 192
 {
 "classname" "misc_gamemodel"
 "origin" "656.000000 -6544.000000 544.000000"
@@ -4450,7 +4612,7 @@ brushDef
 "lodmodel1" "null"
 "lodmodel2" "null"
 }
-// entity 185
+// entity 193
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -4470,7 +4632,7 @@ brushDef
 }
 }
 }
-// entity 186
+// entity 194
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -4491,7 +4653,7 @@ brushDef
 }
 }
 }
-// entity 187
+// entity 195
 {
 "classname" "func_clientwall"
 "targetname" "invisiblock"
@@ -4511,7 +4673,7 @@ brushDef
 }
 }
 }
-// entity 188
+// entity 196
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -2064.000000 768.000000"
@@ -4519,7 +4681,7 @@ brushDef
 "targetname" "invisicoin"
 "wait" "0.1"
 }
-// entity 189
+// entity 197
 {
 "classname" "target_spawn"
 "count" "1"
@@ -4528,7 +4690,7 @@ brushDef
 "targetname" "coin_8"
 "message" "origin $self.origin item_pickupsound sound/map_sxb/1up.wav model models/sxb-models/small_green_mushroom.md3 noalign -1 $ spawnfunc_item_health_mega velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
 }
-// entity 190
+// entity 198
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -2096.000000 768.000000"
@@ -4537,7 +4699,7 @@ brushDef
 "wait" "5"
 "antiwall_flag" "1"
 }
-// entity 191
+// entity 199
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -2512.000000 736.000000"
@@ -4545,7 +4707,7 @@ brushDef
 "targetname" "block_5"
 "wait" "0.3"
 }
-// entity 192
+// entity 200
 {
 "classname" "target_spawn"
 "count" "1"
@@ -4554,7 +4716,7 @@ brushDef
 "targetname" "coin_12"
 "message" "origin $self.origin item_pickupsound sound/map_sxb/flower.wav noalign -1 model models/sxb-models/small_flower.md3 $ spawnfunc_weapon_fireball velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
 }
-// entity 193
+// entity 201
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -752.000000 728.000000"
@@ -4562,7 +4724,7 @@ brushDef
 "targetname" "block_2"
 "wait" "0.3"
 }
-// entity 194
+// entity 202
 {
 "classname" "target_spawn"
 "count" "1"
@@ -4571,7 +4733,7 @@ brushDef
 "targetname" "coin_13"
 "message" "origin $self.origin item_pickupsound sound/map_sxb/flower.wav model models/sxb-models/small_mushroom.md3 noalign -1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
 }
-// entity 195
+// entity 203
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -3504.000000 856.000000"
@@ -4579,7 +4741,7 @@ brushDef
 "targetname" "block_10"
 "wait" "0.3"
 }
-// entity 196
+// entity 204
 {
 "classname" "target_spawn"
 "count" "1"
@@ -4588,7 +4750,7 @@ brushDef
 "targetname" "coin_14"
 "message" "origin $self.origin item_pickupsound sound/map_sxb/flower.wav model models/sxb-models/small_mushroom.md3 noalign -1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
 }
-// entity 197
+// entity 205
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -4608,7 +4770,7 @@ brushDef
 }
 }
 }
-// entity 198
+// entity 206
 {
 "classname" "func_door"
 "angle" "-1"
@@ -4629,7 +4791,7 @@ brushDef
 }
 }
 }
-// entity 199
+// entity 207
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -3248.000000 728.000000"
@@ -4637,7 +4799,7 @@ brushDef
 "targetname" "block_14"
 "wait" "0.3"
 }
-// entity 200
+// entity 208
 {
 "classname" "target_spawn"
 "count" "1"
@@ -4646,13 +4808,13 @@ brushDef
 "targetname" "coin_15"
 "message" "origin $self.origin item_pickupsound sound/map_sxb/star.wav noalign -1 model models/sxb-models/small_star.md3 $ spawnfunc_weapon_blaster velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
 }
-// entity 201
+// entity 209
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
 "wait" "0.75"
 "delay" "0.2"
-"target" "block_15"
+"target" "block_15_counter"
 // brush 0
 {
 brushDef
@@ -4666,7 +4828,7 @@ brushDef
 }
 }
 }
-// entity 202
+// entity 210
 {
 "classname" "func_door"
 "angle" "-1"
@@ -4687,24 +4849,43 @@ brushDef
 }
 }
 }
-// entity 203
+// entity 211
 {
 "classname" "trigger_delay"
-"origin" "560.000000 -3024.000000 576.000000"
+"origin" "560.000000 -3024.000000 736.000000"
 "target" "coin_16"
 "targetname" "block_15"
 "wait" "0.3"
 }
-// entity 204
+// entity 212
 {
-"classname" "target_spawn"
-"count" "1"
-"origin" "560.000000 -3024.000000 624.000000"
-"angle" "-179.999985"
+"classname" "misc_breakablemodel"
+"spawnflags" "4"
 "targetname" "coin_16"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z -100 noalign -1 classname droppedweapon m_isloot 1"
+"debrisvelocity" "0 0 300"
+"debristime" "0.05"
+"debrisfadetime" "0.3"
+"debristimejitter" "0.05"
+"respawntime" "0.25"
+"debris" "models/sxb-models/coin.md3"
+"model" "models/map_sxb/alignment.obj"
+"origin" "560.000000 -3024.000000 688.000000"
+"debrisavelocityjitter" "0 0 0.05"
+"debrisvelocityjitter" "0 0 0.05"
+"effects" "16"
 }
-// entity 205
+// entity 213
+{
+"classname" "target_heal"
+"delay" "-1"
+"noise" "map_sxb/coin.wav"
+"spawnflags" "4"
+"origin" "560.000000 -3024.000000 688.000000"
+"targetname" "coin_16"
+"health" "10"
+"max_health" "50"
+}
+// entity 214
 {
 "classname" "trigger_viewlocation"
 "target" "inter_1"
@@ -4722,27 +4903,27 @@ brushDef
 }
 }
 }
-// entity 206
+// entity 215
 {
 "classname" "target_viewlocation_end"
 "origin" "-4920.000000 -888.000000 7680.000000"
 "angle" "0.000003"
 "targetname" "inter_2"
 }
-// entity 207
+// entity 216
 {
 "classname" "target_viewlocation_start"
 "origin" "-4920.000000 -776.000000 7680.000000"
 "angle" "0.000003"
 "targetname" "inter_1"
 }
-// entity 208
+// entity 217
 {
 "classname" "info_player_deathmatch"
 "origin" "-4688.000000 -672.000000 7648.000000"
 "angle" "-90.000000"
 }
-// entity 209
+// entity 218
 {
 "classname" "trigger_teleport"
 "target" "spoint"
@@ -4759,7 +4940,7 @@ brushDef
 }
 }
 }
-// entity 210
+// entity 219
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -4779,7 +4960,7 @@ brushDef
 }
 }
 }
-// entity 211
+// entity 220
 {
 "classname" "func_door"
 "targetname" "player1_drop"
@@ -4799,13 +4980,13 @@ brushDef
 }
 }
 }
-// entity 212
+// entity 221
 {
 "classname" "info_player_deathmatch"
 "origin" "-4688.000000 -800.000000 7648.000000"
 "angle" "-90.000000"
 }
-// entity 213
+// entity 222
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -4825,7 +5006,7 @@ brushDef
 }
 }
 }
-// entity 214
+// entity 223
 {
 "classname" "func_door"
 "targetname" "player1_drop1"
@@ -4845,13 +5026,13 @@ brushDef
 }
 }
 }
-// entity 215
+// entity 224
 {
 "classname" "info_player_deathmatch"
 "origin" "-4688.000000 -928.000000 7648.000000"
 "angle" "-90.000000"
 }
-// entity 216
+// entity 225
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -4871,7 +5052,7 @@ brushDef
 }
 }
 }
-// entity 217
+// entity 226
 {
 "classname" "func_door"
 "targetname" "player1_drop2"
@@ -4891,13 +5072,13 @@ brushDef
 }
 }
 }
-// entity 218
+// entity 227
 {
 "classname" "info_player_deathmatch"
 "origin" "-4688.000000 -1056.000000 7648.000000"
 "angle" "-90.000000"
 }
-// entity 219
+// entity 228
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -4917,7 +5098,7 @@ brushDef
 }
 }
 }
-// entity 220
+// entity 229
 {
 "classname" "func_door"
 "targetname" "player1_drop3"
@@ -4937,13 +5118,13 @@ brushDef
 }
 }
 }
-// entity 221
+// entity 230
 {
 "classname" "info_player_deathmatch"
 "origin" "-4688.000000 -1184.000000 7648.000000"
 "angle" "-90.000000"
 }
-// entity 222
+// entity 231
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -4963,7 +5144,7 @@ brushDef
 }
 }
 }
-// entity 223
+// entity 232
 {
 "classname" "func_door"
 "targetname" "player1_drop4"
@@ -4983,13 +5164,13 @@ brushDef
 }
 }
 }
-// entity 224
+// entity 233
 {
 "classname" "info_player_deathmatch"
 "origin" "-4688.000000 -544.000000 7648.000000"
 "angle" "-90.000000"
 }
-// entity 225
+// entity 234
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -5009,7 +5190,7 @@ brushDef
 }
 }
 }
-// entity 226
+// entity 235
 {
 "classname" "func_door"
 "targetname" "player1_drop5"
@@ -5029,7 +5210,7 @@ brushDef
 }
 }
 }
-// entity 227
+// entity 236
 {
 "classname" "func_group"
 // brush 0
@@ -5057,7 +5238,7 @@ brushDef
 }
 }
 }
-// entity 228
+// entity 237
 {
 "classname" "func_group"
 // brush 0
@@ -5109,7 +5290,7 @@ brushDef
 }
 }
 }
-// entity 229
+// entity 238
 {
 "classname" "func_group"
 // brush 0
@@ -5149,7 +5330,7 @@ brushDef
 }
 }
 }
-// entity 230
+// entity 239
 {
 "classname" "func_group"
 // brush 0
@@ -5189,7 +5370,7 @@ brushDef
 }
 }
 }
-// entity 231
+// entity 240
 {
 "classname" "func_group"
 // brush 0
@@ -5229,7 +5410,7 @@ brushDef
 }
 }
 }
-// entity 232
+// entity 241
 {
 "classname" "func_group"
 // brush 0
@@ -5269,7 +5450,7 @@ brushDef
 }
 }
 }
-// entity 233
+// entity 242
 {
 "classname" "func_group"
 // brush 0
@@ -5309,7 +5490,7 @@ brushDef
 }
 }
 }
-// entity 234
+// entity 243
 {
 "classname" "func_group"
 // brush 0
@@ -5349,7 +5530,7 @@ brushDef
 }
 }
 }
-// entity 235
+// entity 244
 {
 "classname" "func_group"
 // brush 0
@@ -5425,7 +5606,7 @@ brushDef
 }
 }
 }
-// entity 236
+// entity 245
 {
 "classname" "monster_spawner"
 "origin" "560.000000 -720.000000 584.000000"
@@ -5434,7 +5615,7 @@ brushDef
 "spawnmob" "goomba"
 "count" "1"
 }
-// entity 237
+// entity 246
 {
 "classname" "trigger_multiple"
 "target" "goomba1"
@@ -5452,7 +5633,7 @@ brushDef
 }
 }
 }
-// entity 238
+// entity 247
 {
 "classname" "monster_spawner"
 "origin" "560.000000 -1456.000000 584.000000"
@@ -5461,7 +5642,7 @@ brushDef
 "spawnmob" "goomba"
 "count" "1"
 }
-// entity 239
+// entity 248
 {
 "classname" "trigger_multiple"
 "target" "goomba2"
@@ -5479,7 +5660,7 @@ brushDef
 }
 }
 }
-// entity 240
+// entity 249
 {
 "classname" "monster_spawner"
 "origin" "560.000000 -1720.000000 584.000000"
@@ -5488,7 +5669,7 @@ brushDef
 "spawnmob" "goomba"
 "count" "1"
 }
-// entity 241
+// entity 250
 {
 "classname" "trigger_multiple"
 "target" "goomba3"
@@ -5506,7 +5687,7 @@ brushDef
 }
 }
 }
-// entity 242
+// entity 251
 {
 "classname" "monster_spawner"
 "origin" "560.000000 -1672.000000 584.000000"
@@ -5515,7 +5696,7 @@ brushDef
 "spawnmob" "goomba"
 "count" "1"
 }
-// entity 243
+// entity 252
 {
 "classname" "monster_spawner"
 "origin" "560.000000 -3064.000000 584.000000"
@@ -5524,7 +5705,7 @@ brushDef
 "spawnmob" "goomba"
 "count" "1"
 }
-// entity 244
+// entity 253
 {
 "classname" "trigger_multiple"
 "target" "goomba4"
@@ -5542,7 +5723,7 @@ brushDef
 }
 }
 }
-// entity 245
+// entity 254
 {
 "classname" "monster_spawner"
 "origin" "560.000000 -3016.000000 584.000000"
@@ -5551,7 +5732,7 @@ brushDef
 "spawnmob" "goomba"
 "count" "1"
 }
-// entity 246
+// entity 255
 {
 "classname" "trigger_multiple"
 "target" "goomba5"
@@ -5569,7 +5750,7 @@ brushDef
 }
 }
 }
-// entity 247
+// entity 256
 {
 "classname" "monster_spawner"
 "origin" "560.000000 -3736.000000 584.000000"
@@ -5578,7 +5759,7 @@ brushDef
 "spawnmob" "goomba"
 "count" "1"
 }
-// entity 248
+// entity 257
 {
 "classname" "trigger_multiple"
 "target" "goomba6"
@@ -5596,7 +5777,7 @@ brushDef
 }
 }
 }
-// entity 249
+// entity 258
 {
 "classname" "monster_spawner"
 "origin" "560.000000 -3688.000000 584.000000"
@@ -5605,7 +5786,7 @@ brushDef
 "spawnmob" "goomba"
 "count" "1"
 }
-// entity 250
+// entity 259
 {
 "classname" "monster_spawner"
 "origin" "560.000000 -4024.000000 584.000000"
@@ -5614,7 +5795,7 @@ brushDef
 "spawnmob" "goomba"
 "count" "1"
 }
-// entity 251
+// entity 260
 {
 "classname" "trigger_multiple"
 "target" "goomba7"
@@ -5632,7 +5813,7 @@ brushDef
 }
 }
 }
-// entity 252
+// entity 261
 {
 "classname" "monster_spawner"
 "origin" "560.000000 -3976.000000 584.000000"
@@ -5641,7 +5822,7 @@ brushDef
 "spawnmob" "goomba"
 "count" "1"
 }
-// entity 253
+// entity 262
 {
 "classname" "monster_spawner"
 "origin" "560.000000 -4152.000000 584.000000"
@@ -5650,7 +5831,7 @@ brushDef
 "spawnmob" "goomba"
 "count" "1"
 }
-// entity 254
+// entity 263
 {
 "classname" "trigger_multiple"
 "target" "goomba8"
@@ -5668,7 +5849,7 @@ brushDef
 }
 }
 }
-// entity 255
+// entity 264
 {
 "classname" "monster_spawner"
 "origin" "560.000000 -4104.000000 584.000000"
@@ -5677,7 +5858,7 @@ brushDef
 "spawnmob" "goomba"
 "count" "1"
 }
-// entity 256
+// entity 265
 {
 "classname" "monster_spawner"
 "origin" "560.000000 -5616.000000 584.000000"
@@ -5686,7 +5867,7 @@ brushDef
 "spawnmob" "goomba"
 "count" "1"
 }
-// entity 257
+// entity 266
 {
 "classname" "trigger_multiple"
 "target" "goomba9"
@@ -5704,7 +5885,7 @@ brushDef
 }
 }
 }
-// entity 258
+// entity 267
 {
 "classname" "monster_spawner"
 "origin" "560.000000 -5568.000000 584.000000"
@@ -5713,7 +5894,7 @@ brushDef
 "spawnmob" "goomba"
 "count" "1"
 }
-// entity 259
+// entity 268
 {
 "classname" "monster_spawner"
 "origin" "560.000000 -2632.000000 840.000000"
@@ -5723,7 +5904,7 @@ brushDef
 "spawnmob" "goomba"
 "count" "1"
 }
-// entity 260
+// entity 269
 {
 "classname" "monster_spawner"
 "origin" "560.000000 -2680.000000 840.000000"
@@ -5733,7 +5914,7 @@ brushDef
 "spawnmob" "goomba"
 "count" "1"
 }
-// entity 261
+// entity 270
 {
 "classname" "monster_spawner"
 "origin" "560.000000 -3472.000000 584.000000"
@@ -5742,7 +5923,7 @@ brushDef
 "spawnmob" "koopa"
 "count" "1"
 }
-// entity 262
+// entity 271
 {
 "classname" "trigger_multiple"
 "target" "goomba10"
@@ -5760,37 +5941,37 @@ brushDef
 }
 }
 }
-// entity 263
+// entity 272
 {
 "classname" "item_health_medium"
 "origin" "-12232.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_mushroom.md3"
 }
-// entity 264
+// entity 273
 {
 "classname" "item_health_small"
 "origin" "-12144.000000 128.000000 3856.000000"
 "model" "models/sxb-models/coin.md3"
 }
-// entity 265
+// entity 274
 {
 "classname" "weapon_laser"
 "origin" "-12072.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_star.md3"
 }
-// entity 266
+// entity 275
 {
 "classname" "item_health_mega"
 "origin" "-12000.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_green_mushroom.md3"
 }
-// entity 267
+// entity 276
 {
 "classname" "weapon_uzi"
 "origin" "-11928.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_flower.md3"
 }
-// entity 268
+// entity 277
 {
 "classname" "func_group"
 // brush 0
@@ -5863,6 +6044,55 @@ brushDef
 ( -12288 0 3840 ) ( -12288 0 4096 ) ( -11776 0 3840 ) ( ( 0.015625 0 224 ) ( 0 0.015625 60 ) ) common/caulk 0 0 0
 ( -12288 0 3840 ) ( -12288 512 3840 ) ( -12288 0 4096 ) ( ( 0.015625 0 0 ) ( 0 0.015625 60 ) ) common/caulk 0 0 0
 ( -12280 0 4096 ) ( -12280 512 3840 ) ( -12280 0 3840 ) ( ( 0.015625 0 0 ) ( 0 0.015625 60 ) ) common/caulk 0 0 0
+}
+}
+}
+// entity 278
+{
+"classname" "misc_breakablemodel"
+"spawnflags" "4"
+"targetname" "coin_1"
+"debrisvelocity" "0 0 300"
+"debristime" "0.05"
+"debrisfadetime" "0.3"
+"debristimejitter" "0.05"
+"respawntime" "10"
+"debris" "models/sxb-models/coin.md3"
+"model" "models/map_sxb/alignment.obj"
+"origin" "560.000000 -528.000000 680.000000"
+"debrisavelocityjitter" "0 0 0.05"
+"debrisvelocityjitter" "0 0 0.05"
+"effects" "16"
+}
+// entity 279
+{
+"classname" "target_heal"
+"delay" "-1"
+"noise" "map_sxb/coin.wav"
+"spawnflags" "4"
+"origin" "560.000000 -528.000000 624.000000"
+"targetname" "coin_1"
+"health" "10"
+"max_health" "50"
+}
+// entity 280
+{
+"classname" "trigger_counter"
+"respawntime" "10"
+"targetname" "block_15_counter"
+"target" "block_15"
+"count" "10"
+"spawnflags" "5"
+// brush 0
+{
+brushDef
+{
+( 568 -3008 688 ) ( 568 -3016 688 ) ( 536 -3008 688 ) ( ( 0.015625 0 0.375 ) ( 0 0.015625 0.125 ) ) common/trigger 0 0 0
+( 568 -3008 688 ) ( 536 -3008 688 ) ( 568 -3008 680 ) ( ( 0.015625 0 15.875 ) ( 0 0.015625 0.375 ) ) common/trigger 0 0 0
+( 560 -3008 688 ) ( 560 -3008 680 ) ( 560 -3016 688 ) ( ( 0.015625 0 0.375 ) ( 0 0.015625 0.375 ) ) common/trigger 0 0 0
+( 536 -3016 680 ) ( 568 -3016 680 ) ( 536 -3008 680 ) ( ( 0.015625 0 0.375 ) ( 0 0.015625 15.875 ) ) common/trigger 0 0 0
+( 536 -3016 680 ) ( 536 -3016 688 ) ( 568 -3016 680 ) ( ( 0.015625 0 0.125 ) ( 0 0.015625 0.375 ) ) common/trigger 0 0 0
+( 552 -3024 680 ) ( 552 -3016 680 ) ( 552 -3024 688 ) ( ( 0.015625 0 15.5 ) ( 0 0.015625 0.375 ) ) common/trigger 0 0 0
 }
 }
 }

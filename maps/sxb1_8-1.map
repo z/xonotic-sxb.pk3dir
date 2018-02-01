@@ -6802,12 +6802,30 @@ brushDef
 }
 // entity 275
 {
-"classname" "target_spawn"
-"count" "1"
-"origin" "560.000000 -5264.000000 688.000000"
-"angle" "-179.999985"
+"classname" "misc_breakablemodel"
+"spawnflags" "4"
 "targetname" "coin_1"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/coin.wav model models/sxb-models/coin.md3 noalign -1 $ spawnfunc_item_health_small velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
+"debrisvelocity" "0 0 300"
+"debristime" "0.05"
+"debrisfadetime" "0.3"
+"debristimejitter" "0.05"
+"respawntime" "10"
+"debris" "models/sxb-models/coin.md3"
+"model" "models/map_sxb/alignment.obj"
+"origin" "560.000000 -5264.000000 688.000000"
+"debrisavelocityjitter" "0 0 0.05"
+"debrisvelocityjitter" "0 0 0.05"
+"effects" "16"
+}
+{
+"classname" "target_heal"
+"delay" "-1"
+"noise" "map_sxb/coin.wav"
+"spawnflags" "4"
+"origin" "560.000000 -5264.000000 688.000000"
+"targetname" "coin_1"
+"health" "10"
+"max_health" "50"
 }
 // entity 276
 {

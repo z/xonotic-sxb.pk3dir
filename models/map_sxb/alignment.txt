@@ -1,0 +1,1 @@
+Texture was manually changed in the .obj file after compilation to textures/common/nodrawnonsolid, since compiling as .obj with it would cause the brushes to not be included and result in an empty broken model.
