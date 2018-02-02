@@ -1,7 +1,0 @@
-/*
-Generated framegroups file for goomba
-Used by DarkPlaces to simulate frame groups in DPM models.
-*/
-
-1 1 1 1 // goomba idle
-2 12 10 1 // goomba walk

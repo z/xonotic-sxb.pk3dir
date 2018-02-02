@@ -5608,7 +5608,7 @@ brushDef
 }
 // entity 245
 {
-"classname" "monster_spawner"
+"classname" "disabled"
 "origin" "560.000000 -720.000000 584.000000"
 "angle" "90.000000"
 "targetname" "goomba1"
@@ -5635,7 +5635,7 @@ brushDef
 }
 // entity 247
 {
-"classname" "monster_spawner"
+"classname" "disabled"
 "origin" "560.000000 -1456.000000 584.000000"
 "angle" "90.000000"
 "targetname" "goomba2"
@@ -5662,7 +5662,7 @@ brushDef
 }
 // entity 249
 {
-"classname" "monster_spawner"
+"classname" "disabled"
 "origin" "560.000000 -1720.000000 584.000000"
 "angle" "90.000000"
 "targetname" "goomba3"
@@ -5689,7 +5689,7 @@ brushDef
 }
 // entity 251
 {
-"classname" "monster_spawner"
+"classname" "disabled"
 "origin" "560.000000 -1672.000000 584.000000"
 "angle" "90.000000"
 "targetname" "goomba3"
@@ -5698,7 +5698,7 @@ brushDef
 }
 // entity 252
 {
-"classname" "monster_spawner"
+"classname" "disabled"
 "origin" "560.000000 -3064.000000 584.000000"
 "angle" "90.000000"
 "targetname" "goomba4"
@@ -5725,7 +5725,7 @@ brushDef
 }
 // entity 254
 {
-"classname" "monster_spawner"
+"classname" "disabled"
 "origin" "560.000000 -3016.000000 584.000000"
 "angle" "90.000000"
 "targetname" "goomba4"
@@ -5752,7 +5752,7 @@ brushDef
 }
 // entity 256
 {
-"classname" "monster_spawner"
+"classname" "disabled"
 "origin" "560.000000 -3736.000000 584.000000"
 "angle" "90.000000"
 "targetname" "goomba6"
@@ -5779,7 +5779,7 @@ brushDef
 }
 // entity 258
 {
-"classname" "monster_spawner"
+"classname" "disabled"
 "origin" "560.000000 -3688.000000 584.000000"
 "angle" "90.000000"
 "targetname" "goomba6"
@@ -5788,7 +5788,7 @@ brushDef
 }
 // entity 259
 {
-"classname" "monster_spawner"
+"classname" "disabled"
 "origin" "560.000000 -4024.000000 584.000000"
 "angle" "90.000000"
 "targetname" "goomba7"
@@ -5815,7 +5815,7 @@ brushDef
 }
 // entity 261
 {
-"classname" "monster_spawner"
+"classname" "disabled"
 "origin" "560.000000 -3976.000000 584.000000"
 "angle" "90.000000"
 "targetname" "goomba7"
@@ -5824,7 +5824,7 @@ brushDef
 }
 // entity 262
 {
-"classname" "monster_spawner"
+"classname" "disabled"
 "origin" "560.000000 -4152.000000 584.000000"
 "angle" "90.000000"
 "targetname" "goomba8"
@@ -5851,7 +5851,7 @@ brushDef
 }
 // entity 264
 {
-"classname" "monster_spawner"
+"classname" "disabled"
 "origin" "560.000000 -4104.000000 584.000000"
 "angle" "90.000000"
 "targetname" "goomba8"
@@ -5860,7 +5860,7 @@ brushDef
 }
 // entity 265
 {
-"classname" "monster_spawner"
+"classname" "disabled"
 "origin" "560.000000 -5616.000000 584.000000"
 "angle" "90.000000"
 "targetname" "goomba9"
@@ -5887,7 +5887,7 @@ brushDef
 }
 // entity 267
 {
-"classname" "monster_spawner"
+"classname" "disabled"
 "origin" "560.000000 -5568.000000 584.000000"
 "angle" "90.000000"
 "targetname" "goomba9"
@@ -5896,7 +5896,7 @@ brushDef
 }
 // entity 268
 {
-"classname" "monster_spawner"
+"classname" "disabled"
 "origin" "560.000000 -2632.000000 840.000000"
 "angle" "90.000000"
 "targetname" "goomba5"
@@ -5906,7 +5906,7 @@ brushDef
 }
 // entity 269
 {
-"classname" "monster_spawner"
+"classname" "disabled"
 "origin" "560.000000 -2680.000000 840.000000"
 "angle" "90.000000"
 "targetname" "goomba5"
@@ -5916,7 +5916,7 @@ brushDef
 }
 // entity 270
 {
-"classname" "monster_spawner"
+"classname" "disabled"
 "origin" "560.000000 -3472.000000 584.000000"
 "angle" "90.000000"
 "targetname" "goomba10"
