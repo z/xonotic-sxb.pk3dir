@@ -952,6 +952,78 @@ textures/sxb_v1_platforms/castle_bridge_bottom
 	}
 }
 
+textures/sxb_v1_platforms/blue_castle_bridge
+{
+	qer_editorimage textures/sxb_v1_platforms/blue_castle_bridge
+	surfaceparm metalsteps
+	surfaceparm trans
+	surfaceparm alphashadow
+	q3map_bouncescale 1.75
+	cull none
+	nopicmip
+	nomipmaps
+
+	{
+		map textures/sxb_v1_platforms/blue_castle_bridge
+		blendfunc blend
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
+textures/sxb_v1_platforms/blue_castle_bridge_top
+{
+	qer_editorimage textures/sxb_v1_platforms/blue_castle_bridge_top
+	surfaceparm metalsteps
+	surfaceparm trans
+	surfaceparm alphashadow
+	q3map_bouncescale 1.75
+	cull none
+	nopicmip
+	nomipmaps
+
+	{
+		map textures/sxb_v1_platforms/blue_castle_bridge_top
+		blendfunc blend
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
+textures/sxb_v1_platforms/blue_castle_bridge_bottom
+{
+	qer_editorimage textures/sxb_v1_platforms/blue_castle_bridge_bottom
+	surfaceparm metalsteps
+	surfaceparm trans
+	surfaceparm alphashadow
+	q3map_bouncescale 1.75
+	cull none
+	nopicmip
+	nomipmaps
+
+	{
+		map textures/sxb_v1_platforms/blue_castle_bridge_bottom
+		blendfunc blend
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
 textures/sxb_v1_earth/nighttime_land_tower_top_edge
 {
 	qer_editorimage textures/sxb_v1_earth/nighttime_land_tower_top_edge
