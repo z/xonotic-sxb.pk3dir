@@ -1,5 +1,5 @@
 title Super Xonotic Bros
-description Super Xonotic Bros. is a fan remake of the legendary Super Mario Bros for SNES!
+description Super Xonotic Bros. is a fan remake of the legendary Super Mario Bros. for NES!
 author -z-, Mario
 // not setting cdtrack here, as we do it via entities
 //cdtrack map_sxb/music_overworld
