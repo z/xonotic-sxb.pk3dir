@@ -35,7 +35,7 @@ brushDef
 {
 ( 608 -5088 544 ) ( 512 -5088 544 ) ( 608 -5024 544 ) ( ( 0.03125 0 227 ) ( 0 0.03125 82 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 1024 -5088 544 ) ( 1024 -5024 544 ) ( 1024 -5088 512 ) ( ( 0.03125 0 227 ) ( 0 0.03125 18 ) ) sxb_v1_floors/brick_ground 0 0 0
-( 512 -5024 -32 ) ( 512 -5088 -32 ) ( 608 -5024 -32 ) ( ( 0.03125 0 227 ) ( 0 0.03125 180 ) ) sxb_v1_floors/brick_ground 0 0 0
+( 512 -5024 0 ) ( 512 -5088 0 ) ( 608 -5024 0 ) ( ( 0.03125 0 227 ) ( 0 0.03125 180 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 480 -5024 512 ) ( 480 -5024 544 ) ( 480 -5088 512 ) ( ( 0.03125 0 223 ) ( 0 0.03125 18 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 480 0 480 ) ( 512 0 480 ) ( 480 0 608 ) ( ( 0.015625 0 9.5 ) ( 0 0.015625 8.5 ) ) common/caulk 0 0 0
 ( 640 -2240 576 ) ( 640 -2240 512 ) ( 512 -2240 576 ) ( ( 0.03125 0 174 ) ( 0 0.03125 18 ) ) sxb_v1_floors/brick_ground 0 0 0
@@ -48,7 +48,7 @@ brushDef
 ( 608 -5184 544 ) ( 512 -5184 544 ) ( 608 -5120 544 ) ( ( 0.03125 0 227 ) ( 0 0.03125 82 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 1024 -5632 544 ) ( 1024 -5568 544 ) ( 1024 -5632 512 ) ( ( 0.03125 0 229 ) ( 0 0.03125 18 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 640 -7712 576 ) ( 640 -7712 544 ) ( 544 -7712 576 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 8.5 ) ) common/caulk 0 0 0
-( 512 -9920 -32 ) ( 512 -9984 -32 ) ( 608 -9920 -32 ) ( ( 0.03125 0 227 ) ( 0 0.03125 180 ) ) sxb_v1_floors/brick_ground 0 0 0
+( 512 -9920 0 ) ( 512 -9984 0 ) ( 608 -9920 0 ) ( ( 0.03125 0 227 ) ( 0 0.03125 180 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 512 -5504 512 ) ( 512 -5504 544 ) ( 512 -5568 512 ) ( ( 0.03125 0 223 ) ( 0 0.03125 18 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 448 -6688 576 ) ( 576 -6688 512 ) ( 576 -6688 576 ) ( ( 0.03125 0 18 ) ( 0 0.03125 18 ) ) sxb_v1_floors/brick_ground 0 0 0
 }
@@ -84,7 +84,7 @@ brushDef
 ( 576 -2432 544 ) ( 544 -2432 544 ) ( 576 -2304 544 ) ( ( 0.03125 0 227 ) ( 0 0.03125 82 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 640 -2432 544 ) ( 640 -2304 544 ) ( 640 -2432 480 ) ( ( 0.03125 0 227 ) ( 0 0.03125 18 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 576 -2432 544 ) ( 576 -2432 480 ) ( 544 -2432 544 ) ( ( 0.03125 0 176 ) ( 0 0.03125 18 ) ) sxb_v1_floors/brick_ground 0 0 0
-( 544 -2304 -32 ) ( 544 -2432 -32 ) ( 576 -2304 -32 ) ( ( 0.03125 0 227 ) ( 0 0.03125 180 ) ) sxb_v1_floors/brick_ground 0 0 0
+( 544 -2304 0 ) ( 544 -2432 0 ) ( 576 -2304 0 ) ( ( 0.03125 0 227 ) ( 0 0.03125 180 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 480 -2304 480 ) ( 480 -2304 544 ) ( 480 -2432 480 ) ( ( 0.03125 0 223 ) ( 0 0.03125 18 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 544 -2304 480 ) ( 576 -2304 480 ) ( 544 -2304 544 ) ( ( 0.03125 0 18 ) ( 0 0.03125 18 ) ) sxb_v1_floors/brick_ground 0 0 0
 }
@@ -132,7 +132,7 @@ brushDef
 ( 608 -2592 544 ) ( 512 -2592 544 ) ( 608 -2496 544 ) ( ( 0.03125 0 227 ) ( 0 0.03125 82 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 1024 -2592 544 ) ( 1024 -2496 544 ) ( 1024 -2592 480 ) ( ( 0.03125 0 227 ) ( 0 0.03125 18 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 672 -4000 512 ) ( 672 -4000 448 ) ( 576 -4000 512 ) ( ( 0.03125 0 174 ) ( 0 0.03125 18 ) ) sxb_v1_floors/brick_ground 0 0 0
-( 512 -2496 -32 ) ( 512 -2592 -32 ) ( 608 -2496 -32 ) ( ( 0.03125 0 227 ) ( 0 0.03125 180 ) ) sxb_v1_floors/brick_ground 0 0 0
+( 512 -2496 0 ) ( 512 -2592 0 ) ( 608 -2496 0 ) ( ( 0.03125 0 227 ) ( 0 0.03125 180 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 480 -2496 480 ) ( 480 -2496 544 ) ( 480 -2592 480 ) ( ( 0.03125 0 223 ) ( 0 0.03125 18 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 832 -2496 480 ) ( 928 -2496 480 ) ( 832 -2496 544 ) ( ( 0.03125 0 28 ) ( 0 0.03125 18 ) ) sxb_v1_floors/brick_ground 0 0 0
 }
@@ -168,7 +168,7 @@ brushDef
 ( 608 -4128 544 ) ( 512 -4128 544 ) ( 608 -4064 544 ) ( ( 0.03125 0 227 ) ( 0 0.03125 82 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 608 -4128 544 ) ( 608 -4064 544 ) ( 608 -4128 480 ) ( ( 0.03125 0 227 ) ( 0 0.03125 18 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 608 -4128 544 ) ( 608 -4128 480 ) ( 512 -4128 544 ) ( ( 0.03125 0 176 ) ( 0 0.03125 18 ) ) sxb_v1_floors/brick_ground 0 0 0
-( 512 -4032 -32 ) ( 512 -4096 -32 ) ( 608 -4032 -32 ) ( ( 0.03125 0 226 ) ( 0 0.03125 180 ) ) sxb_v1_floors/brick_ground 0 0 0
+( 512 -4032 0 ) ( 512 -4096 0 ) ( 608 -4032 0 ) ( ( 0.03125 0 226 ) ( 0 0.03125 180 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 512 -4064 480 ) ( 512 -4064 544 ) ( 512 -4128 480 ) ( ( 0.03125 0 223 ) ( 0 0.03125 18 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 512 -4064 480 ) ( 608 -4064 480 ) ( 512 -4064 544 ) ( ( 0.03125 0 18 ) ( 0 0.03125 18 ) ) sxb_v1_floors/brick_ground 0 0 0
 }
@@ -192,7 +192,7 @@ brushDef
 ( 608 -5088 544 ) ( 512 -5088 544 ) ( 608 -4672 544 ) ( ( 0.03125 0 227 ) ( 0 0.03125 82 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 1024 -4608 544 ) ( 1024 -4192 544 ) ( 1024 -4608 480 ) ( ( 0.03125 0 227 ) ( 0 0.03125 18 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 608 -6336 512 ) ( 608 -6336 448 ) ( 512 -6336 512 ) ( ( 0.03125 0 176 ) ( 0 0.03125 18 ) ) sxb_v1_floors/brick_ground 0 0 0
-( 512 -4160 -32 ) ( 512 -4576 -32 ) ( 608 -4160 -32 ) ( ( 0.03125 0 227 ) ( 0 0.03125 180 ) ) sxb_v1_floors/brick_ground 0 0 0
+( 512 -4160 0 ) ( 512 -4576 0 ) ( 608 -4160 0 ) ( ( 0.03125 0 227 ) ( 0 0.03125 180 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 480 -4192 480 ) ( 480 -4192 544 ) ( 480 -4608 480 ) ( ( 0.03125 0 223 ) ( 0 0.03125 18 ) ) sxb_v1_floors/brick_ground 0 0 0
 ( 832 -4192 480 ) ( 928 -4192 480 ) ( 832 -4192 544 ) ( ( 0.03125 0 28 ) ( 0 0.03125 18 ) ) sxb_v1_floors/brick_ground 0 0 0
 }
@@ -276,9 +276,9 @@ brushDef
 ( 1024 -768 992 ) ( 0 -768 992 ) ( 1024 -32 992 ) ( ( 0 0.015625 248 ) ( -0.015625 0 247.5 ) ) common/caulk 0 0 0
 ( 1152 -768 864 ) ( 1152 -32 864 ) ( 1152 -768 800 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 7.5 ) ) common/caulk 0 0 0
 ( 1088 -7712 864 ) ( 1088 -7712 800 ) ( 64 -7712 864 ) ( ( 0.015625 0 247 ) ( 0 0.015625 7.5 ) ) common/caulk 0 0 0
-( 0 -96 -32 ) ( 0 -832 -32 ) ( 1024 -96 -32 ) ( ( 0 -0.015625 248 ) ( 0.015625 0 9.5 ) ) common/caulk 0 0 0
+( 0 -96 0 ) ( 0 -832 0 ) ( 1024 -96 0 ) ( ( 0 -0.015625 248 ) ( 0.015625 0 9.5 ) ) common/caulk 0 0 0
 ( 0 0 800 ) ( 1024 0 800 ) ( 0 0 864 ) ( ( 0.015625 0 8 ) ( 0 0.015625 7.5 ) ) common/caulk 0 0 0
-( 1144 -1632 800 ) ( 1144 -896 864 ) ( 1144 -1632 864 ) ( ( 0.0078125 0 501 ) ( 0 0.0078125 3.75 ) ) sxb_v1_skies/overworld 0 0 0
+( 1144 -1632 832 ) ( 1144 -896 896 ) ( 1144 -1632 896 ) ( ( 0.0078125 0 501 ) ( 0 0.0078125 4 ) ) sxb_v1_skies/overworld 0 0 0
 }
 }
 // brush 23
@@ -288,7 +288,7 @@ brushDef
 ( 1024 -1672 992 ) ( 0 -1672 992 ) ( 1024 -936 992 ) ( ( 0 0.015625 248 ) ( -0.015625 0 233.375 ) ) common/caulk 0 0 0
 ( 1152 -1672 864 ) ( 1152 -936 864 ) ( 1152 -1672 800 ) ( ( 0.015625 0 22.625 ) ( 0 0.015625 7.5 ) ) common/caulk 0 0 0
 ( 1088 -7720 864 ) ( 1088 -7720 800 ) ( 64 -7720 864 ) ( ( 0.015625 0 247 ) ( 0 0.015625 7.5 ) ) common/caulk 0 0 0
-( 0 -1000 -32 ) ( 0 -1736 -32 ) ( 1024 -1000 -32 ) ( ( 0 -0.015625 248 ) ( 0.015625 0 23.625 ) ) common/caulk 0 0 0
+( 0 -1000 0 ) ( 0 -1736 0 ) ( 1024 -1000 0 ) ( ( 0 -0.015625 248 ) ( 0.015625 0 23.625 ) ) common/caulk 0 0 0
 ( 0 -936 800 ) ( 0 -936 864 ) ( 0 -1672 800 ) ( ( 0.015625 0 233.375 ) ( 0 0.015625 7.5 ) ) common/caulk 0 0 0
 ( 64 -7712 864 ) ( 1088 -7712 800 ) ( 1088 -7712 864 ) ( ( 0.0078125 0 3.5 ) ( 0 0.0078125 3.75 ) ) sxb_v1_skies/overworld 0 0 0
 }
@@ -297,12 +297,12 @@ brushDef
 {
 brushDef
 {
-( 1152 -768 864 ) ( 1152 -32 864 ) ( 1152 -768 800 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 7.5 ) ) common/caulk 0 0 0
-( 1088 -7712 864 ) ( 1088 -7712 800 ) ( 64 -7712 864 ) ( ( 0.015625 0 247 ) ( 0 0.015625 7.5 ) ) common/caulk 0 0 0
-( 0 -96 -32 ) ( 0 -832 -32 ) ( 1024 -96 -32 ) ( ( 0 -0.015625 248 ) ( 0.015625 0 9.5 ) ) common/caulk 0 0 0
-( 0 -32 800 ) ( 0 -32 864 ) ( 0 -768 800 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 7.5 ) ) common/caulk 0 0 0
-( 0 0 800 ) ( 1024 0 800 ) ( 0 0 864 ) ( ( 0.015625 0 8 ) ( 0 0.015625 7.5 ) ) common/caulk 0 0 0
-( 1024 -96 -24 ) ( 0 -832 -24 ) ( 0 -96 -24 ) ( ( 0 0.0078125 124 ) ( -0.0078125 0 508.25 ) ) sxb_v1_skies/overworld 0 0 0
+( 1152 -768 896 ) ( 1152 -32 896 ) ( 1152 -768 832 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 8 ) ) common/caulk 0 0 0
+( 1088 -7712 896 ) ( 1088 -7712 832 ) ( 64 -7712 896 ) ( ( 0.015625 0 247 ) ( 0 0.015625 8 ) ) common/caulk 0 0 0
+( 0 -96 0 ) ( 0 -832 0 ) ( 1024 -96 0 ) ( ( 0 -0.015625 248 ) ( 0.015625 0 9.5 ) ) common/caulk 0 0 0
+( 0 -32 832 ) ( 0 -32 896 ) ( 0 -768 832 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 8 ) ) common/caulk 0 0 0
+( 0 0 832 ) ( 1024 0 832 ) ( 0 0 896 ) ( ( 0.015625 0 8 ) ( 0 0.015625 8 ) ) common/caulk 0 0 0
+( 1024 -96 8 ) ( 0 -832 8 ) ( 0 -96 8 ) ( ( 0 0.0078125 124 ) ( -0.0078125 0 508.25 ) ) sxb_v1_skies/overworld 0 0 0
 }
 }
 // brush 25
@@ -311,10 +311,10 @@ brushDef
 {
 ( 8 -7712 992 ) ( 0 -32 992 ) ( 8 -32 992 ) ( ( 0 0.015625 248 ) ( -0.015625 0 247.5 ) ) common/caulk 0 0 0
 ( 8 -7712 -32 ) ( 0 -7712 992 ) ( 8 -7712 992 ) ( ( 0.015625 0 247 ) ( 0 0.015625 7.5 ) ) common/caulk 0 0 0
-( 8 -32 -32 ) ( 0 -7712 -32 ) ( 8 -7712 -32 ) ( ( 0 -0.015625 248 ) ( 0.015625 0 9.5 ) ) common/caulk 0 0 0
+( 8 -32 0 ) ( 0 -7712 0 ) ( 8 -7712 0 ) ( ( 0 -0.015625 248 ) ( 0.015625 0 9.5 ) ) common/caulk 0 0 0
 ( 0 -7712 992 ) ( 0 -32 -32 ) ( 0 -32 992 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 7.5 ) ) common/caulk 0 0 0
 ( 0 0 -32 ) ( 8 0 992 ) ( 0 0 992 ) ( ( 0.015625 0 8 ) ( 0 0.015625 7.5 ) ) common/caulk 0 0 0
-( 8 0 992 ) ( 8 -7680 -32 ) ( 8 -7680 992 ) ( ( 0.0078125 0 139 ) ( 0 0.0078125 3.75 ) ) sxb_v1_skies/overworld 0 0 0
+( 8 0 1024 ) ( 8 -7680 0 ) ( 8 -7680 1024 ) ( ( 0.0078125 0 139 ) ( 0 0.0078125 4 ) ) sxb_v1_skies/overworld 0 0 0
 }
 }
 // brush 26
@@ -323,7 +323,7 @@ brushDef
 {
 ( 1024 -728 992 ) ( 0 -728 992 ) ( 1024 8 992 ) ( ( 0 0.015625 248 ) ( -0.015625 0 248.125 ) ) common/caulk 0 0 0
 ( 1152 -728 864 ) ( 1152 8 864 ) ( 1152 -728 800 ) ( ( 0.015625 0 7.875 ) ( 0 0.015625 7.5 ) ) common/caulk 0 0 0
-( 0 -56 -32 ) ( 0 -792 -32 ) ( 1024 -56 -32 ) ( ( 0 -0.015625 248 ) ( 0.015625 0 8.875 ) ) common/caulk 0 0 0
+( 0 -56 0 ) ( 0 -792 0 ) ( 1024 -56 0 ) ( ( 0 -0.015625 248 ) ( 0.015625 0 8.875 ) ) common/caulk 0 0 0
 ( 0 8 800 ) ( 0 8 864 ) ( 0 -728 800 ) ( ( 0.015625 0 248.125 ) ( 0 0.015625 7.5 ) ) common/caulk 0 0 0
 ( 0 8 800 ) ( 1024 8 800 ) ( 0 8 864 ) ( ( 0.015625 0 8 ) ( 0 0.015625 7.5 ) ) common/caulk 0 0 0
 ( 0 0 864 ) ( 1024 0 800 ) ( 0 0 800 ) ( ( 0.0078125 0 124 ) ( 0 0.0078125 3.75 ) ) sxb_v1_skies/overworld 0 0 0
@@ -336,9 +336,9 @@ brushDef
 ( 584 -144 992 ) ( 472 -144 992 ) ( 584 -32 992 ) ( ( 0 0.015625 248.5 ) ( -0.015625 0 247.5 ) ) common/clip 0 0 0
 ( 584 -112 1000 ) ( 584 0 1000 ) ( 584 -112 992 ) ( ( 0.015625 0 8 ) ( 0 0.015625 7.5 ) ) common/clip 0 0 0
 ( 712 -7712 1000 ) ( 712 -7712 992 ) ( 600 -7712 1000 ) ( ( 0.015625 0 246.5 ) ( 0 0.015625 7.5 ) ) common/clip 0 0 0
-( 472 -96 -32 ) ( 472 -208 -32 ) ( 584 -96 -32 ) ( ( 0 -0.015625 248.5 ) ( 0.015625 0 9.5 ) ) common/clip 0 0 0
+( 472 -96 0 ) ( 472 -208 0 ) ( 584 -96 0 ) ( ( 0 -0.015625 248.5 ) ( 0.015625 0 9.5 ) ) common/clip 0 0 0
 ( 472 0 992 ) ( 584 0 992 ) ( 472 0 1000 ) ( ( 0.015625 0 7.5 ) ( 0 0.015625 7.5 ) ) common/clip 0 0 0
-( 576 -1040 992 ) ( 576 -928 1000 ) ( 576 -1040 1000 ) ( ( 0.015625 0 233.5 ) ( 0 0.015625 7.5 ) ) common/clip 0 0 0
+( 576 -1040 1024 ) ( 576 -928 1032 ) ( 576 -1040 1032 ) ( ( 0.015625 0 233.5 ) ( 0 0.015625 8 ) ) common/clip 0 0 0
 }
 }
 // brush 28
@@ -347,10 +347,10 @@ brushDef
 {
 ( 648 -144 992 ) ( 536 -144 992 ) ( 648 -32 992 ) ( ( 0 0.015625 247.5 ) ( -0.015625 0 247.5 ) ) common/clip 0 0 0
 ( 776 -7712 1000 ) ( 776 -7712 992 ) ( 664 -7712 1000 ) ( ( 0.015625 0 245.5 ) ( 0 0.015625 7.5 ) ) common/clip 0 0 0
-( 536 -96 -32 ) ( 536 -208 -32 ) ( 648 -96 -32 ) ( ( 0 -0.015625 247.5 ) ( 0.015625 0 9.5 ) ) common/clip 0 0 0
+( 536 -96 0 ) ( 536 -208 0 ) ( 648 -96 0 ) ( ( 0 -0.015625 247.5 ) ( 0.015625 0 9.5 ) ) common/clip 0 0 0
 ( 536 -160 992 ) ( 536 -160 1000 ) ( 536 -272 992 ) ( ( 0.015625 0 245.5 ) ( 0 0.015625 7.5 ) ) common/clip 0 0 0
 ( 536 0 992 ) ( 648 0 992 ) ( 536 0 1000 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 7.5 ) ) common/clip 0 0 0
-( 544 -880 992 ) ( 544 -768 1000 ) ( 544 -768 992 ) ( ( 0.015625 0 20 ) ( 0 0.015625 7.5 ) ) common/clip 0 0 0
+( 544 -880 1024 ) ( 544 -768 1032 ) ( 544 -768 1024 ) ( ( 0.015625 0 20 ) ( 0 0.015625 8 ) ) common/clip 0 0 0
 }
 }
 // brush 29
@@ -372,7 +372,7 @@ brushDef
 ( 1024 -1352 992 ) ( 0 -1352 992 ) ( 1024 -616 992 ) ( ( 0 0.015625 248 ) ( -0.015625 0 238.375 ) ) common/clip 0 0 0
 ( 1152 -1352 864 ) ( 1152 -616 864 ) ( 1152 -1352 800 ) ( ( 0.015625 0 17.625 ) ( 0 0.015625 7.5 ) ) common/clip 0 0 0
 ( 1088 -7400 864 ) ( 1088 -7400 800 ) ( 64 -7400 864 ) ( ( 0.015625 0 247 ) ( 0 0.015625 7.5 ) ) common/clip 0 0 0
-( 0 -680 -32 ) ( 0 -1416 -32 ) ( 1024 -680 -32 ) ( ( 0 -0.015625 248 ) ( 0.015625 0 18.625 ) ) common/clip 0 0 0
+( 0 -680 0 ) ( 0 -1416 0 ) ( 1024 -680 0 ) ( ( 0 -0.015625 248 ) ( 0.015625 0 18.625 ) ) common/clip 0 0 0
 ( 0 -616 800 ) ( 0 -616 864 ) ( 0 -1352 800 ) ( ( 0.015625 0 238.375 ) ( 0 0.015625 7.5 ) ) common/clip 0 0 0
 ( 64 -7392 864 ) ( 1088 -7392 800 ) ( 1088 -7392 864 ) ( ( 0.001953125 0 0.875 ) ( 0 0.001953125 0.9375 ) ) common/clip 0 0 0
 }
@@ -746,7 +746,7 @@ brushDef
 ( 616 -144 992 ) ( 504 -144 992 ) ( 616 -32 992 ) ( ( 0 0.015625 248 ) ( -0.015625 0 247.5 ) ) common/trigger 0 0 0
 ( 616 -112 1000 ) ( 616 0 1000 ) ( 616 -112 992 ) ( ( 0.015625 0 8 ) ( 0 0.015625 7.5 ) ) common/trigger 0 0 0
 ( 744 -7712 1000 ) ( 744 -7712 992 ) ( 632 -7712 1000 ) ( ( 0.015625 0 246 ) ( 0 0.015625 7.5 ) ) common/trigger 0 0 0
-( 504 -96 -32 ) ( 504 -208 -32 ) ( 616 -96 -32 ) ( ( 0 -0.015625 248 ) ( 0.015625 0 9.5 ) ) common/trigger 0 0 0
+( 504 -96 0 ) ( 504 -208 0 ) ( 616 -96 0 ) ( ( 0 -0.015625 248 ) ( 0.015625 0 9.5 ) ) common/trigger 0 0 0
 ( 504 -160 992 ) ( 504 -160 1000 ) ( 504 -272 992 ) ( ( 0.015625 0 245.5 ) ( 0 0.015625 7.5 ) ) common/trigger 0 0 0
 ( 504 0 992 ) ( 616 0 992 ) ( 504 0 1000 ) ( ( 0.015625 0 8 ) ( 0 0.015625 7.5 ) ) common/trigger 0 0 0
 }
@@ -775,10 +775,10 @@ brushDef
 {
 ( 1152 -768 1144 ) ( 1152 -32 1144 ) ( 1152 -768 1080 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 11.875 ) ) common/trigger 0 0 0
 ( 1088 -7712 1144 ) ( 1088 -7712 1080 ) ( 64 -7712 1144 ) ( ( 0.015625 0 247 ) ( 0 0.015625 11.875 ) ) common/trigger 0 0 0
-( 0 -96 -24 ) ( 0 -832 -24 ) ( 1024 -96 -24 ) ( ( 0 -0.015625 248 ) ( 0.015625 0 9.5 ) ) common/trigger 0 0 0
-( 8 -32 1080 ) ( 8 -32 1144 ) ( 8 -768 1080 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 11.875 ) ) common/trigger 0 0 0
+( 0 -96 8 ) ( 0 -832 8 ) ( 1024 -96 8 ) ( ( 0 -0.015625 248 ) ( 0.015625 0 9.5 ) ) common/trigger 0 0 0
+( 8 -32 1112 ) ( 8 -32 1176 ) ( 8 -768 1112 ) ( ( 0.015625 0 247.5 ) ( 0 0.015625 12.375 ) ) common/trigger 0 0 0
 ( 0 0 1080 ) ( 1024 0 1080 ) ( 0 0 1144 ) ( ( 0.015625 0 8 ) ( 0 0.015625 11.875 ) ) common/trigger 0 0 0
-( 1024 -64 224 ) ( 0 -800 224 ) ( 0 -64 224 ) ( ( 0 0.015625 248 ) ( -0.015625 0 249 ) ) common/trigger 0 0 0
+( 1024 -64 192 ) ( 0 -800 192 ) ( 0 -64 192 ) ( ( 0 0.015625 248 ) ( -0.015625 0 249 ) ) common/trigger 0 0 0
 }
 }
 }
@@ -995,7 +995,7 @@ brushDef
 ( 960 -1376 992 ) ( -64 -1376 992 ) ( 960 -640 992 ) ( ( 0 0.015625 249 ) ( -0.015625 0 238 ) ) common/trigger 0 0 0
 ( 672 -1376 864 ) ( 672 -640 864 ) ( 672 -1376 800 ) ( ( 0.015625 0 18 ) ( 0 0.015625 7.5 ) ) common/trigger 0 0 0
 ( 1024 -7424 864 ) ( 1024 -7424 800 ) ( 0 -7424 864 ) ( ( 0.015625 0 248 ) ( 0 0.015625 7.5 ) ) common/trigger 0 0 0
-( -64 -704 -32 ) ( -64 -1440 -32 ) ( 960 -704 -32 ) ( ( 0 -0.015625 249 ) ( 0.015625 0 19 ) ) common/trigger 0 0 0
+( -64 -704 0 ) ( -64 -1440 0 ) ( 960 -704 0 ) ( ( 0 -0.015625 249 ) ( 0.015625 0 19 ) ) common/trigger 0 0 0
 ( 448 -608 800 ) ( 448 -608 864 ) ( 448 -1344 800 ) ( ( 0.015625 0 238.5 ) ( 0 0.015625 7.5 ) ) common/trigger 0 0 0
 ( -32 -7096 864 ) ( 992 -7096 800 ) ( 992 -7096 864 ) ( ( 0.015625 0 5.5 ) ( 0 0.015625 7.5 ) ) common/trigger 0 0 0
 }
@@ -3363,6 +3363,7 @@ brushDef
 "debrisvelocityjitter" "0 0 0.05"
 "effects" "16"
 }
+// entity 124
 {
 "classname" "target_heal"
 "delay" "-1"
@@ -3373,7 +3374,7 @@ brushDef
 "health" "10"
 "max_health" "50"
 }
-// entity 124
+// entity 125
 {
 "classname" "misc_gamemodel"
 "origin" "824.000000 -896.000000 540.000000"
@@ -3382,7 +3383,7 @@ brushDef
 "lodmodel1" "null"
 "lodmodel2" "null"
 }
-// entity 125
+// entity 126
 {
 "classname" "misc_gamemodel"
 "origin" "824.000000 -896.000061 540.000000"
@@ -3392,7 +3393,7 @@ brushDef
 "lodmodel2" "null"
 "angle" "-179.999985"
 }
-// entity 126
+// entity 127
 {
 "classname" "misc_gamemodel"
 "origin" "824.000000 -1440.000000 540.000000"
@@ -3401,7 +3402,7 @@ brushDef
 "lodmodel1" "null"
 "lodmodel2" "null"
 }
-// entity 127
+// entity 128
 {
 "classname" "misc_gamemodel"
 "origin" "824.000000 -1760.000000 540.000000"
@@ -3411,7 +3412,7 @@ brushDef
 "lodmodel2" "null"
 "angle" "-179.999985"
 }
-// entity 128
+// entity 129
 {
 "classname" "func_group"
 // brush 0
@@ -3499,7 +3500,7 @@ brushDef
 }
 }
 }
-// entity 129
+// entity 130
 {
 "classname" "func_group"
 // brush 0
@@ -3527,15 +3528,6 @@ brushDef
 }
 }
 }
-// entity 130
-{
-"classname" "misc_gamemodel"
-"origin" "824.000000 -2752.000000 540.000000"
-"model" "models/map_sxb/bigcastle_wall.obj"
-"loddistance1" "2000"
-"lodmodel1" "null"
-"lodmodel2" "null"
-}
 // entity 131
 {
 "classname" "misc_gamemodel"
@@ -3544,16 +3536,16 @@ brushDef
 "loddistance1" "2000"
 "lodmodel1" "null"
 "lodmodel2" "null"
-"angle" "-179.999985"
 }
 // entity 132
 {
 "classname" "misc_gamemodel"
-"origin" "824.000000 -3296.000000 540.000000"
+"origin" "824.000000 -2752.000000 540.000000"
 "model" "models/map_sxb/bigcastle_wall.obj"
 "loddistance1" "2000"
 "lodmodel1" "null"
 "lodmodel2" "null"
+"angle" "-179.999985"
 }
 // entity 133
 {
@@ -3563,9 +3555,18 @@ brushDef
 "loddistance1" "2000"
 "lodmodel1" "null"
 "lodmodel2" "null"
-"angle" "-179.999985"
 }
 // entity 134
+{
+"classname" "misc_gamemodel"
+"origin" "824.000000 -3296.000000 540.000000"
+"model" "models/map_sxb/bigcastle_wall.obj"
+"loddistance1" "2000"
+"lodmodel1" "null"
+"lodmodel2" "null"
+"angle" "-179.999985"
+}
+// entity 135
 {
 "classname" "misc_gamemodel"
 "origin" "824.000000 -4448.000000 540.000000"
@@ -3574,7 +3575,7 @@ brushDef
 "lodmodel1" "null"
 "lodmodel2" "null"
 }
-// entity 135
+// entity 136
 {
 "classname" "misc_gamemodel"
 "origin" "824.000000 -5120.000000 540.000000"
@@ -3584,7 +3585,7 @@ brushDef
 "lodmodel2" "null"
 "angle" "-179.999985"
 }
-// entity 136
+// entity 137
 {
 "classname" "func_group"
 // brush 0
@@ -3672,7 +3673,7 @@ brushDef
 }
 }
 }
-// entity 137
+// entity 138
 {
 "classname" "func_group"
 // brush 0
@@ -3700,7 +3701,7 @@ brushDef
 }
 }
 }
-// entity 138
+// entity 139
 {
 "classname" "func_group"
 // brush 0
@@ -3728,7 +3729,7 @@ brushDef
 }
 }
 }
-// entity 139
+// entity 140
 {
 "classname" "func_group"
 // brush 0
@@ -3756,7 +3757,7 @@ brushDef
 }
 }
 }
-// entity 140
+// entity 141
 {
 "classname" "func_group"
 // brush 0
@@ -3784,7 +3785,7 @@ brushDef
 }
 }
 }
-// entity 141
+// entity 142
 {
 "classname" "func_group"
 // brush 0
@@ -3812,7 +3813,7 @@ brushDef
 }
 }
 }
-// entity 142
+// entity 143
 {
 "classname" "misc_gamemodel"
 "origin" "824.000000 -5728.000000 540.000000"
@@ -3821,7 +3822,7 @@ brushDef
 "lodmodel1" "null"
 "lodmodel2" "null"
 }
-// entity 143
+// entity 144
 {
 "classname" "misc_gamemodel"
 "origin" "824.000000 -6048.000000 540.000000"
@@ -3831,7 +3832,7 @@ brushDef
 "lodmodel2" "null"
 "angle" "-179.999985"
 }
-// entity 144
+// entity 145
 {
 "classname" "func_group"
 // brush 0
@@ -3919,7 +3920,7 @@ brushDef
 }
 }
 }
-// entity 145
+// entity 146
 {
 "classname" "func_group"
 // brush 0
@@ -3947,7 +3948,7 @@ brushDef
 }
 }
 }
-// entity 146
+// entity 147
 {
 "classname" "misc_gamemodel"
 "origin" "592.000000 -400.000000 544.000000"
@@ -3957,7 +3958,7 @@ brushDef
 "lodmodel2" "null"
 "angle" "-90.000000"
 }
-// entity 147
+// entity 148
 {
 "classname" "misc_gamemodel"
 "origin" "592.000000 -464.000000 544.000000"
@@ -3967,7 +3968,7 @@ brushDef
 "lodmodel2" "null"
 "angle" "-90.000000"
 }
-// entity 148
+// entity 149
 {
 "classname" "misc_gamemodel"
 "origin" "592.000000 -720.000000 544.000000"
@@ -3977,7 +3978,7 @@ brushDef
 "lodmodel2" "null"
 "angle" "-90.000000"
 }
-// entity 149
+// entity 150
 {
 "classname" "misc_gamemodel"
 "origin" "592.000000 -784.000000 544.000000"
@@ -3987,7 +3988,7 @@ brushDef
 "lodmodel2" "null"
 "angle" "-90.000000"
 }
-// entity 150
+// entity 151
 {
 "classname" "misc_gamemodel"
 "origin" "592.000000 -1936.000000 544.000000"
@@ -3997,7 +3998,7 @@ brushDef
 "lodmodel2" "null"
 "angle" "-90.000000"
 }
-// entity 151
+// entity 152
 {
 "classname" "misc_gamemodel"
 "origin" "592.000000 -2000.000000 544.000000"
@@ -4007,7 +4008,7 @@ brushDef
 "lodmodel2" "null"
 "angle" "-90.000000"
 }
-// entity 152
+// entity 153
 {
 "classname" "misc_gamemodel"
 "origin" "592.000000 -3472.000000 544.000000"
@@ -4017,7 +4018,7 @@ brushDef
 "lodmodel2" "null"
 "angle" "-90.000000"
 }
-// entity 153
+// entity 154
 {
 "classname" "misc_gamemodel"
 "origin" "592.000000 -3792.000000 544.000000"
@@ -4027,7 +4028,7 @@ brushDef
 "lodmodel2" "null"
 "angle" "-90.000000"
 }
-// entity 154
+// entity 155
 {
 "classname" "misc_gamemodel"
 "origin" "592.000000 -3856.000000 544.000000"
@@ -4037,7 +4038,7 @@ brushDef
 "lodmodel2" "null"
 "angle" "-90.000000"
 }
-// entity 155
+// entity 156
 {
 "classname" "misc_gamemodel"
 "origin" "592.000000 -3888.000000 544.000000"
@@ -4047,7 +4048,7 @@ brushDef
 "lodmodel2" "null"
 "angle" "-90.000000"
 }
-// entity 156
+// entity 157
 {
 "classname" "misc_gamemodel"
 "origin" "592.000000 -5392.000000 544.000000"
@@ -4057,7 +4058,7 @@ brushDef
 "lodmodel2" "null"
 "angle" "-90.000000"
 }
-// entity 157
+// entity 158
 {
 "classname" "misc_gamemodel"
 "origin" "592.000000 -6864.000000 544.000000"
@@ -4067,7 +4068,7 @@ brushDef
 "lodmodel2" "null"
 "angle" "-90.000000"
 }
-// entity 158
+// entity 159
 {
 "classname" "misc_gamemodel"
 "origin" "592.000000 -6928.000000 544.000000"
@@ -4077,7 +4078,7 @@ brushDef
 "lodmodel2" "null"
 "angle" "-90.000000"
 }
-// entity 159
+// entity 160
 {
 "classname" "misc_gamemodel"
 "origin" "592.000000 -6960.000000 544.000000"
@@ -4087,105 +4088,105 @@ brushDef
 "lodmodel2" "null"
 "angle" "-90.000000"
 }
-// entity 160
+// entity 161
 {
 "classname" "misc_gamemodel"
 "origin" "592.000000 -496.000000 544.000000"
 "model" "models/map_sxb/fence.obj"
 "angle" "-90.000000"
 }
-// entity 161
+// entity 162
 {
 "classname" "misc_gamemodel"
 "origin" "592.000000 -528.000000 544.000000"
 "model" "models/map_sxb/fence.obj"
 "angle" "-90.000000"
 }
-// entity 162
+// entity 163
 {
 "classname" "misc_gamemodel"
 "origin" "592.000000 -560.000000 544.000000"
 "model" "models/map_sxb/fence.obj"
 "angle" "-90.000000"
 }
-// entity 163
+// entity 164
 {
 "classname" "misc_gamemodel"
 "origin" "592.000000 -592.000000 544.000000"
 "model" "models/map_sxb/fence.obj"
 "angle" "-90.000000"
 }
-// entity 164
+// entity 165
 {
 "classname" "misc_gamemodel"
 "origin" "592.000000 -2032.000000 544.000000"
 "model" "models/map_sxb/fence.obj"
 "angle" "-90.000000"
 }
-// entity 165
+// entity 166
 {
 "classname" "misc_gamemodel"
 "origin" "592.000000 -3600.000000 544.000000"
 "model" "models/map_sxb/fence.obj"
 "angle" "-90.000000"
 }
-// entity 166
+// entity 167
 {
 "classname" "misc_gamemodel"
 "origin" "592.000000 -6704.000000 544.000000"
 "model" "models/map_sxb/fence.obj"
 "angle" "-90.000000"
 }
-// entity 167
+// entity 168
 {
 "classname" "misc_gamemodel"
 "origin" "496.000000 -2832.000000 544.000000"
 "model" "models/map_sxb/fence.obj"
 "angle" "-90.000000"
 }
-// entity 168
+// entity 169
 {
 "classname" "misc_gamemodel"
 "origin" "592.000000 -6736.000000 544.000000"
 "model" "models/map_sxb/fence.obj"
 "angle" "-90.000000"
 }
-// entity 169
+// entity 170
 {
 "classname" "misc_gamemodel"
 "origin" "592.000000 -2064.000000 544.000000"
 "model" "models/map_sxb/fence.obj"
 "angle" "-90.000000"
 }
-// entity 170
+// entity 171
 {
 "classname" "misc_gamemodel"
 "origin" "592.000000 -2096.000000 544.000000"
 "model" "models/map_sxb/fence.obj"
 "angle" "-90.000000"
 }
-// entity 171
+// entity 172
 {
 "classname" "misc_gamemodel"
 "origin" "592.000000 -2128.000000 544.000000"
 "model" "models/map_sxb/fence.obj"
 "angle" "-90.000000"
 }
-// entity 172
+// entity 173
 {
 "classname" "misc_gamemodel"
 "origin" "592.000000 -3632.000000 544.000000"
 "model" "models/map_sxb/fence.obj"
 "angle" "-90.000000"
 }
-// entity 173
+// entity 174
 {
 "classname" "misc_gamemodel"
 "origin" "592.000000 -3664.000000 544.000000"
 "model" "models/map_sxb/fence.obj"
 "angle" "-90.000000"
 }
-// entity 174
+// entity 175
 {
 "classname" "misc_gamemodel"
 "origin" "560.000061 -2800.000000 576.000000"
@@ -4194,7 +4195,7 @@ brushDef
 "lodmodel1" "null"
 "lodmodel2" "null"
 }
-// entity 175
+// entity 176
 {
 "classname" "misc_gamemodel"
 "origin" "560.000061 -1136.000000 576.000000"
@@ -4203,7 +4204,7 @@ brushDef
 "lodmodel1" "null"
 "lodmodel2" "null"
 }
-// entity 176
+// entity 177
 {
 "classname" "misc_gamemodel"
 "origin" "560.000061 -624.000000 544.000000"
@@ -4212,37 +4213,37 @@ brushDef
 "lodmodel1" "null"
 "lodmodel2" "null"
 }
-// entity 177
+// entity 178
 {
 "classname" "item_health_medium"
 "origin" "-12232.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_mushroom.md3"
 }
-// entity 178
+// entity 179
 {
 "classname" "item_health_small"
 "origin" "-12144.000000 128.000000 3856.000000"
 "model" "models/sxb-models/coin.md3"
 }
-// entity 179
+// entity 180
 {
 "classname" "weapon_laser"
 "origin" "-12072.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_star.md3"
 }
-// entity 180
+// entity 181
 {
 "classname" "item_health_mega"
 "origin" "-12000.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_green_mushroom.md3"
 }
-// entity 181
+// entity 182
 {
 "classname" "weapon_uzi"
 "origin" "-11928.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_flower.md3"
 }
-// entity 182
+// entity 183
 {
 "classname" "func_group"
 // brush 0
@@ -4318,7 +4319,7 @@ brushDef
 }
 }
 }
-// entity 183
+// entity 184
 {
 "classname" "misc_gamemodel"
 "origin" "656.000000 -176.000000 544.000000"
