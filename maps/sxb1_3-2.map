@@ -701,12 +701,12 @@ brushDef
 {
 brushDef
 {
-( 1152 -672 1016 ) ( 1152 64 1016 ) ( 1152 -672 952 ) ( ( 0.015625 0 7 ) ( 0 0.015625 9.875 ) ) common/trigger 0 0 0
-( 1088 -7104 1016 ) ( 1088 -7104 952 ) ( 64 -7104 1016 ) ( ( 0.015625 0 247 ) ( 0 0.015625 9.875 ) ) common/trigger 0 0 0
-( 0 0 104 ) ( 0 -736 104 ) ( 1024 0 104 ) ( ( 0 -0.015625 248 ) ( 0.015625 0 8 ) ) common/trigger 0 0 0
-( 0 64 952 ) ( 0 64 1016 ) ( 0 -672 952 ) ( ( 0.015625 0 249 ) ( 0 0.015625 9.875 ) ) common/trigger 0 0 0
-( 0 -8 952 ) ( 1024 -8 952 ) ( 0 -8 1016 ) ( ( 0.015625 0 8 ) ( 0 0.015625 9.875 ) ) common/trigger 0 0 0
-( 992 0 320 ) ( -32 -736 320 ) ( -32 0 320 ) ( ( 0 0.015625 248.5 ) ( -0.015625 0 250 ) ) common/trigger 0 0 0
+( 1152 -672 920 ) ( 1152 64 920 ) ( 1152 -672 856 ) ( ( 0.015625 0 7 ) ( 0 0.015625 8.375 ) ) common/trigger 0 0 0
+( 1088 -7104 920 ) ( 1088 -7104 856 ) ( 64 -7104 920 ) ( ( 0.015625 0 247 ) ( 0 0.015625 8.375 ) ) common/trigger 0 0 0
+( 0 0 8 ) ( 0 -736 8 ) ( 1024 0 8 ) ( ( 0 -0.015625 248 ) ( 0.015625 0 8 ) ) common/trigger 0 0 0
+( 0 64 856 ) ( 0 64 920 ) ( 0 -672 856 ) ( ( 0.015625 0 249 ) ( 0 0.015625 8.375 ) ) common/trigger 0 0 0
+( 0 -8 856 ) ( 1024 -8 856 ) ( 0 -8 920 ) ( ( 0.015625 0 8 ) ( 0 0.015625 8.375 ) ) common/trigger 0 0 0
+( 992 0 192 ) ( -32 -736 192 ) ( -32 0 192 ) ( ( 0 0.015625 248.5 ) ( -0.015625 0 250 ) ) common/trigger 0 0 0
 }
 }
 }
@@ -2390,6 +2390,7 @@ brushDef
 "debrisvelocityjitter" "0 0 0.05"
 "effects" "16"
 }
+// entity 126
 {
 "classname" "target_heal"
 "delay" "-1"
@@ -2400,7 +2401,7 @@ brushDef
 "health" "10"
 "max_health" "50"
 }
-// entity 126
+// entity 127
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -2420,7 +2421,7 @@ brushDef
 }
 }
 }
-// entity 127
+// entity 128
 {
 "classname" "func_door"
 "angle" "-1"
@@ -2441,7 +2442,7 @@ brushDef
 }
 }
 }
-// entity 128
+// entity 129
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -2416.000000 856.000000"
@@ -2449,7 +2450,7 @@ brushDef
 "targetname" "block_14"
 "wait" "0.3"
 }
-// entity 129
+// entity 130
 {
 "classname" "target_spawn"
 "count" "1"
@@ -2458,37 +2459,37 @@ brushDef
 "targetname" "coin_15"
 "message" "origin $self.origin item_pickupsound sound/map_sxb/star.wav noalign -1 model models/sxb-models/small_star.md3 $ spawnfunc_weapon_blaster velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
 }
-// entity 130
+// entity 131
 {
 "classname" "item_health_medium"
 "origin" "-12232.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_mushroom.md3"
 }
-// entity 131
+// entity 132
 {
 "classname" "item_health_small"
 "origin" "-12144.000000 128.000000 3856.000000"
 "model" "models/sxb-models/coin.md3"
 }
-// entity 132
+// entity 133
 {
 "classname" "weapon_laser"
 "origin" "-12072.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_star.md3"
 }
-// entity 133
+// entity 134
 {
 "classname" "item_health_mega"
 "origin" "-12000.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_green_mushroom.md3"
 }
-// entity 134
+// entity 135
 {
 "classname" "weapon_uzi"
 "origin" "-11928.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_flower.md3"
 }
-// entity 135
+// entity 136
 {
 "classname" "func_group"
 // brush 0
@@ -2564,7 +2565,7 @@ brushDef
 }
 }
 }
-// entity 136
+// entity 137
 {
 "classname" "misc_gamemodel"
 "origin" "656.000000 -176.000000 544.000000"
@@ -2573,7 +2574,7 @@ brushDef
 "lodmodel1" "null"
 "lodmodel2" "null"
 }
-// entity 137
+// entity 138
 {
 "classname" "misc_gamemodel"
 "origin" "656.000000 -6864.000000 544.000000"

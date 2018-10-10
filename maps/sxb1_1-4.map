@@ -958,7 +958,7 @@ brushDef
 ( 0 -64 8 ) ( 0 -800 8 ) ( 1024 -64 8 ) ( ( 0 -0.015625 248 ) ( 0.015625 0 9 ) ) common/trigger 0 0 0
 ( 0 0 840 ) ( 0 0 904 ) ( 0 -736 840 ) ( ( 0.015625 0 248 ) ( 0 0.015625 8.125 ) ) common/trigger 0 0 0
 ( 0 0 840 ) ( 1024 0 840 ) ( 0 0 904 ) ( ( 0.015625 0 8 ) ( 0 0.015625 8.125 ) ) common/trigger 0 0 0
-( 992 -64 352 ) ( -32 -800 352 ) ( -32 -64 352 ) ( ( 0 0.015625 248.5 ) ( -0.015625 0 249 ) ) common/trigger 0 0 0
+( 992 -64 192 ) ( -32 -800 192 ) ( -32 -64 192 ) ( ( 0 0.015625 248.5 ) ( -0.015625 0 249 ) ) common/trigger 0 0 0
 }
 }
 }
@@ -3358,6 +3358,7 @@ brushDef
 "debrisvelocityjitter" "0 0 0.05"
 "effects" "16"
 }
+// entity 111
 {
 "classname" "target_heal"
 "delay" "-1"
@@ -3368,7 +3369,7 @@ brushDef
 "health" "10"
 "max_health" "50"
 }
-// entity 111
+// entity 112
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -3472.000000 736.000000"
@@ -3377,7 +3378,7 @@ brushDef
 "wait" "5"
 "antiwall_flag" "1"
 }
-// entity 112
+// entity 113
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -3398,7 +3399,7 @@ brushDef
 }
 }
 }
-// entity 113
+// entity 114
 {
 "classname" "func_clientwall"
 "targetname" "invisiblock1"
@@ -3418,7 +3419,7 @@ brushDef
 }
 }
 }
-// entity 114
+// entity 115
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -3536.000000 736.000000"
@@ -3426,7 +3427,7 @@ brushDef
 "targetname" "invisicoin1"
 "wait" "0.1"
 }
-// entity 115
+// entity 116
 {
 "classname" "misc_breakablemodel"
 "spawnflags" "4"
@@ -3443,6 +3444,7 @@ brushDef
 "debrisvelocityjitter" "0 0 0.05"
 "effects" "16"
 }
+// entity 117
 {
 "classname" "target_heal"
 "delay" "-1"
@@ -3453,7 +3455,7 @@ brushDef
 "health" "10"
 "max_health" "50"
 }
-// entity 116
+// entity 118
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -3568.000000 736.000000"
@@ -3462,7 +3464,7 @@ brushDef
 "wait" "5"
 "antiwall_flag" "1"
 }
-// entity 117
+// entity 119
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -3483,7 +3485,7 @@ brushDef
 }
 }
 }
-// entity 118
+// entity 120
 {
 "classname" "func_clientwall"
 "targetname" "invisiblock2"
@@ -3503,7 +3505,7 @@ brushDef
 }
 }
 }
-// entity 119
+// entity 121
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -3632.000000 736.000000"
@@ -3511,7 +3513,7 @@ brushDef
 "targetname" "invisicoin2"
 "wait" "0.1"
 }
-// entity 120
+// entity 122
 {
 "classname" "misc_breakablemodel"
 "spawnflags" "4"
@@ -3528,6 +3530,7 @@ brushDef
 "debrisvelocityjitter" "0 0 0.05"
 "effects" "16"
 }
+// entity 123
 {
 "classname" "target_heal"
 "delay" "-1"
@@ -3538,7 +3541,7 @@ brushDef
 "health" "10"
 "max_health" "50"
 }
-// entity 121
+// entity 124
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -3664.000000 736.000000"
@@ -3547,7 +3550,7 @@ brushDef
 "wait" "5"
 "antiwall_flag" "1"
 }
-// entity 122
+// entity 125
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -3568,7 +3571,7 @@ brushDef
 }
 }
 }
-// entity 123
+// entity 126
 {
 "classname" "func_clientwall"
 "targetname" "invisiblock3"
@@ -3588,7 +3591,7 @@ brushDef
 }
 }
 }
-// entity 124
+// entity 127
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -3472.000000 864.000000"
@@ -3596,7 +3599,7 @@ brushDef
 "targetname" "invisicoin3"
 "wait" "0.1"
 }
-// entity 125
+// entity 128
 {
 "classname" "misc_breakablemodel"
 "spawnflags" "4"
@@ -3613,6 +3616,7 @@ brushDef
 "debrisvelocityjitter" "0 0 0.05"
 "effects" "16"
 }
+// entity 129
 {
 "classname" "target_heal"
 "delay" "-1"
@@ -3623,7 +3627,7 @@ brushDef
 "health" "10"
 "max_health" "50"
 }
-// entity 126
+// entity 130
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -3504.000000 864.000000"
@@ -3632,7 +3636,7 @@ brushDef
 "wait" "5"
 "antiwall_flag" "1"
 }
-// entity 127
+// entity 131
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -3653,7 +3657,7 @@ brushDef
 }
 }
 }
-// entity 128
+// entity 132
 {
 "classname" "func_clientwall"
 "targetname" "invisiblock4"
@@ -3673,7 +3677,7 @@ brushDef
 }
 }
 }
-// entity 129
+// entity 133
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -3568.000000 864.000000"
@@ -3681,7 +3685,7 @@ brushDef
 "targetname" "invisicoin4"
 "wait" "0.1"
 }
-// entity 130
+// entity 134
 {
 "classname" "misc_breakablemodel"
 "spawnflags" "4"
@@ -3698,6 +3702,7 @@ brushDef
 "debrisvelocityjitter" "0 0 0.05"
 "effects" "16"
 }
+// entity 135
 {
 "classname" "target_heal"
 "delay" "-1"
@@ -3708,7 +3713,7 @@ brushDef
 "health" "10"
 "max_health" "50"
 }
-// entity 131
+// entity 136
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -3600.000000 864.000000"
@@ -3717,7 +3722,7 @@ brushDef
 "wait" "5"
 "antiwall_flag" "1"
 }
-// entity 132
+// entity 137
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -3738,7 +3743,7 @@ brushDef
 }
 }
 }
-// entity 133
+// entity 138
 {
 "classname" "func_clientwall"
 "targetname" "invisiblock5"
@@ -3758,7 +3763,7 @@ brushDef
 }
 }
 }
-// entity 134
+// entity 139
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -3664.000000 864.000000"
@@ -3766,7 +3771,7 @@ brushDef
 "targetname" "invisicoin5"
 "wait" "0.1"
 }
-// entity 135
+// entity 140
 {
 "classname" "misc_breakablemodel"
 "spawnflags" "4"
@@ -3783,6 +3788,7 @@ brushDef
 "debrisvelocityjitter" "0 0 0.05"
 "effects" "16"
 }
+// entity 141
 {
 "classname" "target_heal"
 "delay" "-1"
@@ -3793,7 +3799,7 @@ brushDef
 "health" "10"
 "max_health" "50"
 }
-// entity 136
+// entity 142
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -3696.000000 864.000000"
@@ -3802,7 +3808,7 @@ brushDef
 "wait" "5"
 "antiwall_flag" "1"
 }
-// entity 137
+// entity 143
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -3822,7 +3828,7 @@ brushDef
 }
 }
 }
-// entity 138
+// entity 144
 {
 "classname" "func_door"
 "angle" "-1"
@@ -3843,7 +3849,7 @@ brushDef
 }
 }
 }
-// entity 139
+// entity 145
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -976.000000 824.000000"
@@ -3851,7 +3857,7 @@ brushDef
 "targetname" "block_1"
 "wait" "0.3"
 }
-// entity 140
+// entity 146
 {
 "classname" "target_spawn"
 "count" "1"
@@ -3860,7 +3866,7 @@ brushDef
 "targetname" "coin_13"
 "message" "origin $self.origin item_pickupsound sound/map_sxb/flower.wav model models/sxb-models/small_mushroom.md3 noalign -1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
 }
-// entity 141
+// entity 147
 {
 "classname" "func_bobbing"
 "spawnflags" "2"
@@ -3939,37 +3945,37 @@ brushDef
 }
 }
 }
-// entity 142
+// entity 148
 {
 "classname" "item_health_medium"
 "origin" "-12232.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_mushroom.md3"
 }
-// entity 143
+// entity 149
 {
 "classname" "item_health_small"
 "origin" "-12144.000000 128.000000 3856.000000"
 "model" "models/sxb-models/coin.md3"
 }
-// entity 144
+// entity 150
 {
 "classname" "weapon_laser"
 "origin" "-12072.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_star.md3"
 }
-// entity 145
+// entity 151
 {
 "classname" "item_health_mega"
 "origin" "-12000.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_green_mushroom.md3"
 }
-// entity 146
+// entity 152
 {
 "classname" "weapon_uzi"
 "origin" "-11928.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_flower.md3"
 }
-// entity 147
+// entity 153
 {
 "classname" "func_group"
 // brush 0
@@ -4045,7 +4051,7 @@ brushDef
 }
 }
 }
-// entity 148
+// entity 154
 {
 "classname" "func_clientillusionary"
 // brush 0
@@ -4061,7 +4067,7 @@ brushDef
 }
 }
 }
-// entity 149
+// entity 155
 {
 "classname" "func_clientillusionary"
 // brush 0

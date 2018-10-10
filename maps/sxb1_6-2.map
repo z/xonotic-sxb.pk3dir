@@ -2966,7 +2966,7 @@ brushDef
 ( 0 -64 8 ) ( 0 -800 8 ) ( 1024 -64 8 ) ( ( 0 -0.015625 248 ) ( 0.015625 0 9 ) ) common/trigger 0 0 0
 ( 0 0 856 ) ( 0 0 920 ) ( 0 -736 856 ) ( ( 0.015625 0 248 ) ( 0 0.015625 8.375 ) ) common/trigger 0 0 0
 ( 0 0 856 ) ( 1024 0 856 ) ( 0 0 920 ) ( ( 0.015625 0 8 ) ( 0 0.015625 8.375 ) ) common/trigger 0 0 0
-( 960 -64 256 ) ( -64 -800 256 ) ( -64 -64 256 ) ( ( 0 0.015625 249 ) ( -0.015625 0 249 ) ) common/trigger 0 0 0
+( 960 -64 192 ) ( -64 -800 192 ) ( -64 -64 192 ) ( ( 0 0.015625 249 ) ( -0.015625 0 249 ) ) common/trigger 0 0 0
 }
 }
 }
@@ -10576,6 +10576,7 @@ brushDef
 "debrisvelocityjitter" "0 0 0.05"
 "effects" "16"
 }
+// entity 466
 {
 "classname" "target_heal"
 "delay" "-1"
@@ -10586,7 +10587,7 @@ brushDef
 "health" "10"
 "max_health" "50"
 }
-// entity 466
+// entity 467
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -816.000000 736.000000"
@@ -10595,7 +10596,7 @@ brushDef
 "wait" "5"
 "antiwall_flag" "1"
 }
-// entity 467
+// entity 468
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -10615,7 +10616,7 @@ brushDef
 }
 }
 }
-// entity 468
+// entity 469
 {
 "classname" "func_door"
 "angle" "-1"
@@ -10636,7 +10637,7 @@ brushDef
 }
 }
 }
-// entity 469
+// entity 470
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -784.000000 856.000000"
@@ -10644,7 +10645,7 @@ brushDef
 "targetname" "block_3"
 "wait" "0.3"
 }
-// entity 470
+// entity 471
 {
 "classname" "misc_breakablemodel"
 "spawnflags" "4"
@@ -10661,6 +10662,7 @@ brushDef
 "debrisvelocityjitter" "0 0 0.05"
 "effects" "16"
 }
+// entity 472
 {
 "classname" "target_heal"
 "delay" "-1"
@@ -10671,7 +10673,7 @@ brushDef
 "health" "10"
 "max_health" "50"
 }
-// entity 471
+// entity 473
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -10692,7 +10694,7 @@ brushDef
 }
 }
 }
-// entity 472
+// entity 474
 {
 "classname" "func_clientwall"
 "targetname" "invisiblock1"
@@ -10712,7 +10714,7 @@ brushDef
 }
 }
 }
-// entity 473
+// entity 475
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -2640.000000 736.000000"
@@ -10720,7 +10722,7 @@ brushDef
 "targetname" "invisicoin1"
 "wait" "0.1"
 }
-// entity 474
+// entity 476
 {
 "classname" "misc_breakablemodel"
 "spawnflags" "4"
@@ -10737,6 +10739,7 @@ brushDef
 "debrisvelocityjitter" "0 0 0.05"
 "effects" "16"
 }
+// entity 477
 {
 "classname" "target_heal"
 "delay" "-1"
@@ -10747,7 +10750,7 @@ brushDef
 "health" "10"
 "max_health" "50"
 }
-// entity 475
+// entity 478
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -2672.000000 736.000000"
@@ -10756,7 +10759,7 @@ brushDef
 "wait" "5"
 "antiwall_flag" "1"
 }
-// entity 476
+// entity 479
 {
 "classname" "func_door"
 "angle" "-1"
@@ -10777,7 +10780,7 @@ brushDef
 }
 }
 }
-// entity 477
+// entity 480
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -10797,7 +10800,7 @@ brushDef
 }
 }
 }
-// entity 478
+// entity 481
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -4496.000000 864.000000"
@@ -10805,7 +10808,7 @@ brushDef
 "targetname" "block_5"
 "wait" "0.3"
 }
-// entity 479
+// entity 482
 {
 "classname" "target_spawn"
 "count" "1"
@@ -10814,7 +10817,7 @@ brushDef
 "targetname" "coin_12"
 "message" "origin $self.origin item_pickupsound sound/map_sxb/flower.wav noalign -1 model models/sxb-models/small_flower.md3 $ spawnfunc_weapon_fireball velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
 }
-// entity 480
+// entity 483
 {
 "classname" "misc_model"
 "origin" "559.999756 -4224.000000 544.000000"
@@ -10823,7 +10826,7 @@ brushDef
 "modelscale" "16.100000"
 "spawnflags" "32"
 }
-// entity 481
+// entity 484
 {
 "classname" "misc_model"
 "origin" "559.999756 -4352.000000 544.000000"
@@ -10832,7 +10835,7 @@ brushDef
 "modelscale" "16.100000"
 "spawnflags" "32"
 }
-// entity 482
+// entity 485
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -10852,7 +10855,7 @@ brushDef
 }
 }
 }
-// entity 483
+// entity 486
 {
 "classname" "func_door"
 "angle" "-1"
@@ -10873,7 +10876,7 @@ brushDef
 }
 }
 }
-// entity 484
+// entity 487
 {
 "classname" "trigger_delay"
 "origin" "1456.000000 2960.000000 -1416.000000"
@@ -10881,7 +10884,7 @@ brushDef
 "targetname" "block_1"
 "wait" "0.3"
 }
-// entity 485
+// entity 488
 {
 "classname" "misc_breakablemodel"
 "spawnflags" "4"
@@ -10898,6 +10901,7 @@ brushDef
 "debrisvelocityjitter" "0 0 0.05"
 "effects" "16"
 }
+// entity 489
 {
 "classname" "target_heal"
 "delay" "-1"
@@ -10908,7 +10912,7 @@ brushDef
 "health" "10"
 "max_health" "50"
 }
-// entity 486
+// entity 490
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -10928,7 +10932,7 @@ brushDef
 }
 }
 }
-// entity 487
+// entity 491
 {
 "classname" "func_door"
 "angle" "-1"
@@ -10949,7 +10953,7 @@ brushDef
 }
 }
 }
-// entity 488
+// entity 492
 {
 "classname" "trigger_delay"
 "origin" "-784.000000 784.000000 -2536.000000"
@@ -10957,7 +10961,7 @@ brushDef
 "targetname" "block_4"
 "wait" "0.3"
 }
-// entity 489
+// entity 493
 {
 "classname" "misc_breakablemodel"
 "spawnflags" "4"
@@ -10974,6 +10978,7 @@ brushDef
 "debrisvelocityjitter" "0 0 0.05"
 "effects" "16"
 }
+// entity 494
 {
 "classname" "target_heal"
 "delay" "-1"
@@ -10984,7 +10989,7 @@ brushDef
 "health" "10"
 "max_health" "50"
 }
-// entity 490
+// entity 495
 {
 "classname" "item_health_small"
 "origin" "2832.000000 704.000000 2704.000000"
@@ -10992,7 +10997,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 491
+// entity 496
 {
 "classname" "item_health_small"
 "origin" "2832.000000 736.000000 2704.000000"
@@ -11000,7 +11005,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 492
+// entity 497
 {
 "classname" "item_health_small"
 "origin" "2832.000000 800.000000 2704.000000"
@@ -11008,7 +11013,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 493
+// entity 498
 {
 "classname" "item_health_small"
 "origin" "2832.000000 768.000000 2704.000000"
@@ -11016,7 +11021,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 494
+// entity 499
 {
 "classname" "item_health_small"
 "origin" "2832.000000 1232.000000 2704.000000"
@@ -11024,7 +11029,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 495
+// entity 500
 {
 "classname" "item_health_small"
 "origin" "2832.000000 1264.000000 2704.000000"
@@ -11032,7 +11037,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 496
+// entity 501
 {
 "classname" "item_health_small"
 "origin" "2832.000000 672.000000 2704.000000"
@@ -11040,7 +11045,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 497
+// entity 502
 {
 "classname" "item_health_small"
 "origin" "2832.000000 640.000000 2704.000000"
@@ -11048,7 +11053,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 498
+// entity 503
 {
 "classname" "item_health_small"
 "origin" "2832.000000 1104.000000 2704.000000"
@@ -11056,7 +11061,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 499
+// entity 504
 {
 "classname" "item_health_small"
 "origin" "2832.000000 1136.000000 2704.000000"
@@ -11064,7 +11069,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 500
+// entity 505
 {
 "classname" "item_health_small"
 "origin" "2832.000000 1200.000000 2704.000000"
@@ -11072,7 +11077,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 501
+// entity 506
 {
 "classname" "item_health_small"
 "origin" "2832.000000 1168.000000 2704.000000"
@@ -11080,7 +11085,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 502
+// entity 507
 {
 "classname" "item_health_small"
 "origin" "2832.000000 1072.000000 2704.000000"
@@ -11088,7 +11093,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 503
+// entity 508
 {
 "classname" "item_health_small"
 "origin" "2832.000000 2528.000000 2656.000000"
@@ -11096,7 +11101,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 504
+// entity 509
 {
 "classname" "item_health_small"
 "origin" "2832.000000 96.000000 2448.000000"
@@ -11104,7 +11109,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 505
+// entity 510
 {
 "classname" "item_health_small"
 "origin" "2832.000000 160.000000 2448.000000"
@@ -11112,7 +11117,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 506
+// entity 511
 {
 "classname" "item_health_small"
 "origin" "2832.000000 2560.000000 2656.000000"
@@ -11120,7 +11125,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 507
+// entity 512
 {
 "classname" "item_health_small"
 "origin" "2832.000000 2496.000000 2656.000000"
@@ -11128,7 +11133,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 508
+// entity 513
 {
 "classname" "item_health_small"
 "origin" "2832.000000 2080.000000 2656.000000"
@@ -11136,7 +11141,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 509
+// entity 514
 {
 "classname" "item_health_small"
 "origin" "2832.000000 2464.000000 2656.000000"
@@ -11144,7 +11149,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 510
+// entity 515
 {
 "classname" "item_health_small"
 "origin" "2832.000000 128.000000 2448.000000"
@@ -11152,7 +11157,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 511
+// entity 516
 {
 "classname" "item_health_small"
 "origin" "2832.000000 2336.000000 2656.000000"
@@ -11160,7 +11165,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 512
+// entity 517
 {
 "classname" "item_health_small"
 "origin" "2832.000000 2208.000000 2656.000000"
@@ -11168,7 +11173,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 513
+// entity 518
 {
 "classname" "item_health_small"
 "origin" "2832.000000 2368.000000 2656.000000"
@@ -11176,7 +11181,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 514
+// entity 519
 {
 "classname" "item_health_small"
 "origin" "2832.000000 2432.000000 2656.000000"
@@ -11184,7 +11189,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 515
+// entity 520
 {
 "classname" "item_health_small"
 "origin" "2832.000000 2400.000000 2656.000000"
@@ -11192,7 +11197,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 516
+// entity 521
 {
 "classname" "item_health_small"
 "origin" "2832.000000 2240.000000 2656.000000"
@@ -11200,7 +11205,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 517
+// entity 522
 {
 "classname" "item_health_small"
 "origin" "2832.000000 2304.000000 2656.000000"
@@ -11208,7 +11213,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 518
+// entity 523
 {
 "classname" "item_health_small"
 "origin" "2832.000000 2272.000000 2656.000000"
@@ -11216,7 +11221,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 519
+// entity 524
 {
 "classname" "item_health_small"
 "origin" "2832.000000 2112.000000 2656.000000"
@@ -11224,7 +11229,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 520
+// entity 525
 {
 "classname" "item_health_small"
 "origin" "2832.000000 2176.000000 2656.000000"
@@ -11232,7 +11237,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 521
+// entity 526
 {
 "classname" "item_health_small"
 "origin" "2832.000000 2144.000000 2656.000000"
@@ -11240,238 +11245,238 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 522
+// entity 527
 {
 "classname" "misc_model"
 "origin" "2832.000000 1936.000000 2595.000000"
 "model" "models/map_sxb/cloud.obj"
 "spawnflags" "32"
 }
-// entity 523
+// entity 528
 {
 "classname" "misc_model"
 "origin" "2832.000000 1328.000000 2595.000000"
 "model" "models/map_sxb/cloud.obj"
 "spawnflags" "32"
 }
-// entity 524
+// entity 529
 {
 "classname" "misc_model"
 "origin" "2832.000000 1328.000000 2627.000000"
 "model" "models/map_sxb/cloud.obj"
 "spawnflags" "32"
 }
-// entity 525
+// entity 530
 {
 "classname" "misc_model"
 "origin" "2832.000000 1008.000000 2627.000000"
 "model" "models/map_sxb/cloud.obj"
 "spawnflags" "32"
 }
-// entity 526
+// entity 531
 {
 "classname" "misc_model"
 "origin" "2832.000000 1008.000000 2595.000000"
 "model" "models/map_sxb/cloud.obj"
 "spawnflags" "32"
 }
-// entity 527
+// entity 532
 {
 "classname" "misc_model"
 "origin" "2832.000000 816.000000 2659.000000"
 "model" "models/map_sxb/cloud.obj"
 "spawnflags" "32"
 }
-// entity 528
+// entity 533
 {
 "classname" "misc_model"
 "origin" "2832.000000 784.000000 2659.000000"
 "model" "models/map_sxb/cloud.obj"
 "spawnflags" "32"
 }
-// entity 529
+// entity 534
 {
 "classname" "misc_model"
 "origin" "2832.000000 688.000000 2659.000000"
 "model" "models/map_sxb/cloud.obj"
 "spawnflags" "32"
 }
-// entity 530
+// entity 535
 {
 "classname" "misc_model"
 "origin" "2832.000000 624.000000 2659.000000"
 "model" "models/map_sxb/cloud.obj"
 "spawnflags" "32"
 }
-// entity 531
+// entity 536
 {
 "classname" "misc_model"
 "origin" "2832.000000 560.000000 2659.000000"
 "model" "models/map_sxb/cloud.obj"
 "spawnflags" "32"
 }
-// entity 532
+// entity 537
 {
 "classname" "misc_model"
 "origin" "2832.000000 496.000000 2659.000000"
 "model" "models/map_sxb/cloud.obj"
 "spawnflags" "32"
 }
-// entity 533
+// entity 538
 {
 "classname" "misc_model"
 "origin" "2832.000000 432.000000 2659.000000"
 "model" "models/map_sxb/cloud.obj"
 "spawnflags" "32"
 }
-// entity 534
+// entity 539
 {
 "classname" "misc_model"
 "origin" "2832.000000 912.000000 2435.000000"
 "model" "models/map_sxb/cloud.obj"
 "spawnflags" "32"
 }
-// entity 535
+// entity 540
 {
 "classname" "misc_model"
 "origin" "2832.000000 880.000000 2435.000000"
 "model" "models/map_sxb/cloud.obj"
 "spawnflags" "32"
 }
-// entity 536
+// entity 541
 {
 "classname" "misc_model"
 "origin" "2832.000000 848.000000 2435.000000"
 "model" "models/map_sxb/cloud.obj"
 "spawnflags" "32"
 }
-// entity 537
+// entity 542
 {
 "classname" "misc_model"
 "origin" "2832.000000 816.000000 2435.000000"
 "model" "models/map_sxb/cloud.obj"
 "spawnflags" "32"
 }
-// entity 538
+// entity 543
 {
 "classname" "misc_model"
 "origin" "2832.000000 784.000000 2435.000000"
 "model" "models/map_sxb/cloud.obj"
 "spawnflags" "32"
 }
-// entity 539
+// entity 544
 {
 "classname" "misc_model"
 "origin" "2832.000000 752.000000 2435.000000"
 "model" "models/map_sxb/cloud.obj"
 "spawnflags" "32"
 }
-// entity 540
+// entity 545
 {
 "classname" "misc_model"
 "origin" "2832.000000 720.000000 2435.000000"
 "model" "models/map_sxb/cloud.obj"
 "spawnflags" "32"
 }
-// entity 541
+// entity 546
 {
 "classname" "misc_model"
 "origin" "2832.000000 688.000000 2435.000000"
 "model" "models/map_sxb/cloud.obj"
 "spawnflags" "32"
 }
-// entity 542
+// entity 547
 {
 "classname" "misc_model"
 "origin" "2832.000000 656.000000 2435.000000"
 "model" "models/map_sxb/cloud.obj"
 "spawnflags" "32"
 }
-// entity 543
+// entity 548
 {
 "classname" "misc_model"
 "origin" "2832.000000 624.000000 2435.000000"
 "model" "models/map_sxb/cloud.obj"
 "spawnflags" "32"
 }
-// entity 544
+// entity 549
 {
 "classname" "misc_model"
 "origin" "2832.000000 592.000000 2435.000000"
 "model" "models/map_sxb/cloud.obj"
 "spawnflags" "32"
 }
-// entity 545
+// entity 550
 {
 "classname" "misc_model"
 "origin" "2832.000000 560.000000 2435.000000"
 "model" "models/map_sxb/cloud.obj"
 "spawnflags" "32"
 }
-// entity 546
+// entity 551
 {
 "classname" "misc_model"
 "origin" "2832.000000 528.000000 2435.000000"
 "model" "models/map_sxb/cloud.obj"
 "spawnflags" "32"
 }
-// entity 547
+// entity 552
 {
 "classname" "misc_model"
 "origin" "2832.000000 496.000000 2435.000000"
 "model" "models/map_sxb/cloud.obj"
 "spawnflags" "32"
 }
-// entity 548
+// entity 553
 {
 "classname" "misc_model"
 "origin" "2832.000000 464.000000 2435.000000"
 "model" "models/map_sxb/cloud.obj"
 "spawnflags" "32"
 }
-// entity 549
+// entity 554
 {
 "classname" "misc_model"
 "origin" "2832.000000 432.000000 2435.000000"
 "model" "models/map_sxb/cloud.obj"
 "spawnflags" "32"
 }
-// entity 550
+// entity 555
 {
 "classname" "misc_model"
 "origin" "2832.000000 400.000000 2435.000000"
 "model" "models/map_sxb/cloud.obj"
 "spawnflags" "32"
 }
-// entity 551
+// entity 556
 {
 "classname" "misc_model"
 "origin" "2832.000000 368.000000 2435.000000"
 "model" "models/map_sxb/cloud.obj"
 "spawnflags" "32"
 }
-// entity 552
+// entity 557
 {
 "classname" "misc_model"
 "origin" "2832.000000 336.000000 2435.000000"
 "model" "models/map_sxb/cloud.obj"
 "spawnflags" "32"
 }
-// entity 553
+// entity 558
 {
 "classname" "misc_model"
 "origin" "2832.000000 1040.000000 2435.000000"
 "model" "models/map_sxb/cloud.obj"
 "spawnflags" "32"
 }
-// entity 554
+// entity 559
 {
 "classname" "misc_model"
 "origin" "2832.000000 1008.000000 2435.000000"
 "model" "models/map_sxb/cloud.obj"
 "spawnflags" "32"
 }
-// entity 555
+// entity 560
 {
 "classname" "item_health_small"
 "origin" "2832.000000 576.000000 2704.000000"
@@ -11479,7 +11484,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 556
+// entity 561
 {
 "classname" "item_health_small"
 "origin" "2832.000000 448.000000 2704.000000"
@@ -11487,7 +11492,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 557
+// entity 562
 {
 "classname" "item_health_small"
 "origin" "2832.000000 480.000000 2704.000000"
@@ -11495,7 +11500,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 558
+// entity 563
 {
 "classname" "item_health_small"
 "origin" "2832.000000 544.000000 2704.000000"
@@ -11503,7 +11508,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 559
+// entity 564
 {
 "classname" "item_health_small"
 "origin" "2832.000000 512.000000 2704.000000"
@@ -11511,7 +11516,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 560
+// entity 565
 {
 "classname" "item_health_small"
 "origin" "2832.000000 1408.000000 2672.000000"
@@ -11519,7 +11524,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 561
+// entity 566
 {
 "classname" "item_health_small"
 "origin" "2832.000000 1440.000000 2672.000000"
@@ -11527,7 +11532,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 562
+// entity 567
 {
 "classname" "item_health_small"
 "origin" "2832.000000 416.000000 2704.000000"
@@ -11535,7 +11540,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 563
+// entity 568
 {
 "classname" "item_health_small"
 "origin" "2832.000000 1472.000000 2672.000000"
@@ -11543,7 +11548,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 564
+// entity 569
 {
 "classname" "item_health_small"
 "origin" "2832.000000 608.000000 2704.000000"
@@ -11551,7 +11556,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 565
+// entity 570
 {
 "classname" "item_health_small"
 "origin" "2832.000000 1696.000000 2672.000000"
@@ -11559,7 +11564,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 566
+// entity 571
 {
 "classname" "item_health_small"
 "origin" "2832.000000 1856.000000 2672.000000"
@@ -11567,7 +11572,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 567
+// entity 572
 {
 "classname" "item_health_small"
 "origin" "2832.000000 1760.000000 2672.000000"
@@ -11575,7 +11580,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 568
+// entity 573
 {
 "classname" "item_health_small"
 "origin" "2832.000000 1728.000000 2672.000000"
@@ -11583,7 +11588,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 569
+// entity 574
 {
 "classname" "item_health_small"
 "origin" "2832.000000 1664.000000 2672.000000"
@@ -11591,7 +11596,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 570
+// entity 575
 {
 "classname" "item_health_small"
 "origin" "2832.000000 1536.000000 2672.000000"
@@ -11599,7 +11604,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 571
+// entity 576
 {
 "classname" "item_health_small"
 "origin" "2832.000000 1568.000000 2672.000000"
@@ -11607,7 +11612,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 572
+// entity 577
 {
 "classname" "item_health_small"
 "origin" "2832.000000 1632.000000 2672.000000"
@@ -11615,7 +11620,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 573
+// entity 578
 {
 "classname" "item_health_small"
 "origin" "2832.000000 1600.000000 2672.000000"
@@ -11623,7 +11628,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 574
+// entity 579
 {
 "classname" "item_health_small"
 "origin" "2832.000000 1504.000000 2672.000000"
@@ -11631,7 +11636,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 575
+// entity 580
 {
 "classname" "item_health_small"
 "origin" "2832.000000 1824.000000 2672.000000"
@@ -11639,7 +11644,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 576
+// entity 581
 {
 "classname" "item_health_small"
 "origin" "2832.000000 1792.000000 2672.000000"
@@ -11647,7 +11652,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 577
+// entity 582
 {
 "classname" "item_health_small"
 "origin" "2832.000000 1888.000000 2672.000000"
@@ -11655,7 +11660,7 @@ brushDef
 "spawnflags" "1"
 "item_pickupsound" "sound/map_sxb/coin.wav"
 }
-// entity 578
+// entity 583
 {
 "classname" "func_door"
 "angle" "-90"
@@ -15493,7 +15498,7 @@ brushDef
 }
 }
 }
-// entity 579
+// entity 584
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -15512,37 +15517,37 @@ brushDef
 }
 }
 }
-// entity 580
+// entity 585
 {
 "classname" "item_health_medium"
 "origin" "-12232.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_mushroom.md3"
 }
-// entity 581
+// entity 586
 {
 "classname" "item_health_small"
 "origin" "-12144.000000 128.000000 3856.000000"
 "model" "models/sxb-models/coin.md3"
 }
-// entity 582
+// entity 587
 {
 "classname" "weapon_laser"
 "origin" "-12072.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_star.md3"
 }
-// entity 583
+// entity 588
 {
 "classname" "item_health_mega"
 "origin" "-12000.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_green_mushroom.md3"
 }
-// entity 584
+// entity 589
 {
 "classname" "weapon_uzi"
 "origin" "-11928.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_flower.md3"
 }
-// entity 585
+// entity 590
 {
 "classname" "func_group"
 // brush 0
@@ -15618,7 +15623,7 @@ brushDef
 }
 }
 }
-// entity 586
+// entity 591
 {
 "classname" "func_bobbing"
 "height" "50"
@@ -15697,7 +15702,7 @@ brushDef
 }
 }
 }
-// entity 587
+// entity 592
 {
 "classname" "func_bobbing"
 "height" "50"
@@ -15776,7 +15781,7 @@ brushDef
 }
 }
 }
-// entity 588
+// entity 593
 {
 "classname" "misc_model"
 "origin" "-784.000000 736.000000 -2400.000000"
@@ -15785,7 +15790,7 @@ brushDef
 "modelscale" "16.100000"
 "spawnflags" "32"
 }
-// entity 589
+// entity 594
 {
 "classname" "misc_gamemodel"
 "origin" "656.000000 -7120.000000 544.000000"
@@ -15794,7 +15799,7 @@ brushDef
 "lodmodel1" "null"
 "lodmodel2" "null"
 }
-// entity 590
+// entity 595
 {
 "classname" "misc_gamemodel"
 "origin" "656.000000 -176.000000 544.000000"

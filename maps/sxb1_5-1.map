@@ -994,7 +994,7 @@ brushDef
 ( 0 -352 8 ) ( 0 -1088 8 ) ( 1024 -352 8 ) ( ( 0 -0.015625 248 ) ( 0.015625 0 13.5 ) ) common/trigger 0 0 0
 ( 0 -288 856 ) ( 0 -288 920 ) ( 0 -1024 856 ) ( ( 0.015625 0 243.5 ) ( 0 0.015625 8.375 ) ) common/trigger 0 0 0
 ( 0 0 856 ) ( 1024 0 856 ) ( 0 0 920 ) ( ( 0.015625 0 8 ) ( 0 0.015625 8.375 ) ) common/trigger 0 0 0
-( 1024 -352 256 ) ( 0 -1088 256 ) ( 0 -352 256 ) ( ( 0 0.015625 248 ) ( -0.015625 0 244.5 ) ) common/trigger 0 0 0
+( 1024 -352 192 ) ( 0 -1088 192 ) ( 0 -352 192 ) ( ( 0 0.015625 248 ) ( -0.015625 0 244.5 ) ) common/trigger 0 0 0
 }
 }
 }
@@ -4634,6 +4634,7 @@ brushDef
 "debrisvelocityjitter" "0 0 0.05"
 "effects" "16"
 }
+// entity 225
 {
 "classname" "target_heal"
 "delay" "-1"
@@ -4644,7 +4645,7 @@ brushDef
 "health" "10"
 "max_health" "50"
 }
-// entity 225
+// entity 226
 {
 "classname" "misc_gamemodel"
 "origin" "560.000061 -3888.000000 544.000000"
@@ -4653,7 +4654,7 @@ brushDef
 "lodmodel1" "null"
 "lodmodel2" "null"
 }
-// entity 226
+// entity 227
 {
 "classname" "misc_gamemodel"
 "origin" "560.000061 -5392.000000 544.000000"
@@ -4662,7 +4663,7 @@ brushDef
 "lodmodel1" "null"
 "lodmodel2" "null"
 }
-// entity 227
+// entity 228
 {
 "classname" "misc_gamemodel"
 "origin" "560.000061 -5744.000000 544.000000"
@@ -4671,37 +4672,37 @@ brushDef
 "lodmodel1" "null"
 "lodmodel2" "null"
 }
-// entity 228
+// entity 229
 {
 "classname" "item_health_medium"
 "origin" "-12232.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_mushroom.md3"
 }
-// entity 229
+// entity 230
 {
 "classname" "item_health_small"
 "origin" "-12144.000000 128.000000 3856.000000"
 "model" "models/sxb-models/coin.md3"
 }
-// entity 230
+// entity 231
 {
 "classname" "weapon_laser"
 "origin" "-12072.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_star.md3"
 }
-// entity 231
+// entity 232
 {
 "classname" "item_health_mega"
 "origin" "-12000.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_green_mushroom.md3"
 }
-// entity 232
+// entity 233
 {
 "classname" "weapon_uzi"
 "origin" "-11928.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_flower.md3"
 }
-// entity 233
+// entity 234
 {
 "classname" "func_group"
 // brush 0
@@ -4777,7 +4778,7 @@ brushDef
 }
 }
 }
-// entity 234
+// entity 235
 {
 "classname" "misc_model"
 "origin" "560.000000 -1216.000000 -160.000000"
@@ -4786,7 +4787,7 @@ brushDef
 "modelscale" "16.100000"
 "spawnflags" "32"
 }
-// entity 235
+// entity 236
 {
 "classname" "misc_gamemodel"
 "origin" "656.000000 -6864.000000 544.000000"
@@ -4795,7 +4796,7 @@ brushDef
 "lodmodel1" "null"
 "lodmodel2" "null"
 }
-// entity 236
+// entity 237
 {
 "classname" "misc_gamemodel"
 "origin" "784.000000 -328.000000 892.000000"

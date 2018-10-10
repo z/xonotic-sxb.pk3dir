@@ -1738,7 +1738,7 @@ brushDef
 ( 0 -32 8 ) ( 0 -768 8 ) ( 1024 -32 8 ) ( ( 0 -0.015625 248 ) ( 0.015625 0 8.5 ) ) common/trigger 0 0 0
 ( 0 0 1304 ) ( 0 0 1368 ) ( 0 -736 1304 ) ( ( 0.015625 0 248 ) ( 0 0.015625 15.375 ) ) common/trigger 0 0 0
 ( 0 0 1304 ) ( 1024 0 1304 ) ( 0 0 1368 ) ( ( 0.015625 0 8 ) ( 0 0.015625 15.375 ) ) common/trigger 0 0 0
-( 1024 -64 352 ) ( 0 -800 352 ) ( 0 -64 352 ) ( ( 0 0.015625 248 ) ( -0.015625 0 249 ) ) common/trigger 0 0 0
+( 1024 -64 192 ) ( 0 -800 192 ) ( 0 -64 192 ) ( ( 0 0.015625 248 ) ( -0.015625 0 249 ) ) common/trigger 0 0 0
 }
 }
 }
@@ -5539,6 +5539,7 @@ brushDef
 "debrisvelocityjitter" "0 0 0.05"
 "effects" "16"
 }
+// entity 175
 {
 "classname" "target_heal"
 "delay" "-1"
@@ -5549,7 +5550,7 @@ brushDef
 "health" "10"
 "max_health" "50"
 }
-// entity 175
+// entity 176
 {
 "classname" "trigger_multiple"
 "spawnflags" "16384"
@@ -5569,7 +5570,7 @@ brushDef
 }
 }
 }
-// entity 176
+// entity 177
 {
 "classname" "func_door"
 "angle" "-1"
@@ -5590,7 +5591,7 @@ brushDef
 }
 }
 }
-// entity 177
+// entity 178
 {
 "classname" "trigger_delay"
 "origin" "560.000000 -1424.000000 760.000000"
@@ -5598,7 +5599,7 @@ brushDef
 "targetname" "block_5"
 "wait" "0.3"
 }
-// entity 178
+// entity 179
 {
 "classname" "misc_breakablemodel"
 "spawnflags" "4"
@@ -5615,6 +5616,7 @@ brushDef
 "debrisvelocityjitter" "0 0 0.05"
 "effects" "16"
 }
+// entity 180
 {
 "classname" "target_heal"
 "delay" "-1"

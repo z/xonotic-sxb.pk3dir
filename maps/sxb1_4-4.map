@@ -1421,12 +1421,12 @@ brushDef
 {
 brushDef
 {
-( 1152 -736 1368 ) ( 1152 0 1368 ) ( 1152 -736 1304 ) ( ( 0.015625 0 8 ) ( 0 0.015625 15.375 ) ) common/trigger 0 0 0
-( 1088 -6144 1368 ) ( 1088 -6144 1304 ) ( 64 -6144 1368 ) ( ( 0.015625 0 247 ) ( 0 0.015625 15.375 ) ) common/trigger 0 0 0
-( 0 -64 456 ) ( 0 -800 456 ) ( 1024 -64 456 ) ( ( 0 -0.015625 248 ) ( 0.015625 0 9 ) ) common/trigger 0 0 0
-( 0 0 1304 ) ( 0 0 1368 ) ( 0 -736 1304 ) ( ( 0.015625 0 248 ) ( 0 0.015625 15.375 ) ) common/trigger 0 0 0
-( 0 0 1304 ) ( 1024 0 1304 ) ( 0 0 1368 ) ( ( 0.015625 0 8 ) ( 0 0.015625 15.375 ) ) common/trigger 0 0 0
-( 1024 -64 480 ) ( 0 -800 480 ) ( 0 -64 480 ) ( ( 0 0.015625 248 ) ( -0.015625 0 249 ) ) common/trigger 0 0 0
+( 1152 -736 920 ) ( 1152 0 920 ) ( 1152 -736 856 ) ( ( 0.015625 0 8 ) ( 0 0.015625 8.375 ) ) common/trigger 0 0 0
+( 1088 -6144 920 ) ( 1088 -6144 856 ) ( 64 -6144 920 ) ( ( 0.015625 0 247 ) ( 0 0.015625 8.375 ) ) common/trigger 0 0 0
+( 0 -64 8 ) ( 0 -800 8 ) ( 1024 -64 8 ) ( ( 0 -0.015625 248 ) ( 0.015625 0 9 ) ) common/trigger 0 0 0
+( 0 0 856 ) ( 0 0 920 ) ( 0 -736 856 ) ( ( 0.015625 0 248 ) ( 0 0.015625 8.375 ) ) common/trigger 0 0 0
+( 0 0 856 ) ( 1024 0 856 ) ( 0 0 920 ) ( ( 0.015625 0 8 ) ( 0 0.015625 8.375 ) ) common/trigger 0 0 0
+( 1024 -64 192 ) ( 0 -800 192 ) ( 0 -64 192 ) ( ( 0 0.015625 248 ) ( -0.015625 0 249 ) ) common/trigger 0 0 0
 }
 }
 }
@@ -4041,38 +4041,37 @@ brushDef
 }
 }
 }
-
-// entity 1
+// entity 116
 {
 "classname" "item_health_medium"
 "origin" "-12232.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_mushroom.md3"
 }
-// entity 2
+// entity 117
 {
 "classname" "item_health_small"
 "origin" "-12144.000000 128.000000 3856.000000"
 "model" "models/sxb-models/coin.md3"
 }
-// entity 3
+// entity 118
 {
 "classname" "weapon_laser"
 "origin" "-12072.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_star.md3"
 }
-// entity 4
+// entity 119
 {
 "classname" "item_health_mega"
 "origin" "-12000.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_green_mushroom.md3"
 }
-// entity 5
+// entity 120
 {
 "classname" "weapon_uzi"
 "origin" "-11928.000000 128.000000 3856.000000"
 "model" "models/sxb-models/small_flower.md3"
 }
-// entity 6
+// entity 121
 {
 "classname" "func_group"
 // brush 0
