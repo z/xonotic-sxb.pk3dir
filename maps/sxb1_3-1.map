@@ -7552,7 +7552,7 @@ brushDef
 "origin" "560.000000 -3088.000000 816.000000"
 "angle" "-179.999985"
 "targetname" "coin_15"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/star.wav noalign -1 model models/sxb-models/small_star.md3 $ spawnfunc_weapon_blaster velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/star.wav noalign -1 m_isloot 1 model models/sxb-models/small_star.md3 $ spawnfunc_weapon_blaster velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
 }
 // entity 286
 {
@@ -7610,7 +7610,7 @@ brushDef
 "origin" "560.000000 -2736.000000 816.000000"
 "angle" "-179.999985"
 "targetname" "coin_8"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/1up.wav model models/sxb-models/small_green_mushroom.md3 noalign -1 $ spawnfunc_item_health_mega velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/1up.wav model models/sxb-models/small_green_mushroom.md3 noalign -1 m_isloot 1 $ spawnfunc_item_health_mega velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
 }
 // entity 290
 {
@@ -7831,7 +7831,7 @@ brushDef
 "origin" "560.000000 -912.000000 720.000000"
 "angle" "-179.999985"
 "targetname" "coin_3"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/flower.wav model models/sxb-models/small_mushroom.md3 noalign -1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/flower.wav model models/sxb-models/small_mushroom.md3 noalign -1 m_isloot 1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
 }
 // entity 305
 {
@@ -7889,7 +7889,7 @@ brushDef
 "origin" "560.000000 -3952.000000 816.000000"
 "angle" "-179.999985"
 "targetname" "coin_4"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/flower.wav model models/sxb-models/small_mushroom.md3 noalign -1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/flower.wav model models/sxb-models/small_mushroom.md3 noalign -1 m_isloot 1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
 }
 // entity 309
 {
@@ -8255,7 +8255,7 @@ brushDef
 "origin" "560.000000 -5200.000000 688.000000"
 "angle" "-179.999985"
 "targetname" "coin_10"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/flower.wav model models/sxb-models/small_mushroom.md3 noalign -1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/flower.wav model models/sxb-models/small_mushroom.md3 noalign -1 m_isloot 1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
 }
 // entity 333
 {
@@ -8313,7 +8313,7 @@ brushDef
 "origin" "560.000000 -1744.000000 -176.000000"
 "angle" "-179.999985"
 "targetname" "coin_11"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/flower.wav model models/sxb-models/small_mushroom.md3 noalign -1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/flower.wav model models/sxb-models/small_mushroom.md3 noalign -1 m_isloot 1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
 }
 // entity 337
 {

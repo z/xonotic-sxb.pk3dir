@@ -11291,7 +11291,7 @@ brushDef
 "origin" "560.000000 -1104.000000 816.000000"
 "angle" "-179.999985"
 "targetname" "coin_6"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/flower.wav model models/sxb-models/small_mushroom.md3 noalign -1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/flower.wav model models/sxb-models/small_mushroom.md3 noalign -1 m_isloot 1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
 }
 // entity 371
 {
@@ -11349,7 +11349,7 @@ brushDef
 "origin" "560.000000 -5424.000000 688.000000"
 "angle" "-179.999985"
 "targetname" "coin_7"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/flower.wav model models/sxb-models/small_mushroom.md3 noalign -1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/flower.wav model models/sxb-models/small_mushroom.md3 noalign -1 m_isloot 1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
 }
 // entity 375
 {
@@ -11407,7 +11407,7 @@ brushDef
 "origin" "560.000000 -4592.000000 624.000000"
 "angle" "-179.999985"
 "targetname" "coin_9"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/flower.wav model models/sxb-models/small_mushroom.md3 noalign -1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/flower.wav model models/sxb-models/small_mushroom.md3 noalign -1 m_isloot 1 $ spawnfunc_item_health_medium velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
 }
 // entity 379
 {
@@ -11542,7 +11542,7 @@ brushDef
 "origin" "560.000000 -4048.000000 816.000000"
 "angle" "-179.999985"
 "targetname" "coin_15"
-"message" "origin $self.origin item_pickupsound sound/map_sxb/star.wav noalign -1 model models/sxb-models/small_star.md3 $ spawnfunc_weapon_blaster velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
+"message" "origin $self.origin item_pickupsound sound/map_sxb/star.wav noalign -1 m_isloot 1 model models/sxb-models/small_star.md3 $ spawnfunc_weapon_blaster velocity_z 300 noalign -1 classname droppedweapon m_isloot 1"
 }
 // entity 388
 {
