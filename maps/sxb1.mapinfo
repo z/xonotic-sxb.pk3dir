@@ -7,4 +7,4 @@ has weapons
 gametype dm
 
 settemp_for_type all #include sxb-server.cfg
-clientsettemp_for_type all #include sxb-client.cfg
+//clientsettemp_for_type all #include sxb-client.cfg

@@ -11,4 +11,4 @@ noautomaplist
 //fog 1 0.2 0.2 0.5 1 0 99999 -300 300
 
 settemp_for_type all #include sxb-server.cfg
-clientsettemp_for_type all #include sxb-client.cfg
+//clientsettemp_for_type all #include sxb-client.cfg
