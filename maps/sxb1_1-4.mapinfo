@@ -10,3 +10,26 @@ noautomaplist
 
 settemp_for_type all #include sxb-server.cfg
 //clientsettemp_for_type all #include sxb-client.cfg
+
+// special castle boss setting
+settemp_for_type all bot_number 1
+settemp_for_type all bot_prefix ""
+settemp_for_type all bot_suffix ""
+settemp_for_type all bot_config_file sxb-bots.txt
+settemp_for_type all g_balance_fireball_primary_damage 50
+settemp_for_type all g_balance_fireball_primary_bfgdamage 50
+settemp_for_type all g_balance_fireball_primary_speed 250
+settemp_for_type all g_balance_fireball_primary_lifetime 8
+settemp_for_type all g_balance_mortar_primary_refire 3
+settemp_for_type all g_balance_mortar_primary_damage 50
+settemp_for_type all g_balance_mortar_primary_radius 0
+settemp_for_type all g_balance_mortar_primary_edgedamage 0
+settemp_for_type all g_balance_mortar_primary_speed 200
+settemp_for_type all g_balance_mortar_primary_speed_up 200
+settemp_for_type all g_balance_mortar_secondary_type 0
+settemp_for_type all g_balance_mortar_secondary_refire 3
+settemp_for_type all g_balance_mortar_secondary_damage 50
+settemp_for_type all g_balance_mortar_secondary_radius 0
+settemp_for_type all g_balance_mortar_secondary_edgedamage 0
+settemp_for_type all g_balance_mortar_secondary_speed 200
+settemp_for_type all g_balance_mortar_secondary_speed_up 200
