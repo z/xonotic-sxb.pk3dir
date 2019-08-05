@@ -17,7 +17,8 @@ settemp_for_type all bot_prefix ""
 settemp_for_type all bot_suffix ""
 settemp_for_type all bot_config_file sxb-bots.txt
 settemp_for_type all g_balance_fireball_primary_damage 50
-settemp_for_type all g_balance_fireball_primary_bfgdamage 50
+settemp_for_type all g_balance_fireball_primary_edgedamage 50
+settemp_for_type all g_balance_fireball_primary_radius 50
 settemp_for_type all g_balance_fireball_primary_speed 250
 settemp_for_type all g_balance_fireball_primary_lifetime 8
 settemp_for_type all g_balance_mortar_primary_refire 3
